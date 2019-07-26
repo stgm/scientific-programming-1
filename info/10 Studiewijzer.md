@@ -33,13 +33,13 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly)
 
-<!-- - <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model -->
+- <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model
 
 **Module 4**, kies uit:
 
 - <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data)
 
-<!-- - <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud) -->
+- <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 ## Hulp nodig?
 
