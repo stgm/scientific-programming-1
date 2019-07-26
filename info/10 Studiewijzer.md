@@ -14,7 +14,7 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 - calculate definite [<strong>integrals</strong>](/integrals) of complicated mathematical functions, or
 
-- analyze text sources using [<strong>natural language processing</strong>](/nlp).
+- analyze text sources using [<strong>natural language processing</strong>](/language).
 
 **Module 3**
 
