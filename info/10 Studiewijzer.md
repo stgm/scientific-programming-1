@@ -17,27 +17,27 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 **Module 1**, kies uit:
 
-- <strong>optie</strong>: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- <strong>optie</strong>: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen)
 
-- <strong>optie</strong>: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
+- <strong>optie</strong>: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie)
 
 **Module 2**, kies uit:
 
-- <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren) van ingewikkelde functies
 
-<!-- - <strong>optie</strong>: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud) -->
+- <strong>optie</strong>: analyseer tekstbronnen met [<strong>NLP</strong>](/nlp)
 
 **Module 3**, kies uit:
 
-- <strong>optie</strong>: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
+- <strong>optie</strong>: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging)
 
-- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
+- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly)
 
 <!-- - <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model -->
 
 **Module 4**, kies uit:
 
-- <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data/inhoud)
+- <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data)
 
 <!-- - <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud) -->
 
