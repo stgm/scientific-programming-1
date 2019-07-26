@@ -4,8 +4,6 @@ University of Amsterdam / Programming Lab / Version 4.0-beta
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems. For each module below, you may choose one particular case study.
 
-## Modules
-
 **Module 1**
 
 - draw pyramids and calculate cash change using [<strong>algorithms</strong>](/algoritmen), or
