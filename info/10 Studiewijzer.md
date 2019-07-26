@@ -6,26 +6,26 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 **Module 1**
 
-- draw pyramids and calculate cash change using [<strong>algorithms</strong>](/algoritmen), or
+- draw pyramids and calculate cash change using [<strong>algorithms</strong>](/algorithms), or
 
-- dive into [<strong>number theory</strong>](/getaltheorie).
+- dive into [<strong>number theory</strong>](/numbers).
 
 **Module 2**
 
-- calculate definite [<strong>integrals</strong>](/integreren) of complicated mathematical functions, or
+- calculate definite [<strong>integrals</strong>](/integrals) of complicated mathematical functions, or
 
 - analyze text sources using [<strong>natural language processing</strong>](/nlp).
 
 **Module 3**
 
-- study the physics of [<strong>movement</strong>](/beweging), or
+- study the physics of [<strong>movement</strong>](/movement), or
 
 - calculate your advantage when playing [<strong>Monopoly</strong>](/monopoly), or
 
-- understand the equilibrium between [<strong>prey and predator</strong>](/prooi-predator/inhoud).
+- understand prey and predator [<strong>populations</strong>](/population).
 
 **Module 4**
 
-- analyze  [<strong>weather extremes</strong>](/big-data) over the past century, or
+- analyze [<strong>weather extremes</strong>](/weather) over the past century, or
 
-- draw your own hard conclusions using [<strong>statistics</strong>](/statistiek/inhoud).
+- draw your own hard conclusions using [<strong>statistics</strong>](/statistics).
