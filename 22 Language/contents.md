@@ -25,3 +25,9 @@ One interesting application of Python is to use it for analyzing texts written b
 ##### Day 4: comparing and summarizing texts
 
 1. <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/language/tweets).
+
+##### Next
+
+- What can you do with sentiment analysis? [Text analysis of Trump's tweets confirms he writes only the...](http://varianceexplained.org/r/trump-tweets/)
+
+- Learn more about [Natural Language Processing](http://www.ling.helsinki.fi/kit/2008s/clt231/nltk-0.9.5/doc/en/book.html), or check the upcoming assignment in Scientific Programming 2.
