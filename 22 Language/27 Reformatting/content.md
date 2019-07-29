@@ -20,6 +20,7 @@ Note that this looks quite a bit like the filter + calculation loop strategy you
 
 	checkpy reformat.py
 
+
 ## Solution
 
 Meh solution:

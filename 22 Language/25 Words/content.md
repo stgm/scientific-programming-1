@@ -1,4 +1,4 @@
-# Content analysis
+# Word use
 
 Implement a program that lists all the words from a given text string. Each word in the output should be unique, written in lowercase, and no remnants of punctuation marks or white space should be left in the words as printed.
 
@@ -60,6 +60,13 @@ If we would like to know which words from the dictionary are used in a particula
 Don't forget to check your code using:
 
 	checkpy content_analysis.py
+
+- empty input
+- 1-word input
+- multiple-word input
+- words with punctuation
+- words with double blanks / empty words  "word<space><space>huh"
+
 
 
 ## Solution

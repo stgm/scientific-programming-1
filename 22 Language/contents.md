@@ -10,11 +10,11 @@ One interesting application of Python is to use it for analyzing texts written b
 
 3. <span class="badge badge-primary">Assignment</span> Calculate [basic statistics](/language/statistics) about a text.
 
-##### Day 2: content analysis
+##### Day 2: text cleanup
 
 1. Learn how to write functions that [transform](/language/transform) text.
 
-2. <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/language/content) word by word.
+2. <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/language/words) word by word.
 
 3. <span class="badge badge-primary">Assignment</span> [Reformat](/language/reformatting) a text, respecting word boundaries.
 
