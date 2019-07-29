@@ -2,7 +2,8 @@ Functions: /language/functions
 Strings: /language/strings
 Basic Statistics: /language/statistics
 Transform: /language/transform
-Content Analysis: /language/content
+Word Content Analysis: /language/words
+Reformatting Text: /language/reformatting
 Files: /language/files
 Sentiment Analysis: /language/sentiment
 Tweets: /language/tweets
