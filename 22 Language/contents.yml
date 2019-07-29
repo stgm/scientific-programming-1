@@ -1,5 +1,7 @@
-Rekenwonder: /getaltheorie/rekenwonder
-Priemgetallen: /getaltheorie/priemgetallen
-Reeks: /getaltheorie/reeks
-Goldbach: /getaltheorie/goldbach
-Grafieken: /getaltheorie/grafieken
+Functions: /language/functions
+Strings: /language/strings
+Transform: /language/transform
+Content Analysis: /language/content
+Files: /language/files
+Sentiment Analysis: /language/sentiment
+Tweets: /language/tweets
