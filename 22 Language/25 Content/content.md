@@ -1,9 +1,9 @@
 # Content analysis
 
-Requirements:
+Implement a program that lists all the words from a given text string. Each word in the output should be unique, written in lowercase, and no remnants of punctuation marks or white space should be left in the words as printed.
 
-* **transform** loop strategy **(new!!)**
-* string methods [Built-in Types — Python 3.7.4 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+
+## Background
 
 Let's go from simply *counting* letters and words towards looking at each part of a text. For example, here is some code that prints each word from the text on a separate line:
 
@@ -33,15 +33,12 @@ Try out the code! You'll notice that the words aren't quite as "clean" as one mi
 
 	print_words(all_words_from(source_text))
 
-There are two `TODO`s above:
+## Specification
+
+Implement the TODOs above.
 
 1. Implement `cleaned_up(word)` as directed in the TODO. Use Python string methods to do the cleanup.
 2. Add cleaning to the existing `all_words_from(text)` function. Use the **transform** loop strategy.
-
-> Don't forget to check your code using:
-> 
->     checkpy content_analysis.py
-
 
 ## Unique words
 
@@ -52,7 +49,20 @@ If we would like to know which words from the dictionary are used in a particula
 	def unique_words_from(text):
 		# TODO
 
-Solution:
+
+## Hints
+
+* string methods [Built-in Types — Python 3.7.4 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+
+
+## Testing
+
+Don't forget to check your code using:
+
+	checkpy content_analysis.py
+
+
+## Solution
 
 	def unique_words_from(text):
 	  	result = []
