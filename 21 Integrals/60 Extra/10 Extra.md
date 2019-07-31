@@ -1,40 +1,40 @@
 # Fractals - Mandelbrot set
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+You probably already know those beautiful multicoloured pictures in which patterns repeat themselves untill they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex fenomena, however hard they are to find out about. In this assignment we delve a little deeper into the maths behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
 </p>
 
-De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
+The goal of this extra assignment is: write a program `fractal.py` that displays the Mandelbrot set on the screen.
 
-### Stukje wiskunde: complexe getallen
+### Mathematical intermezzo: complex numbers
 
-Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: *complexe getallen*. 
+To get a better understanding of the maths behind a fractal, we must first introduce a new mathematical concept: *complex numbers*.
 
-Complexe getallen hebben een speciale plek in wiskunde en ze komen op veel plekken in de wis- en natuurkunde terug. Jullie zullen tijdens verschillende colleges veel meer eigenschappen bekijken, maar hier introduceren we het absolute minimum.
+Complex numbers maintain a special place in maths and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare mininum.
 
-   - definitie: we definiëren $$ i = \sqrt{-1}$$
+   - defenition: we define $$ i = \sqrt{-1}$$
    
-Een complex getal (z) bestaat uit twee componenten: een reëel en een imaginair deel.
+A complex number (z) is made up out of two components: a real and an imaginary part.
 
-   - complex getal: z = $$\alpha + \beta i$$
+   - complex number: z = $$\alpha + \beta i$$
 
-, met  $$\alpha$$  het reële en  $$\beta i$$  het imaginair deel.
+, with  $$\alpha$$  the real and  $$\beta i$$  the imaginary part.
 
-Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we later nog op terug.
+A common way to imagine these numbers is the so called *complex field*, a 2-dimensional field with a real axis and an imaginary axis that represents the complex part of the number, as can be seen below. Two examples of complex nubmers are $$c = -5 + 3i$$ and $$c=-2-4i$$. These are both represented in blue. All numbers we usually use (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) are situated on the real axis. There are also a couple of complex numbers in red; we'll come back to those in time.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
 </p>
 
-Het optellen van complexe getallen is simpelweg het optellen van de reële en de complexe componenten, maar bij het vermenigvuldigen is het even opletten dat je de rekening houdt met het feit dat $$i^2 = -1$$. Dat zie je duidelijk bij kwadrateren:
+Adding complex numbers is simply adding the real part and the complex part individually, but multiplying them takes some caution. You have to take into account that $$i^2 = -1$$. It's most apparent when exponentiating:
 
-   - kwadrateren: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
+   * squaring: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
 
-Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij op zou tellen kom je uit op $$5+5i$$. Deze getallen zijn alledrie in rood weergegeven in het hierboven getekende complexe vlak. Deze berekening zullen we in deze opdracht ook zelf uitvoeren.
+For example: $$(2+i)^2 = 3+4i$$. If you were to add the original number $$(2+i)$$ to it again the result would be $$5+5i$$. These numbers are all three denoted in red in the figure of the complex field above. These calculation are the ones we'll be performing in the assignment.
 
-Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Nu kunnen we aan de slag.
+This is all of the mathematical background on complex numbers you'll be needing for this assignment. Now we can get to work.
 
 
 ### Functies van complexe getallen, reeksen en fractals 

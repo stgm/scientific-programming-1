@@ -1,6 +1,7 @@
 # Goldbach
 
 Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is voor de even getallen tot en met 1000.
+Write a program that proves Goldbach's conjecture to be true for all even numbers up to and including 1000.
 
 	# python goldbach.py
 	16 = ...
@@ -9,47 +10,47 @@ Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is vo
 	22 = 5 + 17
 	24 = ...
 
-## Achtergrond
+## Background
 
-Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wiskunde. Goldbach stelde:
+Goldbach's conjecture is one of the oldest unsolved problems in mathematics. Goldbach posed:
 
-*"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
+*"Every even integer greater than 2 can be expressed as the sum of two primes."*
 
-Een priemgetal mag hierbij ook twee keer gebruikt worden (6=3+3). Hoewel dit vermoeden inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor de stelling. De computer is ongeschikt om het vermoeden te bewijzen (je kunt immers niet tot oneindig tellen), maar je kan het vermoeden wel ontkrachten door een even getal te identificeren dat niet te schrijven is als de som van twee priemgetallen. We gaan ons steentje bijdragen in deze zoektocht.
+A prime number can also be used twice (6=3+3). Although this conjecture does indeed seem te be correct for al numbers up to $$4\cdot10^{18}$$, there still is no analytical proof for this hypothesis. A computer is unfit to proof the conjecture (after all it cannot count till infinity), but you could disprove the conjecture by identifying a even number that cannot be expressed as the sum of two primes. We're going to lend our hand in this search.
 
-## Specificatie
+## Specification
 
-Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook *expliciet* zien (op het scherm) dat het te schrijven is als de som van twee priemgetallen, zoals in het voorbeeld hierboven.
+Use a program called **goldbach.py** to show that all even numbers up to and including 1000 can indeed be expressed as the sum of two primes. More concretely: show for each even number *explicitly* (on the screen) that it can be written as the sum of two primes, like in the example above.
 
-Nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoeden van Goldbach voldoet. Zorg dat jouw programma zo'n ontdekking duidelijk op het scherm aangeeft. Bingo!
+More important is of course if or when you find a number that *isn't* in compliance with Goldbach's conjecture. Make sure that your program clearly displays such a finding on teh screen. Bingo!
 
 ## Hints
 
-- Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens het omzetten naar programmacode.
+* Always work out the problem with pen and paper before coding. The 5-10 minutes spent on drawing out your idead are earned back when you convert it into code.
 
-- Gebruik weer een lijst priemgetallen als basis. Bedenk zelf tot waar de lijst moet lopen om de even getallen tot 1000 van delers te voorzien.
+* Use a list of primes as the base for this program. Think for yourself up to what number the list should go to provide all even numbers through 1000 of divisors.
 
 - Je mag in deze opgave de onderstaande Python constructie gebruiken die kijkt of een element wel of niet in een in een lijst voorkomt. De volgend constructie zal op het scherm printen dat 7 inderdaad een priemgetal is.
+* For this assignment you're allowed to use the following Python constuction, that checks whether an element is or isn't found in a list. The following code will print to the screen whether 7 is indeed a prime number.
 
-		priemlijst = [2,3,5,7,11]
+		primes = [2, 3, 5, 7, 11]
 		x = 7
-		if x in priemlijst:
-		    print ("Ja, het getal {} komt voor in mijn priemlijst".format(x))
+		if x in primes:
+			print(f"Yes, the number {x} is found in my list of primes.")
 
-  En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lijst staan gebruik je dus:
+  And if you'd want to check for all numbers from 1 through 40 whether they're found in the list, you use:
 
-		priemlijst = [2,3,5,7,11]
-		for x in range(1,41):
-		    if x in priemlijst:
-		        print ("Ja, het getal {} komt voor in mijn priemlijst".format(x))
+		primes = [2, 3, 5, 7, 11]
+		for x in range(1, 41):
+		    if x in primes:
+		        print(f"Yes, the number {x} is found in my list of primes.")
 
-  Deze hint geven we natuurlijk niet zomaar. Er is voor deze opdracht een 'elegante' oplossing te bedenken waarin deze 
-  constructie gebruikt wordt. Je kan het ook op een minder elegante (brute-force) manier oplossen natuurlijk.
+  Clearly we don't hand you this hint without a reason. This assignment has a more 'elegant' solution in which this construction is uded. You can also solve it in a less elegant way (brute-force) of course.
 
-## Testen
+## Testing
 
-Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
+Once again carefully read the specification at the top of the assignment and make sure your program works exactly as specified.
 
-Nu ben je klaar om te testen:
+Now you're ready to test:
 
 	checkpy goldbach

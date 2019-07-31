@@ -1,97 +1,104 @@
-# Onderling-priem
+# Coprimes
 
-Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt **onderling-priem** genoemd. De Engelse term daarvoor is **coprime**.
+Write a program called `coprime.py` that calculates the chance that two random whole numbers **do not** have a common divisor. Such a pair of numbers is called a **coprime**.
 
-    #python onderlingpriem.py
-    De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
-        - voorspelling (wiskunde): 0.xxx
-	    - empirisch (Python): 0.xxx 
+    #python coprime.py
+    The chance that two random numbers do not share a common divisor is:
+        - prediction (mathematical): 0.xxx
+	    - empirical (Python): 0.xxx 
 
-Hoewel we jullie in deze extra opdrachten zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. 
+Although we want to leave this assignment up to you for as much as possible (there is no `checkpy`), we'll still give some intermediate steps for the first extra assignment.
 
-### Definitie van onderling-priem en voorspelling vanuit getaltheorie
+### Definition of the coprime and predictions from numbers theory
 	    
-In de informatie over de definitie van [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) op wikipedia lezen we dat we kunnen uitrekenen wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. 
+In the description on the definition of [coprimes](https://en.wikipedia.org/wiki/Coprime_integers) on wikipedia we see there is a way to calculate the chance that *n* random numbers do not share a common divisor.
 
-Deze kans is: $$1/\zeta(n)$$, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
+This chance is: $1/\zeta(n)$$, where $$\zeta(n)$$ is the well-known [Riemann zeta function](https://en.wikipedia.org/wiki/Riemann_zeta_function).
 
-**Specifiek geval: twee getallen (n=2)**:
+**Specific case: twoo numbers (n=2)**:
 
-De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is: 
+The chance that two random numbers do not share a common divisor is:
 
 $$1/\zeta(2) \approx 0,608$$.
 
-In deze opdracht gaan we controleren of dit wel klopt. We gaan eerst uitzoeken hoe we kunnen bepalen of twee getallen een gemeenschappelijke deler hebben en door dit daarna voor een groot aantal willekeurige getallen-paren te doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En daarmee controleren of de voorspelling uit de getaltheorie wel of niet klopt.
+In this assignment we are going to verify this calculation. First we'll find out how to determine whether two numbers share a divisor and by later doing so for large number of random number-pairs we can calculate the chance such numbers will be coprimes. With that we can verify wheter the prediction from numbers theory is actually correct.
 
-### Zelf de oplossing vinden
+### Finding the solution yourself
 
-Er zijn verschillende manieren om dit problem aan te pakken. Volg voor deze opdracht de onderstaande oplossingsmethode en tussenstappen, omdat we daarmee tijdens het nakijken goed kunnen zien hoe ver je bent gekomen.
+Theres different methods to solve this problem. For now, follow the following procedures and intermediate steps, because those will aid us in verifying how far you got into solving this problem.
 
-#### stap 1: lijst met priemfactoren
 
-Elk getal is op een unieke manier te schrijven als het product van priemgetallen:
+#### step 1: list of prime factors
+
+Every number can be expressed as a unique product of prime numbers:
 
         34 = 2 x 17
         88 = 2 x 2 x 2 x 11
      79220 = 2 x 2 x 5 x 17 x 233
 
-Schrijf een functie `PriemFactoren(getal)` die voor een bepaald getal de lijst met de priemfactoren (de delers) vindt en op het scherm kan printen.
+Declare a function called `prime_factors(number)` that finds the list of prime factors (divisors) for a particular number and `print`s them to the screen.
 
-    python> Priemfactoren(79220) 
-            Priemfactoren  79220  =  [2, 2, 5, 17, 233]
+    python> prime_factors(79220) 
+            Prime factors of  79220  =  [2, 2, 5, 17, 233]
 
-Zorg ook dat de functie de lijst met priemgetallen als output teruggeeft (als return). In de rest van het programma zullen we deze functie meer gaan gebruiken
+Make sure that the function also `return`s the list of prime numbers. The rest of the program will be using that list.
  
-#### stap 2: op zoek naar gemeenschappelijke delers van twee getallen
+#### step 2: finding common divisor of two numbers
 
-Schrijf een functie `AantalDelers(n1, n2)` die voor twee getallen aangeeft of er een gemeenschappelijke deler is of niet. Gebruik hierbij de functie `Priemfactoren()` om voor elk van de getallen eerst de priemfactor-lijst te vinden en ga vervolgens op zoek naar getallen die in beide lijsten voorkomen.
+Write a function `divisor_count(n1, n2)` that, for now, determines if there exist any common divisor or not. Use the function you've delcared earlier `prime_factors()` to first generate the list of prime factors for those numbers. Then find the numbers present in both lists.
 
-Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke delers te bepalen. Voor deze opgave is het alleen belangrijk om te weten of er *géén* gemeenschappelijke delers zijn. De functie moet dan als return argument 0 teruggeven.
+It's not yet important to get the exact number of common divisors. For this assignment it is only import to know if there are *no* common divisors. If so, the function should return a `0`.
 
-#### stap 3: hypothese testen voor groot aantal paren
+#### step 3: testing the hypothesis for a large number of pairs
 
-Om de fractie van paren te bepalen waarin er geen gemeenschappelijke deler is moeten we:
+To determine the fraction of pairs where there are no common divisors we'll have to:
 
-   1. een groot aantal getallen-paren maken (willekeurig)
+   1. create a large amount of number-pairs (randomly)
 
-   2. voor elk getallen-paar kijken of er wel of niet een gemeenschappelijke deler is
+   2. check whether there are any common divisors for each number-pair
 
-   3. evalueren welke fractie van de getallen-paren geen gemeenschappelijke deler had  
+   3. evaluate which fraction of number-paris had no common divisors 
 
-Maak een functie `Experiment()` die deze stappen implementeert en die deze fractie op het scherm print en ook teruggeeft als return argument.
+Create a function `experiment()` that implements each of these steps and that `print`s the fraction on the screen after which it `return`s that fraction.
 
-Specificaties:
+Specifications:
 
-    - gebruik getallen (n1 en n2) tussen de 10.000 en 100.000
+    - use numbers (n1 and n2) between 10.000 and 100.000
 
-    - gebruik 10.000 getallen-paren
+    - use 10.000 number-pairs
 
 
 **Python tip:**
 
-Een van de dingen die we nodig hebben, het trekken van een willekeurig getal, is iets waar we pas in module 2 mee gaan werken. In dit geval is het nog specifieker, namelijk een willekeurig *geheel* getal. 
+One of the components we need, generating a random number, is something we'll work with in module 2. In this case it's even more specific, a random *whole* number to be exact.
 
 Plaats bovenaan je programma de volgende regel die je in staat stelt de `random-bibliotheek` te gebruiken in je programma. Deze bibliotheek bevat allerlei functies die random getallen maken.
+Add the following line of code to the top of your file to be able to use the `random`-library in your own code. This library contains all sorts of different functions that generate random numbers.
  
-        from random import *
+        from random import random
         
 De functie die wij nodig hebben is `randint(Nmin,Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin=10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
+The function we need is `randint(a,b)` that generates a integer between `a` and `b` including both values. In this exercise we'll use a n_min (`a`) = 10000 and n_max (`b`) = 100000. To assign such a random number the name `n` you can use the following lines of code: 
 
-         n = randint(Nmin, Nmax)        
+        n_min = 10000
+        n_max = 100000
+        n = random.randint(n_min, n_max)        
         
 
-#### stap 4: theoretische voorspelling
+#### step 4: theoretical prediction
 
-Schrijf een functie `Voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
+Write a function `prediction(n)` that predicts the theoretical chance of `n` numbers having no common divisors. This consists of not much more than calculating the Riemann zeta function yourself and with that determine the correct chance. Once again `return` this value.
 
-#### stap 5: Gooi alles bij elkaar
+#### step 5: Put everything together
 
 Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
+By calling the two functions `experiment()` and `prediction()` everything should fall in its place. The screen should now dipslay (3 decimals accurate):
 
-    De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
-        - voorspelling (wiskunde): 0.xxx 
-        - empirisch (Python): 0.xxx
+
+    The chance that two random numbers do not share a common divisor is:
+        - prediction (mathematical): 0.xxx
+	    - empirical (Python): 0.xxx 
 
 ## Checkpy
 
-Er is voor deze opdracht geen checkpy oplossing aanwezig. You're on your own.
+This assignment does not have a checkpy to check your solution. You're on your own.

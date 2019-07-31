@@ -1,33 +1,33 @@
 # Riemann
 
-Schrijf een functie die met behulp van een Riemann-som de integraal berekent van een willekeurige wiskundige functie met gespecificeerde integratiegrenzen. De wiskundige functie moet ook op het scherm weergeven worden.
+Write a function that uses a Riemann sum to calculate the integral of a random mathematical function with specified integral boundaries. The mathematicla function should also be displayed on the screen.
 
-## Specificatie
+## Specification
 
-- Maak een nieuw bestand genaamd `riemann.py`.
+* Create a new file called `riemann.py`.
 
-- Schrijf een functie `riemann()` die integralen kan berekenen met behulp van de Riemannsom. 
+* Declare a function called `riemann()` that can calculate integrals using the Riemann sum.
 
-- De functie `riemann()` moet vier argumenten accepteren:
+* The function `riemann()` has to accept 4 arguments:
 
-	- `func` een functie waarvan we de integraal gaan bepalen
-	- `a` het begin van het gebied
-	- `b` het einde van het gebied
-	- `n` hoeveel rechthoeken we gebruiken om de integraal te bepalen.
+	- `func` a function of which the integral is calculated
+	- `a` start of the integral area
+	- `b` end of the integral area
+	- `n` number of squares used to calculate the integral
 
-- De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
+* The function `riemann()` should `return` the correct value of the integral.
 
-- De functie `riemann()` moet de wiskundige functie op het scherm laten zien.
+* The function `riemann()` should display the mathematical function on the screen.
 
 
-## Tests
+## Testing
 
-Test je procedure met de volgende functie, die je makkelijk analytisch kunt controleren:
+Test your procedure using the following function, which is easy to analytically verify:
 
-	def functie1(x):
+	def func1(x):
 		return x**2
 
-Test ook met de volgende functies. Sommige daarvan zijn "integreerbaar", andere kun je alleen numeriek benaderen.
+Also test your program with the following functions. Some of them are integrable, others can only be numerically approximated.
 
 $$\int_{0}^{1}x^2 dx$$
 
@@ -39,28 +39,28 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept, om deze voorbeelden te controleren. Zo kun je `functie1()` van hierboven meegeven aan `riemann()` door aan te roepen:
+Add these functions to your own program and make sure to repeatedly call the `riemann()` function at the bottom of your file, to verify each of these examples. Like this you can pass `func1()` to your `riemann()` function:
 
-    rieman(functie1, 0, 1, 10000)
+    rieman(func1, 0, 1, 10000)
 
 ## Hints
 
-- Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
+* Note: when you divide the interval in $$N$$ parts, there will be $$N+1$$ corners.
 
-- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
+* Create a graph of the function so you have a clear view of what area you are integrating. You can add a bit of code to the `riemann()` function to plot said graph.
 
-- Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
-
-
-## Debuggen
-
-Lijkt het niet te werken? 
-
-- Check "op het oog" met een grafiek of de integraal überhaupt in de buurt komt van wat je mag verwachten.
-
-- Als dat wel goed zit, kan het zijn dat het aantal stappen te klein is om tot een precies genoeg antwoord te komen. Probeer het aantal te verhogen en bekijk ook hoe dit de uitkomsten beinvloedt.
+* First test your program for an integral of which you know the outcome beforehand. For a few of the example function above that should be the case. Once the program correctly calculates the known integrals, you can try the unknown new integrals.
 
 
-## Testen
+## Debugging
+
+Does there appear to be some error or bug?
+
+* Visually check the graph of the integral whether the answer is anywhere near what is to be expected.
+
+* If that appears to be the case, the nit could be possible that the number of steps is too small to come to an exact enough answer. Try again after increasing the number of parts and see how that influences the outcome.
+
+
+## Testing
 
 	checkpy riemann
