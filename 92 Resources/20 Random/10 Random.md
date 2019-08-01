@@ -1,41 +1,41 @@
-# Random getallen
+# Random numbers
 
-Een zeer handige bouwsteen in computer is het *random* getal. In de bibliotheek `random` zit een functie `random()` die een random getal produceert tussen 0 en 1. In Python gebruik je de functie als volgt:
+A very useful building block in your computer is the *random* number. In the library `random` you can find a function called `random()` that generates a random number between 0 and 1. In python you can use the function as follows:
 
     import random
     x = random.random()
     print(x)
 
-Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien random getallen achter elkaar doe je dus als volgt:
+Every time you call the function it will generate a new number. To generate ten random numbers you'd have to run the following:
 
     import random
-    for i in range(0,10):
+    for i in range(0, 10):
         x = random.random()
         print(x)
 
-> Probeer bovenstaande programma's zelf ook even uit! Pas wel op dat je hiervoor niet een bestand `random.py` maakt. In dat geval zal `import random` proberen jouw eigen bestand te importeren, en dat gaat niet werken.
+> Try the above mentioned programs for yourself as well! Do watch out that you do not call the file `random.py` though. In that case `import random` will try to import that local file instead of the Python library, which obviously will not work.
 
-## Bouwen met bouwstenen
+## Building with building blocks
 
-Zodra je een bouwsteen hebt, kun je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als je weet dat de functie `random.random()` een getal tussen 0 en 1 produceert dan kun je een transformatie verzinnen waardoor we een getal tussen bijvoorbeeld 0 en 3 krijgen.
+As soon as you have a building block, you can build different objects with the aid of logic and mathematical manipulations. If you know that the function `random.random()` generates a number between 0 and 1 then you can think of a transformation which results in a number of, for example, between 0 and 3.
 
-Voorbeeld: tien random getallen tussen 0 en 3
+Example: ten random numbers between 0 and 3 
 
     import random
     for i in range(10):
-        r = random.random()
-        y = 3*r
+        random_number = random.random()
+        transformed_number = 3 * random_number
         print(y)
 
-## Een eigen functie
+## Your own function
 
-Schrijf als oefening een functie `random_range()` die een getal genereert tussen *a* en *b* waarbij je de waardes van a en b zelf kunt kiezen. Het moet zo werken als hieronder.
+Write by way of practice, a function called `random_range()` that generates a number between *a* and *b* where you can choose the values a and b yourself. It has to in the following way:
 
     import random
 
     def random_range(a,b):
-        r = <hier jouw code>
-        return r
+        random_number = <your code>
+        return random_number
 
     minimum = 2
     maximum = 5
@@ -43,4 +43,4 @@ Schrijf als oefening een functie `random_range()` die een getal genereert tussen
         x = random_range(minimum, maximum)
         print(x)
 
-Test je programma uit door het te runnen, en check of elk getal in het juiste bereik zit.
+Test your program by running it yourself and verify if each number lies in the correct range.

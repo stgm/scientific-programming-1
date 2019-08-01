@@ -1,20 +1,15 @@
-# Animaties
+# Animations
 
-Hoewel een grafiek heel handig kan zijn om een simulatie te visualiseren is het
-soms inzichtelijker een animatie te maken. Python biedt je de mogelijkheid om
-een figuur steeds opnieuw te tekenen. Dat geeft je verschillende mogelijkheden
-om een beweging aan te geven. We bouwen hier een kort voorbeeld, waarin we een
-lijn (en punt) volgens $$f(x)=sin(x)$$ over het scherm laten bewegen. We bouwen
-de functie op in 3 stappen waarbij we telkens 1 element toevoegen. Met behulp
-van deze functionaliteit kun je een groot scala aan animaties maken.
+Although a graph is a very useful tool to visualize a simulation, sometimes it's more insightful to make an animation. Python offers the possibility to redraw a figure again and again. That gives a multitude of possibilities to create movement. We will demonstrate a small example, in which we move a line (and point) along $$f(x)=sin(x)$$ over the screen. We build up the function in 3 steps, where in each step we add 1 element. With the help of these functionality you can create an array of animations.
 
-## Een bewegend stipje 
+## A moving dot
 
 Als je een punt tekent (één $$x$$-waarde en één $$y$$-waarde) waarvan je $$x$$
 en $$y$$ steeds verandert dan lijkt het of het punt over het scherm beweegt. In
 de code hieronder nemen we steeds stapjes in $$x$$, rekenen $$y$$ uit en
 tekenen het punt op het scherm. We gebruiken ook de commando's `xlim` en `ylim`
 om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
+
 
     import math
     import numpy as np

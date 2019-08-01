@@ -1,44 +1,40 @@
-# Opdracht: de ultieme free-fall
+# Assignment: the ultimate free fall
 
-De appel de vorige opdracht bereikt na iets meer dan 4 seconden het aardoppervlak. Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is gegraven dwars door de aarde heen.
+The apple from the previous assignment reached the surface after a little over 4 seconds. Imagine that exactly where the apple dropped, a tunnel was dug straight through the planet.
 
-Schrijf een functie `tunnel()` in een bestand **tunnel.py** die de beweging van de appel door de aarde heen beschrijft. Deze beweegt langs de $$x$$-as met $$x=0$$ in het centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het aardoppervlak. Wat gebeurt er precies?
+Write a function called `tunnel()` in a file called **tunnel.py** that describes the movement of the apple through earth. The apple moves along the $$x$$-axis wit han $$x=0$$ in the centre of the earth, it starts with a speed of $$0$$ at height $$0$$ meters above the surface of the earth. What exactly happens?
  
 ![](EarthHole.png)
 
 ## Uitvoer
 
-1. Maak een grafiek van de snelheid van de appel als functie van de tijd.
+1. Create a graph of the speed of the apple as function of the time.
 
-2. Maak een grafiek van de positie als functie van de tijd.
+2. Create a graph of the position as function of the time.
 
-3. Bereken de maximale snelheid die de appel bereikt (km/uur) en print deze uit.
+3. Calculate the maximum speed that the appel reaches (km/h) and `print` it.
 
-4. Hoe lang duurt het voor de appel weer terug is op de plek waar je deze losgelaten hebt (seconden)? Print het antwoord uit.
+4. How long does it take for the apple to be back in the position you let go of it (seconds)? `Print` the answer.
 
 ## Tips
 
-- Verwaarloos luchtweerstand in deze opgave.
+* Ignore air resistance for this assignment.
 
-- De effectieve massa van de aarde, de massa 'die aan je trekt' is wordt
-  kleiner naarmate je dichter bij het centrum komt. Dus: als de aarde $$M_{\rm
-  aarde}$$ weegt en je 50% van de afstand tot het centrum van de aarde hebt
-  afgelegd 'weegt' de aarde in de formule van Newton nog maar
-  $$\left(\frac{1}{2}\right)^3M_{\rm aarde}$$.
+* The effective mass of the earth, the mass 'that pulls at you' becomes smaller teh closer you get to the centre. So: if the earth weighs $$M_{\rm earth}$$ and you travelled 50% of the distance to the centre of the earth, earth now only 'weighs' $$\left(\frac{1}{2}\right)^3M_{\rm earth}$$ in Newtons formula.
 
-- Neem aan dat de aarde een bol met constante dichtheid is.
+* Assume earth is a globe with constant density.
 
-## Natuurkunde-inzicht achteraf
+## Physical (h)in(d)sight
 
-Hoewel dit een ingewikkeld probleem lijkt was het toch mogelijk geweest deze opgave op te lossen met pen en papier. De effectieve kracht die op een deeltje werkt groeit lineair als functie van de afstand tot het middelpunt van de aarde. Als een deeltje vanuit het centrum van de aarde ($$x=0$$) naar buiten beweegt (positie $$x=r$$) geldt immers:
+Even though this seems like a difficult problem, it was still possible to solve it with pen and paper. The effective force that are applied to a particle grows linearly as a function of distance to the centre of the earth. If a particle from the centre of earth ($$x=0$$) moves outward (position $$x=r$$) the following applies:
 
-  - De effectieve gravitatieconstante groeit als $$r^3$$ omdat de effectieve massa van de bol die aan het object trekt groeit met $$r^3$$. Er geldt dus: $$F\propto r^3$$.
+  * The effective gravitational constant grows like $$r^3$$, because the effictive mass of the globe that pulls the object grows with $$r^3$$. Ergo: $$F\propto r^3$$.
 
-  - De kracht zelf neemt af met $$1/r^2$$ omdat de kracht nou eenmaal omgekeerd evenredig afneemt met het kwadraat van de afstand. Er geldt dus: $$F\propto r^{-2}$$
+  * The force itself diminishes with $$1/r^2$$ because the force decreases simply inversely proportional to the square of the distance. Ergo $$F\propto r^{-2}$$.
   
-Uiteindelijk zal de kracht op een deeltje dat steeds verder uit het centrum beweegt lineair afnemen met de afstand. Dat is precies dezelfde situatie als een klassieke veer waarvoor de we bewegingsvergelijking wel kennen: de [wet van Hooke](https://nl.wikipedia.org/wiki/Wet_van_Hooke).
+Eventually the force on a particle that continually moves away from the centre will decrease linearly with distance. That is exactly the same scenario as with a classical spring for which we do know the equation of motion: [Hooke's law](https://en.wikipedia.org/wiki/Hooke%27s_law).
 
 
-## Testen
+## Testing
 
 	checkpy tunnel

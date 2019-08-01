@@ -1,32 +1,32 @@
-# Module 3: simuleren - beweging 
+# Module 3: simulating - movement 
 
-In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunnen beschrijven en visualiseren op het scherm met behulp van een animatie.
+In this module we'll study how to describe movement of falling objects and visualize that movement to the screen by way of animation.
 
-#### Dag 1: Beweging door zwaartekracht
+#### Day 1: Gravitational movement
 
-1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
+1. <span class="badge badge-primary">Assignment</span> Study the movement of a falling [apple](/movement/apple)
 
-2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
+2. Read back up on the use of [multiple graphs](/resources/plot)
 
-3. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+3. <span class="badge badge-primary">Assignment</span> Study the movement of a [basejumper](/movement/basejump)
 
-#### Dag 2: De ultieme freefall
+#### Day 2: The ultimate free fall
 
-1. Leer over het [debuggen](/python/debuggen) van simulaties
+1. Learn more about [debugging](/python/debugging) simulations
 
-2. <span class="badge badge-primary">Opdracht</span> Wat gebeurt er als je [door de aarde heen valt](/beweging/freefall)?
+2. <span class="badge badge-primary">Assignment</span> What happens if you [fall through the earth](/movement/freefall)?
 
-#### Dag 3: Animaties in Python
+#### Day 3: Animations in Python
 
-1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
+1. Learn how to make [animations](/resources/animations) in Python
 
-2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
+2. <span class="badge badge-primary">Assignment</span> De [spiraliserende stip](/movement/stip)
 
-3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+3. <span class="badge badge-primary">Assignment</span> Laat zien hoe een [dronken student](/movement/student) beweegt
 
-#### Dag 4: Fitten
+#### Day 4: Fitten
 
-1. <span class="badge badge-primary">Opdracht</span> Vindt de regelmaat in je data met [Fitten](/beweging/fitten)
+1. <span class="badge badge-primary">Assignment</span> Vindt de regelmaat in je data met [Fitten](/movement/fitten)
 
 #### Evaluatie
 

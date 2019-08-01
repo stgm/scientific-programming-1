@@ -1,42 +1,35 @@
 # Monte Carlo
 
-Het is mogelijk een integraal te benaderen door gebruik te maken van random getallen.
+It is possible to approximate an integral by using random numbers.
 
 ![embed](https://player.vimeo.com/video/138378068)
 
 
-1.  Definieer rechthoek dat het integratiegebied omsluit
+1.  Define a rectangle that surrounds the integral area
 
-    Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
-    een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
+    Define an area (often times a rectangle) that surrounds the integral area. So you have to choose a $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ and $$y_{max}$$ such that:
 
-      - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
+      - $$x_{min} \leq a$$ and $$x_{max} \geq b$$
 
-      - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
+      - for $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
-    Kies de meest smalle rechthoek met $$x_{min} = a$$ en $$x_{max} = b$$.
+    Choose the tightest rectangle with $$x_{min} = a$$ and $$x_{max} = b$$.
 
-2.  Gooi random punten in de rechthoek
+2.  Generate random points within the rectangle
 
-    Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
-    bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
-    fractie van de punten in het integratiegebied valt: $$f_{goed}$$.
+    Generate a large numer of random numbers $$(x_i, y_i)$$ in the rectangle that surrounds the integral area and verify for each point whether is lies 'within' the integral area ('good') or not ('wrong'). Keep track of the francion of points within the integral area: $$f_{good}$$.
 
-3.  Bepaal de integraal
+3.  Determine the integral
 
-    De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
-    In het geval van een rechthoek wordt dat gegeven door:
+    The integral is the fraction of points generated within the graph times the total surface of the rectangle ('box').
+    In case of a rectangle the integral is given by:
 
     $$
-        \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
+        \int_a^b f(x)~dx = f_{good}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
     $$
 
-## Voorbeeld
+## Example
 
-Van de functie $$sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
-definieren dan ook een box om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 
-(1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van 
-deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen 
-punten gooien in plaats van 2000. 
+It is known that the function $$sin(x)$$ is enclosed on the domain $$0 < x < \pi$$ between 0 and 1. So we defined a box around the integral area and generated 2000 random points. Of which 63.15% (1263/2000) appeared to be within the integral area. The approximation that we've made of the integral using these 2000 is subsequently: 0.6315$$\pi \approx 1.984$$. The moment this works correctly, we can effortlessly generate 1 million points instead of 2000.
 
 ![](MonteCarloExample.png)
