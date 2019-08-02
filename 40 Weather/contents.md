@@ -1,17 +1,17 @@
-# Module 4: data-analyse - big data
+# Module 4: data analysis - big data
 
-In deze module gaan we leren hoe we informatie uit een grote data-set halen. 
+In this module we'll learn how to extract information out of big datasets.
 
-#### Dag 1: Inlezen en verwerken van een data-set 
+#### Day 1: Reading and processing a dataset 
 
-1. Leer een [data-set](/python/files) analyseren en verwerken
+1. Learn to analyse and process a [dataset](/python/files) 
 
 2. <span class="badge badge-primary">Opdracht</span> Verwerk sensor-data van een  [autorit](/big-data/dataverwerken) van een wetenschapper op weg naar de UvA
 
-#### Dag 2: Bijdrage leveren aan de klimaatdiscussie
+#### Day 2: Bijdrage leveren aan de klimaatdiscussie
 
 1. <span class="badge badge-primary">Opdracht</span> Graven in de [KNMI temperatuur-data](/big-data/klimaatdiscussie) van de 20ste eeuw
 
-#### Evaluatie
+#### Evaluation
 
 Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.

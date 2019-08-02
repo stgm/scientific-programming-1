@@ -40,6 +40,6 @@ Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promot
 
 ### Evaluation
 
-Your now done with this module! Please fill in this [evaluation](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
 
 

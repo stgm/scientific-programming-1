@@ -20,14 +20,14 @@ In this module we'll study how to describe movement of falling objects and visua
 
 1. Learn how to make [animations](/resources/animations) in Python
 
-2. <span class="badge badge-primary">Assignment</span> De [spiraliserende stip](/movement/stip)
+2. <span class="badge badge-primary">Assignment</span> The [spiraling dot](/movement/dot)
 
-3. <span class="badge badge-primary">Assignment</span> Laat zien hoe een [dronken student](/movement/student) beweegt
+3. <span class="badge badge-primary">Assignment</span> Show how a [drunk student](/movement/student) moves around
 
 #### Day 4: Fitten
 
-1. <span class="badge badge-primary">Assignment</span> Vindt de regelmaat in je data met [Fitten](/movement/fitten)
+1. <span class="badge badge-primary">Assignment</span> Find patters in your data by [Fitting](/movement/fitting)
 
-#### Evaluatie
+#### Evaluation
 
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

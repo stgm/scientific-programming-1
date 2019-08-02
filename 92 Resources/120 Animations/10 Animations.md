@@ -4,101 +4,102 @@ Although a graph is a very useful tool to visualize a simulation, sometimes it's
 
 ## A moving dot
 
-Als je een punt tekent (één $$x$$-waarde en één $$y$$-waarde) waarvan je $$x$$
-en $$y$$ steeds verandert dan lijkt het of het punt over het scherm beweegt. In
-de code hieronder nemen we steeds stapjes in $$x$$, rekenen $$y$$ uit en
-tekenen het punt op het scherm. We gebruiken ook de commando's `xlim` en `ylim`
-om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
-
+When you draw a point (one $$x$$-value and one $$y$$-value) of which the $$x$$ and $$y$$ change over time, then the point appears to move over the screen. In the code below we let $$x$$ increment, calculate $$y$$ and draw the point on the screen. We also use commands `xlim` and `ylim` to specify in the plot what $$x$$-values and $$y$$-values we want to display. 
 
     import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    # neem kleine stappen in x tussen 0 en 2pi
-    for x in np.arange(0,2 * math.pi, 0.05):
+    # take small steps in x between 0 and 2pi
+    for x in np.arange(0, 2 * math.pi, 0.05):
 
         y = math.sin(x)
 
-        # plot grafiek
-        plt.plot(x, y, 'bo', markersize = 10)  # blauwe punt
-        plt.xlim(0,2 * math.pi)
+        # plot graph
+        plt.plot(x, y, 'bo', markersize = 10)  # blue point
+        plt.xlim(0, 2 * math.pi)
         plt.ylim(-1, 1)
-        plt.draw()           # update grafiek
+
+        # update graph
+        plt.draw()
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
+
+        # clear graph
+        plt.clf()
 
 ![](AnimationExampleSin1.gif)
 
-> Je ziet dat we in de code de functie `pause()` aanroepen. Dat doen we om pyplot de gelegenheid te geven de nieuwe figuur op het scherm te tekenen. Dit wordt alleen gedaan tijdens de pauzes die we geven.
+> As yo usee, we call the function `pause()` in our code. We do so to give pyplot the oppertunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
 
-## Een bewegende lijn
 
-Een grafiek tekenen we met behulp van lijsten: een lijst met $$x$$-waardes en
-een lijst met $$y$$-waardes. Als je die lijsten steeds uitbreidt dan krijg je
-het onderstaande effect: de functie $$f(x) = sin(x)$$ getekend met een rode
-lijn.
+## A moving line
+
+Creating a graph by using lists: a list of $$x$$-values and a list of $$y$$-values. If you repeatedly expand those lists you gain the following effect: the function $$f(x) = sin(x)$$ represented by a red line:
 
     import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    L_x = []
-    L_y = []
+    x_coords = []
+    y_coords = []
 
     # take small steps in x
-    for x in np.arange(0,2 * math.pi, 0.05):
+    for x in np.arange(0, 2 * math.pi, 0.05):
 
         y = math.sin(x)
 
-        L_x.append(x)
-        L_y.append(y)
+        x_coords.append(x)
+        y_coords.append(y)
 
-        # plot grafiek
-        plt.plot(L_x, L_y, 'r-')   # rode lijn
+        # plot graph
+        plt.plot(x_coords, y_coords, 'r-')   # red line
         plt.xlim(0,2 * math.pi)
         plt.ylim(-1, 1)
-        plt.draw()           # update grafiek
+
+        # update graph
+        plt.draw()           
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
 
+        # clear grafiek
+        plt.clf()            
 
-Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
-1. Het resultaat ziet er als volgt uit:
+As you can see, the code only changed by three lines as opposed to example 1. The result is as follows:
 
 ![](AnimationExampleSin2.gif)
 
-## Een stip, een lijn en tekst
+## A dot, a line and text
 
-Je kan de stip en de lijn ook tegelijk tekenen en op het scherm ook informatie
-weergeven over de $$(x,y)$$ positie van het punt op het scherm.
+You can also draw the dot and the line at the same time as well as display information to the screen about the $$(x,y)$$ position of the dot on the screen.
 
     import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    L_x = []
-    L_y = []
+    x_coords = []
+    y_coords = []
 
     # take small steps in x
-    for x in np.arange(0,2*math.pi,0.05):
+    for x in np.arange(0, 2 * math.pi, 0.05):
 
         y = math.sin(x)
 
-        L_x.append(x)
-        L_y.append(y)
+        x_coords.append(x)
+        y_coords.append(y)
 
         # plot grafiek
-        plt.plot(L_x, L_y, 'r-')               # rode lijn
-        plt.plot(x, y, 'bo', markersize = 10)  # blauwe stip
-        plt.xlim(0,2 * math.pi)
-        plt.ylim(-1,1)
+        plt.plot(x_coords, y_coords, 'r-')               # red line
+        plt.plot(x, y, 'bo', markersize = 10)  # blue dot
+        plt.xlim(0, 2 * math.pi)
+        plt.ylim(-1, 1)
 
         # text op scherm      
-        plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x,y) )  
+        plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x, y) )  
 
-        plt.draw()           # update grafiek
+        # update graph
+        plt.draw()           
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
+
+        # clear graph
+        plt.clf()
 
 ![](AnimationExampleSin3.gif)

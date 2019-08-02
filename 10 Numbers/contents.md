@@ -44,4 +44,4 @@ But why programming? Check out the video to the side. [Mirjam Leunissen](http://
 
 ##### Evaluation
 
-Your now done with this module! Please fill in this [evaluation](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
