@@ -1,45 +1,45 @@
-# Algoritmen
+# Algorithms
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235029301)
 </div>
 
-In deze module gaan we aan de slag met een paar alledaagse programma's en met het maken van grafieken. De opdrachten laten typische algoritmen zien en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
+In this module we'll be exercising with a couple ordinary programs and with creating graphs. The assignments display an array of typical algorithms and scratch the surface of mathematical knowledge. Approachable for betas, alphas and gammas alike!
 
-Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data Scientist bij het Erasmus MC en vertelt over zijn ervaring met programmeren en dataverwerking in dit ziekenhuis.
+For starters take a look at the video to the side. Egge van der Poel is a Data Scientist at the Erasmus MC en tells about his experience with programming and processing data in this hospital. 
 
 <p style="margin-top:2em;"></p>
 
-#### Dag 1: aan de slag
+#### Day 1: getting started
 
-1. [Installeer](/naslag/installatie) Python
+1. [Install](/reference/installation) Python
 
-2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
+2. Subsequently practice extensively with the Python's [basic elements](/python/basics).
 
-3. <span class="badge badge-primary">Opdracht</span> Controleer je [waterverbruik](/algoritmen/water)
+3. <span class="badge badge-primary">Assignment</span> Check your [water usage](/algorithms/water)
 
-#### Dag 2: een eerste algoritme
+#### Day 2: a first algorithm
 
-1. Leer meer over [algoritmen](/python/algoritmen)
+1. Learn more about [algorithms](/python/algorithms)
 
-2. <span class="badge badge-primary">Opdracht</span> Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide)
+2. <span class="badge badge-primary">Assignment</span> Build a small piece of a Mario [pyramid](/algorithms/pyramid)
 
-#### Dag 3: een serieuzer algoritme
+#### Day 3: a serious algorithm
 
-1. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
+1. Understand how to write ["good code"](/reference/styleguide)
 
-2. <span class="badge badge-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
+2. <span class="badge badge-primary">Assignment</span> Calculate change with a  [greedy](/algorithms/greedy) algorithm
 
-#### Dag 4: werken met grafieken
+#### Day 4: working with graphs
 
-1. Sla je data op in een [lijst](/python/lijsten)
+1. Save you data in a [list](/python/lists)
 
-2. Leer over het gebruiken van [modules](/python/modules) in Python
+2. Learn more about using [modules](/python/modules) in Python
 
-3. Zoek op hoe je data kunt [plotten](/technieken/plot)
+3. Find out houw to [plot](/resources/plot) your data
 
-4. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
+4. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/algorithms/graphs)
 
-#### Evaluatie
+#### Evaluation
 
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"} in.
+Your now done with this module! Please fill in this [evaluation](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"}.

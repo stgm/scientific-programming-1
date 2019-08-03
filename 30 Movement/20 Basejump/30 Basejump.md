@@ -1,49 +1,49 @@
-# Vrije val bij een base jump
+# Free fall during a basejump
 
-Schrijf een programma waarin de val wordt doorgerekend van een basejumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Neem hierbij aan dat de basejumper 72 kilo weegt.
+Write a program in which the fall is calculated of a basejumper, jumping from the top of Burj Khalifa in Dubai (828 m). Assume this basejumper weighs 72 kilograms.
 
 
-## Achtergrond
+## Background
 
-In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp van de natuurkunde van de middelbare school de antwoorden kon controleren. We gaan nu een stuk realisme toevoegen: luchtwrijving. 
+In the previous assignment the air friction was neglected, which made it possible to verify the answer using just hight school level physics. Now we're going to add back that layer of realism: air friction.
 
-De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadraat van de snelheid:
+The aerodynamics that a falling object is subject to is proportionate to the square of its speed:
 
 $$F = \xi v^2$$, met $$ \xi = 0.24$$
 
-Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van het object en de dichtheid van de lucht zullen we in deze opdracht alleen het effect van de snelheid bestuderen. De wrijving betekent dat er een snelheid is waarbij de zwaartekracht en de wrijving elkaar in evenwicht houden. Deze maximum snelheid die een parachutespringer kan bereiken, ongeveer 196 km/uur, wordt [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity) genoemd.
+Although air resitance is dependant on the surface and mass of the object and the density of the air, we'll only be examining the effect of speed in this assignment. The friction menas that there exists a speed in which gravity and air friction keep eachoter in balance. The maximum speed a parachutist can achieve is about 196 km/h and is called [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity). 
 
 ![](Freefall.png)
 
-Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikipedia.org/wiki/Speed_skydiving). Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1357.64 km/uur veilig in handen van Felix Baumgartner.
+As always there are people trying to find the [limits](https://en.wikipedia.org/wiki/Speed_skydiving). Because he started his jump in an area where air pressure was incredibly low, Felix Baumgartner reached a record speed of 1357.64 km/uur, that will be difficult to overcome.
 
 
-## Specificatie
+## Specification
 
-Maak een bestand `basejump.py` met daarin een functie `basejump()`. Volg dezelfde strategie als in de opdracht **Appel**, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
+Create a file `basejump.py` and declare a function `basejump()` in it. Follow the same strategy as in the assignment **Apple**, but this time take the aerodynamics into consideration using the provided formula.
 
-### Grafieken
+### Graphs
 
-De volgende grafieken moet je laten **aftekenen** bij je assistent:
+You should have the following grapsh **checked** by an Assistent:
 
-1. Plot een grafiek van de snelheid als functie van de tijd.
+1. Plot a graph of the speed as function of the time.
 
-    Test je programma door net te doen of de toren 2000 meter hoog is en te kijken of je inderdaad vindt dat de terminal velocity ongeveer 196 km/uur is.
+    Test your program by pretending the tower is 2000 meters high and see if you indeed find the terminal velocity of 196 km/h.
 
-2. Plot een grafiek van de hoogte als functie van de tijd. 
+2. Plot a graph of the height as function of the time.
 
-    Teken twee lijnen in dezelfde figuur: in groen/blauw de situatie als we de luchtweerstand wel/niet verwaarlozen.
+    Draw two lines in the same figure: in green/blue the scenario when we ignore/apply air friction.
 
-### Simulatie
+### Simulation
 
-Print de antwoorden op de volgende vragen. Denk er weer aan om precies zijn in je antwoord en alleen de gevraagde waarden te printen op hun eigen regel.
+`Print` the answers to the following questions. Make sure to be precise and only provide the requested values by `print`ing each on their own seperate lines.
 
-De base jumper is eerst in vrije val, maar op 100 meter van het oppervlak moet deze de parachute opengooien.
+The base jumper is in free fall first, but 100 meters away from the surface they open their parachute.
 
-- Hoeveel tijd (seconden) heeft de jumper vanaf de afsprong tot dat moment, als we de luchtweerstand buiten beschouwing laten?
+* How much time (seconds) does the jumper have from the moment they jump to this moment, if we ignore any air resistance?
 
-- Hoeveel langer (seconden) heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand?
+* How much longer (seconds) does the base jumper have to enjoy their free fall because of air resistance?
 
-## Testen
+## Testing
 
 	checkpy basejump

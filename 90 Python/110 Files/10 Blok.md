@@ -1,14 +1,15 @@
 # Big Data
 
-Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwerken en analyseren van grote databestanden. Big data! We zullen in deze module leren hoe we data inlezen, en we gebruiken onze kennis van Python om de data te rubriceren en grafieken te maken van onze resultaten.
+An often encountered application of computerprograms is reading, processing and analyizing large datafiles. Big data! We will learn how to read data in this module, and we apply our knowledge to classify data and create graphs out of our results.
 
-# Inlezen files en verwerken van de data
+# Reading files and processing data
 
 ![](VanBastenKlein.jpg){:.inline}
 
-Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan geven wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values): 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door een komma. Dit is trouwens ook het formaat dat je krijgt als je je banktransacties download of een Excel file wegschrijft.
+Just like with numbers that can be expressed in the decimal, hexadecimal or binary format, data too can be represented in various formats within databases. Here we'll take a look at some data that is stored in the so-called CSV format (comma seperated values): 'flat tekst', where each line has variables that are seperated by a single comma. This happens to be the format you receive when you download your bank transactions or when you save an Excel file.
 
 We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:  de statistieken van voetballer Marco van Basten. Iemand heeft in een [tekstbestand](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt) bijgehouden hoeveel wedstrijden hij gespeeld heeft en hoeveel doelpunten hij gemaakt heeft. Dit is de tekst van het bestand:
+We'll learn how to read and process data by hand of an example: the statistics of the footballer Marco van Basten. Someone has been keeping track how many matches he's played and how many goals he's scored in a [textfile](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt). This is the text of the file:
 
     198182, Ajax, 1, 1
     198283, Ajax, 20, 9
@@ -25,16 +26,16 @@ We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:  d
     199394, AC Milan, 0, 0
     199495, AC Milan, 0, 0
 
-> Let op: als je het bestand met Windows Kladblok/Notepad opent, dan staat alle data achter elkaar. Dat maakt niet uit voor de goede werking van je programma's.
+> Note: when you open the file with Windows Kladblok/Notepad, then all data will be shown in a single line. That does not affect your program in any way.
 
-Hieronder gaan we aan de slag met het beantwoorden van enkele vragen met behulp van dit databestand:
+In the following sections we'll answer some questions using the data from the datafile:
 
-- wat zijn de voetbalseizoenen waarin Van Basten meer dan 20 keer gescoord heeft?
-- wat is het totaal aantal doelpunten dat Van Basten heeft gescoord voor al zijn clubs?
+* What are the seasons in which Van Basten score more than 20 times?
+* What is the total number of goals that Van Basten score for all clubs he played for?
 
-## Stap 1: openen van de file, inlezen van de regels
+## Step 1: opening the file, reading the lines
 
-Omdat het doorlopen van files in een computertaal een standaard procedure is, zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld dat vervolgens gebruikt kan worden om dingen uit die file te lezen of juist in weg te schrijven. Het volgende codefragment opent de file en gebruikt een `for`-loop om steeds de volgende regel in te lezen. De informatie in een regel van de file wordt opgeslagen in de variable `line`. Dit korte programma voert verder geen analyse uit maar print simpelweg `line` naar het scherm.
+Because traversing files in computerlanguage is a standard procedure, there are a number of easy to use comannds available. The `open()` command, for example, is used to gain access to a file so it can be read or written new data to. The following fragment of code opens a file and uses a `for`-loop to read lines one by one. The information in a line is saved in a variable `line`. This short program performs no further analysis, instead it simply `print`s `line` to the screen.
 
     input_file = open('VanBasten.txt', 'r')
     for line in input_file:

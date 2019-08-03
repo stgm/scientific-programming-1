@@ -4,41 +4,41 @@
 ![embed](https://player.vimeo.com/video/233508920)
 </div>
 
-Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdelen van deze module het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
+After s short introduction with animating in Python, we'll spend the first 3 days of this module on simulating the game of Monopoly. It is impossible to do so analytically, because the use of dice adds a complicated element of chance to the game. Game theory in practice.
 
-Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschijnsel: vallen (met of zonder wrijving).
+During day 4 we'll get acquainted with simulating a physical phenomonon: free fall (with and without friction).
 
-#### Dag 1: Animaties en start Monopoly
+#### Day 1: Animations and the start of Monopoly
 
-1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
+1. Learn how to make [animations](/resources/animations) in Python
 
-2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
+2. <span class="badge badge-primary">Assignment</span> The [spiraling dot](/movement/dot)
 
-3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+3. <span class="badge badge-primary">Assignment</span> Show how a [drunk student](/movement/student) moves around
 
-4. Lees over [Monopoly](/monopoly/inleiding)
+4. Read up on [Monopoly](/monopoly/introduction)
 
-5. <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
-
-
-#### Dag 2: Monopoly - startgeld
-
-1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+5. <span class="badge badge-primary">Assignment</span> Monopoly with one player in [Donald Trump mode](/monopoly/moving-around)
 
 
-#### Dag 3: Monopoly - $$2^e$$ speler en zoeken naar evenwicht
+#### Day 2: Monopoly - starting money
 
-1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
+1. <span class="badge badge-primary">Assignment</span> Effect of a finite amount of [starting money](/monopoly/startingmoney) on the game
 
 
-#### Dag 4: Natuurkunde simulaties: zwaartekracht
+#### Day 3: Monopoly - $$2^nd$$ player and finding an equilibrium
 
-1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
+1. <span class="badge badge-primary">Assignment</span> Add a second player and restore the [equilibrium](/monopoly/two-players)
 
-2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
-3. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+#### Day 4: Simulating physics: gravity
 
-#### Evaluatie
+1. <span class="badge badge-primary">Assignment</span> Study the movement of a falling [apple](/movement/apple)
 
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+2. Read back up on the use of [multiple graphs](/resources/plot)
+
+3. <span class="badge badge-primary">Assignment</span> Study the movement of a [basejumper](/movement/basejump)
+
+#### Evaluation
+
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

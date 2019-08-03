@@ -1,48 +1,48 @@
 # Greedy
 
-Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
+Implement a program that calculates the minimum number of coins for a given sum of change.
 
-	Hoeveel wisselgeld moet er gegeven worden? 0.41
+	How much change is owed? 0.41
 	4
 
-## Achtergrond
+## Background
 
 ![](coinchange.png)
 
-In een ver verleden, toen er nog actief werd betaald door middel van contanten, was een muntenhouder als hierboven onmisbaar voor de verstokte koopjesjager. Het vervelende is dat er voor elk muntje een palletje moest worden ingedrukt, en dit kost tijd. Gelukkig zijn wij er al computer scientists om het aantal terug te geven muntjes te minimaliseren door middel van "greedy algoritmes".
+In the distant past, when people actively paid for products using cash money, a coinholder, as can be seen above, was an invaluable asset to the inveterate bargain-hunter. The bothersome part was that for each coin a lever had to be pulled, a time consuming effort. Luckily we, computer scientists, are at the ready to minimize the number of coins that need to be handed over through use of "greedy algorithms".
 
-Een greedy algoritme is een algoritme dat altijd de beste lokale keuze maakt op weg naar een antwoord. Alsof je fietst en dan op elk kruispunt de afslag kiest waarvan jij op dat moment denkt dat die zo snel mogelijk leidt tot je eindbestemming. Dit soort algoritmes leiden voor sommige problemen altijd tot een optimale oplossing, maar niet voor alle problemen.
+A greedy algorithm is an algorithm that always makes the best local choice en route to the solution. It's like when you're cycling and at each intersection you choose the road that you think at that moment will lead you to your destination the quickest. These kinds of algorithms can lead, for some problems, to the optimal solution, but not by far for all of them.
 
-Stel je voor dat een caissière een klant wisselgeld verschuldigd is, en dat deze caissière vervolgens op de palletje kan drukken om kwartjes (25c), dubbeltjes (10c), stuivers (5c), en centen (1c) te krijgen. We zoeken nu een oplossing voor dit probleem door één of meer keer te drukken op de palletjes, waarbij we zo min mogelijk een palletje willen indrukken.
+Imagine a cashier that owes a customer some change, and this cashier has to press a lever for each coin they have to return, quarters (25c), dimes (10c), nickels (5c) and cents (1c). We're looking to solve this problem by pressing the lever one or multiple times, but wish to press that lever as few times as possible.
 
-We stellen ons nu een een "gretige" caissière voor, die elke keer als hij op een palletje moet drukken, op het palletje drukt met de hoogst mogelijk waarde waarop nog gedrukt mag worden. Bijvoorbeeld, als een klant nog 41 cent tegoed heeft, dan drukt de caissière eerst op het palletje voor een kwartje. Er blijft dan nog (41 - 25 =) 16 cent over. Nu mag de caissière niet meer drukken op het palletje voor een kwartje, want dan zou hij te veel wisselgeld geven. Dus drukt hij om een dubbeltje te geven, en daarmee blijft er nog 6 cent over. Dit volgt dan met een druk voor een stuiver, en tot slot een cent. In totaal krijgt de klant dus één kwartje, één dubbeltje, één stuiver, en één cent, dit maakt 4 munten in totaal.
+We can now imagine a "greedy" cashier. Who, every time they have to press a lever, presses the lever with the highest possible value that they're allowed to press. For example, if a customer is owed 41 cents, the chashier then presses the lever for the quarter first. The remainder of change is then (41 - 25 =) 16 cents. Now the cashier can no longer press the lever for 25 cents, since they would then return more money than what is owed. So they press the lever for the next highest value, a dime. Leaving only 6 cents of change to be handed out. This is followed by a press for a nickel and finally a cent. In total the customer receives one quarter, one dime, one nickel and one cent, resulting ing 4 coins alltogether.
 
-Het blijkt dat bij zo'n gierige aanpak *altijd* het minste aantal munten door de vingers van de caissière gaat. De aanpak geeft dus *gegarandeerd een optimale oplossing* (let wel: dit geldt voor deze set munten). We nemen dan aan dat de voorraad muntstukken nooit opraakt.
+It turns out that such a greedy approach *always* results in the fewest coins to be handed out by the cashier. Which means the algorithm *guarantees an optimal solution* (note: this only applies for this set of coins). We do have to assume that the supply of coins never runs out.
 
-Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Dat mag jij ons vertellen!
+How many coins are required exactly for any number of change owed? You tell us!
 
-## Specificatie
+## Specification
 
-* Schrijf in een bestand genaamd `greedy.py` een programma dat eerst vraagt hoe veel wisselgeld er gegeven moet worden, en vervolgens het minimaal aantal munten uitspuwt.
+* Create a file called `greedy.py` and implement a program that first prompts for the number of change owed and subsequently prints the minimum number of coins required.
 
-* Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als kommagetal invult (nou ja, een puntgetal, want het werkt op z'n Amerikaans). Het getal achter de komma staat in dat laatste geval voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
+* Assume that the user provides a whole number (integer), or a decimal number (float). The decimals in that case represent individual cents. So `3.21` means `3` dollar and `21` cents.
 
-* [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), zorg dan dat er opnieuw geprobeerd kan worden.
+* [In case the user does not succeed in providing a correct input](https://en.wikipedia.org/wiki/Murphy's_law), make sure they can retry.
 
 ## Hints
 
-* De structuur van dit programma lijkt een beetje op die van `water.py`: er is weer duidelijk sprake van invoer, berekening en uitvoer. Het verschil is dat je de berekening nu niet meer kunt schrijven als één formule. Je moet een compleet *algoritme* bedenken!
+* This program is structured somewhat like `water`: there is an explicit seperation between *input*, *calculation* and *output*. The differencie being that the calculation is no longer a single formula. You have to develop a complete *algorithm*!
 
-* Het is handig om gedurende het programma een variabele bij te houden waarin je werkt aan het uiteindelijke antwoord: het aantal terug te geven munten.
+* It is useful to use a single variable throughout your entire program in which you gradually develop the final solution: the number of coins that need to be handed out.
 
-* Zorg dat, zodra de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Onze munten zijn immers gespecificeerd in een aantal *centen*.
+* Make sure that, if the user provided a float as input, you change that float into an integer. The coins we hand out are whole *cents* after all.
 
-* Om eventuele afrondingsfouten te voorkomen bij het converteren van floats naar integers, rond getallen eerst af door middel van `round()`. Probeer maar eens: `round(7.8)` en `round(7.2)`.
+* To prevent any rounding errors or floating point imprecision when converting floats to integers, first round numbers by using `round()`. Try it out: `round(7.8)` and `round(7.2)`.
 
-* Hoe je dit probleem precies aanpakt is verder aan jou. Je zou bijvoorbeeld loops kunnen gebruiken of gebruik kunnen maken van de modulo operator `%`. Probeer maar eens `26 % 8`.
+* The exact implementation for the problem is up to you. You could, for example, use loops, but you can also use the modulo operator `%`. Try and use it: `26 % 8`.
 
-## Testen
+## Testing
 
 	checkpy greedy
 
-(Je weet nu hoe het testen werkt, toch?)
+(You know how to test by now, right?)

@@ -1,31 +1,30 @@
 # Student
 
-Als twee studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk dat ze elkaar nog terugvinden. Schrijf een programma dat het gedrag van twee dronken student simuleert.
+When two students are drunk and lose eachoter from view it is unlikely they ever find eachoter again. Write a program that simulates the behaviour of two drunk students.
 
 ![](AnimationRandomWalkDouble.gif)
 
-## Specificatie
+## Specification
 
-Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien. Geef op het scherm aan hoe lang de gebruiker van je programma nog moet wachten tot het
-programma afgelopen is.
+Write a program `student.py` in which you implement an animation of **two** students. Display on the screen how long the user of your program has to wait for it to finish.
 
-## Analyse
+## Analysis
 
-Een dronken student neemt elke seconde een stap. De grootte van de stap is steeds hetzelfde ($$R = 1$$), maar de richting waarin hij die stap neemt is volledig willekeurig. Kies bij elke stap in de tijd een random hoek $$\alpha$$ en bepaalt vervolgens de nieuwe $$x$$-positie en $$y$$-positie. Dit staat bekend als een *random walk*.
+A drunk student takes a step each second. The size of the step is the same each time ($$R = 1$$), but the direction in which he takes that step is completely random. Choose a random angle $$\alpha$$ for each step and determine the new $$x$$0position and $$y$$-position. This phenomenon is known as a *random walk*.
 
-Je zou eens kunnen proberen of je ook met pen en papier iets kan zeggen over de gemiddelde afstand die de studenten van elkaar verwijderd zijn als functie van het aantal stappen dat ze nemen. Je hoeft dit niet in te leveren, maar overleg eens met je collega-studenten hoe je dit zou aanpakken.
+You could try and use pen and paper to give an indication about the average distance that the students will be removed from one another as a functio nof time. You are not required to hand it in, but it could be useful to discus your plan of action with a fellow student.
 
 
 ## Hints
 
-Start, om klein te beginnen, met een animatie van een enkele student:
+Start, simply, with an animation of a single student:
 
 ![](AnimationRandomWalk.gif)
 
 ## Tip
 
-Zelf een filmpje opslaan? Gebruik een tool als [GifGrabber](http://www.gifgrabber.com) om een animated gif te maken. Die kan je in een webbrowser bekijken.
+Save a video yourself? Use a tool such as [GifGrabber](http://www.gifgrabber.com) to create an animated gif. Which you can then watch in your web browser.
 
-## Testen
+## Testing
 
-Dit programma is helemaal visueel en kan niet worden getest met `checkpy`. Je moet het laten aftekenen tijdens het practicum.
+This program is comletely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistent during hte practical.

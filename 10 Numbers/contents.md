@@ -1,46 +1,47 @@
-# Module 1: getaltheorie
+# Module 1: Numbers Theory
 
 <div class="pull-right" style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235229540)
 </div>
 
-In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
-met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
+In this module a few subjects from numbers theory will be computationally tested in a couple of ways.
+Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
+Verifying theoretical hypotheses by hand is often times a time consuming job and a computer lends itself quite well to this purpose. Mathematical intuition required!
 
-Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunissen](http://www.dutchdatadesign.nl) maakt datavisualisaties voor onder andere de [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/). Ze vertelt kort over haar ervaring met programmeren en visualisaties maken.
+But why programming? Check out the video to the side. [Mirjam Leunissen](http://www.dutchdatadesign.nl) creates data visualisations for the [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/) among others. She shares her experiences with programming and creating visualisations.
 
-##### Dag 1: aan de slag
+##### Day 1: getting started
 
-1. [Installeer](/naslag/installatie) Python
+1. [Install](/reference/installation) Python
 
-2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
+2. Practice thoroughly with the [basic elements](/python/basics) of Python
 
-3. <span class="badge badge-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
+3. <span class="badge badge-primary">Assignment</span> Use the computer as a [whizkid](/numbers/whizkid)
 
-##### Dag 2: priemgetallen
+##### Day 2: prime numbers
 
-1. Leer meer over [algoritmen](/python/algoritmen)
+1. Lear more about [algorithms](/python/algorithms)
 
-3. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
+3. <span class="badge badge-primary">Assignment</span> Look for [prime numbers](/numbers/primes)
 
-##### Dag 3: resultaten uit de getaltheorie
+##### Day 3: results from numbers theory
 
-1. Sla je data op in een [lijst](/python/lijsten)
+1. Store data in a [list](/python/lists)
 
-2. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
+2. <span class="badge badge-primary">Assignment</span> Loof for the [longest sequence non-primes](/numbers/sequence)
 
-3. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
+3. Understand how to write ["good code"](/reference/styleguide) --- and from now on we expect you to implement these guidelines!
 
-4. <span class="badge badge-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
+4. <span class="badge badge-primary">Assignment</span> Try to (dis)prove [Goldbach's](/numbers/goldbach) conjecture
 
-##### Dag 4: grafieken
+##### Day 4: grafieken
 
-1. Leer over het gebruiken van [modules](/python/modules) in Python
+1. Learn how to use [modules](/python/modules) in Python
 
-2. Zoek op hoe je data kunt [plotten](/technieken/plot)
+2. Find out how to [plot](/resources/plot)
 
-3. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
+3. <span class="badge badge-primary">Assignment</span> Make data intellegible with [graphs](/numbers/graphs)
 
-##### Evaluatie
+##### Evaluation
 
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
