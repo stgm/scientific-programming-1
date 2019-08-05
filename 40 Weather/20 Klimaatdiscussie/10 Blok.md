@@ -1,47 +1,46 @@
-# Klimaatdiscussie
+# Climate debate
 
 ![](KaartNederlandKlein.png){:.inline}
 
-Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  door de ECA (European Climate Assessment) [beschikbaar](http://eca.knmi.nl/dailydata/predefinedseries.php) wordt gemaakt in grote  data files. We beperken ons tot data die de maximum- en minimumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901.
+Let's do our part for the climate discussion and analyse the data provided by the ECA (European Climate Assessment) [available](http://eca.knmi.nl/dailydata/predefinedseries.php) in big data files. We'll limit ourselves to the data partaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
 
-Bestanden: 
+Files: 
 
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMax.txt>
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt>
 
-Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
+Download the files, open them and read the headers (at the top of the file) how the data has been formatted. We can see the maximum (minimum) temperature ath januari 1st 1901 was -3.1 (-6.8) degrees Celcius.
 
-> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet zo geschreven zijn dat je deze regels netjes overslaat bij het verwerken!
+> Note! The datafiles also contain all sorts of clarification. You're supposed to leave that in the file. Your Python program should be implemented in such a way that it skips those lines when it processes the file.
 
-Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
-en beantwoord de volgende vragen.
+Create a program **temperature.py** that parses the file line by line and answers the following questions.
 
-### Opdracht 1: extreme temperaturen
+### Assignment 1: extreme temperatures
 
-Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen was dat? Zorg dat je programma de datum netjes op het scherm print. Zeg dus niet: 
+What were the highest and lowest temperture that were measured in De Bilt isnce the start of the 20st century? What days were they measured? Make sure your program `print`s the dates properly to the screen. Don't say:
 
-     Max 34.5 op 19670513
+     Max 34.5 at 19670513
 
-maar      
+but      
 
-     De hoogste temperatuur was 34.5 graden Celcius, en werd gemeten op 13 mei 1967.
+     The highest temperture was 34.5 degrees Celcius and was measured at 13 may 1967.
 
-Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
+Tip: make a seperate function that takes a number like `19670513` and converts it into a more readably expression like `13 may 1967`.
 
-### Opdracht 2: koud kouder koudst
+### Assignment 2: cold colder coldest
 
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Wat was de datum van de laatste dag van deze periode?
+What is the longest period of uninterrupted days that had freezing temperatures (maximum temperature below 0◦C)? What was the date of the last day of this period of time?
 
-### Opdracht 3: zomerse en tropische dagen
+### Assignment 3: Summer days and tropical days
 
-We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+A day is a summer day when the maximum temperature is higher than 25 degrees Celcius. On a tropical day that maximum temperature would even reach 30 degrees. Make a graph where both the number of summer days and tropical days is displayed for each year. 
 
-### Opdracht 4: Eerste hittegolf
+### Assignment 4: First heat wave
 
-We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Print het *eerste* jaartal uit de dataset waarin er sprake was van een hittegolf volgens deze regels.
+In the Netherlands we speak of a heat wave when the maximum temperature has been higher than 25◦C (summer days) for at least five uninterrupted days of which at least three days had maximum tempertures of at least 30◦C. `Print` the *first* year that a heatwave was found within the dataset following this definition.
 
-### Nette code en nette uitvoer
+### Clean code and clean output
 
-Zorg dat de code van alle opdrachten in een functie of in functies staat. Gebruik geen globale variabelen (vraag indien nodig wat dit is)!
+Make sure the code of all your assignments is written in one or more functions. Do not use global variables (ask an assistent if this is not clear)!
 
-Je ziet hierboven dat je een aantal dingen moet uitprinten en één grafiek maken. Zorg dat de gevraagde informatie op losse regels wordt uitgeprint, in de juiste volgorde.
+You can see above that there are a couple of statements that need to be `print`ed and one graph has to be created. Make sure the requested information is `print`ed on seperate lines, in the correct order.
