@@ -1,35 +1,35 @@
-# Prooi-predator
+# Predator vs Prey
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235029717)
 </div>
 
-In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in een afgesloten bos leven simuleren. Een klassiek prooi-predator model met verschillende elementen en een animatie.
+In this module we'll simulate the population dynamics of 25 rabbits and 2 foxes, living in a secluded forest.A classical predator-prey model with a variety of elements and an animation.
 
-Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promovendus bij de UvA en bestudeert de ontwikkeling van wortels bij planten. Daar komt meer dataverwerking bij kijken dan verwacht!
+First, take a look at the video to the side. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promoting ath the UvA and studies the development of plantroots. That ensues a bunch more dataprocessing than one would expect!
 
-#### Dag 1: Animaties in Python
+#### Day 1: Animations in Python
 
-1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
+1. Learn how to make [animations](/resources/animations) in Python
 
-2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+2. <span class="badge badge-primary">Assignment</span> The [spiraling dot](/movement/dot)
 
-3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+3. <span class="badge badge-primary">Assignment</span> Show how a [drunk student](/movement/student) moves around
 
-#### Dag 2: Konijnen in een bos
+#### Day 2: Rabbits in a forest
 
-1. <span class="label label-primary">Opdracht</span> Maak een animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
+1. <span class="label label-primary">Assignment</span> Animate 25 [rabbits](/population/rabbits) living in a forest
 
-#### Dag 3: Voeg (hongerige) vossen in het bos
+#### Day 3: Add (hungry) foxes to the forest
 
-1. <span class="label label-primary">Opdracht</span> Voeg (vegetarische) [vossen](/prooipredator/vossen) toe in de simulatie
+1. <span class="label label-primary">Assignment</span> Add (vegetarian) [foxes](/population/foxes) to the simulation
 
-2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in vlees. Pech voor de  [konijnen](/prooipredator/vossenetenkonijnen)
+2. <span class="label label-primary">Assignment</span> The foxes develop a penchant for meat. Touch luck for the [rabbits]](/population/foxeseatrabbits)
 
-#### Dag 4: De konijnen planten zich voort - wie wint er
+#### Day 4: The rabbits reproduce - who wins?
 
-1. <span class="label label-primary">Opdracht</span> Laat de konijnen zich ook voortplanten en zoek uit of de konijnen of de vossen [winnen](/prooipredator/konijnenreproduceren)
+1. <span class="label label-primary">Assignment</span> Let the rabbits reproduce and find out who [wins](/population/rabbitsreproduce), rabbits or foxes
 
-#### Evaluatie
+#### Evaluation
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
