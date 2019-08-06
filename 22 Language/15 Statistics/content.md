@@ -30,6 +30,13 @@ Write a function `number_of_letters_in(text)` that calculates how many letters a
 
 Let's say a *letter* is any alphabetic character that occurs in a string. For our `source_text` above, this is definitely less than 296, because it contains spaces as well as periods. In other words, this new function is not exactly the same as the `len()` function.
 
+## Getting started
+
+Create a new file called `text_statistics.py`, which will contain all of the functions that you write in this assignment. Then define a function with the name `number_of_letters_in` and a single argument called `text`.
+
+    def number_of_letters_in(text):
+        # TODO
+
 ## Strategy
 
 To do this, you'll need to build a loop that:
@@ -44,7 +51,11 @@ This is a combination of the **filter with loops** and **calculation with loops*
 
 ## Testing
 
-You can test your code using checkpy:
+To test this function, you may add a few lines of tests below the function definition. Then run your file using
+
+    python text_statistics.py
+
+Only when you are convinced that your function works as expected, you should test your code using `checkpy`:
 
 	checkpy text_statistics.py
 
