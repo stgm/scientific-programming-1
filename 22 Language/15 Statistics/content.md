@@ -7,7 +7,17 @@
 > * string comparison
 > * a few string methods: `isalpha()`
 
-Welcome.
+One way to make sense of written texts is to calculate statistics about the form of the text. We do not look at what the text *means*, but examine its superficial properties. Say we define the following variable:
+
+	source_text = "ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row." # from the wikipedia
+
+One statistic we could calculate is the length of the text, using the built-in `len()` function from Python.
+
+	>>> print(len(source_text))
+    296
+
+We can also define slightly more fine-grained statistics.
+
 
 # 1. Letters
 
@@ -18,16 +28,7 @@ Write a function that calculates how many letters are in a given string.
 
 ## Background
 
-One way to make sense of written texts is to calculate statistics about the form of the text. We do not look at what the text *means*, but examine its superficial properties. Say we define the following variable:
-
-	source_text = "ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row." # from the wikipedia
-
-One statistic we could calculate is the length of the text, using the built-in `len()` function from Python.
-
-	>>> print(len(source_text))
-    296
-
-We can also define slightly more fine-grained statistics. For example, we might count only the *letters in a string*. Let's say a *letter* is any alphabetic character that occurs in a string. For our `source_text`, this is definitely less than 296, because it contains spaces as well as periods.
+Let's say a *letter* is any alphabetic character that occurs in a string. For our `source_text` above, this is definitely less than 296, because it contains spaces as well as periods.
 
 ## Strategy
 
