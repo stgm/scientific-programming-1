@@ -50,7 +50,7 @@ De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programm
 
 ## Stap 2: splitsen van de regel en in een lijst opslaan
 
-Elke regel bestaat uit verschillende elementen die Toegang tot de verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
+Elke regel bestaat uit verschillende elementen die Toegang tot de verschillende parameters in de regel krijg je door de regel in stukken te 'knippen'. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
 
     input_file = open('VanBasten.txt', 'r')
     for line in input_file:

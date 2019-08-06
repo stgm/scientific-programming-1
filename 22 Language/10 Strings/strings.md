@@ -20,7 +20,7 @@ For most people, the first letter of `'banana'` is b, not a. But for computer sc
 	>>> print letter
 	b
 
-So **b** is the 0th letter (“zero-eth”) of `'banana'`, **a** is the 1th letter (“one-eth”), and **n** is the 2th (“two-eth”) letter.
+So **b** is the 0th letter ("zero-eth”) of `'banana'`, **a** is the 1th letter ("one-eth”), and **n** is the 2th ("two-eth”) letter.
 
 You can use any expression, including variables and operators, as an index, but the value of the index has to be an integer. Otherwise you get:
 
@@ -41,7 +41,7 @@ To get the last letter of a string, you might be tempted to try something like t
 	>>> last = fruit[length]
 	IndexError: string index out of range
 
-The reason for the IndexError is that there is no letter in ’banana’ with the index 6. Since we started counting at zero, the six letters are numbered 0 to 5. To get the last character, you have to subtract 1 from length:
+The reason for the IndexError is that there is no letter in 'banana' with the index 6. Since we started counting at zero, the six letters are numbered 0 to 5. To get the last character, you have to subtract 1 from length:
 
 	>>> last = fruit[length-1]
 	>>> print last
@@ -67,14 +67,14 @@ This loop traverses the string and displays each letter on a line by itself. The
 
 ---
 
-Another way to write a traversal is with a for loop:
+Another way to write a traversal is with a `for` loop:
 
 	for char in fruit:
 	    print(char)
 
 Each time through the loop, the next character in the string is assigned to the variable `char`. The loop continues until no characters are left.
 
-The following example shows how to use concatenation (string addition) and a for loop to generate an abecedarian series (that is, in alphabetical order). In Robert McCloskey’s book *Make Way for Ducklings*, the names of the ducklings are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs these names in order:
+The following example shows how to use concatenation (string addition) and a for loop to generate an abecedarian series (that is, in alphabetical order). In Robert McCloskey's book *Make Way for Ducklings*, the names of the ducklings are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs these names in order:
 
 	prefixes = 'JKLMNOPQ'
 	suffix = 'ack'
@@ -93,7 +93,7 @@ The output is:
 	Pack
 	Qack
 
-Of course, that’s not quite right because “Ouack” and “Quack” are misspelled.
+Of course, that's not quite right because "Ouack” and "Quack” are misspelled.
 
 ---
 
