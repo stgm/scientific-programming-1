@@ -1,58 +1,50 @@
 # Word use
 
-Implement a program that lists all the words from a given text string. Each word in the output should be unique, written in lowercase, and no remnants of punctuation marks or white space should be left in the words as printed.
+Implement a program that prints a sorted list of all the words in a given text string. Each word in the output should be unique, written in lowercase, and no remnants of punctuation marks or white space should be left in the words as printed.
+
+    # python list_words.py
+    original: The apple doesn't fall far from the tree.
+    apple
+    doesn't
+    fall
+    far
+    from
+    the
+    tree
 
 
 ## Background
 
-Let's go from simply *counting* letters and words towards looking at each part of a text. For example, here is some code that prints each word from the text on a separate line:
+An important step in analyzing texts is *cleanup*. Earlier, you have split up a text into words. If you have had a peek at the results of splitting, you might have noticed that simply splitting doesn't actually give just the *words*:
 
-	def all_words_from(text):
-	    split_words = text.split(" ")
-	    return split_words
+    >>> "Gimme a line.".split()
+    ['Gimme', 'a', 'line.']
 
-	def print_words(words):
-	  	for word in words:
-	      	print(word)
+We notice two things: `"Gimme"` is spelled using a capital G, and `"line."` is spelled using the period. Both things may prove a problem when analyzing the content of texts. That's why it's often necessary to strictly define the way words will be spelled and what kind of information will be allowed.
 
-	print_words(all_words_from(source_text))
+Given the description and example above, you will need to make sure that each word is converted to lowercase before analysis, and that any punctuation marks are removed from at least the right side of each word (are there any punctuation marks that are appended to the left of a word?).
 
-Try out the code! You'll notice that the words aren't quite as "clean" as one might expect. A few words contain periods (.) and some contain capital letters while others don't. To do more interesting processing, we will need to clean it up. Here's a starting point for the same program which output "cleaned up" words:
-
-	def cleaned_up(word):
-	    # TODO take word, remove unwanted stuff, make lowercase, return
-
-	def all_words_from(text):
-	    split_words = text.split(" ")
-	    # TODO call cleaned_up for each word
-	    return cleaned_up_words
-
-	def print_words(words):
-	  	for word in words:
-	      	print(word)
-
-	print_words(all_words_from(source_text))
-
-## Specification
-
-Implement the TODOs above.
-
-1. Implement `cleaned_up(word)` as directed in the TODO. Use Python string methods to do the cleanup.
-2. Add cleaning to the existing `all_words_from(text)` function. Use the **transform** loop strategy.
-
-## Unique words
-
-If we would like to know which words from the dictionary are used in a particular text, we do not need to know how often each word appears. So if we list the words from the text, it is not necessary to list words multiple times.
-
-> Task: write a method `unique_words_from(text)` that returns, as a list, each unique word that is used in the text. Don't forget to take each word's `cleaned_up` version! 
-
-	def unique_words_from(text):
-		# TODO
+> Note that in this assignment, we ignore the fact that some words may be names. In English, names are commonly spelled with a capital letter. As we do not have the means to check if words are names or otherwise, we simply assume the function need only work on texts composed of dictionary words. This is a big assumption and should be documented in the code!
 
 
-## Hints
+## Strategy
 
-* string methods [Built-in Types -- Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+1. Split up all "words".
+
+2. Write a function called `cleanup(word)` that cleans a word using the guidelines above. Use methods from Pythons `string` library to do this.
+
+3. Pass all words through the `cleanup` function.
+
+4. Make sure the words are unique. You will need a variant of the transform strategy:
+
+       unique_words = [...]
+       for each word in words:
+           only append to unique_words if it is not in there yet
+       return all unique_words
+
+5. Sort all words and print as specified.
+
+Tip: split up your code into functions (with meaningful names) as much as possible!
 
 
 ## Testing
@@ -66,25 +58,3 @@ Don't forget to check your code using:
 - multiple-word input
 - words with punctuation
 - words with double blanks / empty words  "word<space><space>huh"
-
-
-
-## Solution
-
-	def unique_words_from(text):
-	  	result = []
-	    for word in all_words_from(text):
-	      	if word not in result:
-	          	result.append(word)
-		return result
-  
-	# return set(words_from(text)) # trick that we're NOT going to use
-
-	def unique_words_of_length_from(text, length):
-		n = 0
-	    for word in unique_words_from(text):
-			if len(word) == length:
-	          	n += 1
-	    return n
-
-	# tot slot: number_of_words_in(text) kan nu aangepast om unique_words_from te gebruiken!
