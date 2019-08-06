@@ -25,6 +25,8 @@ Write a function `number_of_letters_in(text)` that calculates how many letters a
 
     >>> print(number_of_letters_in("He counted more than 7 petals on each flower."))
     35
+    >>> print(number_of_letters_in("ABCDE 9182 F"))
+    6
 
 ## Background
 
@@ -51,7 +53,7 @@ This is a combination of the **filter with loops** and **calculation with loops*
 
 ## Testing
 
-To test this function, you may add a few lines of tests below the function definition. Then run your file using
+To test this function, you may add a few lines of tests below the function definition. Then run your file using:
 
     python text_statistics.py
 
@@ -98,8 +100,8 @@ Write a function `number_of_sentences_in(text)` which takes a string containing 
 
 - When you indeed use the same strategy as above, you might encounter a problem. Test your code with the sample text and check the results by hand!
 
-	print(number_of_words_in(source_text))
-	print(number_of_sentences_in(source_text))
+      print(number_of_words_in(source_text))
+      print(number_of_sentences_in(source_text))
 
   Most likely, you now see that the program counts 4 sentences, while you count only 3. There are 3 periods, so there are 3 well-formed sentences. How might we solve this problem? Try it!
 
