@@ -49,7 +49,7 @@ To do this, you'll need to build a loop that:
 
 When done examining, the final count should be `return`ed.
 
-This is a combination of the **filter with loops** and **calculation with loops** strategies. To decide if a character is a letter, have a look at Python's [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods). There are many functions that start with "is" which might be useful.
+This is an instance of the *counter* strategy. In this case, you can't use the `str.count()` method, but you have to implement a counting loop yourself. Now, to decide if a character is a letter, have a look at Python's [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods). There are a couple of functions that start with "is" that might be useful here.
 
 ## Testing
 
@@ -78,7 +78,7 @@ Your strategy might look like this:
 2. calculate the length of the result from step 1
 3. `return` the length from step 2
 
-So in summary, you take the result of one method, put it into another, then return. Notice that in this case, we do not use a loop, because a Python function is available that does most of the work for us.
+So in summary, you take the result of one method, use the result to call another, then return. Notice that here, we do not use a loop, because Python functions are available that do most of the work for us.
 
 ## Testing
 
@@ -111,15 +111,25 @@ Test your code using checkpy again:
 
 	checkpy text_statistics.py
 
-# 4. Letter counter
 
-Write a function `count(text, letter)` that takes a string containing text, a string containing a single letter, and returns, as a float, the number of times this letter occurs in the text.
+# 4. Word length
 
-    >>> print(count("Text with a few words", "e"))
-    2
+Write a function called `average_word_length(text)` that calculates the average length of the words in the text.
 
 ## Background
 
+If, like earlier, you split a text into words using `str.split()`, you will receive a `list` of strings, each string being one word from the text. You can perform analysis on each word by looping over this list.
 
 ## Strategy
 
+To start, create a variable that contains the result of splitting the text. You will use this variable as the source of further analysis.
+
+To calculate the length of each word, you can use the counter strategy. Modify it to iterate over words in the split list, not over letters. Next, modify it to not *count* each word, but to *sum* the lengths of all words.
+
+When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
+
+## Testing
+
+Test your code using checkpy:
+
+	checkpy text_statistics.py
