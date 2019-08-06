@@ -26,8 +26,6 @@ One interesting application of Python is to use it for analyzing texts written b
 
 2. <span class="badge badge-primary">Assignment</span> Perform a [sentiment analysis](/language/sentiment) on a large text fragment.
 
-##### Day 4: comparing and summarizing texts
-
 1. <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/language/tweets).
 
 ##### When you've finished
