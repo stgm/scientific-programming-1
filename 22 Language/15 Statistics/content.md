@@ -1,15 +1,15 @@
 # Text statistics
 
-Welcome.
-
-# 1. Letters
-
 > Requirements:
 >
 > * calculate and filter loop strategies (from last module)
 > * letter `in` string pattern
 > * string comparison
 > * a few string methods: `isalpha()`
+
+Welcome.
+
+# 1. Letters
 
 Write a function that calculates how many letters are in a given string.
 
