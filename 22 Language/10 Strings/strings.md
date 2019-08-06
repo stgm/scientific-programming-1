@@ -11,13 +11,13 @@ The second statement selects character number 1 from fruit and assigns it to let
 
 But you might not get what you expect:
 
-	>>> print letter
+	>>> print(letter)
 	a
 
 For most people, the first letter of `'banana'` is b, not a. But for computer scientists, the index is an offset from the beginning of the string, and the offset of the first letter is zero.
 
 	>>> letter = fruit[0]
-	>>> print letter
+	>>> print(letter)
 	b
 
 So **b** is the 0th letter ("zero-eth”) of `'banana'`, **a** is the 1th letter ("one-eth”), and **n** is the 2th ("two-eth”) letter.
@@ -44,7 +44,7 @@ To get the last letter of a string, you might be tempted to try something like t
 The reason for the IndexError is that there is no letter in 'banana' with the index 6. Since we started counting at zero, the six letters are numbered 0 to 5. To get the last character, you have to subtract 1 from length:
 
 	>>> last = fruit[length-1]
-	>>> print last
+	>>> print(last)
 	a
 
 Alternatively, you can use negative indices, which count backward from the end of the string. The expression `fruit[-1]` yields the last letter, `fruit[-2]` yields the second to last, and so on.
@@ -56,7 +56,7 @@ A lot of computations involve processing a string one character at a time. Often
 	index = 0
 	while index < len(fruit):
 	    letter = fruit[index]
-	    print letter
+	    print(letter)
 	    index = index + 1
 
 This loop traverses the string and displays each letter on a line by itself. The loop condition is `index < len(fruit)`, so when `index` is equal to the length of the string, the condition is `false`, and the body of the loop is not executed any further. The last character accessed is the one with the index `len(fruit)-1`, which is indeed the last character in the string.
@@ -122,7 +122,7 @@ The following program counts the number of times the letter `a` appears in a str
     for letter in word:
         if letter == 'a':
             count = count + 1
-    print count
+    print(count)
 
 This program demonstrates another pattern of computation called a *counter*. The variable `count` is initialized to 0 and then incremented each time an `a` is found. When the loop exits, count contains the result: the total number of `a`'s.
 
@@ -135,7 +135,7 @@ Instead of the function syntax `upper(word)`, it uses the method syntax `word.up
 
 	>>> word = 'banana'
 	>>> new_word = word.upper()
-	>>> print new_word
+	>>> print(new_word)
 	BANANA
 
 This form of *dot notation* specifies the name of the method, `upper`, and the name of the string to apply the method to, `word`. The empty parentheses indicate that this method takes no argument.
@@ -168,7 +168,7 @@ For example, the following function prints all the letters from `word1` that als
 	def in_both(word1, word2):
 	    for letter in word1:
 	        if letter in word2:
-	            print letter
+	            print(letter)
 
 With well-chosen variable names, Python sometimes reads like English. You could read this loop, "for (each) letter in (the first) word, if (the) letter (appears) in (the second) word, print (the) letter."
 
