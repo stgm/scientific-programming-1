@@ -146,11 +146,13 @@ A method call is called an *invocation*; in this case, we would say that we are 
 
 **Exercise** --- There is a string method called count that is similar to the function `count` above. Read the documentation of this method and write an invocation that counts the number of `a`s in `'banana'`.
 
+---
+
 **Exercise** --- Read the documentation of the string methods at [https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str). You might want to experiment with some of them to make sure you understand how they work. `strip` and `replace` are particularly useful.
 
-The documentation uses a syntax that might be confusing. For example, in `find(sub[, start[, end]])`, the brackets indicate optional arguments. So `sub` is required, but `start` is optional, and if you include `start`, then `end` is optional.
-
 ---
+
+> The documentation uses a syntax that might be confusing. For example, in `find(sub[, start[, end]])`, the brackets indicate optional arguments. So `sub` is required, but `start` is optional, and if you include `start`, then `end` is optional.
 
 ## The `in` operator
 
