@@ -111,9 +111,19 @@ Test your code using checkpy again:
 
 	checkpy text_statistics.py
 
-# 4. Part 4
+# 4. Word length
 
-> ideeën:
->
-> * average word length
-> * number of words with letter "n" in them
+Write a function `average_word_length(text)` that takes a string containing text, and returns, as a float, the average length of all words in that text.
+
+    >>> print(average_word_length("Text with a few words"))
+    3.4
+
+## Background
+
+Now that you know how to split words, you can devise an algorithm that calculates a statistic *over all words*.
+
+## Strategy
+
+First, write a loop 
+
+...
