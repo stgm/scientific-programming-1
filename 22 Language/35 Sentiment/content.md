@@ -37,6 +37,11 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
        
        def load_negative_words():
            return load_words("neg_words.txt")
+       
+       pos_words = load_pos_words()
+       neg_words = load_neg_words()
+
+   Now you have two lists containing the words.
 
 3. Write a function `sentiment_of_word(word)` that calculates the score of a single word. It should check if the word belongs to either word list and return the appropriate score, or if it doesn't, return 0.
 
