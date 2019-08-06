@@ -3,7 +3,7 @@
 Write a function `sentiment_of_text(text)` that calculates the *sentiment score* of the text.
 
     >>> sentiment_of_text("Pastel-colored 1980s day cruisers from Florida are ugly.")
-
+    -1
 
 ## Background
 
@@ -26,17 +26,17 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 2. Use this code for loading the word lists:
 
-    	def load_words(filename):
-    	  	content = open(filename)
-            lines = content.read().splitlines()
-    	    content.close()
-    	    return lines
-
-    	def load_positive_words():
-    		return load_words("pos_words.txt")
-
-    	def load_negative_words():
-    		return load_words("neg_words.txt")
+       def load_words(filename):
+           content = open(filename)
+           lines = content.read().splitlines()
+           content.close()
+           return lines
+       
+       def load_positive_words():
+           return load_words("pos_words.txt")
+       
+       def load_negative_words():
+           return load_words("neg_words.txt")
 
 3. Write a function `sentiment_of_word(word)` that calculates the score of a single word. It should check if the word belongs to either word list and return the appropriate score, or if it doesn't, return 0.
 
