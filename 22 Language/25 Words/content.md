@@ -52,7 +52,7 @@ If we would like to know which words from the dictionary are used in a particula
 
 ## Hints
 
-* string methods [Built-in Types — Python 3.7.4 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+* string methods [Built-in Types -- Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
 
 
 ## Testing

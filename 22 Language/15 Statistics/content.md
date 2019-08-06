@@ -111,19 +111,15 @@ Test your code using checkpy again:
 
 	checkpy text_statistics.py
 
-# 4. Word length
+# 4. Letter counter
 
-Write a function `average_word_length(text)` that takes a string containing text, and returns, as a float, the average length of all words in that text.
+Write a function `count(text, letter)` that takes a string containing text, a string containing a single letter, and returns, as a float, the number of times this letter occurs in the text.
 
-    >>> print(average_word_length("Text with a few words"))
-    3.4
+    >>> print(count("Text with a few words", "e"))
+    2
 
 ## Background
 
-Now that you know how to split words, you can devise an algorithm that calculates a statistic *over all words*.
 
 ## Strategy
 
-First, write a loop 
-
-...

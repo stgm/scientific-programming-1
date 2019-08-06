@@ -29,7 +29,7 @@ You can use any expression, including variables and operators, as an index, but 
 
 ## Length
 
-len is a built-in function that returns the number of characters in a string:
+`len` is a built-in function that returns the number of characters in a string:
 
 	>>> fruit = 'banana'
 	>>> len(fruit)
@@ -63,7 +63,7 @@ This loop traverses the string and displays each letter on a line by itself. The
 
 ---
 
-**Exercise** Write a variation of this loop that takes a string as an argument and displays the letters backward, one per line. Create a Python file to test your loop!
+**Exercise** --- Write a variation of this loop that takes a string as an argument and displays the letters backward, one per line. Create a Python file to test your loop!
 
 ---
 
@@ -97,7 +97,7 @@ Of course, that’s not quite right because “Ouack” and “Quack” are miss
 
 ---
 
-**Exercise** Modify the program to fix this error.
+**Exercise** --- Modify the program to fix this error.
 
 ---
 
@@ -115,69 +115,42 @@ Like above, the loop will consider all individual characters in the string. Howe
     0
     9
 
-Another variation of the traversal strategy is the *counting traversal* strategy:
+The following program counts the number of times the letter `a` appears in a string:
 
+    word = 'banana'
     count = 0
-    for char in fruit:
-        count += 1
-    print(count)
+    for letter in word:
+        if letter == 'a':
+            count = count + 1
+    print count
 
-For the string `fruit`, this will output:
-
-    6
+This program demonstrates another pattern of computation called a *counter*. The variable `count` is initialized to 0 and then incremented each time an `a` is found. When the loop exits, count contains the result: the total number of `a`'s.
 
 
 ## String methods
 
-A **method** is similar to a function—it takes arguments and returns a value—but the syntax is different. For example, the method upper takes a string and returns a new string with all uppercase letters:
+A *method* is similar to a function (it takes arguments and returns a value) but the syntax is different. For example, the method `upper` takes a string and returns a new string with all uppercase letters:
 
-Instead of the function syntax upper(word), it uses the method syntax word.upper().
+Instead of the function syntax `upper(word)`, it uses the method syntax `word.upper()`.
 
 	>>> word = 'banana'
 	>>> new_word = word.upper()
 	>>> print new_word
 	BANANA
 
-This form of dot notation specifies the name of the method, upper, and the name of the string to apply the method to, word. The empty parentheses indicate that this method takes no argument.
+This form of *dot notation* specifies the name of the method, `upper`, and the name of the string to apply the method to, `word`. The empty parentheses indicate that this method takes no argument.
 
-A method call is called an **invocation**; in this case, we would say that we are invoking upperon the word.
+A method call is called an *invocation*; in this case, we would say that we are invoking `upper` on the word.
 
-As it turns out, there is a string method named find that is remarkably similar to the function we wrote:
+---
 
-	>>> word = 'banana'
-	>>> index = word.find('a')
-	>>> print index
-	1
+**Exercise** --- There is a string method called count that is similar to the function `count` above. Read the documentation of this method and write an invocation that counts the number of `a`s in `'banana'`.
 
-In this example, we invoke find on word and pass the letter we are looking for as a parameter.
+**Exercise** --- Read the documentation of the string methods at [https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str). You might want to experiment with some of them to make sure you understand how they work. `strip` and `replace` are particularly useful.
 
-Actually, the find method is more general than our function; it can find substrings, not just characters:
+The documentation uses a syntax that might be confusing. For example, in `find(sub[, start[, end]])`, the brackets indicate optional arguments. So `sub` is required, but `start` is optional, and if you include `start`, then `end` is optional.
 
-	>>> word.find('na')
-	2
-
-It can take as a second argument the index where it should start:
-
-	>>> word.find('na', 3)
-	4
-
-And as a third argument the index where it should stop:
-
-	>>> name = 'bob'
-	>>> name.find('b', 1, 2)
-	-1
-
-This search fails because b does not appear in the index range from 1 to 2 (not including 2).
-
-**Exercise 7**
-
-*There is a string method called count that is similar to the function in the previous exercise. Read the documentation of this method and write an invocation that counts the number of as in *`*'banana'*`*.*
-
-**Exercise 8**
-
-*Read the documentation of the string methods at*[*http://docs.python.org/2/library/stdtypes.html#string-methods*](http://docs.python.org/2/library/stdtypes.html#string-methods)*. You might want to experiment with some of them to make sure you understand how they work. strip and replace are particularly useful.*
-
-*The documentation uses a syntax that might be confusing. For example, in *`*find(sub\[, start\[, end\]\])*`*, the brackets indicate optional arguments. So sub is required, but start is optional, and if you include start, then end is optional.*
+---
 
 ## The `in` operator
 
@@ -203,3 +176,5 @@ Here’s what you get if you compare apples and oranges:
 	a
 	e
 	s
+
+(From: Think Python)
