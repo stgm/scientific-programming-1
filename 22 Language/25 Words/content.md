@@ -51,7 +51,7 @@ Tip: split up your code into functions (with meaningful names) as much as possib
 
 Don't forget to check your code using:
 
-	checkpy content_analysis.py
+	checkpy list_words.py
 
 - empty input
 - 1-word input
