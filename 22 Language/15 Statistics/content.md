@@ -13,12 +13,8 @@ Welcome.
 
 Write a function that calculates how many letters are in a given string.
 
-For example:
-
     >>> print(number_of_letters_in("He counted more than 7 petals on each flower."))
     35
-    >>> print(number_of_sentences_in("She stopped. Turned around. Oops, a bear. Just like that"))
-    4
 
 ## Background
 
@@ -33,63 +29,65 @@ One statistic we could calculate is the length of the text, using the built-in `
 
 We can also define slightly more fine-grained statistics. For example, we might count only the *letters in a string*. Let's say a *letter* is any alphabetic character that occurs in a string. For our `source_text`, this is definitely less than 296, because it contains spaces as well as periods.
 
-## Steps
-
-**Task**: rewrite the function `number_of_letters_in(text)` to count the number of letters in the string, as opposed to counting each individual character in the string.
+## Strategy
 
 To do this, you'll need to build a loop that examines each individual *character* of the string, then decide if that character is actually a *letter*, and if so, count it. When done examining, the final count should be `return`ed.
 
 Hint: build the structure of your program using the **filter with loops** and **calculation with loops** strategies.
 
-Solution:
+Hint: checkout [link](https://docs.python.org/3.7/library/stdtypes.html#string-methods) for string methods.
 
-	def number_of_letters_in(text):
-	    count = 0
-	    for letter in text:
-	        if letter.isalpha():
-	            count += 1
-	    return count
-
-	print(number_of_letters_in(text))
+## Testing
 
 You can test your code using checkpy:
 
 	checkpy text_statistics.py
 
+
 # 2. Words
+
+Write a function `number_of_words_in(text)` which takes a string containing text, and returns a list containing each individual word from that text.
+
+## Background
 
 Texts can usually be split up into words and sentences. To later be able to analyze a text word-by-word or sentence-by-sentence, we might need to split things up. For example, if we can split up a text into words, we might calculate the number of words in the text.
 
-> **Task**: write a function `number_of_words_in(text)` which takes a string containing text, and returns a list containing each individual word from that text.
->
-> Your strategy might look like this:
->
-> 1. split up the original text using the `split()` method
-> 2. calculate the length of the result from step 1
-> 3. `return` the length from step 2
->
-> So in summary, you take the result of one method, put it into another, then return.
+## Strategy
 
-Solution:
+Your strategy might look like this:
 
-	def number_of_words_in(text):
-		return len(text.split(" "))
+1. split up the original text using the `split()` method
+2. calculate the length of the result from step 1
+3. `return` the length from step 2
+
+So in summary, you take the result of one method, put it into another, then return.
+
+## Testing
+
+You can test your code using checkpy:
+
+	checkpy text_statistics.py
+
 
 # 3. Sentences
 
-> **Task**: write a function `number_of_sentences_in(text)` which takes a string containing text, and returns a list containing each individual sentence from that text. You can use the same strategy as above, but change the call to `split()`. How should it be different?
+Write a function `number_of_sentences_in(text)` which takes a string containing text, and returns a list containing each individual sentence from that text.
 
-Solution:
+    >>> print(number_of_sentences_in("She stopped. Turned around. Oops, a bear. Just like that"))
+    4
 
-	def number_of_sentences_in(text):
-	    return len(text.split("."))
+## Strategy
 
-If you use the same strategy as above, you might encounter a problem. Test your code with the sample text and check the results by hand!
+You can use the same strategy as above, but split in a different way. How should it be different?
+
+However, if you use the same strategy as above, you might encounter a problem. Test your code with the sample text and check the results by hand!
 
 	print(number_of_words_in(source_text))
 	print(number_of_sentences_in(source_text))
 
 Most likely, you now see that the program counts 4 sentences, while you count only 3. There are 3 periods, so there are 3 well-formed sentences. How might we solve this problem? Try it!
+
+## Testing
 
 Test your code using checkpy again:
 
