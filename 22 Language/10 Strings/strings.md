@@ -182,7 +182,7 @@ Here's what you get if you compare apples and oranges:
 
 ## Transforming strings
 
-You have seen the `upper()` method for strings, which changes each letter of a string into uppercase. Using a `for` loop, it is possible to write functions like that:
+You have seen the `upper()` method for strings, which changes each letter of a string into uppercase. Using a `for` loop, it is possible to write functions like `upper()`:
 
     transformed = ""
     for letter in word:

@@ -4,7 +4,7 @@
 ![embed](https://player.vimeo.com/video/233508920)
 </div>
 
-One interesting application of Python is to use it for analyzing texts written by humans. Written texts are subject to various implicit and explicit rules, such as spelling and grammar. Python can be used to make sense of texts at various levels. For example, we may calculate simple statistics about the length of a document or its parts. Or we may dig a little deeper by analyzing word use, or finding misspelled words or grammar problems. And using big data techniques, we might do an educated guess about the meaning of a piece of writing, or even the attitude that a text represents.
+One interesting application of Python is to use it for analyzing texts written by humans. Written texts are subject to various implicit and explicit rules, such as spelling and grammar. Python can be used to make sense of texts at various levels. For example, we may calculate simple statistics about the length of a document or its parts. Or we may dig a little deeper by analyzing word use, or finding misspelled words or grammar problems. And using big data techniques, we might make an educated guess about the meaning of a piece of writing, or even the attitude that a text represents.
 
 ##### Day 1: text statistics
 
@@ -30,7 +30,7 @@ One interesting application of Python is to use it for analyzing texts written b
 
 1. <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/language/tweets).
 
-##### Next
+##### When you've finished
 
 - What can you do with sentiment analysis? [Text analysis of Trump's tweets confirms he writes only the...](http://varianceexplained.org/r/trump-tweets/)
 
