@@ -16,8 +16,6 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ##### Day 2: text cleanup
 
-1. Learn how to write functions that [transform](/language/transform) text.
-
 2. <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/language/words) word by word.
 
 3. <span class="badge badge-primary">Assignment</span> [Reformat](/language/reformatting) a text, respecting word boundaries.

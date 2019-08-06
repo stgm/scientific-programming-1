@@ -179,4 +179,22 @@ Here's what you get if you compare apples and oranges:
 	e
 	s
 
+
+## Transforming strings
+
+You have seen the `upper()` method for strings, which changes each letter of a string into uppercase. Using a `for` loop, it is possible to write functions like that:
+
+    transformed = ""
+    for letter in word:
+        if letter in "aeiouy":
+            transformed += "."
+        else:
+            transformed = letter
+
+This loop will change each vowel in the text into a period. Let's see what would happen if `word` is `"Hello, world!"`:
+
+    H.ll., w.rld!
+
+What we do here is use the loop to create a completely new string and (conditionally) add letters to it. We can decide during the loop what we would like to add to the string, if anything. This is called a *transform* strategy.
+
 (From: Think Python)
