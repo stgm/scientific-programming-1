@@ -156,23 +156,23 @@ A method call is called an *invocation*; in this case, we would say that we are 
 
 ## The `in` operator
 
-The word in is a boolean operator that takes two strings and returns True if the first appears as a substring in the second:
+The word `in` is a boolean operator that takes two strings and returns `True` if the first appears as a *substring* in the second:
 
 	>>> 'a' in 'banana'
 	True
 	>>> 'seed' in 'banana'
 	False
 
-For example, the following function prints all the letters from word1 that also appear in word2:
+For example, the following function prints all the letters from `word1` that also appear in `word2`:
 
 	def in_both(word1, word2):
 	    for letter in word1:
 	        if letter in word2:
 	            print letter
 
-With well-chosen variable names, Python sometimes reads like English. You could read this loop, “for (each) letter in (the first) word, if (the) letter (appears) in (the second) word, print (the) letter.”
+With well-chosen variable names, Python sometimes reads like English. You could read this loop, "for (each) letter in (the first) word, if (the) letter (appears) in (the second) word, print (the) letter."
 
-Here’s what you get if you compare apples and oranges:
+Here's what you get if you compare apples and oranges:
 
 	>>> in_both('apples', 'oranges')
 	a
