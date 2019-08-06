@@ -26,7 +26,7 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 2. Use this code for loading the word lists:
 
-        def load_words(filename):
+       def load_words(filename):
             content = open(filename)
             lines = content.read().splitlines()
             content.close()
