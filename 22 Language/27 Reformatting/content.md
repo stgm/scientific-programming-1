@@ -42,6 +42,8 @@ You may also add a newline to an existing string:
 
 3. Consider each word to see if a newline has to be inserted **before** it.
 
+   - (So how do you do this? Try "running" the algorithm on paper using very short examples.)
+
 4. Add the newline if needed, and then the word.
 
 5. When finished with all words, re-join the string and return it.
