@@ -1,12 +1,5 @@
 # Text statistics
 
-> Requirements:
->
-> * calculate and filter loop strategies (from last module)
-> * letter `in` string pattern
-> * string comparison
-> * a few string methods: `isalpha()`
-
 One way to make sense of written texts is to calculate statistics about the form of the text. We do not look at what the text *means*, but examine its superficial properties. Say we define the following variable:
 
 	source_text = "ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row." # from the wikipedia
