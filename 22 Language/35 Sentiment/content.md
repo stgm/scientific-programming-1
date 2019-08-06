@@ -47,13 +47,13 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 Add the following code to test your functions. It adds *interpretation* to your program.
 
-	total_score = sentiment_of_text("...")
-	if total_score > 0:
-	    print("The text is mostly nice!")
-	elif total_score < 0:
-	    print("The text talks about mad or bad stuff :(")
-	else:
-	    print("The text is not opinionated or just messy.")
+    total_score = sentiment_of_text("...")
+    if total_score > 0:
+        print("The text is mostly nice!")
+    elif total_score < 0:
+        print("The text talks about mad or bad stuff :(")
+    else:
+        print("The text is not opinionated or just messy.")
 
 After doing this, also check your program:
 
