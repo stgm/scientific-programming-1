@@ -27,7 +27,7 @@ Let's define a *letter* to be any alphabetic character that occurs in a string. 
 
 ## Getting started
 
-Create a new file called `text_statistics.py`, which will contain all of the functions that you write in this assignment. Then define a function with the name `number_of_letters_in` and a single argument called `text`.
+Create a new file called `text_statistics.py`, which will contain all of the functions that you write in this assignment. From the text above, copy the definition of the variable `source_text` into your file, for testing purposes. Then, define a function with the name `number_of_letters_in` and a single argument called `text`.
 
     def number_of_letters_in(text):
         # TODO
