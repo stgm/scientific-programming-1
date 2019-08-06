@@ -40,9 +40,7 @@ To do this, you'll need to build a loop that:
 
 When done examining, the final count should be `return`ed.
 
-Hint: build the structure of your program using the **filter with loops** and **calculation with loops** strategies.
-
-Hint: checkout [link](https://docs.python.org/3.7/library/stdtypes.html#string-methods) for string methods.
+This is a combination of the **filter with loops** and **calculation with loops** strategies. To decide if a character is a letter, have a look at Python's [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods). There are many functions that start with "is" which might be useful.
 
 ## Testing
 
