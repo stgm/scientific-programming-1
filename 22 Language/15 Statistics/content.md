@@ -1,6 +1,6 @@
 # Text statistics
 
-One way to make sense of written texts is to calculate statistics about the form of the text. That is, we do not look at what the text *means*, but examine its superficial properties. Say we define the following variable:
+One way to make sense of written texts is to calculate statistics about the form of the text. That is, we do not look at what the text *means*, but instead examine its superficial properties. Say we define the following variable:
 
 	source_text = "ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row." # from the wikipedia
 
@@ -93,7 +93,7 @@ We define a "properly formatted sentence" as any sentence closed with a full sto
 
 ## Strategy
 
-- You can use the same strategy as above, but split in a different way. How should it be different?
+- You can use the same strategy as above, but use `split` in a different way. How should it be different?
 
 - When you indeed use the same strategy as above, you might encounter a problem. Test your code with the sample text and check the results by hand!
 
@@ -122,11 +122,11 @@ If, like earlier, you split a text into words using `str.split()`, you will rece
 
 ## Strategy
 
-To start, create a variable that contains the result of splitting the text. You will use this variable as the source of further analysis.
+- To start, create a variable that contains the result of splitting the text. You will use this variable as the source of further analysis.
 
-To calculate the length of each word, you can use the counter strategy. Modify the strategy to iterate over words in the split list, not over letters. Next, modify it to not *count* each word, but to *sum* the lengths of all words.
+- To calculate the length of each word, you can use the counter strategy. Modify the strategy to iterate over words in the split list, not over letters. Next, modify it to not *count* each word, but to *sum* the lengths of all words.
 
-When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
+- When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
 
 ## Testing
 
