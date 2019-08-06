@@ -4,7 +4,7 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ##### Day 1: text statistics
 
-1. Learn how to write [functions](/language/functions) in Python.
+1. Learn how to write [functions](/python/functions) in Python.
 
 2. Learn about [strings](/language/strings) in Python.
 
