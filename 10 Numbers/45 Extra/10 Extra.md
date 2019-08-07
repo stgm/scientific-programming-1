@@ -15,13 +15,13 @@ In the description on the definition of [coprimes](https://en.wikipedia.org/wiki
 
 This chance is: $1/\zeta(n)$$, where $$\zeta(n)$$ is the well-known [Riemann zeta function](https://en.wikipedia.org/wiki/Riemann_zeta_function).
 
-**Specific case: twoo numbers (n=2)**:
+**Specific case: two numbers (n=2)**:
 
 The chance that two random numbers do not share a common divisor is:
 
 $$1/\zeta(2) \approx 0,608$$.
 
-In this assignment we are going to verify this calculation. First we'll find out how to determine whether two numbers share a divisor and by later doing so for large number of random number-pairs we can calculate the chance such numbers will be coprimes. With that we can verify wheter the prediction from numbers theory is actually correct.
+In this assignment we are going to verify this calculation. First we'll find out how to determine whether two numbers share a divisor and by later doing so for large number of random number-pairs we can calculate the chance such numbers will be coprimes. With that we can verify whether the prediction from numbers theory is actually correct.
 
 ### Finding the solution yourself
 
@@ -89,7 +89,7 @@ Write a function `prediction(n)` that predicts the theoretical chance of `n` num
 
 #### step 5: Put everything together
 
-By calling the two functions `experiment()` and `prediction()` everything should fall in its place. The screen should now dipslay (3 decimals accurate):
+By calling the two functions `experiment()` and `prediction()` everything should fall in its place. The screen should now display (3 decimals accurate):
 
 
     The chance that two random numbers do not share a common divisor is:
