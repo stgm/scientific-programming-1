@@ -15,9 +15,9 @@ An `if`-statement in Python is structured as follows:
 
     print("Your balance is {balance}.")
 
-A **condition** ultimately only has two possible outcomes. In Python these are `True` and `False` (these are called **boolean** values, after [George Boole](https://en.wikipedia.org/wiki/Boolean_algebra#Values)). In the code shown above the this boolean is the result of the expression `balance - expense > 0`. In this case the comparison operater `>` ('greater than') is used. This operator compares two parts, the first part is the result of `balance - expense` and the second part is `0`. After which the result is evaluated into a boolean. Depending on the result, a `True` or `False` the code within the if-statement is executed (the result was `True`) or skipped entirely (the result was `False`).
+A **condition** ultimately only has two possible outcomes. In Python these are `True` and `False` (these are called **boolean** values, after [George Boole](https://en.wikipedia.org/wiki/Boolean_algebra#Values)). In the code shown above the this boolean is the result of the expression `balance - expense > 0`. In this case the comparison operator `>` ('greater than') is used. This operator compares two parts, the first part is the result of `balance - expense` and the second part is `0`. After which the result is evaluated into a boolean. Depending on the result, a `True` or `False` the code within the if-statement is executed (the result was `True`) or skipped entirely (the result was `False`).
 
-The `:` on the same line as the `if` signals that there's a **code block** that accompanies the `if`-statement. That's the particular part of code that is only executed if the condition is met. Such a block of code consists of multiple lines of code which are **indented** a set amount. Indenting code means you precede the lines with a certain amount of spaces or tabs. In the code above a number of 4 spaces is used to indicate which lines of code are associated with the `if`-statement. Since the second `print`-statement is not indented, it is no longer part of the previous code block and therefor not dependent on the condition of the `if`-statement. It is executed *unconditonally*.
+The `:` on the same line as the `if` signals that there's a **code block** that accompanies the `if`-statement. That's the particular part of code that is only executed if the condition is met. Such a block of code consists of multiple lines of code which are **indented** a set amount. Indenting code means you precede the lines with a certain amount of spaces or tabs. In the code above a number of 4 spaces is used to indicate which lines of code are associated with the `if`-statement. Since the second `print`-statement is not indented, it is no longer part of the previous code block and therefor not dependent on the condition of the `if`-statement. It is executed *unconditionally*.
 
 ## More operators
 
@@ -32,7 +32,6 @@ Should you need more than the comparison operator:
 
 ## Combining conditions
 
-Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zich in een bepaald bereik bevindt (bijvoorbeeld tussen de 3 en de 39) dan kun je dat doen met `and`:
 You can also combine multiple conditions. If you want to know whether a number is situated within a certain range (for example between 3 and 39), then you do so with the `and` operator:
 
     x = 15

@@ -29,7 +29,7 @@ When you draw a point (one $$x$$-value and one $$y$$-value) of which the $$x$$ a
 
 ![](AnimationExampleSin1.gif)
 
-> As yo usee, we call the function `pause()` in our code. We do so to give pyplot the oppertunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
+> As yo usee, we call the function `pause()` in our code. We do so to give pyplot the opportunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
 
 
 ## A moving line
@@ -60,7 +60,7 @@ Creating a graph by using lists: a list of $$x$$-values and a list of $$y$$-valu
         plt.draw()           
         plt.pause(0.001)
 
-        # clear grafiek
+        # clear graph
         plt.clf()            
 
 As you can see, the code only changed by three lines as opposed to example 1. The result is as follows:
@@ -86,13 +86,13 @@ You can also draw the dot and the line at the same time as well as display infor
         x_coords.append(x)
         y_coords.append(y)
 
-        # plot grafiek
+        # plot graph
         plt.plot(x_coords, y_coords, 'r-')               # red line
         plt.plot(x, y, 'bo', markersize = 10)  # blue dot
         plt.xlim(0, 2 * math.pi)
         plt.ylim(-1, 1)
 
-        # text op scherm      
+        # text on the screen      
         plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x, y) )  
 
         # update graph

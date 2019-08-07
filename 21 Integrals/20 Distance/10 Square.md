@@ -14,16 +14,16 @@ This is a classic example of an clear and apparently simple problem, which is di
 
 * The name of the program should be `distance.py`.
 
-* Declare a function `square($$N$$)` that takes as a paramater the number ($$N$$) and the `return`s the average distance between two points in such a square.
+* Declare a function `square($$N$$)` that takes as a parameter the number ($$N$$) and the `return`s the average distance between two points in such a square.
 
 
 ## Problem analysis
 
 * Generate two random points: so two random $$x$$-values and two random $$y$$-values, and calculate the distance between both points.
 
-* Repeat this a great many times and keep track of the total distance in a seperate variable.
+* Repeat this a great many times and keep track of the total distance in a separate variable.
 
-* Calculate the average distand by dividing the total distance by $$N$$.
+* Calculate the average distance by dividing the total distance by $$N$$.
 
 
 ## Testing

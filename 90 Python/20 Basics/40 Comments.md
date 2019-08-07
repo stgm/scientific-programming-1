@@ -12,7 +12,6 @@ or
 
 With a hashtag (`#`) you tell Python that it does not have to execute that line of code, but it is instead a comment. It is common practice to write a comment *above* the block of code it refers to.
 
-Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Voor **oefening.py** kun je denken aan het volgende:
 Aside from a comment about small blocks of code throughout your program, it is also useful to describe the use of a program at the top of the file. For **exercise.py** the following **header comment** would suffice:
 
     # Exercise with Python Module 1

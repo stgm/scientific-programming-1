@@ -1,6 +1,6 @@
 # Monitoring and debugging
 
-A simulation is used to gain a picture of real scenarios, so the outcomes canbe used in the 'real world'. It's effectively a *model*. 
+A simulation is used to gain a picture of real scenarios, so the outcomes can be used in the 'real world'. It's effectively a *model*. 
 
 It is often hard to know a simulation performed correctly simply by looking at the outcome. In the case of the apple before, you can analytically calculate the outcome. But it quickly becomes cumbersome.
 
@@ -10,8 +10,8 @@ That's why it is so important to systematically check a simulation. Here are a f
 
 2. Have you looked up the correct constants and formulas? Verify them another time. Are the constants precise enough? A rounding error can compound incredibly quick!
 
-3. Are your timesteps sufficiently small?
+3. Are your time steps sufficiently small?
 
 4. Are the components of the simulation in the correct order? Make sure each step correctly calculates all values anew. Only when that is done check the values for any interesting milestone.
 
-Finally a tip for debugging a simulation. You can print all values at each timestep. Then you can precisely inspect them and see if an error occured at some point. Or maybe the starting values were already incorrect!
+Finally a tip for debugging a simulation. You can print all values at each time step. Then you can precisely inspect them and see if an error occurred at some point. Or maybe the starting values were already incorrect!

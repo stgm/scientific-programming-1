@@ -1,6 +1,6 @@
 # Pyramid
 
-Implement a program that prints half a pyramind of a height that is provided by the user.
+Implement a program that prints half a pyramid of a height that is provided by the user.
 
 	How high should the pyramid be? 5
 	        # #
@@ -22,11 +22,11 @@ At the end of word 1-1 in Super Mario Brothers, Mario has to climb half a pyrami
 
 ## Specification
 
-* Create a file called `pyramid.py` and implement a program that builds the pyramid from Super Mario Brothers by printing hashtags(`#`) and spaces.
+* Create a file called `pyramid.py` and implement a program that builds the pyramid from Super Mario Brothers by printing hash blocks(`#`) and spaces.
 
 * First, to make it a bit more interesting, prompt the user for the desired **height** of the pyramid. This must be a positive number, no larger than 23.
 
-* If the user provides an invalid height, prompt the user for a new height. Keep asking the user for a height untill they provide a valid input.
+* If the user provides an invalid height, prompt the user for a new height. Keep asking the user for a height until they provide a valid input.
 
 * You cán however assume the user only provides whole numbers (integers). That means you don't have to take decimal numbers into consideration.
 
@@ -36,7 +36,7 @@ At the end of word 1-1 in Super Mario Brothers, Mario has to climb half a pyrami
 
 ## Tips
 
-* Thoroughly count how many spaces and hashtags have to be placed on each row.
+* Thoroughly count how many spaces and hash blocks have to be placed on each row.
 
 * Carefully consider how you structure your loop (`for` and `while`) for the assignment.
 
@@ -46,15 +46,15 @@ Having trouble processing everything mentioned above in one go? Here's the step 
 
 1. First, tackle the input. Make sure the user is prompted for an input and print it to the terminal immediately.
 
-2. Then, if step 1 works correctly, adjust your code so it no longer accepts invalid values, as per the specifiactions.
+2. Then, if step 1 works correctly, adjust your code so it no longer accepts invalid values, as per the specifications.
 
 3. Be sure to create a variable `height` that contains the value that is provided by the user.
 
-4. Then try to have your program print a set (`height`) amount of hastags on a single row.
+4. Then try to have your program print a set (`height`) amount of hash blocks on a single row.
 
-5. Print a square of hashtags: multiple (`height`) hashtags on a single row and multiple (`height`) of such rows.
+5. Print a square of hash blocks: multiple (`height`) hash blocks on a single row and multiple (`height`) of such rows.
 
-6. Now create a half pyramid by printing the correct amount of hashtags on each row.
+6. Now create a half pyramid by printing the correct amount of hash blocks on each row.
 
 7. To round out the assignment, be sure to completely match the output of your program to that of the examples!
 

@@ -26,7 +26,7 @@ We're going to simulate a large number of games of Monopoly in which we let 1 pl
 
 ## Dice
 
-Each turn of the game starts with throwing two dice. That means two random numbers between 1 and 6. That can be achieved with the use of the `random()` function that we've learned to use earler, but Python also comes with a special random-function meant for whole numbers: `randint(start, end)`.
+Each turn of the game starts with throwing two dice. That means two random numbers between 1 and 6. That can be achieved with the use of the `random()` function that we've learned to use earlier, but Python also comes with a special random-function meant for whole numbers: `randint(start, end)`.
 
 {: .language-python}
     import random
@@ -37,25 +37,25 @@ Each turn of the game starts with throwing two dice. That means two random numbe
       result = throw_two_dice()
       print(f"Total value of throwing two dice: {result}.")
 
-**Declare** a function called `practice_with_dice()` to test your dice throws. Let it simulate a thousand throws and for each throw let it use two dice. `Print` for each throw the total value of the dice to the terminal and clearly display to the user when a 'dubble' has been thrown (the number of the dice is identical). Keep track of the number of 'dubbles' and `print` that number to the screen at the end of the function.
+**Declare** a function called `practice_with_dice()` to test your dice throws. Let it simulate a thousand throws and for each throw let it use two dice. `Print` for each throw the total value of the dice to the terminal and clearly display to the user when a 'double' has been thrown (the number of the dice is identical). Keep track of the number of 'doubles' and `print` that number to the screen at the end of the function.
 
 {: .language-python}
     throw 1: total value of 2 dice =  5
     throw 2: total value of 2 dice =  9
     throw 3: total value of 2 dice = 10
-            Yes, we have a dubble: 5+5
+            Yes, we have a double: 5+5
     throw 4: ...
     throw 5: ...
     ..
     throw 1000: total value of 2 dice = 3
 
-    print "The percentage of dubble throws = xx,xx percent"
+    print "The percentage of double throws = xx,xx percent"
 
 Note: the function `practice_with_dice()` is not needed in the rest of the assignment. You can either remove it from your code or leave there, it's up to you.
 
 ## Moving around an empty board
 
-We can now start our simulation by declaring a new function: `simulate_monopoly()`. We'll gradually expand this function until we can simulate a 'real' game of Monopoly. Let's start simple by having 1 player move one lap around the Monopoly gameboard en keep track of their exact position.
+We can now start our simulation by declaring a new function: `simulate_monopoly()`. We'll gradually expand this function until we can simulate a 'real' game of Monopoly. Let's start simple by having 1 player move one lap around the Monopoly game board en keep track of their exact position.
 
 Repeatedly throw two dice and keep track on what property the player landed. `Print` that information to the screen. Each lap starts with position 0, prison is located at position 10 and the most expensive property is located at the second to last field; 39.
 
@@ -66,16 +66,16 @@ Repeatedly throw two dice and keep track on what property the player landed. `Pr
 
 Note: make sure the position is always denoted as an integer between 0 and 39, even when you've lapped the board multiple times. You could use the modulo (`%`) to achieve this, like earlier in module 1.
 
-## Moving around the actual gameboard
+## Moving around the actual game board
 
 Not every position on the board corresponds with a property (street, station or utility). The corners of the board are not for sale and also the "Chance" and "Community Chest" cards and taxes are not for sale (and also taxes are not deducted). Make a list of length 40, in which each position on the board is represented by its value. The first eleven positions would look like this:
 
 {: .language-python}
     board_values = [0, 60, 0, 60, 0, 200, 100, 0, 100, 120, 0, ......]
 
-Browse the internet for the further layout of the Monopoly board, so you can implement the full 40 fields and their values. If the value is lower than 1 euro (or more likely equal to zero) then the field is 'emtpy' (not for sale).
+Browse the internet for the further layout of the Monopoly board, so you can implement the full 40 fields and their values. If the value is lower than 1 euro (or more likely equal to zero) then the field is 'empty' (not for sale).
 
-For each of the positions of the board you could `print` the folling statement:
+For each of the positions of the board you could `print` the following statement:
 
     After throw 1: position  6 (street)
     After throw 2: position  9 (street)
@@ -86,7 +86,7 @@ Implement this feature into your program.
 
 ## Moving around and buying properties
 
-We'll now expand `simulate_monopoy()` with the possibility of buying properties and with that we'll have to keep track of which properties have/haven't been bought. We start by moving around the board in Donald Trump mode: we can buy anything, we're the only player in the game and we keep moving around untill everything is in our possession. The question we have to answer in this assignment is as follows: "How long (how many throws) does it take for all streets to be ours?".
+We'll now expand `simulate_monopoly()` with the possibility of buying properties and with that we'll have to keep track of which properties have/haven't been bought. We start by moving around the board in Donald Trump mode: we can buy anything, we're the only player in the game and we keep moving around until everything is in our possession. The question we have to answer in this assignment is as follows: "How long (how many throws) does it take for all streets to be ours?".
 
 It is crucial that we monitor how many streets (and which ones) we have in our possession. This can be done through the use of a list (again 40 elements long) where each element represents whether the player owns the corresponding property. Start the list out as a collection of 40 zeros.
 
@@ -95,7 +95,7 @@ It is crucial that we monitor how many streets (and which ones) we have in our p
 
 Each time you land on a new position you can verify:
 
-* the position is up for sale: street, sation, utility?
+* the position is up for sale: street, station, utility?
 * if so, is it still 'on the market'?
 
 If, for example, you reach position 3 after the first trow and buy Whitechapel Road (or Brink, in the Dutch version) then you can update your list of possessions. 
@@ -109,7 +109,7 @@ If a field is not for sale or the street is already in your possession then we t
     After throw 1: position  3 (street)
                player 1 has 1 property in their possession. There are still 27 fields for sale.
 
-Since you know how many streets ther are for sale in total, you also know when all available properties are in possession of the player. Stop throwing dice when that happens and instead `print` to the screen how many turns it took:
+Since you know how many streets there are for sale in total, you also know when all available properties are in possession of the player. Stop throwing dice when that happens and instead `print` to the screen how many turns it took:
 
 ## Report the result
 

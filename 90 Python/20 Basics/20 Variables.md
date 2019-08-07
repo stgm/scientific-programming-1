@@ -2,7 +2,7 @@
 
 A **value** is one of the core components of any program. In the examples above for example, you've seen sequences of characters and also numbers. Up until now we've only worked with **constant values** that are set whilst writing the actual program (for example the text `"Hello, world!"`). Though if we'd already know all values when implementing our programs, we would not need computers at all! So let's take full advantage of a computers strength: calculating.
 
-To be able to use results from one calculation in another calculation we'd have to temporarely store that value. As a solution Python offers you to assign names to values. These name-value pairs are called **variables**. By using teh `=` operator we can combine a name and a value, and consequently use that value elsewhere.
+To be able to use results from one calculation in another calculation we'd have to temporarily store that value. As a solution Python offers you to assign names to values. These name-value pairs are called **variables**. By using teh `=` operator we can combine a name and a value, and consequently use that value elsewhere.
  
 
 ![embed](https://player.vimeo.com/video/287248523)
@@ -31,4 +31,4 @@ You can also **convert** types from one into the other. For instance you could u
 | `print(str(32))`          | `'32'`                                                         |  
 | `print(str(3.14159))`     | `'3.14159'`                                                    |  
 
-Did you notice that decimals are denoted in the American Style? With a point instead of a comma! This is the case for most prgramming languages.
+Did you notice that decimals are denoted in the American Style? With a point instead of a comma! This is the case for most programming languages.

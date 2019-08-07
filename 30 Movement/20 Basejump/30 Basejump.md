@@ -1,6 +1,6 @@
-# Free fall during a basejump
+# Free fall during a base jump
 
-Write a program in which the fall is calculated of a basejumper, jumping from the top of Burj Khalifa in Dubai (828 m). Assume this basejumper weighs 72 kilograms.
+Write a program in which the fall is calculated of a base jumper, jumping from the top of Burj Khalifa in Dubai (828 m). Assume this base jumper weighs 72 kilograms.
 
 
 ## Background
@@ -11,7 +11,7 @@ The aerodynamics that a falling object is subject to is proportionate to the squ
 
 $$F = \xi v^2$$, met $$ \xi = 0.24$$
 
-Although air resitance is dependant on the surface and mass of the object and the density of the air, we'll only be examining the effect of speed in this assignment. The friction menas that there exists a speed in which gravity and air friction keep eachoter in balance. The maximum speed a parachutist can achieve is about 196 km/h and is called [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity). 
+Although air resistance is dependant on the surface and mass of the object and the density of the air, we'll only be examining the effect of speed in this assignment. The friction means that there exists a speed in which gravity and air friction keep each other in balance. The maximum speed a parachutist can achieve is about 196 km/h and is called [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity). 
 
 ![](Freefall.png)
 
@@ -24,7 +24,7 @@ Create a file `basejump.py` and declare a function `basejump()` in it. Follow th
 
 ### Graphs
 
-You should have the following grapsh **checked** by an Assistent:
+You should have the following graphs **checked** by an Assistant:
 
 1. Plot a graph of the speed as function of the time.
 
@@ -36,7 +36,7 @@ You should have the following grapsh **checked** by an Assistent:
 
 ### Simulation
 
-`Print` the answers to the following questions. Make sure to be precise and only provide the requested values by `print`ing each on their own seperate lines.
+`Print` the answers to the following questions. Make sure to be precise and only provide the requested values by `print`ing each on their own separate lines.
 
 The base jumper is in free fall first, but 100 meters away from the surface they open their parachute.
 

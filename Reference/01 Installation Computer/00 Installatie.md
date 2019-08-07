@@ -1,57 +1,57 @@
-# Python op je eigen computer
+# Python on your own computer
 
-## Om te beginnen
+## For starters
 
-Om te kunnen programmeren op je eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor:
+To be able to program on your own computer you need two different programs: the interpreter itself and a good editor:
 
-1. **Anaconda**, een versie van Python die makkelijk te installeren is. Er zitten ook een boel *packages* bij, waarin extra functionaliteit zit voor grafieken, statistiek en nog allerlei andere dingen.
+1. **Anaconda**, a version of Python that is easy to install. There are *a lot* of packages included, which contain functionalities for graphs, statistics and a host of other features.
 
-2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Deze geeft bijvoorbeeld verschillende woorden verschillende kleurtjes, zodat je een goed overzicht houdt van je programmacode.
+2. ** Visual Studio Code**, an *editor* to wrote code in. This is more or less a text writing program, but specifically meant for programming code. For example, it highlights particular parts of your code in specific colors, so you maintain oversight over your code.
 
-Zit je vast? Vraag je assistent!
+Stuck? Consult an assistant!
 
-### Stap 1: Anaconda
+### Step 1: Anaconda
 
-Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/). Kies daar voor de "**Graphical Installer**" van **Python-versie 3.6**. De download is meer dan 500MB. Het kan dus even duren voordat het klaar is! Je hoeft trouwens je mailadres niet op te geven, ook zonder mag je Anaconda gewoon gebruiken.
+This package can be downloaded at their [website](https://www.anaconda.com/download/). Choose for the **Graphical Installer**" for the latest **Python-version**. The download is over 500MB large. So it could take a while before it's done! You do not need to provide your mail address, even without it you're allowed to use Anaconda.
 
-![Kies de "Graphical installer" van Python 3.6](download.png){:style="max-width:35%"}
+![Choose the "Graphical installer" for the latest Python version](download.png){:style="max-width:35%"}
 
-Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
+As soon as the download is finished, you have to execute the downloaded file (double click?). Follow the installation instructions and choose for "Install for me only" where you can; if everything is okay you don't need to alter anything else.
 
-Let op: kies op Windows altijd de "advanced" installatie en kruis onderstaande vinkje aan! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
+Note: for Windows always choose the "advanced" installation and tick the following box! If you did not, you have to reinstall anaconda!
 
-![Selecteer het vinkje Add to PATH tijdens de installatie van Anaconda](anaconda_vinkje.gif)
+![Tick the box: "Add to PATH" when installing Anaconda](anaconda_vinkje.gif)
 
-De installatie kan een tijdje duren.
+The installation can take a while.
 
 ![](wait2.gif){:style="max-width:25%"}
 
-### Stap 2: Visual Studio Code
+### Step 2: Visual Studio Code
 
-Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Je hoeft niks aan te passen aan de installatie-opties. Heb je een Mac? Dan wordt het programma in je Downloads-map gezet. Je kunt het vanuit daar gewoon opstarten.
+This package can be downloaded at their [website](https://www.anaconda.com/download/). Once again you have to execute the downloaded file. This time though you do not have to alter any settings during the installation process. Do you have a Mac? Just move the file to your applications folder. From there you can simply run it.
 
-## Proefrit
+## Testing
 
-Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Volg de voorbeelden uit de video:
+Now that you have installed both Anaconda and Visual Studio Code, we can see if everything runs smoothly. Follow the examples from the video:
 
 ![embed](https://player.vimeo.com/video/287248505)
 
 ### Terminal
 
-In Visual Studio Code kun je de terminal openen met de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`** (deze toets vind je meestal naast de 1 of naast de Z op je toetsenbord).
+In Visual Studio Code you can open a terminal with the key combination **ctrl**+**\`**. That means pressing both **ctrl** en **\`** (this key is often found next to the 1 or the Z key on your keyboard) at the same time.
 
-### Installeer `checkpy`
+### Install `checkpy`
 
-Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeenstemming is met de opdracht, hebben wij een programma geschreven genaamd **checkpy**. Dit programma kun je installeren door in de terminal het volgende commando uit te voeren:
+To help you verify whether a program functions in compliance wit the specifications of an assignment, we have written a program of our own called **checkpy**. This program can be installed from the terminal using the following command (make sure to have Python and PiP installed):
 
 	pip install checkpy
 
-Dit kan even duren, en je zult wat tekst over je scherm zien gaan. Daarna is checkpy geïnstalleerd. Behalve checkpy hebben we ook tests nodig om de opdrachten die jij zometeen gaat maken te testen. Deze tests kun je downloaden door het volgende commando in de terminal te voeren:
+This can take a while and you will see some text move over your screen. Afterwards checkpy is installed. Except for checkpy though we also need the tests corresponding to the assignments that you'll have to make. These tests can be downloaded by executing the following command in the terminal:
 
 	checkpy -d uva/progns
 
-Om te testen of alles werkt, kun je `hello.py` testen. Als je die nog niet gemaakt hebt, doe dat dan volgens het introductiefilmpje hierboven. Voer dan het volgende commando in de terminal uit:
+To test that your installation of `checkpy` was successful, you can test `hello.py`. If you haven't written that program yet, check out the introductory video above. Then execute the following command:
 
 	checkpy hello
 
-Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
+Is everything colored green and do you see only happy smileys? That means you've done a-okay, and that you've met our requirements for the assignment! Should there still be some red smileys, no worries! Carefully examine your code and verify it with each of the specifications. And don't forget you can always send us an email if your stuck.
