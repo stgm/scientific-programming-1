@@ -32,4 +32,6 @@ One interesting application of Python is to use it for analyzing texts written b
 
 - What can you do with sentiment analysis? [Text analysis of Trump's tweets confirms he writes only the...](http://varianceexplained.org/r/trump-tweets/)
 
+- [In Defense of Pie Charts, and Why You Shouldn’t Use Them](https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76)
+
 - Learn more about [Natural Language Processing](http://www.ling.helsinki.fi/kit/2008s/clt231/nltk-0.9.5/doc/en/book.html), or check the upcoming assignment in Scientific Programming 2.
