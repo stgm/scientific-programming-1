@@ -1,74 +1,75 @@
 
-## Opdracht 4: Reproducerende konijnen en overbevolking
+## Assignment 4: Reproducing rabbits and overpopulation
 
-We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. De konijnen zijn bij voorbaat verloren en zullen uiteindelijk allemaal opgegeten worden. Maar in de natuur is dat anders. In de natuur kan het aantal konijnen ook toenemen, want konijnen kunnen zich voortplanten. We gaan in deze opdracht bekijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke toename van het aantal konijnen, en zeker de manier waarop dat meestal gaat, is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
+We have studied is the previous assignment at what rate the number of rabbits decreases when two foxes are prowling the forest. The rabbits have lost in advance and eventually will all be eaten. But out in the real life that goes a bit differently. In nature, the number of rabbits will also increase, through reproduction. In this assignment we'll have a look at the effect of reproduction on the population of rabbits in our simulation. Aside from the possible increase in the number of rabbits, and surely the way this often goes, we'll be introducing the fact that there is only a limited amount of food available to our rabbit population. Both of these aspects will be added to our simulation. 
 
-Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum aantal aan) of de vossen winnen (alle konijnen zijn opgegeten). De vraag die we in deze opdracht gaan beantwoorden is de volgende: 'hoe vaak winnen de konijnen en hoe vaak winnen de vossen?' Aan het eind van deze opdracht moet op het scherm verschijnen:
+The system is rather unstable and you'll find that after about 1000 seconds the rabbits win (rabbits approach their maximum numbers). The question we'll be answering this assignment is the following one: 'How often do the rabbits win and how often do the foxes win?'. At the end of this assignment your screen should show the following:
 
 {: .language-python}   
-     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nvos=2 (v=2), Nsimulaties = 200:     
-     In XX.X procent van de gevallen winnen de konijnen
+     A simulated world with: N_rabbits=25 (v=1), N_fox=2 (v=2), N_simulations = 500:
+     In XX.X percent of the cases the rabbits win
 
-We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` die deze fenomenen beschrijven. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is handig om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
+We'll answer this question incrementally. Add two functions, `reproducing_rabbits()` and `overpopulation()`, that describe these phenomena and call them from within `predator_prey()`. While were implementing these functions, we'll do so for only a single simulation. That makes it useful to turn on the first steps from the simulation, the visualizations, back on.
 
-<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed uit `prooipredator_tm_opdracht3.py` goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarom een nieuw Python bestand aan, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt erin en ga verder in deze nieuwe file.
+<b>Note:</b> We're going to make an adjustment to existing code. To preserve a correctly working copy for the previous assignment written in `predator_prey_3.py`, we'll continue programming in a new file. Create a file called `predator_prey_4.py`, copy all code written so far into it and continue working with the new file.
 
 <br>
 
-#### Deelopdracht 4a: reproducerende konijnen
+#### Part 4a: reproducing rabbits
 
-Het eerste aspect dat we in gaan voeren is het vermogen van de konijnen om zich voort te planten. Maak een nieuwe functie `reproduceren_konijnen()` die wordt aangeroepen na de bestaande functies (het verplaatsen van de konijnen, het verplaatsen van de vossen en het opeten van de konijnen door de vossen) en die steeds kijkt of er konijnen dicht bij elkaar zitten. Als dat het geval is moet het programma de nieuwe jongen konijnen op een random plek in het bos neerzetten.
+The first aspect that we will implement is the rabbits' ability to reproduce. Declare a new function called `reproducing_rabbits()` that is called after the currently existing functions (moving rabbits, moving foxes and eating rabbits by the foxes) in `predator_prey()`. This function will verify if there's any rabbits close together. If that's the case the program should generate new baby rabbits at a random position in the forest.
 
-Ga hierbij als volgt te werk:
+Apply the follwing strategy:
 
-  1. Roep de functie pas aan na 200 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten. Dit is een aanpassing in de functie `prooipredator()` zelf die bepaalt welke functies aangeroepen worden voor elke tijdstap.
+  1. Don't call the function until 200 seconds have passed. The rabbits start relatively close to eachother and start out too young to reproduce. This is an adjustment of the `predator_prey()` function that determines what functions are called and when.
 
-  2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het aantal nestjes. <b>Let op:</b> vermijd hierbij dubbeltellen. 
+  2. First determine how many pairs of rabbits are close together (distance < 1). This determines the number of nests. <b>Note:</b> avoid double counting a rabbit. Only assign a rabbit to 1 nest each.
 
-  3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
+  3. Subsequently generate for each nest 4 new rabbits, give them random positions in the forest, a random direction and add them to the list of rabbits.
   
-Als je een paar simulaties bekijkt zal je zien dat het een erg instabiel systeem is. Als de vossen nog niet genoeg konijnen hebben opgegeten op het moment dat de konijnen gaan reproduceren kan het aantal konijnen exponentieel groeien. En zo je programma vast laten lopen. In de volgende opdracht gaan we deze ongewenste en onrealistische effecten repareren.
+If you monitor a couple of simulations you'll see for yourself how incredibly unstable this system is. If the foxes do not eat enough rabbits by the time the start reproducing, the number of rabbits starts growing exponentially. And thus breaking your program. For the following assignment we'll be mending this undesired and unrealistic effects.
   
 <br>
 
-#### [deelopdracht 4b]: maximum aantal konijnen in het bos
+#### [Part 4b]: maximum number of rabbits in the forest
 
-De tweede functionaliteit die we toe gaan voegen is het beperken van het aantal konijnen dat tegelijkertijd in het bos kan leven. Er is maar voldoende voedsel in het bos aanwezig voor 50 konijnen. Maak een nieuwe functie `overbevolking()` die na `reproduceren_konijnen()` aangeroepen wordt. Het doel van deze functie is om te zorgen dat er nooit meer dan 50 konijnen in het bos aanwezig zijn. Kijk dus hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50. Let op dat je die konijnen uit alle drie de lijsten verwijdert: x-positie, y-positie en hoek.
+The second functionality that we'll add is limiting the number of rabbits that can live simultaneously in the forest. There is only enough food available in the forest for 50 rabbits to survive. Declare a new function `overpopulation()` that is called after `reproducing_rabbits()`. The goal of this function is to make sure there are never more than 50 rabbits at the same time living in the forest. For that you'll have to verify the length of the list of rabbits and remove any excess elements. Beware to remove the rabbits from each of the corresponding lists: x-position, y-position, and angle.
 
-Zoals je al gezien hebt is het systeem vrij instabiel. Na 1000 seconden zal je (meestal) in een stabiele toestand belanden. Of de konijnen hebben gewonnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen hebben gewonnen (bijna alle konijnen zijn opgegeten). De onderstaande grafieken laten het aantal konijnen zien als functie van de tijd voor twee simulaties waarin de vossen hebben gewonnen (links) of de konijnen hebben gewonnen (rechts). Deze grafieken zijn gemaakt met bijna vrijwel dezelfde functie die we in deelopdracht 3c hebben gemaakt om de fractie levende konijnen als functie van de tijd te laten zien.
+Like you've already seen, the system is very unstable. After 1000 seconds you'll (usually) find a stable state. Either the rabbits will have won (rabbits are near their maximum number of 50), or the foxes have won (almost all rabbits have been eaten). The graphs below show the number of rabbits as function of the time for two individual simulations, one where the foxes won (left) and one where the rabbits won (right). These graphs are made using almost exactly the same function that we wrote in part c of assignment 3, to graph the fraction of living rabbits as function of the time.
 
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
-De opdracht van deze stap is om dit type grafiek te maken voor een enkele simulatie. Op deze manier proberen we onszelf te overtuigen van het feit dat de nieuwe functie `overbevolking()` goed werkt. Schrijf dus een nieuwe functie `winstkans_konijnen()` die een enkele simulatie maakt door de functie `prooipredator()` aan te roepen en een plot maakt voor die simulatie net als de plots hierboven.
+The assignment of this step is to create this type of graph for a single simulation. This way we'll try to convice ourselves of the fact that the new `overpopulation()` function works correctly. So declare a new function `success_chance_rabbits()` that run a single simulation by calling the `predator_prey()` function and creating a plot like the ones above.
 
-<b>Tip:</b> de functie die we hier moeten maken lijkt sterk op de functie `gemiddelde_halfwaardetijd()` die we in opgave 3b en 3c hebben gebruikt. Kopieer die functie en gebruik dat als de 'basis' die je vervolgens aan kan passen aan de iets andere manier van plotten hier. De functie `prooipredator()` gaf na opdracht 3 als return-waarde al het aantal konijnen op elk moment in de tijd. Gebruik die informatie ook hier als basis voor je plot.
+<b>Tip:</b> The function that we have to define here is alot like the function `average_half_life()` that we used in assignment 3b and 3c. Copy that function and use it as a 'base' that you can then adjust to the specific graph you want to create here. The function `predator_prey()` already `return`s the number of rabbits for every step in time. Use that information as the foundation of your plot.
 
-Naast het tekenen van de plot is het ook belangrijk om de conclusie te trekken of de konijnen of de vossen gewonnen hebben. Als op tijdstap 1000 het aantal konijnen groter is dan 45 hebben de konijnen gewonnen, als het minder is dan 5 hebben de vossen gewonnen. Elk andere hoeveelheid konijnen betekent dat het een gelijkspel is.
+Aside from drawing the plot it's also important to draw conclusions on whether the rabbits or the foxes have won. If at timestep 1000 the number of rabbits is greater than 45 the rabbits have won, if their numbers are fewer than 5 the foxes have won. Every other amount of rabbits results in a tie between rabbits and foxes.
 
-Aan het eind van de simulatie moet de functie op het scherm printen wie gewonnen heeft.
+At the end of the simulation the program should `print` to the screen who has won.
 
 {: .language-python}   
-     Het aantal konijnen na t=1000 stappen was XXX.     
-     Dit betekent dat de XXX gewonnen heeft.
+     The number of rabbits after t=1000 steps was XXX.
+     This means that the XXX have won.
    
 <br>   
 
-#### De opdracht: winstkansen konijnen
+#### The assignment: chance of success for the rabbits
 
-We zijn nu in staat de originele vraag in deze opdracht te beantwoorden: wat is de winstkans van de konijnen? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bos? Pas de functie `winstkans_konijnen()` uit deel opdracht 4b zo aan dat er nu 200 simulaties gedraaid worden en hou voor elk van de simulaties bij of de konijnen hebben gewonnen (meer dan 45 konijnen), of de vossen hebben gewonnen (minder dan 5 konijnen) of dat er een gelijkspel was (alle andere gevallen).
+We're now able to answer the original question of this assignment: what is the chance the rabbits will win? More concrete: in what percentage of the simulations is the number of rabbits in the forest after 1000 timesteps (seconds) greater than 45? Edit the `success_chance_rabbits()` from assignment 4b in such a way that it now runs 200 simulations and keep track for each of the simulations whether the rabbits won (more than 45 rabbits), or the foxes have won (fewer than 5 rabbits) or that there was a tie (all other cases).
 
-<b>Let op:</b> de plot die je gemaakt hebt in deelopdracht 4b hoef je nu niet meer te maken voor elk van de 200 simulaties. Zorg dan ook dat de plot alleen gemaakt wordt als de functie `winstkans_konijnen()` maar 1 simulatie draait. 
+<b>Note:</b> You no longer need to show the graph that you've created for assignment 4b for each of the simulations. Make sure it is only plotted if the functions `success_chance_rabbits()` only runs 1 simulation.
 
-Bereken na alle simulaties gerund te hebben de gevraagde fractie en print de winstkansen voor de konijnen als volgt op het scherm:
+Calculate the fraction after all of the simulations have ran their course and `print` the success chances of the rabbits to the screen like so:
 
-{: .language-python}   
-     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nvos=2 (v=2), Nsimulaties = 200:     
-     In x.x procent van de gevallen winnen de konijnen
+{: .language-python} 
+     A simulated world with: N_rabbits=25 (v=1), N_fox=2 (v=2), N_simulations = 200:
+     In XX.X percent of the cases the rabbits win 
 
 
-### Conclusie
-In deze opdracht hebben we een populatie-dynamica simulatie doorgerekend met behulp van de computer. We hebben vrij elementaire aspecten meegenomen en bestudeerd hoe de ontwikkeling van konijnen afhangt van de vrije parameters in het systeem. De 'echte' simulaties die wetenschappers doen werkt op precies dezelfde manier. Of het nou deze populatie-dynamica is, of file-doorstroming op een nieuwe verkeerssituatie of het bewegen van mensen in een noodsituatie in een stadion. Deze simulaties kan makkelijk uitgebreid worden en als je zin hebt kan je dat ook doen. Wat zijn de eerste dingen die je toe zou voegen? Vossen die steeds langzamer gaan lopen als langer niks gegeten hebben, vossen die zich kunnen voortplanten of juist opeten, vossen die konijnen kunnen ruiken als ze in de buurt zitten, konijnen die zich kunnen verstoppen op bepaalde plekken in het bos etc etc. De mogelijkheden zijn eindeloos. Onze tijd die we hebben voor deze module helaas niet.
+### Conclusion
+
+In this assignment we have simulated population dynamics by using the computational strenght of a computer. We have included some elementary aspects and studied how the development of rabbits is dependant on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
 
 
 
