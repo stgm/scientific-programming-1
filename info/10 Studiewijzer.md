@@ -10,7 +10,10 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
 <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
 <p class="card-text"><small class="text-muted">Choose a case study:</small></p>
-<div class="list-group list-group-flush"><a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a><a href="/numbers" class="list-group-item">Dive into number theory.</a></div>
+<div class="list-group list-group-flush">
+<a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
+<a href="/numbers" class="list-group-item">Dive into number theory.</a>
+</div>
 </div>
 </div>
 <div class="card">
