@@ -32,7 +32,7 @@ Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promot
 
 #### Day 4: Monte Carlo
 
-1. Leer over de [Monte-Carlotechniek](/resources/monte-carlo)
+1. Learn more about the [Monte-Carlo method](/resources/monte-carlo)
 
 2. <span class="badge badge-primary">Assignment:</span> Use random values to calculate integrals with the [Monte Carlo](/integrals/monte-carlo) method
 

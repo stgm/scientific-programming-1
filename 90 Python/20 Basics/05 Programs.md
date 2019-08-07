@@ -8,15 +8,15 @@ information input (input)
 : Receiving data from the keyboard, data file or other external source such as the internet.
 
 information output (output)
-: Displaying data on the computerscreen, writing data to a file or other ways of retaining data.
+: Displaying data on the computer screen, writing data to a file or other ways of retaining data.
 
 calculating
-: Perfroming basic mathematical manipulations such as adding or multiplying.
+: Performing basic mathematical manipulations such as adding or multiplying.
 
 conditional execution
-: Verifying wheter a condition is met en dependant on verification perform specific actions.
+: Verifying whether a condition is met en dependant on verification perform specific actions.
 
-repitition
+repetition
 : Repeating a single task or set of tasks multiple times, often times with variation between repetitions.
 
 And believe it or not, but that's about all you'll be needing. Every program you've ever used on the computer, no matter how complicated, at the core consists out of some nature of these action. **Programming** can be seen as repeatedly decomposing a large, complex task in to smaller, easier subtasks, until you can **implement** a program in a programming language, using only the above 5 elements.

@@ -14,9 +14,9 @@ Let's start out conservatively and write a program that asks the user for two nu
 
 * Create a file called `whizkid.py` and implement a program that asks the user for two whole numbers, after which the product of those numbers is displayed on the screen via `print`.
 
-## Probleemanalyse
+## Problem analysis
 
-* This program complies with the common clichés of a standard computer program: it contains an *input*, a *calculation*, and and *output*. Try to represent each of these components in your code!
+* This program complies with the common cliches of a standard computer program: it contains an *input*, a *calculation*, and and *output*. Try to represent each of these components in your code!
 
 ## Hints
 

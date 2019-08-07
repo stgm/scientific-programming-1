@@ -1,14 +1,14 @@
 # Statistics #
 
-If ever there is a subject that connects students of different educations it is the fear for (the shortage of knowledge about) statistics. And yet it is in every scientific discipline and a crucial part them, because it is the key to drawing conclusions from collected data. What is the 'truth' that is hidden inside data and how can we wheigh different hypotheses against one another. In this moduel we'll take a look at some of the most well-known techniques by using a fabricated case and made up data.
+If ever there is a subject that connects students of different educations it is the fear for (the shortage of knowledge about) statistics. And yet it is in every scientific discipline and a crucial part them, because it is the key to drawing conclusions from collected data. What is the 'truth' that is hidden inside data and how can we weigh different hypotheses against one another. In this module we'll take a look at some of the most well-known techniques by using a fabricated case and made up data.
 
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
-**The case:** In Denmark there is a groep of researchers that studies whether the length of women is correlated to the income of their parents. The categories of income vary from category-0 (very poor) to category-10 (very rich) and from each category a random number of women have been selected of whom the length is measured. THe data (the average measured length for each category of income) is represented in the graph to the side. This is where the trouble begins. A part of the researchers thinks the data suggests that there is a linear relationship (blue) whilst another group thinks there's no relationship whatsoever (red). The latter group says the observed 'light' dependancy is just the result of accidental fluctuations in length of the women that were sampled.
+**The case:** In Denmark there is a group of researchers that studies whether the length of women is correlated to the income of their parents. The categories of income vary from category-0 (very poor) to category-10 (very rich) and from each category a random number of women have been selected of whom the length is measured. THe data (the average measured length for each category of income) is represented in the graph to the side. This is where the trouble begins. A part of the researchers thinks the data suggests that there is a linear relationship (blue) whilst another group thinks there's no relationship whatsoever (red). The latter group says the observed 'light' dependance is just the result of accidental fluctuations in length of the women that were sampled.
 
-In this module, after first trying out some introductionary exercises, we'll try to find out what conclusions can be drawn: is there, or isn't there a (causal) relationship?
+In this module, after first trying out some introductory exercises, we'll try to find out what conclusions can be drawn: is there, or isn't there a (causal) relationship?
 
-Although it is not the goal to provide an entire lecture on statistic, there's no way around introducing at least some statistics alongside the new Python ingredients as a preperation to the assignments.
+Although it is not the goal to provide an entire lecture on statistic, there's no way around introducing at least some statistics alongside the new Python ingredients as a preparation to the assignments.
  
 ## Assignment 1: percentage of women taller than an average man
 
@@ -16,7 +16,7 @@ In the first assignment we'll answer the question about what percentage of the w
 
 #### Statistics info for assignment 1:  the normal distribution 
 
-In nature variation is abundant: the length of people in a country, or the weight of animals in a population just to name a few. The distribution that describes the relative frequency of the occurence of specific value $$x$$ in the population of measurements is expressed by the so-called normal distribution:
+In nature variation is abundant: the length of people in a country, or the weight of animals in a population just to name a few. The distribution that describes the relative frequency of the occurrence of specific value $$x$$ in the population of measurements is expressed by the so-called normal distribution:
 
 $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}$$
 
@@ -41,14 +41,7 @@ When this is repeated a large number of times the values of $$length$$ will be d
 
 #### Assignment 1: distribution of lengths of all women
 
-Schrijf een programma `statistiek_opdracht1.py()` waarin je 1 miljoen random getallen trekt uit de 
-normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
-al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
-0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
-hebben die groter is dan die van de gemiddelde man. Print aan het eind van het programma 
-dit percentage lange vrouwen met 2 decimalen nauwkeurigheid.
-
-Create a program `statistics_1.py` in which you generate 1 milion random numbers from the normal distribution that describe the length of women in the Netherlands. Create a graph of all these random lengths. Use a histogram for the graph with bins that are 0.5 cm large. While generaton random lengths, keep track of how many women have a length greater than that of the average man. `Print` at the end of the program what the percentage tall women is, with a precision of 2 decimals.
+Create a program `statistics_1.py` in which you generate 1 million random numbers from the normal distribution that describe the length of women in the Netherlands. Create a graph of all these random lengths. Use a histogram for the graph with bins that are 0.5 cm large. While generating random lengths, keep track of how many women have a length greater than that of the average man. `Print` at the end of the program what the percentage tall women is, with a precision of 2 decimals.
 
 {: .language-python}
     The percentage tall women (taller than 184 cm) is X.XX percent

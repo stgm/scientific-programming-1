@@ -10,7 +10,7 @@ Implement a program that reports a users water usage back to them, by calculatin
 
 ## Specification
 
-* Create a new file called `water.py` and write a progam that asks the user for how long they shower in minutes. Then print the amount of bottles of water that corresponds to that number of minutes. You can assume that one minute of showering takes 12 bottles of water (containing 0.5 Litres each).
+* Create a new file called `water.py` and write a program that asks the user for how long they shower in minutes. Then print the amount of bottles of water that corresponds to that number of minutes. You can assume that one minute of showering takes 12 bottles of water (containing 0.5 Litres each).
 
 * To keep things simple, assume the user always provides a positive integer as input for the amount of minutes. That means you don't have to implement any error handling for the case that a user inputs an invalid value. 
 

@@ -8,7 +8,7 @@ In this module we'll study how to describe movement of falling objects and visua
 
 2. Read back up on the use of [multiple graphs](/resources/plot)
 
-3. <span class="badge badge-primary">Assignment</span> Study the movement of a [basejumper](/movement/basejump)
+3. <span class="badge badge-primary">Assignment</span> Study the movement of a [base jumper](/movement/basejump)
 
 #### Day 2: The ultimate free fall
 
@@ -24,7 +24,7 @@ In this module we'll study how to describe movement of falling objects and visua
 
 3. <span class="badge badge-primary">Assignment</span> Show how a [drunk student](/movement/student) moves around
 
-#### Day 4: Fitten
+#### Day 4: Fitting
 
 1. <span class="badge badge-primary">Assignment</span> Find patters in your data by [Fitting](/movement/fitting)
 

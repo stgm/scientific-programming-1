@@ -2,7 +2,7 @@
 
 After s short introduction with animating in Python, we'll spend the first 3 days of this module on simulating the game of Monopoly. It is impossible to do so analytically, because the use of dice adds a complicated element of chance to the game. Game theory in practice.
 
-During day 4 we'll get acquainted with simulating a physical phenomonon: free fall (with and without friction).
+During day 4 we'll get acquainted with simulating a physical phenomenon: free fall (with and without friction).
 
 #### Day 1: Animations and the start of Monopoly
 
@@ -33,7 +33,7 @@ During day 4 we'll get acquainted with simulating a physical phenomonon: free fa
 
 2. Read back up on the use of [multiple graphs](/resources/plot)
 
-3. <span class="badge badge-primary">Assignment</span> Study the movement of a [basejumper](/movement/basejump)
+3. <span class="badge badge-primary">Assignment</span> Study the movement of a [base jumper](/movement/basejump)
 
 #### Evaluation
 

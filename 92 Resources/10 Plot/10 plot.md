@@ -20,7 +20,7 @@ Let's start by plotting some points with the following x-values $$(0,1,2,3,4,5)$
     matplotlib.pyplot.plot(x_coords, y_coords, 'go')
     matplotlib.pyplot.show()
 
-We choose green circles as 'markers', with which each point in the graph is represented: that is what `'go'` means (`g` green `o` circles). The final command saves the plot to a file called `plot.png`. This file is found as a seperate file next to your code.
+We choose green circles as 'markers', with which each point in the graph is represented: that is what `'go'` means (`g` green `o` circles). The final command saves the plot to a file called `plot.png`. This file is found as a separate file next to your code.
 
 ![](plotje1.png)
 
@@ -40,8 +40,7 @@ You can rename a module as you import it, so it has a more functional shorter na
 
 ## Multiple graphs and annotations
 
-We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen aslabels toe en een los tekstje:
-We expand the plot a little now: another function is added $$x^3$$, for which we use a line graph. We'll also add some axes labels and a seperate text-annotation:
+We expand the plot a little now: another function is added $$x^3$$, for which we use a line graph. We'll also add some axes labels and a separate text-annotation:
 
     import matplotlib.pyplot as plt
 
@@ -49,7 +48,7 @@ We expand the plot a little now: another function is added $$x^3$$, for which we
     x_squared = [0, 1, 4, 9, 16, 25]
     x_cubed   = [0, 1, 8, 27, 64, 125]
 
-    # note: a graph with two datasets: x_squared and x_cubed
+    # note: a graph with two data sets: x_squared and x_cubed
     plt.plot(x_values, x_squared, 'go', x_values, x_cubed, 'r-')
 
     # add labels to the axes
@@ -99,7 +98,7 @@ Earlier we chose a small number of points where the values had to be filled in b
 
 ## Graphs side by side
 
-Finally we'll look at how to plot two graphs side by side. You can use this example when asked to plot both the speed and the position of an object as function of the time. Each has a particular scale, which makes it clearer when plottet seperately instead of in one and the same graph.
+Finally we'll look at how to plot two graphs side by side. You can use this example when asked to plot both the speed and the position of an object as function of the time. Each has a particular scale, which makes it clearer when plotted separately instead of in one and the same graph.
 
 By way of example we'll plot both sine and cosine and in a graph beside it we'll plot both $$x$$ and $$x^2$$.
 
