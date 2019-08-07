@@ -70,7 +70,7 @@ Adjust the function `average_half_life()` so that it not just calls `predator_pr
 
 The screen should show the following after the final simulation:
 {: .language-python}   
-    A simulated world with: N_rabbits=25 (v=1), N_fox=2 (v=1), N_simulations = 500:
+    A simulated world with: N_rabbits=25 (v=1), N_fox=2 (v=2), N_simulations = 500:
         Average half-life of rabbits = x.xx seconds
 
 <br>
