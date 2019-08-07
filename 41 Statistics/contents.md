@@ -1,33 +1,32 @@
-# Statistiek
+# Statistics
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235029128)
 </div>
+In this module we'll get to work on statistics. It's obvious ath the computer can be put to great use to extract all sorts of interesting information out of data. But could we also test hypotheses: do we, or don't we observe a correlation in our data?
 
-In deze module gaan we aan de slag met statistiek. Het ligt voor de hand dat de computer goed gebruikt kan worden om uit grote hoeveelheden data interessante informatie te halen. Maar we kunnen bijvoorbeeld ook hypotheses testen: observeren we nou wel of niet een correlatie in onze data?
+For starters have a look at the video to the side. [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) is associate professor at the TU/e and tells about the combination of statistics and programming. 
 
-Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) werkt als universitair docent bij de TU/e en vertelt over de combinatie van statistiek en programmeren.
+#### Day 1: The normal distribution and sampling
 
-#### Dag 1: De normaalverdeling en steekproeven
+1. <span class="label label-primary">Assignment</span> Study the [length](/statistics/normaldistribution) of Danish women
 
-1. 	<span class="label label-primary">Opdracht</span> bestudeer de [lengte](/statistiek/normaalverdeling) van Deense vrouwen
+2. <span class="label label-primary">Assignment</span> Characteristics of [samples](/statistics/samples)
 
-2.	<span class="label label-primary">Opdracht</span> eigenschappen van [steekproeven](/statistiek/steekproeven)
+#### Day 2: Fitting a model to data (yourself)
 
-#### Dag 2: Model fitten aan de data (zelf)
+1. <span class="label label-primary">Assignment</span> Fit a simple [model](/statistics/fittingself) to the data yourself
 
-1. <span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
+#### Day 3: Fitting a model to data (Python)
 
-#### Dag 3: Model fitten aan de data (Python)
-
-1. <span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
+1. <span class="label label-primary">Assignment</span> Learn how to [fit](/statistics/fittingpython) a more complex model in Python
 	
-2. <span class="label label-primary">Opdracht</span> Bereid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren!
+2. <span class="label label-primary">Assignment</span> Prepare yourself for linving as a [Quant](/statistics/quant) in the City. Banking!
 	
-#### Dag 4: Hypotheses testen
+#### Day 4: Testing hypotheses 
 
-1.	<span class="label label-primary">Opdracht</span> Genereer fictieve data-sets en leer [hypotheses testen](/statistiek/hypothesetesten)
+1.	<span class="label label-primary">Assignment</span> Generate fictional data-sets and learn how to  [test hypotheses](/statistics/testinghypotheses)
 
-#### Evaluatie
+#### Evaluation
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/XP9ccEjH8A3V7q4O2){:target="_blank"} in.
+You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/XP9ccEjH8A3V7q4O2){:target="_blank"} in.

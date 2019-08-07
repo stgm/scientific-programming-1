@@ -1,26 +1,21 @@
-## Opdracht: bèta's als bankiers in the City (Quants)
+## Assignment: betas as bankers in the City (Quants)
 
-Bij veel banken en verzekeraars werken wis- en natuurkundigen: in de zogenaamde risk-analysis departments, 
-maar ook als quantitatieve analysten: quants. Laten dat zelf ook eens proberen door de eindstand van de 
-AEX te voorspellen in het jaar 2000 door gebruik te maken van de jaren ervoor: 1991-1999.
+At a lot of banks and insurance companies you'll find mathmaticians and physicists in employment: in the so-called risk-analysis departments, but also as quantitative analysts: quants. Let's try that for ourselves by trying to predict the closing prices of the AEX in the year 200 by using the years that came before: 1991-1999.
 
-De eindstand van de AEX kan je vinden op de [AEX wiki](https://nl.wikipedia.org/wiki/AEX):
+The closing prices of the AEX can be cound at [AEX wiki](https://en.wikipedia.org/wiki/AEX_index):
 
 ![](AEXeindstandTabel.png)
 
-### BonusOpdracht: voorspel de AEX einstand in het jaar 2000
+### Bonus Assignment: predict the AEX closing prices in the year 2000 
 
-Schrijf een programma `StatistiekBonus.py()` waarin je de eindstand van de AEX voorspelt in 
-het jaar 2000 op grond van de waardes aan het eind van 1991-1999. Volg hierbij de volgende stappen:
+Write a program called `statistics_bonus.py` in which you predict the closing prices of the AEX in the year 2000 based on the values at each end of the year closing values from 1991-1999. Follow these steps:
 
-   1. Maak een grafiek van de eindstand van de AEX als functie van het jaar sinds 1991.
+   1. Create a graph of the closing prices of the AEX as function of the year since 1991.
 
-   2. Fit de meetpunten met een 2$$^{\rm e}$$ graads polynoom: $$f(x)=ax^2+bx+c$$. 
-      Pas de fit-functie aan die we eerder in deze module gebruikt hebben. 
-    
-Zodra je de functie hebt gevonden die de data-punten goed gebruikt heb je een model waarmee je 
-ook kan extrapoleren. Wat is je voorspelling voor de eindstand van de AEX in het jaar 2000? 
-Vergelijk deze met de echte waarde die gerealiseerd werd (637,60). En? Hoe kan dat?
+   2. Fith the measurements with a second degree polynomial: $$f(x)=ax^2+bx+c$$. 
+      Adjust the fitting function to one what we've used before in this module.
+
+As soon as you've found the function that correctly used the data points, you have a model with which you can extrapolate. Wat is your prediction of the closing prices of the AEX in the year 2000? Cross reference these with the actual value that was realised (637,60). And? How's that possible?
     
     
 	
