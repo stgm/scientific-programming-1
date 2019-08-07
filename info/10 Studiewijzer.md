@@ -30,7 +30,7 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 <div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 3</h5>
-<p class="card-text">Learn about simulating phenomena to understand them better.</p>
+<p class="card-text">Learn to simulate phenomena to understand them better.</p>
 <p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 </div>
 <div class="list-group list-group-flush">
@@ -42,7 +42,7 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 <div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 4</h5>
-<p class="card-text">Learn about automating data analysis and statistical modelling.</p>
+<p class="card-text">Learn to automate data analysis and statistical modelling.</p>
 <p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 </div>
 <div class="list-group list-group-flush">
