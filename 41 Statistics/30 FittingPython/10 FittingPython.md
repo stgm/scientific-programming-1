@@ -44,7 +44,7 @@ If, instead of a constant function, you'd want to fit a linear function $$f(x) =
 
 #### Assignment 4: a fit to the data with a model: f(x) = ax+b
 
-Write a program `statistics_4.py` in which you fit data to both a straight line and a linear relationship. To this end, use the tools in Python like we've demonstratad above and reproduce the graphs that we've shown at the beginning of the module. That means you have to show both the data and both of the 'best' funtions in the graph. Make sure that the values of the parameters are displayed. Also `print` the values by way of output:
+Write a program `statistics_4.py` in which you fit data to both a straight line and a linear relationship. To this end, use the tools in Python like we've demonstrated above and reproduce the graphs that we've shown at the beginning of the module. That means you have to show both the data and both of the 'best' functions in the graph. Make sure that the values of the parameters are displayed. Also `print` the values by way of output:
 
 {: .language-python}
     A fit of f(x)=c     gives the best value:   c = x.xx

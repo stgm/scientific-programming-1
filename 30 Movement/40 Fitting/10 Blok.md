@@ -24,11 +24,11 @@ The result of your fit can be represented as follows:
 
 $$\alpha = \alpha_{best} \pm \Delta_{alpha}$$
 
-Although we assume that the error in $$\alpha$$ is symmetrical it does not mean that is always the case. Always evaluate the negative and positive error seperately by monitoring how the $$\chi^2$$ changes when the parameters become respectively smaller and larger.
+Although we assume that the error in $$\alpha$$ is symmetrical it does not mean that is always the case. Always evaluate the negative and positive error separately by monitoring how the $$\chi^2$$ changes when the parameters become respectively smaller and larger.
 
 ## Example: Wesley Sneijder
 
-Someone has been intensively measuring the percentage of good passes ($$y$$-value) that Wesley Sneijder gave during the verious matches ($$x$$-value) of the qualifier for the World Cup. Because the accuracy with which the percentage is determined depends on the number of passes in a match, the error won't be the same for each match.
+Someone has been intensively measuring the percentage of good passes ($$y$$-value) that Wesley Sneijder gave during the various matches ($$x$$-value) of the qualifier for the World Cup. Because the accuracy with which the percentage is determined depends on the number of passes in a match, the error won't be the same for each match.
 
 match number (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
 $$f_{good}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
