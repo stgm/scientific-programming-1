@@ -37,3 +37,7 @@ Learn about automating data analysis and statistical modelling.
 - analyze [<strong>weather extremes</strong>](/weather) over the past century, or
 
 - draw your own hard conclusions using [<strong>statistics</strong>](/statistics).
+
+**After this course**
+
+When you have finished one case study for each module, you may choose to do more case studies for this course, or take up [Scientific Programming 2](2), in which we will teach you all of the most important parts of Python, enabling you to read and contribute to other's projects, or start your own!
