@@ -1,8 +1,11 @@
-Functions: /python/functions
-Strings: /language/strings
-Basic Statistics: /language/statistics
-Word Content Analysis: /language/words
-Reformatting Text: /language/reformatting
-Files: /language/files
-Sentiment Analysis: /language/sentiment
-Tweets: /language/tweets
+Text statistics:
+    Learn about functions: /python/functions
+    Learn about strings: /language/strings
+    Calculate basic statistics: /language/statistics
+Text cleanup:
+    Analyze word use: /language/words
+    Reformatting Text: /language/reformatting
+Sentiment analysis:
+    Learn about files: /language/files
+    Sentiment analysis: /language/sentiment
+    Tweet statistics: /language/tweets
