@@ -1,10 +1,10 @@
 # Natural Language Processing
 
-![embed](https://player.vimeo.com/video/233508920)
-
 One interesting application of Python is to use it for analyzing texts written by humans. Written texts are subject to various implicit and explicit rules, such as spelling and grammar. Python can be used to make sense of texts at various levels. For example, we may calculate simple statistics about the length of a document or its parts. Or we may dig a little deeper by analyzing word use, or finding misspelled words or grammar problems. And using big data techniques, we might make an educated guess about the meaning of a piece of writing, or even the attitude that a text represents.
 
-##### Day 1: text statistics
+![embed](https://player.vimeo.com/video/233508920)
+
+##### Day 1: Text statistics
 
 1. Learn how to write [functions](/python/functions) in Python.
 
@@ -12,13 +12,13 @@ One interesting application of Python is to use it for analyzing texts written b
 
 3. <span class="badge badge-primary">Assignment</span> Calculate [basic statistics](/language/statistics) about a text.
 
-##### Day 2: text cleanup
+##### Day 2: Text cleanup
 
 2. <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/language/words) word by word.
 
 3. <span class="badge badge-primary">Assignment</span> [Reformat](/language/reformatting) a text, respecting word boundaries.
 
-##### Day 3: sentiment analysis
+##### Day 3: Sentiment analysis
 
 1. Learn how to read text from [files](/language/files) in Python.
 

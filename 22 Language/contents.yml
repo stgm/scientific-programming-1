@@ -1,12 +1,12 @@
 Introduction: /language
-1. Text statistics:
+"Day 1: Text statistics":
     Learn about functions: /python/functions
     Learn about strings: /language/strings
     Calculate basic statistics: /language/statistics
-2. Text cleanup:
+"Day 2: Text cleanup":
     Analyze word use: /language/words
     Reformatting Text: /language/reformatting
-3. Sentiment analysis:
+"Day 3: Sentiment analysis":
     Learn about files: /language/files
     Sentiment analysis: /language/sentiment
     Tweet statistics: /language/tweets
