@@ -30,7 +30,7 @@ Should you prefer to write your code on a darker screen than the default (like t
 
 At the top left you see a folder icon with behind it the text **~/workspace**. Right click or ctrl+click it and subsequently select **New Folder**. Call this folder **week1**.
 
-At the bottem of the screen you see the terminal, it's an environment in which you can execute commands. Try and type the following command after the `$`:
+At the bottom of the screen you see the terminal, it's an environment in which you can execute commands. Try and type the following command after the `$`:
 
     ls
 
@@ -42,7 +42,7 @@ The command `cd` is an abbreviation of the word compact disc... uh, no... *chang
 
     touch hello.py
 
-Now we've created a file called `hello.py` inside of the folder `week1`. To verify that actually happened, you can execute another `ls`. The command `touch` checks wheter a file (in this case `hello.py`) already exists, and if not creates that file.
+Now we've created a file called `hello.py` inside of the folder `week1`. To verify that actually happened, you can execute another `ls`. The command `touch` checks whether a file (in this case `hello.py`) already exists, and if not creates that file.
 
 To open the file `hello.py` you have to use your mouse pointer to open the folder icon at the left hand side of the screen. First open the folder `~/workspace`, by clicking the triangle in front of it. Then do the same thing for the folder `week1`, and finally double click the file `hello.py`. Now a new tab has opened up called `hello.py` and this is where we can start programming!
 
