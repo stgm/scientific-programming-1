@@ -42,8 +42,8 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 <div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 4</h5>
-<p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 <p class="card-text">Learn about automating data analysis and statistical modelling.</p>
+<p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 <div class="list-group list-group-flush">
 <a href="/weather" class="list-group-item">Analyze weather extremes over the past century.</a>
 <a href="/statistics" class="list-group-item">Draw your own hard conclusions using statistics.</a>
