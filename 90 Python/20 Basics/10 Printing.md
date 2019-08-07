@@ -2,10 +2,10 @@
 
 After writing a program you can then execute it (*running* it). The computer then reads your code, line for line, and executes any instructions it encounters.
 
-Make a textfile **exercise.py** (remember how?) and add the following lines to it:
+Make a text file **exercise.py** (remember how?) and add the following lines to it:
 
     print("Hello, world!")
-    print("Hee, hallo daar.")
+    print("Hee, hell there.")
     print("Making quick progress.")
     print("Funny")
     print('Hey, does this still print?')
@@ -18,25 +18,21 @@ Now start the program you've just carefully copied, word for word:
 
     python exercise.py
 
-What's the result? Did you make any mistakes? And did you see that the quotation marks are sometimes differen (single and double)? The sequence of characters that you type after `print` has to be started and ended by quotation marks (of the same kind!). Such a sequence is called a **string**.
+What's the result? Did you make any mistakes? And did you see that the quotation marks are sometimes different (single and double)? The sequence of characters that you type after `print` has to be started and ended by quotation marks (of the same kind!). Such a sequence is called a **string**.
 
 We can also print multiple times on the same line. By default `print` adds an **ENTER** each time you use it, so that the following `print` statement continues on a new line. But you can manually prevent that **ENTER** from being added:
 
     print("The temperature is", end="")
     print(8, end="")
-    print("degrees celcius")
+    print("degrees Celsius")
 
 That way the entire message is printed on a single line. Do try it for yourself!
 
-Je kan dit ook bereiken door meerdere waarden in één printstatement te stoppen:
-
-    print("De temperatuur is", 8, "graden")
-
 This can also be achieved by adding multiple values to a single print statement:
 
-    print("The temperature is", 8, "degrees celcius")
+    print("The temperature is", 8, "degrees Celsius")
 
-See how each value (argument) is seperated by a comma?
+See how each value (argument) is separated by a comma?
 
 ## Calculations
 
@@ -52,13 +48,13 @@ Next, add the following lines to your `exercise.py`:
 
 You can also perform basic maths. The *result* of the calculation is displayed on the screen. Except the last one: that shows the formula (*expression*) between parentheses. Just like earlier with the texts. So that is a string and not a formula that can be readily calculated.
 
-> Do you get an error message if you run the program? Chances are that you've made a mistake copying the commands leaving Python confused what you meant in the first place. Take a close look to find where you've made that mistake. If you can't seem to find it, do ask for some assistance. Learnign to understand error messages is an important part of this course. That's mainly why we want you to make a mistake every now and then!
+> Do you get an error message if you run the program? Chances are that you've made a mistake copying the commands leaving Python confused what you meant in the first place. Take a close look to find where you've made that mistake. If you can't seem to find it, do ask for some assistance. Learning to understand error messages is an important part of this course. That's mainly why we want you to make a mistake every now and then!
 
 ## Operators
 
 Below you'll find a list of mathematical operators you can use to compose formulas.
 
-| operator | explenation               |  
+| operator | explanation               |  
 | -------- | ------------------------- |  
 | `1 + 2`  | addition                  |  
 | `2 - 1`  | subtraction               |  

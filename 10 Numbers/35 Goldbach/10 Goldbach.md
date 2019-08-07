@@ -1,6 +1,5 @@
 # Goldbach
 
-Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is voor de even getallen tot en met 1000.
 Write a program that proves Goldbach's conjecture to be true for all even numbers up to and including 1000.
 
 	# python goldbach.py
@@ -26,12 +25,12 @@ More important is of course if or when you find a number that *isn't* in complia
 
 ## Hints
 
-* Always work out the problem with pen and paper before coding. The 5-10 minutes spent on drawing out your idead are earned back when you convert it into code.
+* Always work out the problem with pen and paper before coding. The 5-10 minutes spent on drawing out your ideas are earned back when you convert them into code.
 
 * Use a list of primes as the base for this program. Think for yourself up to what number the list should go to provide all even numbers through 1000 of divisors.
 
-- Je mag in deze opgave de onderstaande Python constructie gebruiken die kijkt of een element wel of niet in een in een lijst voorkomt. De volgend constructie zal op het scherm printen dat 7 inderdaad een priemgetal is.
-* For this assignment you're allowed to use the following Python constuction, that checks whether an element is or isn't found in a list. The following code will print to the screen whether 7 is indeed a prime number.
+
+* For this assignment you're allowed to use the following Python construction, that checks whether an element is or isn't found in a list. The following code will print to the screen whether 7 is indeed a prime number.
 
 		primes = [2, 3, 5, 7, 11]
 		x = 7

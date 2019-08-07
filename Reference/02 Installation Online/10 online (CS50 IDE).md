@@ -1,87 +1,87 @@
-# Online programmeren
+# Programming online
 
-Om online te kunnen programmeren maken wij gebruik van een online integrated development environment, de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen door. Daarna kun je gelijk aan de slag!
+To be able to write your programs online we use an 'integrated development environment' that is hosted on the web, the CS50 IDE. To gain access to this environment you need to complete the following steps. Afterwards you can start programming immediately!
 
-## Aanmaken van de CS50 IDE
+## Creating a CS50 IDE
 
-Om toegang te krijgen tot de ontwikkelomgeving kun je het volgende doen:
+To gain access to the development environment you can do the following:
 
-1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
+1. Register for edX at [https://courses.edx.org/register](https://courses.edx.org/register). You do not need to enroll in a course.
 
-2. Bevestig je account via de link in je e-mail.
+2. Confirm your account via the link in an email they've sent you.
 
-3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
+3. Login with your newly acquired account at [https://cs50.io/](https://cs50.io/).
 
-4. Er wordt je wellicht gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
+4. They may possible ask you to create a new workspace. Fill in the necessary information:
 
     - Workspace name: ide50
     - Description: CS50 IDE
-    - Template: Harvard's CS50 (*belangrijk*)
+    - Template: Harvard's CS50 (*important*)
 
-Na het aanmaken van de workspace, zie je dit scherm in jouw browser:
+After creating the workspace you should see this in the screen of your browser:
 
 ![cs50](cs50.png)
 
-We noemen dit een geïntegreerde ontwikkelomgeving, omdat je hier alles vindt wat je nodig hebt om programma's te ontwikkelen: een overzicht van je bestanden, een tekst-editor om programma-code in te tikken, en een plek om je programma's uit te proberen.
+We call this an integrated development environment, because you can find everything you need to develop programs here: an oversight of your files, a text editor to write code, and a place to execute the programs you've created.
 
-Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent.
+Should you prefer to write your code on a darker screen than the default (like the hackers do ;-)), go to the dropdown menu **view** -> **night mode**. Feel free to snoop around in all the dropdown menus. It's fine if you don't yet know what all the options do or mean.
 
-## Proefrit
+## Testing
 
-Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**.
+At the top left you see a folder icon with behind it the text **~/workspace**. Right click or ctrl+click it and subsequently select **New Folder**. Call this folder **week1**.
 
-Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Tik maar eens het volgende commando in achter de `$`:
+At the bottom of the screen you see the terminal, it's an environment in which you can execute commands. Try and type the following command after the `$`:
 
     ls
 
-Het commando `ls` is een afkorting van list. Dit commando geeft een lijst van alle bestanden en mappen in de "huidige" map. Standaard begint de terminal in de map `~/workspace`, en door het uitvoeren van het commando `ls` zie je alleen de map `week1` die je net hebt aangemaakt. Laten we nu de "huidige map" veranderen door middel van het volgende commando:
+The `ls` command is an abbreviation of the word list. This command shows a list of all files and folders that can be seen from your "current" folder. By default the terminal starts in the folder `~/workspace`, and by executing hte command `ls` you should only see the folder `week1` that you've just created. Let's now change the "current folder" by executing the following command:
 
     cd week1
 
-Het commando `cd` is hier een afkorting van compact disc... uh, nee... *change directory*. Het verandert dus de huidige map naar een andere map, in dit geval `week1`. Zou je nu `ls` nog een keer uitvoeren, dan zijn er geen resultaten (je krijgt dan ook letterlijk geen zichtbare resultaten). Laten we hier verandering in brengen door middel van het volgende commando:
+The command `cd` is an abbreviation of the word compact disc... uh, no... *change directory*. It changes the current folder to another folder, in this case the folder `week1`. If you were to execute `ls` again, there would be no results yet (so you will be shown no visible results). Let's change that fact by running the following command:
 
     touch hello.py
 
-Nu hebben we een bestand aangemaakt genaamd `hello.py` binnen de map `week1`. Om dit te controleren voer nog een `ls` uit. Het commando `touch` kijkt of een file (in dit geval `hello.py`) bestaat, en zo niet, dan maakt het deze aan.
+Now we've created a file called `hello.py` inside of the folder `week1`. To verify that actually happened, you can execute another `ls`. The command `touch` checks whether a file (in this case `hello.py`) already exists, and if not creates that file.
 
-Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/workspace`. Druk op het driehoekje ernaast om de map `~/workspace` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op de file `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
+To open the file `hello.py` you have to use your mouse pointer to open the folder icon at the left hand side of the screen. First open the folder `~/workspace`, by clicking the triangle in front of it. Then do the same thing for the folder `week1`, and finally double click the file `hello.py`. Now a new tab has opened up called `hello.py` and this is where we can start programming!
 
-Voer in het bestand `hello.py` de volgende regel code in:
+Add the following line of code to the `hello.py` file:
 
     print("Hello, World!")
 
-Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kunnen we uitvoeren door het volgende commando in de terminal te voeren:
+Then save your newly written program and ta-da! You've written your first (Python-)program. You can then execute that program using the following command in the terminal:
 
     python hello.py
 
-Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
+If everything is in order you should see directly below that command the words: `Hello, World!`.
 
 ## Extra tips
 
-Handig om te weten is dat je via het commando `cd` ook een map omhoog kan via:
+Good to know is that you can also move one folder back up with `cd`:
 
     cd ..
 
-Hier staat `..` voor de map boven de huidige. Wil je verder omhoog? Dan kan dat via `../..`. Ook kan je `cd` de instructie geven om niet relatief van de huidige map te bewegen, maar absoluut ten opzichte van jouw login map. Bijvoorbeeld:
+Here `..` stands for the folder directly 'above' teh current one. Want to go back even further up? You can with `../..`. You can also tell `cd` not to move relatively to your current position, but instead move to an 'absolute' path in respect to your login folder:
 
     cd ~/workspace/week1
 
-Dat brengt je meteen naar de map `week1` binnen `workspace`.
+That immediately brings you back to the folder `week1` inside of `workspace`.
 
-## Installeren van Matplotlib en Checkpy
+## Installing Matplotlib and Checkpy
 
-We gebruiken een programma om te checken of je opdrachten op de juiste manier werken. We vragen je om heel precies te zijn in het geven van de juiste uitvoer. Hiervoor hebben wij een programma geschreven dat `checkpy` heet en dit wordt niet standaard meegeleverd met de online ontwikkelomgeving. Daarnaast gaan we aan de slag met het plotten van grafieken, en hiervoor hebben we een Python module nodig genaamd `matplotlib`. Ook deze moeten we apart downloaden.
+We use a program to check whether your assignments are implemented correctly. We expect you to be very precise when you give the correct output. To do so, we have written a program called `checkpy`, which is not standard in your developing environment. Aside from that we'll get to work with plotting graphs and for that we need a specific module in Python called `matplotlib`. Both of these need to be downloaded additionally.
 
-Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
+To download both `matplotlib` and `checkpy` you have to run the following command separately in your terminal:
 
     pip install matplotlib
     pip install checkpy
-    checkpy -d Jelleas/progbgtests
+    checkpy -d uva/progns
 
-Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
+It can take quite a while for each command and a lot of text will move over your screen. In case there is relatively little text on your screen, try to find a message stating something went wrong or ask for assistance! 
 
-Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende commando in de terminal uit:
+To test if everything is in working order and whether `hello.py` is implemented correctly, run the following command in the terminal:
 
     checkpy hello
 
-Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en vraag gerust als je klem zit.
+Is everything colored green and do you see only happy smileys? That means you've done a-okay, and that you've met our requirements for the assignment! Should there still be some red smileys, no worries! Carefully examine your code and verify it with each of the specifications. And don't forget you can always send us an email if your stuck.

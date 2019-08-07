@@ -17,18 +17,18 @@ Aside from that, just as with the `if`-statement, the `for` ends with a `:`, to 
 
 ![embed](https://vimeo.com/album/5380755/embed)
 
-## Stepsize of a loop
+## Step size of a loop
 
-You can also declare the stepsize for a `range`. The range still runs from start up to the end, but instead of steps of 1, it will take steps the size that you've set. Like this:
+You can also declare the step size for a `range`. The range still runs from start up to the end, but instead of steps of 1, it will take steps the size that you've set. Like this:
 
     for number in range(1, 100, 10):
         ...
 
-Each step in the `for`-loop will be 10 larger than the previous. Take a minute to think over the steps the above loop would make; or copy the code and add a `print` to it to study its behaviour.
+Each step in the `for`-loop will be 10 larger than the previous. Take a minute to think over the steps the above loop would make; or copy the code and add a `print` to it to study its behavior.
 
 ## Types of loops
 
-Dependant on the type of application you can choose either type of loop that you've seen in de videos before. The `for` and `while` are practically interchangable. This `for`-loop:
+Dependant on the type of application you can choose either type of loop that you've seen in de videos before. The `for` and `while` are practically interchangeable. This `for`-loop:
 
     for i in range(100):
         print("hi")
@@ -40,4 +40,4 @@ does the same as the following `while`-loop:
         print("hi")
         i = i + 1
 
-Obviously the `for`-loop is somewhat more compact en more easaly readable. Which is why that loop is used most often, but cases such as asking for user input are often times best impelemnted with a `while`-loop. As a general rule for which loop to choose; a `for`-loop is used if you know or can calculate exactly how often the loop should repeat, and a `while`-loop is used when the amount of repetitions is uncertain.
+Obviously the `for`-loop is somewhat more compact en more easily readable. Which is why that loop is used most often, but cases such as asking for user input are often times best implemented with a `while`-loop. As a general rule for which loop to choose; a `for`-loop is used if you know or can calculate exactly how often the loop should repeat, and a `while`-loop is used when the amount of repetitions is uncertain.

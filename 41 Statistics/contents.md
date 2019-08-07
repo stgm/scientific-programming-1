@@ -21,7 +21,7 @@ For starters have a look at the video to the side. [Daniël Lakens](https://www.
 
 1. <span class="label label-primary">Assignment</span> Learn how to [fit](/statistics/fittingpython) a more complex model in Python
 	
-2. <span class="label label-primary">Assignment</span> Prepare yourself for linving as a [Quant](/statistics/quant) in the City. Banking!
+2. <span class="label label-primary">Assignment</span> Prepare yourself for living as a [Quant](/statistics/quant) in the City. Banking!
 	
 #### Day 4: Testing hypotheses 
 

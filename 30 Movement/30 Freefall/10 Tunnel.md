@@ -6,7 +6,7 @@ Write a function called `tunnel()` in a file called **tunnel.py** that describes
  
 ![](EarthHole.png)
 
-## Uitvoer
+## Output
 
 1. Create a graph of the speed of the apple as function of the time.
 
@@ -28,7 +28,7 @@ Write a function called `tunnel()` in a file called **tunnel.py** that describes
 
 Even though this seems like a difficult problem, it was still possible to solve it with pen and paper. The effective force that are applied to a particle grows linearly as a function of distance to the centre of the earth. If a particle from the centre of earth ($$x=0$$) moves outward (position $$x=r$$) the following applies:
 
-  * The effective gravitational constant grows like $$r^3$$, because the effictive mass of the globe that pulls the object grows with $$r^3$$. Ergo: $$F\propto r^3$$.
+  * The effective gravitational constant grows like $$r^3$$, because the effective mass of the globe that pulls the object grows with $$r^3$$. Ergo: $$F\propto r^3$$.
 
   * The force itself diminishes with $$1/r^2$$ because the force decreases simply inversely proportional to the square of the distance. Ergo $$F\propto r^{-2}$$.
   

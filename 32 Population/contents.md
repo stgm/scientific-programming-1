@@ -6,7 +6,7 @@
 
 In this module we'll simulate the population dynamics of 25 rabbits and 2 foxes, living in a secluded forest.A classical predator-prey model with a variety of elements and an animation.
 
-First, take a look at the video to the side. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promoting ath the UvA and studies the development of plantroots. That ensues a bunch more dataprocessing than one would expect!
+First, take a look at the video to the side. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promoting ath the UvA and studies the development of plant roots. That ensues a bunch more data processing than one would expect!
 
 #### Day 1: Animations in Python
 

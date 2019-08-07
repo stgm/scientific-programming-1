@@ -15,7 +15,7 @@ A greedy algorithm is an algorithm that always makes the best local choice en ro
 
 Imagine a cashier that owes a customer some change, and this cashier has to press a lever for each coin they have to return, quarters (25c), dimes (10c), nickels (5c) and cents (1c). We're looking to solve this problem by pressing the lever one or multiple times, but wish to press that lever as few times as possible.
 
-We can now imagine a "greedy" cashier. Who, every time they have to press a lever, presses the lever with the highest possible value that they're allowed to press. For example, if a customer is owed 41 cents, the chashier then presses the lever for the quarter first. The remainder of change is then (41 - 25 =) 16 cents. Now the cashier can no longer press the lever for 25 cents, since they would then return more money than what is owed. So they press the lever for the next highest value, a dime. Leaving only 6 cents of change to be handed out. This is followed by a press for a nickel and finally a cent. In total the customer receives one quarter, one dime, one nickel and one cent, resulting ing 4 coins alltogether.
+We can now imagine a "greedy" cashier. Who, every time they have to press a lever, presses the lever with the highest possible value that they're allowed to press. For example, if a customer is owed 41 cents, the cashier then presses the lever for the quarter first. The remainder of change is then (41 - 25 =) 16 cents. Now the cashier can no longer press the lever for 25 cents, since they would then return more money than what is owed. So they press the lever for the next highest value, a dime. Leaving only 6 cents of change to be handed out. This is followed by a press for a nickel and finally a cent. In total the customer receives one quarter, one dime, one nickel and one cent, resulting ing 4 coins all together.
 
 It turns out that such a greedy approach *always* results in the fewest coins to be handed out by the cashier. Which means the algorithm *guarantees an optimal solution* (note: this only applies for this set of coins). We do have to assume that the supply of coins never runs out.
 
@@ -31,7 +31,7 @@ How many coins are required exactly for any number of change owed? You tell us!
 
 ## Hints
 
-* This program is structured somewhat like `water`: there is an explicit seperation between *input*, *calculation* and *output*. The differencie being that the calculation is no longer a single formula. You have to develop a complete *algorithm*!
+* This program is structured somewhat like `water`: there is an explicit separation between *input*, *calculation* and *output*. The difference being that the calculation is no longer a single formula. You have to develop a complete *algorithm*!
 
 * It is useful to use a single variable throughout your entire program in which you gradually develop the final solution: the number of coins that need to be handed out.
 

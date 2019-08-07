@@ -2,13 +2,13 @@
 
 In the real world we unfortunately can't always know everything. We cannot precisely determine the lengths of each women in the Netherlands, just like Maurice de Hond doesn't know of each Dutchman what political party they will vote for. By use of samples however, we can gain an insight on the entire population: we determine the lengths of a group of women, or the political preferences of a group of Dutch citizens and create an estimate of the characteristics of the entire population.
 
-In this assignment we'll study how much more precise of an estimation we get of the 'real' average when we increase the number of people in a sample, by using the computer to generate fake samples. So we'll select random values from the original 'real' distribution. By calculating the average length for each of these samples we can determine how often such a sample approximates the actual value and how this percentage depends on the number of subject in a samlpe.
+In this assignment we'll study how much more precise of an estimation we get of the 'real' average when we increase the number of people in a sample, by using the computer to generate fake samples. So we'll select random values from the original 'real' distribution. By calculating the average length for each of these samples we can determine how often such a sample approximates the actual value and how this percentage depends on the number of subject in a sample.
 
 #### Assignment 2: effect of more measurements on accuracy
 
 Create a program `statistics_2.py` that calculates what percentage of groups of women (samples) deviates more than 5 cm of the real average (170.6 cm). Do this for varying sample sizes (number of women in the sample): $$N=2,3,5,10,100$$.
 
-Determine the fraction for a specific value of $$N$$ by followin these steps:
+Determine the fraction for a specific value of $$N$$ by following these steps:
 
   * Select N random values from the original distribution: a sample
   * For each sample: determine the average of the lengths of the women in that sample and store that value
@@ -24,7 +24,7 @@ Determine the fraction for a specific value of $$N$$ by followin these steps:
     Fraction of deviating samples for N =  10: x.xx percent
     Fraction of deviating samples for N = 100: x.xx percent
 
-Extra: try to help the user by neatly formatting hte numbers to be aligned underneath eachother like in the example.
+Extra: try to help the user by neatly formatting hte numbers to be aligned underneath each other like in the example.
 
 It is very insightful to view distributions of averages for varying choices in sample size. Use the histogram-method we've also implemented in assignment 1. Choose the appropriate bin-size yourself.
 

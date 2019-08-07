@@ -14,11 +14,11 @@ Polar coordinates: a point can be described by way of coordinates $$(x,y)$$, but
 
 ![](UitlegPolarCoordinates.png)
 
-Datails about the animation:
+Details about the animation:
 
 * angle $$\alpha$$ varies from $$0$$ to $$20$$ radians in steps of $$0.1$$
 * radius $$R$$ depends on $$\alpha$$, like so $$R=10-0.5\alpha$$
 
 ## Testing
 
-This program is comletely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistent during hte practical.
+This program is completely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistant during hte practical.

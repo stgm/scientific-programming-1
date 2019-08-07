@@ -1,6 +1,6 @@
 # Riemann
 
-Write a function that uses a Riemann sum to calculate the integral of a random mathematical function with specified integral boundaries. The mathematicla function should also be displayed on the screen.
+Write a function that uses a Riemann sum to calculate the integral of a random mathematical function with specified integral boundaries. The mathematical function should also be displayed on the screen.
 
 ## Specification
 
@@ -41,7 +41,7 @@ $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
 Add these functions to your own program and make sure to repeatedly call the `riemann()` function at the bottom of your file, to verify each of these examples. Like this you can pass `func1()` to your `riemann()` function:
 
-    rieman(func1, 0, 1, 10000)
+    riemann(func1, 0, 1, 10000)
 
 ## Hints
 

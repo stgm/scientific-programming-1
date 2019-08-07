@@ -10,9 +10,9 @@ For your new program you'll have to edit the function `simulate_monopoly()`, in 
 
 For a **single** game the code looks a bit like this:
 
-    nubmer_of_throws = simulate_monopoly(starting_money)
+    number_of_throws = simulate_monopoly(starting_money)
 
-Here too, just like in assignment 1, we'll have to simulate a large number of games. Make sure the starting money of the player is supplied in the function call as input argument: `simulate_monopoly_games(total_games, starting_money)`. This function will pass that amout of `starting_money` to each individual simulation.
+Here too, just like in assignment 1, we'll have to simulate a large number of games. Make sure the starting money of the player is supplied in the function call as input argument: `simulate_monopoly_games(total_games, starting_money)`. This function will pass that amount of `starting_money` to each individual simulation.
 
 Start out with 3000 euros of starting money and lower that amount by 500 each time: 2500, 2000, 1500, 1000, 500, and 0 euro. Simulate for each choice of starting money 25000 different games to accurately calculate the average number of throws required to collect all streets. Finally create a graph of the average amount of throws as function of the amount of starting money.
 

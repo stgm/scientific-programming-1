@@ -1,10 +1,10 @@
 # Module 4: data analysis - big data
 
-In this module we'll learn how to extract information out of big datasets.
+In this module we'll learn how to extract information out of big data sets.
 
-#### Day 1: Reading and processing a dataset 
+#### Day 1: Reading and processing a data set 
 
-1. Learn to analyse and process a [dataset](/python/files) 
+1. Learn to analyse and process a [data set](/python/files) 
 
 2. <span class="badge badge-primary">Assignment</span> Process sensor data of the [car ride](/weather/dataprocessing) of a scientist on their way to the UvA
 

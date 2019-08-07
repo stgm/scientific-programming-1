@@ -14,7 +14,6 @@ Write a program that calculates the roots of the polynomial $$f(x)=x^2+2x-10$$.
 
 * Create one function `roots(a, b, c)` that has the task to calculate the roots of the polynomial $$f(x)=ax^2+bx+c$$.
 
-- Er zijn twee mogelijkheden voor het resultaat van de functie:
 * There are two possible results the function could `return`:
 
     * an empty list `[]` when there are no roots

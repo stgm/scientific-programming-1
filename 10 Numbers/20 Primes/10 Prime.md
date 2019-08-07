@@ -1,6 +1,5 @@
 # The thousandth prime
 
-Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 Implement a program that generates the $$n$$-th prime number, where `n` is a user provided value.
 
 	Which prime number are you looking for? 1000
@@ -12,7 +11,7 @@ As previously mentioned, a computer is a great tool for quickly executing a seri
 
 ## Specification
 
-* Ask the user to provde the rank (how manieth) of the prime number that they want. This has to be a whole, positive number.
+* Ask the user to provide the rank (how manyth) of the prime number that they want. This has to be a whole, positive number.
 
 * If a user provides a value that is not valid, ask the user to try again. Keep prompting the user for a value until they do so. Since it is not known how often you'll have to repeat the question, a `while`-loop seems perfect!
 
@@ -30,7 +29,7 @@ For this assignment we'll guide you through some of the steps required to find t
 
 An important part of the description above is the fact that it's about prime numbers. What is a prime number? We'll have to express that concept in Python.
 
-So it is key to first write a program that can determing whether a particular number is a prime or not. At the end of the program it should be clear, through display on the screen, if the number is a prime or not. Het starts with the variable `number`, in which we store the number that must be investigated:
+So it is key to first write a program that can determine whether a particular number is a prime or not. At the end of the program it should be clear, through display on the screen, if the number is a prime or not. It starts with the variable `number`, in which we store the number that must be investigated:
 
     number = input("Enter a number: ")
     number = int(number)
@@ -40,7 +39,7 @@ If the user enters the number 37, at the end of the program the following statem
 
     The number 37 is a prime number
 
-In the case of a non primenumber, such as 36, it should print:
+In the case of a non prime number, such as 36, it should print:
 
 	The number 36 is not a prime number
 
@@ -50,9 +49,9 @@ At the start, keep it simple. Use a `for`-loop and `%` (modulo) to determine how
 
 Let's take it a step further. We can reuse our code from before and for *each* number smaller than 100 determine whether it is a prime number or not.
 
-Create an extra `for`-loop to check eat number under 100 and determine for each of these "canditate primes" whether it is or isn't a prime number. For each number you'll have to determine the divisors individuall, so you'll be needing two `for`-loops inside of one another (*nested loops*).
+Create an extra `for`-loop to check eat number under 100 and determine for each of these "candidate primes" whether it is or isn't a prime number. For each number you'll have to determine the divisors individually, so you'll be needing two `for`-loops inside of one another (*nested loops*).
 
-Implement aforementioned precedure and make sure it works correctly. Next we'll want to expand the procedure by `print`ing each found prime number. So after each conclusion of wether a number is a prime, we'll need a `print`-statement.
+Implement aforementioned procedure and make sure it works correctly. Next we'll want to expand the procedure by `print`ing each found prime number. So after each conclusion of whether a number is a prime, we'll need a `print`-statement.
 
 Is your answer correct? Verify on the web!
 
@@ -64,9 +63,9 @@ Now let's get back to the assignment: finding the n-th prime number. We'll assis
 
 * Start out small. Make sure your program worst for the first 10 prime numbers before you start looking at the 10 thousand numbers. Ten is just large enough to test most of the programs functions and small enough that it should be easy to fix mistakes.
 
-* Errors? Print for every canditate-prime some information, so you know what calculation your program is at and so you can see if your intended strategy is working correctly.
+* Errors? Print for every candidate-prime some information, so you know what calculation your program is at and so you can see if your intended strategy is working correctly.
 
-> Maybe it is weird or annoying to write a program, after which you find out that it doesn't work correctly. That is a programmers fate: it's just incredibly difficult to precisely formulate an algorithm and instantly convert it into functioning code. Sometimes you've forgottan an exception or edge case, but just as easily you've made a typo somewhere. Keep in mind even the best programmers have to deal with this!
+> Maybe it is weird or annoying to write a program, after which you find out that it doesn't work correctly. That is a programmers fate: it's just incredibly difficult to precisely formulate an algorithm and instantly convert it into functioning code. Sometimes you've forgotten an exception or edge case, but just as easily you've made a typo somewhere. Keep in mind even the best programmers have to deal with this!
 
 ## Step 4: does it really work?
 
@@ -80,11 +79,11 @@ Then you're all set to test:
 
 We started out as simple as possible, to get to a *correct* program as soon as possible (checked by `checkpy`). But through some mathematical insight we could do some small optimizations, increasing the speed op the program.
 
-* Except for 2, *even* numbers are nevera prime number (this should only be a small adjustment to your code).
+* Except for 2, *even* numbers are never a prime number (this should only be a small adjustment to your code).
 
 * If you find a divisor, there is no reason to look for any other divisors, it is already certain then number is a prime.
 
-* If you want to determin whether 137 is a prime, which candidate-divisors would you inspect before you're sure it's a prime number? Check this yourself with pen and paper. Dividing by 2 and all uneven numbers up until the number is a bit too much, wouldn't you say? A mathmatician for example would only divide by 2, 3, 5, 7, 11. Think about why (this should result in thorough adjustments of your code).
+* If you want to determine whether 137 is a prime, which candidate-divisors would you inspect before you're sure it's a prime number? Check this yourself with pen and paper. Dividing by 2 and all uneven numbers up until the number is a bit too much, wouldn't you say? A mathematician for example would only divide by 2, 3, 5, 7, 11. Think about why (this should result in thorough adjustments of your code).
 
 ## Hints
 

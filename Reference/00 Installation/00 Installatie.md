@@ -1,17 +1,18 @@
-# Python installeren
+# How to install Python
 
-Python is een omgeving die je kunt installeren op je eigen computer, óf gebruiken via een online-dienst. We geven hier instructies voor beide opties:
 
-- [Installeren op je eigen computer](/naslag/installatie-computer) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is. Het is ook handig voor het maken van 
+Python is an environment that can be installed to your own computer, or used via an online service. We provide you with some instructions for both options:
 
-- [Gebruiken van een online-omgeving](/naslag/installatie-online) is wel een stukje makkelijker. Zeker als je problemen tegenkomt bij de installatie op je eigen computer, kun je hiermee in ieder geval snel aan de slag. De omgeving die we je aanraden is in principe ook blijvend gratis te gebruiken.
+* [Installing on you own computer](/reference/installation-computer) is of course very gratifying, because you can get to work at any time, also when you're done with the course.
 
-Zit je helemaal vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen je verder. Ook als je niet ingeschreven bent bij de cursus kunnen we je helpen met het werkend krijgen van Python!
+* [Using an online service](/reference/installation-online) is a fair bit easier. Especially if you run into any trouble when installing your own computer, you can at least get get to work quickly online. The environment we recommend is theoretically free to use forever.
 
-## Heb je al Python?
+Are you completely stuck? Don't hesitate to send us an [email](mailto:inleiding@mprog.nl) so we can help you along. Even if you're not registered for the course we can help you get Python to work for you!
 
-Tip: mocht je al Python hebben, denk dan aan het volgende:
+## Already have Python?
 
-- Check even of je de juiste versie hebt! Python 2 en Python 3 bestaan namelijk naast elkaar. Wij gebruiken de modernste versie, Python 3.
+Tip: if you already have Python, give this a thought:
 
-- Installatie sowieso het programma `checkpy`. Kijk daarvoor bij de instructies voor je [eigen computer](/naslag/installatie-computer)
+* Check whether you have to correct version! Python 2 and Python 3 exist alongside one another. We use the latest version, Python 3.
+
+* Be sure to install the program `checkpy`. Head over to the instructions for installing on your [own computer](/reference/installation-computer)

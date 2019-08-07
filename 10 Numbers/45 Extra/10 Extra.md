@@ -45,7 +45,7 @@ Make sure that the function also `return`s the list of prime numbers. The rest o
  
 #### step 2: finding common divisor of two numbers
 
-Write a function `divisor_count(n1, n2)` that, for now, determines if there exist any common divisor or not. Use the function you've delcared earlier `prime_factors()` to first generate the list of prime factors for those numbers. Then find the numbers present in both lists.
+Write a function `divisor_count(n1, n2)` that, for now, determines if there exist any common divisor or not. Use the function you've declared earlier `prime_factors()` to first generate the list of prime factors for those numbers. Then find the numbers present in both lists.
 
 It's not yet important to get the exact number of common divisors. For this assignment it is only import to know if there are *no* common divisors. If so, the function should return a `0`.
 
@@ -72,12 +72,10 @@ Specifications:
 
 One of the components we need, generating a random number, is something we'll work with in module 2. In this case it's even more specific, a random *whole* number to be exact.
 
-Plaats bovenaan je programma de volgende regel die je in staat stelt de `random-bibliotheek` te gebruiken in je programma. Deze bibliotheek bevat allerlei functies die random getallen maken.
 Add the following line of code to the top of your file to be able to use the `random`-library in your own code. This library contains all sorts of different functions that generate random numbers.
  
         from random import random
         
-De functie die wij nodig hebben is `randint(Nmin,Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin=10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
 The function we need is `randint(a,b)` that generates a integer between `a` and `b` including both values. In this exercise we'll use a n_min (`a`) = 10000 and n_max (`b`) = 100000. To assign such a random number the name `n` you can use the following lines of code: 
 
         n_min = 10000
@@ -91,7 +89,6 @@ Write a function `prediction(n)` that predicts the theoretical chance of `n` num
 
 #### step 5: Put everything together
 
-Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
 By calling the two functions `experiment()` and `prediction()` everything should fall in its place. The screen should now dipslay (3 decimals accurate):
 
 
