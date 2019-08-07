@@ -44,7 +44,7 @@ More important is of course if or when you find a number that *isn't* in complia
 		    if x in primes:
 		        print(f"Yes, the number {x} is found in my list of primes.")
 
-  Clearly we don't hand you this hint without a reason. This assignment has a more 'elegant' solution in which this construction is uded. You can also solve it in a less elegant way (brute-force) of course.
+  Clearly we don't hand you this hint without a reason. This assignment has a more 'elegant' solution in which this construction is used. You can also solve it in a less elegant way (brute-force) of course.
 
 ## Testing
 
