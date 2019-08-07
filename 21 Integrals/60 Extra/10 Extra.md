@@ -1,6 +1,6 @@
 # Fractals - Mandelbrot set
 
-You probably already know those beautiful multicoloured pictures in which patterns repeat themselves untill they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex fenomena, however hard they are to find out about. In this assignment we delve a little deeper into the maths behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
+You probably already know those beautiful multi-coloured pictures in which patterns repeat themselves until they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex phenomena, however hard they are to find out about. In this assignment we delve a little deeper into the maths behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
@@ -12,9 +12,9 @@ The goal of this extra assignment is: write a program `fractal.py` that displays
 
 To get a better understanding of the maths behind a fractal, we must first introduce a new mathematical concept: *complex numbers*.
 
-Complex numbers maintain a special place in maths and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare mininum.
+Complex numbers maintain a special place in maths and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
 
-   - defenition: we define $$ i = \sqrt{-1}$$
+   - definition: we define $$ i = \sqrt{-1}$$
    
 A complex number (z) is made up out of two components: a real and an imaginary part.
 
@@ -22,13 +22,13 @@ A complex number (z) is made up out of two components: a real and an imaginary p
 
 , with  $$\alpha$$  the real and  $$\beta i$$  the imaginary part.
 
-A common way to imagine these numbers is the so called *complex field*, a 2-dimensional field with a real axis and an imaginary axis that represents the complex part of the number, as can be seen below. Two examples of complex nubmers are $$c = -5 + 3i$$ and $$c=-2-4i$$. These are both represented in blue. All numbers we usually use (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) are situated on the real axis. There are also a couple of complex numbers in red; we'll come back to those in time.
+A common way to imagine these numbers is the so called *complex field*, a 2-dimensional field with a real axis and an imaginary axis that represents the complex part of the number, as can be seen below. Two examples of complex numbers are $$c = -5 + 3i$$ and $$c=-2-4i$$. These are both represented in blue. All numbers we usually use (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) are situated on the real axis. There are also a couple of complex numbers in red; we'll come back to those in time.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
 </p>
 
-Adding complex numbers is simply adding the real part and the complex part individually, but multiplying them takes some caution. You have to take into account that $$i^2 = -1$$. It's most apparent when exponentiating:
+Adding complex numbers is simply adding the real part and the complex part individually, but multiplying them requires some caution. You have to take into account that $$i^2 = -1$$. It's most apparent when performing exponentiations:
 
    * squaring: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
 
@@ -57,11 +57,11 @@ By feeding back the outcome of the operation (function) as an argument into the 
 
    - step 4: ...
 
-In a general sense we dentoe repeating the function $$n$$ times as follows: $$z_n = f^{(n)}(z_0)$$. For each starting number in the complex field we can now examine how the sequence develops.
+In a general sense we denote repeating the function $$n$$ times as follows: $$z_n = f^{(n)}(z_0)$$. For each starting number in the complex field we can now examine how the sequence develops.
 
 **Fractals (globally):**
 
-For each choice of a function $$f(z)$$ we can divide the points in the complex field in two groups. To be precise: for a specific (starting) point $$z_0$$ the followin applies:
+For each choice of a function $$f(z)$$ we can divide the points in the complex field in two groups. To be precise: for a specific (starting) point $$z_0$$ the following applies:
 
    - the sequence converges:  $$\rightarrow$$  $$z_0$$ **is** member of the set
 
@@ -109,12 +109,11 @@ Although you'll have to determine which definition of convergence for yourself i
 
 **Specification for the scan (plot):**
 
-De resolutie van de grafiek moet de volgende dimensies hebben:
 The resolution of the graph needs to have the following dimensions:
 
-    - real axis:      600 punten tussen -2.00 en 1.00 
+    - real axis:      600 points between -2.00 and 1.00 
 
-    - imaginary axis: 600 punten tussen -1.50 en 1.50 
+    - imaginary axis: 600 points between -1.50 and 1.50 
 
 
 If you've finished the assignment early you can opt to add more colour to your plot. Take into account the speed of divergence and let that added bit of information influence the color of a point. Have fun!

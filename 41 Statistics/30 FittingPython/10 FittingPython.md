@@ -2,7 +2,7 @@
 
 Someone in the research group has proposed that there might be a (linear) relation between the length of people and the income of their parents. That would have several causes, but we'll leave that for later. The first step in the research is to examine whether there is a relation at all. We're going to try and look for a relation in the data.
 
-Fitting a straight line is only appropriate if there is no dependancy between the variables. In most cases there is such a dependancey: the height of the sea level as function of the time (sinus), the decay of a radioactive element (exponential) or the velocity of planets as function of their distance to the sun (inversely proportional to the root of the distance to the sun). In those cases too we follow the same steps: vary the parameter until the $$\chi^2$$ is minimal. Fitting a model to measurements is a standard procedure that you'll often encounter as a scientist, should you whish to test a variety of hypotheses or try to discover the underlying dynamics. Implementing a fit in a model with multiple (correlated) parameters quickly becomes a complex and costs a tremendous amount of computational power unless approached in a smart way. Just like any programming language, Python has libraries stocked full with functions that can aid you with that. Although for this course we do not have the time to take an in-depth look at these functionalities and all details that accompany them, we do want to give an example so you know how it works in practice.
+Fitting a straight line is only appropriate if there is no dependance between the variables. In most cases there is such a dependance: the height of the sea level as function of the time (sinus), the decay of a radioactive element (exponential) or the velocity of planets as function of their distance to the sun (inversely proportional to the root of the distance to the sun). In those cases too we follow the same steps: vary the parameter until the $$\chi^2$$ is minimal. Fitting a model to measurements is a standard procedure that you'll often encounter as a scientist, should you whish to test a variety of hypotheses or try to discover the underlying dynamics. Implementing a fit in a model with multiple (correlated) parameters quickly becomes a complex and costs a tremendous amount of computational power unless approached in a smart way. Just like any programming language, Python has libraries stocked full with functions that can aid you with that. Although for this course we do not have the time to take an in-depth look at these functionalities and all details that accompany them, we do want to give an example so you know how it works in practice.
 
 #### Fitting in Python: f(x) = C (1 degree of freedom)
 
@@ -25,7 +25,7 @@ The final line is still a bit of magic, but `popt` is a list containing the 'opt
 
 #### Fitting in Python: f(x) = ax+ b (2 degrees of freedom)
 
-If, instead of a constant function, you'd want to fit a linear function $$f(x) = ax+b$$ and you want to `print` the results, then you only have to adjust the code in 2 locations. The location where you define the funciton that you fit to and the location where you print the results to the screen. Go ahead an find them.
+If, instead of a constant function, you'd want to fit a linear function $$f(x) = ax+b$$ and you want to `print` the results, then you only have to adjust the code in 2 locations. The location where you define the function that you fit to and the location where you print the results to the screen. Go ahead an find them.
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
@@ -48,7 +48,7 @@ Write a program `statistics_4.py` in which you fit data to both a straight line 
 
 {: .language-python}
     A fit of f(x)=c     gives the best value:   c = x.xx
-    A fit of f(x)=ax+b  gives the best valeus:  a = x.xx    and b = x.xx
+    A fit of f(x)=ax+b  gives the best values:  a = x.xx    and b = x.xx
     
     
     

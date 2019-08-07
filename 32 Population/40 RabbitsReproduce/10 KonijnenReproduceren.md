@@ -19,9 +19,9 @@ We'll answer this question incrementally. Add two functions, `reproducing_rabbit
 
 The first aspect that we will implement is the rabbits' ability to reproduce. Declare a new function called `reproducing_rabbits()` that is called after the currently existing functions (moving rabbits, moving foxes and eating rabbits by the foxes) in `predator_prey()`. This function will verify if there's any rabbits close together. If that's the case the program should generate new baby rabbits at a random position in the forest.
 
-Apply the follwing strategy:
+Apply the following strategy:
 
-  1. Don't call the function until 200 seconds have passed. The rabbits start relatively close to eachother and start out too young to reproduce. This is an adjustment of the `predator_prey()` function that determines what functions are called and when.
+  1. Don't call the function until 200 seconds have passed. The rabbits start relatively close to each other and start out too young to reproduce. This is an adjustment of the `predator_prey()` function that determines what functions are called and when.
 
   2. First determine how many pairs of rabbits are close together (distance < 1). This determines the number of nests. <b>Note:</b> avoid double counting a rabbit. Only assign a rabbit to 1 nest each.
 
@@ -40,11 +40,11 @@ Like you've already seen, the system is very unstable. After 1000 seconds you'll
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
-The assignment of this step is to create this type of graph for a single simulation. This way we'll try to convice ourselves of the fact that the new `overpopulation()` function works correctly. So declare a new function `success_chance_rabbits()` that run a single simulation by calling the `predator_prey()` function and creating a plot like the ones above.
+The assignment of this step is to create this type of graph for a single simulation. This way we'll try to convince ourselves of the fact that the new `overpopulation()` function works correctly. So declare a new function `success_chance_rabbits()` that run a single simulation by calling the `predator_prey()` function and creating a plot like the ones above.
 
-<b>Tip:</b> The function that we have to define here is alot like the function `average_half_life()` that we used in assignment 3b and 3c. Copy that function and use it as a 'base' that you can then adjust to the specific graph you want to create here. The function `predator_prey()` already `return`s the number of rabbits for every step in time. Use that information as the foundation of your plot.
+<b>Tip:</b> The function that we have to define here is a lot like the function `average_half_life()` that we used in assignment 3b and 3c. Copy that function and use it as a 'base' that you can then adjust to the specific graph you want to create here. The function `predator_prey()` already `return`s the number of rabbits for every step in time. Use that information as the foundation of your plot.
 
-Aside from drawing the plot it's also important to draw conclusions on whether the rabbits or the foxes have won. If at timestep 1000 the number of rabbits is greater than 45 the rabbits have won, if their numbers are fewer than 5 the foxes have won. Every other amount of rabbits results in a tie between rabbits and foxes.
+Aside from drawing the plot it's also important to draw conclusions on whether the rabbits or the foxes have won. If at time step 1000 the number of rabbits is greater than 45 the rabbits have won, if their numbers are fewer than 5 the foxes have won. Every other amount of rabbits results in a tie between rabbits and foxes.
 
 At the end of the simulation the program should `print` to the screen who has won.
 
@@ -56,7 +56,7 @@ At the end of the simulation the program should `print` to the screen who has wo
 
 #### The assignment: chance of success for the rabbits
 
-We're now able to answer the original question of this assignment: what is the chance the rabbits will win? More concrete: in what percentage of the simulations is the number of rabbits in the forest after 1000 timesteps (seconds) greater than 45? Edit the `success_chance_rabbits()` from assignment 4b in such a way that it now runs 200 simulations and keep track for each of the simulations whether the rabbits won (more than 45 rabbits), or the foxes have won (fewer than 5 rabbits) or that there was a tie (all other cases).
+We're now able to answer the original question of this assignment: what is the chance the rabbits will win? More concrete: in what percentage of the simulations is the number of rabbits in the forest after 1000 time steps (seconds) greater than 45? Edit the `success_chance_rabbits()` from assignment 4b in such a way that it now runs 200 simulations and keep track for each of the simulations whether the rabbits won (more than 45 rabbits), or the foxes have won (fewer than 5 rabbits) or that there was a tie (all other cases).
 
 <b>Note:</b> You no longer need to show the graph that you've created for assignment 4b for each of the simulations. Make sure it is only plotted if the functions `success_chance_rabbits()` only runs 1 simulation.
 
@@ -69,7 +69,7 @@ Calculate the fraction after all of the simulations have ran their course and `p
 
 ### Conclusion
 
-In this assignment we have simulated population dynamics by using the computational strenght of a computer. We have included some elementary aspects and studied how the development of rabbits is dependant on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
+In this assignment we have simulated population dynamics by using the computational strength of a computer. We have included some elementary aspects and studied how the development of rabbits is dependant on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
 
 
 

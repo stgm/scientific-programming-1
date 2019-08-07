@@ -2,7 +2,7 @@
 
 ![embed](https://player.vimeo.com/video/138378099)
 
-To figure out the inner workings of (physical) phenomena, data is collected to examine any dependancies. That could be the mass of the Higgs boson, the decay of uranium, but also the number of children in a family as function of the average length of the parents. You could look for a (causal) relationship: linear, exponential etc. and in the process determine the corresponding parameters and their margin for error. If you've found a fitting description you can then do predictions using that model. Each measurement is accompanied by an uncertainty that indicates the precision by which the magnitude is measured. The smaller the error, the more accurate the measurement and the more 'important' it is in regards to comparing the measurements to your model.
+To figure out the inner workings of (physical) phenomena, data is collected to examine any dependencies. That could be the mass of the Higgs boson, the decay of uranium, but also the number of children in a family as function of the average length of the parents. You could look for a (causal) relationship: linear, exponential etc. and in the process determine the corresponding parameters and their margin for error. If you've found a fitting description you can then do predictions using that model. Each measurement is accompanied by an uncertainty that indicates the precision by which the magnitude is measured. The smaller the error, the more accurate the measurement and the more 'important' it is in regards to comparing the measurements to your model.
 
 To find the 'best' value we need a measure (metric) that describes the 'quality' of the fit. Here we use the  $$\chi^2$$-measure: the sum of the average deviation of the measurements and the model weighed by their error.
 
@@ -18,7 +18,7 @@ The best value of your model ($$\alpha_{best}$$) and the uncertainty of it ($$\D
 
 In the fitting procedure we look for the value of parameters in your model that result in the smallest $$\chi^2$$. Because those are the 'best' values of the model, since those values cause the model to best describe the data.
 
-Each value of your parameters that is differen than $$\alpha_{best}$$ will change the value of $$\chi^2$$ (it will increase which means there is a worse match with the data). The difference between the value of the $$\alpha$$ for which the $$\chi^2$$ would increase exactly 1 is called the uncertainty.
+Each value of your parameters that is different than $$\alpha_{best}$$ will change the value of $$\chi^2$$ (it will increase which means there is a worse match with the data). The difference between the value of the $$\alpha$$ for which the $$\chi^2$$ would increase exactly 1 is called the uncertainty.
 
 The result of your fit can be represented as follows:
 
@@ -36,11 +36,6 @@ $$\sigma$$ (bad at y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 ![](FitExampleCombined.png)
 
-De data is weergegeven in de linker plot hieronder. We nemen aan dat zijn
-prestaties constant zijn en nemen daarom aan dat het model dat deze data het
-best beschrijft een constante is. Ons model heeft dus maar 1 parameter:
-$$f(x)=c$$. De vraag is nu: *welke waarde van $$c$$ beschrijft de data het best
-en welke onzekerheid moeten we aan die schatting toekennen?*
 The data is represented on the left hand plot below. We assume that is performance is constant and thus assume that the model that describes this data best is a constant. That means our model only has 1 parameter: $$f(x)=c$$. The questions is: *which value of $$c$$ describes the data best and which uncertainty should be attributed to that prediction?*.
 
 ## Calculating $$\chi^2$$
@@ -77,13 +72,13 @@ percentage good passes = $$ 60.3 \pm1.5$$
 
 Declare a function `fit()` in a file called **fit.py** that verifies the aforementioned result.
 
-1. Create aplot of this data with the errors
+1. Create a plot of this data with the errors
 
-    Tip: use the funciton `plt.errorbar(x, y, yerr=yerror)`. Search on the internet how to properly user this function.
+    Tip: use the function `plt.errorbar(x, y, yerr=yerror)`. Search on the internet how to properly user this function.
 
 2. `Print` the best value of $$c$$.
 
-3. `Print` on a seperate line the corresponding uncertainty $$\Delta_c$$.
+3. `Print` on a separate line the corresponding uncertainty $$\Delta_c$$.
 
 Answer for yourself the question: how does the result change if the error on each of the measurements becomes twice as large?
 

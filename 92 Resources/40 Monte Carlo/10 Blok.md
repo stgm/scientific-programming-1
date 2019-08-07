@@ -17,7 +17,7 @@ It is possible to approximate an integral by using random numbers.
 
 2.  Generate random points within the rectangle
 
-    Generate a large numer of random numbers $$(x_i, y_i)$$ in the rectangle that surrounds the integral area and verify for each point whether is lies 'within' the integral area ('good') or not ('wrong'). Keep track of the francion of points within the integral area: $$f_{good}$$.
+    Generate a large number of random numbers $$(x_i, y_i)$$ in the rectangle that surrounds the integral area and verify for each point whether is lies 'within' the integral area ('good') or not ('wrong'). Keep track of the fraction of points within the integral area: $$f_{good}$$.
 
 3.  Determine the integral
 

@@ -13,7 +13,7 @@ First add a second player to your simulation, let both players start with 1500 e
 The goal is to figure out the difference by simulating a large amount of games:
 {: .language-python}
 	Monopoly simulator: two players, 1500 euro starting money, 10000 games
-    On average player 1 has X.XX mroe streets in their possession when all streets have been bought
+    On average player 1 has X.XX more streets in their possession when all streets have been bought
 
 
 **Strategy:**
@@ -29,39 +29,34 @@ The goal is to figure out the difference by simulating a large amount of games:
       delta = simulate_monopoly(starting_money_p1, starting_money_p2)
       print(f"After this game player 1 had {delta} more streets than player 2.")
 
-  * Keep track of how much money both players have and what their indivudal positions are.
+  * Keep track of how much money both players have and what their individual positions are.
 
-    * At the start of the game for example their positions are: `position_p1 = 0` and `position_p2 = 0`, but the brave amongst you can also keep track of their postions in a list like this: `positions = [0, 0]`. You have the same set of options for keeping track of the amount of money each player has. It is standard to use multiple variables, but it is more concise to use a list.
+    * At the start of the game for example their positions are: `position_p1 = 0` and `position_p2 = 0`, but the brave amongst you can also keep track of their positions in a list like this: `positions = [0, 0]`. You have the same set of options for keeping track of the amount of money each player has. It is standard to use multiple variables, but it is more concise to use a list.
 
 Always test your code for a single game and keep close watch whether your code behaves the way you expect it to. Only then should you increase the number of games. Again, use the same setup as you did in the function for the first assignment and now, aside from the number of games, also specify the starting money of both players: `simulate_monopoly_games(total_games, starting_money_p1, starting_money_p2)` en make sure you can answer the question.
 
 Ultimately `print` the difference to the terminal:
 {: .language-python}
   Monopoly simulator: two players, 1500 euro starting money, 10000 games
-    On average player 1 has X.XX mroe streets in their possession when all streets have been bought
+    On average player 1 has X.XX more streets in their possession when all streets have been bought
 
 #### [part 3b] repairing the disadvantage of player 2
 
 THe question remains if and how we can fix this 'unfair' situation. One of the 'buttons' you can turn for this game is the amount of starting money the players receive. If player 2 has more starting money than they can overcome their disadvantage. Determine the amount of extra starting money player 2 should receive so they have, on average, as many streets as player 1 by the end of each game of Monopoly.
 
-Definieer een nieuwe functie `evenwicht()` waarin je de functie      `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` 
-steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
-
-Declare a new function `equilibrium()` in wich you repeatedly call the function `simulate_monopoly_games(total_games, starting_money_p1, starting_money_p2)` with different values for the starting money of player 2. Player 1's starting money is fixed at 1500 euros. Try this for an 'extra' amount of money for player 2 of 0, 50, 100, 150, 200 euros and each time print the average difference to the screen as follows:
+Declare a new function `equilibrium()` in which you repeatedly call the function `simulate_monopoly_games(total_games, starting_money_p1, starting_money_p2)` with different values for the starting money of player 2. Player 1's starting money is fixed at 1500 euros. Try this for an 'extra' amount of money for player 2 of 0, 50, 100, 150, 200 euros and each time print the average difference to the screen as follows:
 
     Starting money  [1500,1550]: player 1 on average X.XX more streets (player 2 50 euros extra)
     Starting money  [1500,1600]: player 1 on average X.XX more streets (player 2 100 euros extra)
     Starting money  [1500,1650]: player 1 on average X.XX more streets (player 2 150 euros extra)
     Starting money  [1500,1700]: player 1 on average X.XX more streets (player 2 200 euros extra)
 
-If you've ran a couple simulation, you'll have a small data-set with which you can repcroduce the graph from earlier and you should be able to make a decent estimation of the amount of extra money player 2 requires in order to restore the equilibrium.
-
-Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Gebruik hiervoor een aanname dat het verschil lineair verloopt als functie van het extra geld voor speler 2. Het antwoord moet op 25 euro nauwkeurig zijn.
+If you've ran a couple simulation, you'll have a small data-set with which you can reproduce the graph from earlier and you should be able to make a decent estimation of the amount of extra money player 2 requires in order to restore the equilibrium.
 
 There is of course a sum of money where the advantage switches towards player 2. Use that amount (and the amount before that) to make an estimation of the amount where the equilibrium is situated. Assume for this that teh difference follows a linear course as function of the extra money player 2 receives. The answer has to be rounded to the nearest value of 25 euros.
 
 {: .language-python}
-	Monopoly simulator: 2 spelers
+	Monopoly simulator: 2 players
     If player 2 receives XXX euros more starting money, both players collect on average an equal number of streets
 
 

@@ -36,7 +36,7 @@ For starters take a look at the video to the side. Egge van der Poel is a Data S
 
 2. Learn more about using [modules](/python/modules) in Python
 
-3. Find out houw to [plot](/resources/plot) your data
+3. Find out how to [plot](/resources/plot) your data
 
 4. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/algorithms/graphs)
 
