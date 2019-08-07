@@ -14,8 +14,8 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 <div class="list-group list-group-flush">
 <a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
 <a href="/numbers" class="list-group-item">Dive into number theory.</a>
-<div class="card-body">
 </div>
+<div class="card-body">
 </div>
 </div>
 <div class="card">
