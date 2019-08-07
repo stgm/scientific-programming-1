@@ -5,37 +5,37 @@ University of Amsterdam / Programming Lab / Version 4.0-beta
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems. For each module below, you may choose one particular case study.
 
 <div class="card-group">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Module 1</h5>
-            <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
-            <div class="list-group list-group-flush">
-                <a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
-                <a href="/number theory" class="list-group-item">Dive into number theory.</a>
-            </ul>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Module 2</h5>
-            <p class="card-text">Learn about using functions to organize program code.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Module 3</h5>
-            <p class="card-text">Learn about simulating phenomena to understand them better.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Module 4</h5>
-            <p class="card-text">Learn about automating data analysis and statistical modelling.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Module 1</h5>
+<p class="card-text">Learn about the basic elements of algorithms in Python.</p>
+<div class="list-group list-group-flush">
+<a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
+<a href="/number theory" class="list-group-item">Dive into number theory.</a>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Module 2</h5>
+<p class="card-text">Learn about using functions to organize program code.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Module 3</h5>
+<p class="card-text">Learn about simulating phenomena to understand them better.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Module 4</h5>
+<p class="card-text">Learn about automating data analysis and statistical modelling.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div>
 </div>
 
 **Module 1**
