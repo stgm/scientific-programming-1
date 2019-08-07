@@ -30,7 +30,7 @@ Just like the rabbits, foxes have a unique way of moving. The fox has a tendency
 {: .language-python}   
      angle_new = np.random.normal(foxes_angles[fox], 0.2)  
 
-Let hte fox first take a step and only the calculate a new random direction, which you can store in `foxes_angles`. During the next step the fox will move in the new direction. The value 0.2 in the above expression is the so-called width of the normal distribution. It decides how easy (or difficult) it is for the fox to move away from their original direction.
+Let the fox first take a step and only the calculate a new random direction, which you can store in `foxes_angles`. During the next step the fox will move in the new direction. The value 0.2 in the above expression is the so-called width of the normal distribution. It decides how easy (or difficult) it is for the fox to move away from their original direction.
 
 <br>
 
