@@ -1,4 +1,4 @@
-# Summarizing and plotting a corpus
+# Summarizing and plotting sentiment
 
 Write a program that reads in a selection of texts, calculates each text's sentiment, and summarizes the results in a pie chart.
 
