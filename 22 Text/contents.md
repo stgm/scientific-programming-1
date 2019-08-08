@@ -1,34 +1,34 @@
-# Natural Language Processing
-
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://player.vimeo.com/video/233508920)
-</div>
+# Text processing
 
 One interesting application of Python is to use it for analyzing texts written by humans. Written texts are subject to various implicit and explicit rules, such as spelling and grammar. Python can be used to make sense of texts at various levels. For example, we may calculate simple statistics about the length of a document or its parts. Or we may dig a little deeper by analyzing word use, or finding misspelled words or grammar problems. And using big data techniques, we might make an educated guess about the meaning of a piece of writing, or even the attitude that a text represents.
 
-##### Day 1: text statistics
+![embed](https://player.vimeo.com/video/233508920)
 
-1. Learn how to write [functions](/python/functions) in Python.
+##### Day 1: Text statistics
 
-2. Learn about [strings](/language/strings) in Python.
+- Learn how to write [functions](/text/functions) in Python.
 
-3. <span class="badge badge-primary">Assignment</span> Calculate [basic statistics](/language/statistics) about a text.
+- Learn about [strings](/text/strings) in Python.
 
-##### Day 2: text cleanup
+- <span class="badge badge-primary">Assignment</span> Calculate [basic statistics](/text/statistics) about a text.
 
-2. <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/language/words) word by word.
+##### Day 2: Text cleanup
 
-3. <span class="badge badge-primary">Assignment</span> [Reformat](/language/reformatting) a text, respecting word boundaries.
+- <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/text/words) word by word.
 
-##### Day 3: sentiment analysis
+- <span class="badge badge-primary">Assignment</span> [Reformat](/text/reformatting) a text, respecting word boundaries.
 
-1. Learn how to read text from [files](/language/files) in Python.
+##### Day 3: Sentiment analysis
 
-2. <span class="badge badge-primary">Assignment</span> Perform a [sentiment analysis](/language/sentiment) on a large text fragment.
+- Learn how to read text from [files](/text/files) in Python.
 
-1. <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/language/tweets).
+- <span class="badge badge-primary">Assignment</span> Perform a [sentiment analysis](/text/sentiment) on a large text fragment.
+
+- <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/text/tweets).
 
 ##### When you've finished
+
+You might take a look at these resources for further study:
 
 - What can you do with sentiment analysis? [Text analysis of Trump's tweets confirms he writes only the...](http://varianceexplained.org/r/trump-tweets/)
 

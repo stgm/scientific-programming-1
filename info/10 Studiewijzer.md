@@ -24,7 +24,7 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 </div>
 <div class="list-group list-group-flush">
 <a href="/integrals" class="list-group-item">Calculate definite integrals of complicated mathematical functions.</a>
-<a href="/language" class="list-group-item">Analyze text sources using text processing.</a>
+<a href="/text" class="list-group-item">Analyze text sources using text processing.</a>
 </div>
 </div>
 <div class="card">

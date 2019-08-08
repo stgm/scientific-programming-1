@@ -1,4 +1,17 @@
-Water: /algorithms/water
-Pyramid: /algorithms/pyramid
-Greedy: /algorithms/greedy
-Graphs: /algorithms/graphs
+Introduction: /algorithms
+"Day 1: Getting started":
+    Install Python: /reference/installation
+    Basic elements of Python: /language/basics
+    Water: /algorithms/water
+"Day 2: A first algorithm":
+    Analyze word use: /language/words
+    Reformatting Text: /language/reformatting
+    Pyramid: /algorithms/pyramid
+"Day 3: A serious algorithm":
+    Learn about files: /language/files
+    Sentiment analysis: /language/sentiment
+    Tweet statistics: /language/tweets
+    Greedy: /algorithms/greedy
+"Day 4: Working with graphs":
+    Learn about lists:
+    Graphs: /algorithms/graphs
