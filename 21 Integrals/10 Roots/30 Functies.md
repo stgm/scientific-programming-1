@@ -3,7 +3,7 @@
 Write a program that calculates the roots of the polynomial $$f(x)=x^2+2x-10$$.
 
     # python roots.py
-    THe roots are -4.32 and 2.32
+    The roots are -4.32 and 2.32
 
 ![](PolynoomAnalyse.png)
 

@@ -1,11 +1,11 @@
 
 ## Assignment 5: Testing hypotheses
 
-A part of the researchers think the data suggests that there is a linear relationship within the data, as opposed to another part of the researchers who think there is no dependance and that observed light dependencies are just a coincidence caused by the specific samples that were collected. We'll conclude this module by supplying quantitative data to this ongoing discussion.
+A part of the researchers think the data suggests that there is a linear relationship within the data, as opposed to another part of the researchers who think there is no dependence and that observed light dependencies are just a coincidence caused by the specific samples that were collected. We'll conclude this module by supplying quantitative data to this ongoing discussion.
 
 The question really is: "how rare is the case that, given that there is <b>no</b> actual relationship, a series of samples (of this size in each category) produces a value for the slope that is of equal value as it is in the data or even larger?". This fractions is often encountered in literature and is also known as the <font color = 'red'> p-value </font>.
 
-#### Assignment 5: Simulate random data-sets and calculate teh p-value
+#### Assignment 5: Simulate random data-sets and calculate the p-value
 
 Write a program `statistics_5.py` that answers the aforementioned question by examining how rare it is that the observed slope is present within the data, when in actuality there is no dependence at all.
 

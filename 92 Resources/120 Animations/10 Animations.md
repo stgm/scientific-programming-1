@@ -29,7 +29,7 @@ When you draw a point (one $$x$$-value and one $$y$$-value) of which the $$x$$ a
 
 ![](AnimationExampleSin1.gif)
 
-> As yo usee, we call the function `pause()` in our code. We do so to give pyplot the opportunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
+> As you can see, we call the function `pause()` in our code. We do so to give pyplot the opportunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
 
 
 ## A moving line

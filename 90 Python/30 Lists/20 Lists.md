@@ -24,7 +24,7 @@ Adding an element to the end of a list:
 
 Loop through a list:
 
-    measurings_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
-    measurings_science_park.append(20.5)
-    for measure in measurings_science_park:
+    measurements_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
+    measurements_science_park.append(20.5)
+    for measurement in measurements_science_park:
         print(f"the measurement was {measurement} degrees.")

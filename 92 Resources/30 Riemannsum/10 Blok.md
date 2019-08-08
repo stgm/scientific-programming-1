@@ -23,6 +23,6 @@ The complete integral is then expressed by:
 $$\int_a^b f(x)~dx = \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
                        ~~ \approx \Delta~x(f_1 + f_2 + ... +  f_{N-1}) ~+~ \frac{\Delta x}{2}(f_0+f_N) $$
 
-In the evaluation of the integral $$\int_{0}^{\pi}sin(x)~dx$$, we have divided the integral area $$x$$ in 13 areas of similar size. Which means we have 14 x-values. The height of each of the 13 rectangles is the average of the value on hte left hand side and right hand side of the smaller integral area. 
+In the evaluation of the integral $$\int_{0}^{\pi}sin(x)~dx$$, we have divided the integral area $$x$$ in 13 areas of similar size. Which means we have 14 x-values. The height of each of the 13 rectangles is the average of the value on the left hand side and right hand side of the smaller integral area. 
 
 The trick is as follows: the ultimate integral can be evaluated by the sum of the areas of all rectangles. Note that when calculating the integral the 'areas' of rectangles underneath the y-axis is negative. When the intervals become smaller and smaller, the approximation of the integral gets more precise! Which is why it's a good thing were using a computer for this.

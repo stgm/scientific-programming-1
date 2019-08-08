@@ -11,7 +11,7 @@ Although we want to leave this assignment up to you for as much as possible (the
 
 ### Definition of the coprime and predictions from numbers theory
 	    
-In the description on the definition of [coprimes](https://en.wikipedia.org/wiki/Coprime_integers) on wikipedia we see there is a way to calculate the chance that *n* random numbers do not share a common divisor.
+In the description on the definition of [coprimes](https://en.wikipedia.org/wiki/Coprime_integers) on Wikipedia we see there is a way to calculate the chance that *n* random numbers do not share a common divisor.
 
 This chance is: $1/\zeta(n)$$, where $$\zeta(n)$$ is the well-known [Riemann zeta function](https://en.wikipedia.org/wiki/Riemann_zeta_function).
 
@@ -25,7 +25,7 @@ In this assignment we are going to verify this calculation. First we'll find out
 
 ### Finding the solution yourself
 
-Theres different methods to solve this problem. For now, follow the following procedures and intermediate steps, because those will aid us in verifying how far you got into solving this problem.
+There are different methods to solve this problem. For now, follow the following procedures and intermediate steps, because those will aid us in verifying how far you got into solving this problem.
 
 
 #### step 1: list of prime factors
@@ -57,7 +57,7 @@ To determine the fraction of pairs where there are no common divisors we'll have
 
    2. check whether there are any common divisors for each number-pair
 
-   3. evaluate which fraction of number-paris had no common divisors 
+   3. evaluate which fraction of number-pairs had no common divisors 
 
 Create a function `experiment()` that implements each of these steps and that `print`s the fraction on the screen after which it `return`s that fraction.
 

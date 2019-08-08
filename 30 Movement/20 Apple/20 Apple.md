@@ -50,7 +50,7 @@ You should then have calculated all information of a certain point in time. Subs
 
 * Use the aforementioned formula and start the apple on x = $${\rm R_{earth}}$$ + 100 meters. If you want to know how high up the apple is, use h = x - $${\rm R_{earth}}$$.
 * Be careful with the *sign* of the powers and speeds. You start with a positive $$x$$ and move towards $$x=0$$.
-* In this case you can also calculate teh answers yourself using pen and paper.
+* In this case you can also calculate the answers yourself using pen and paper.
 * First calculate everything in meters per second (m/s) and convert everything to kilometers per hour (km/h) for specification 2.
 
 

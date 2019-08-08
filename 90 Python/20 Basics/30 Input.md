@@ -6,7 +6,7 @@ Except for having your program printing to a user, you can also ask for input fr
     print("Hello,", name)
 
 
-The string `"Please enter your first name: "` that follows the function `input`, is immediately displayed on the users screen when `input` is executed. After which `input` will patiently wait for the user to fill in any value and until they press **enter**. The provided value is now assigned a name. In the example above it is coincidentally assigned the name `name`. After which it is printed on the next line using the variable `name` within teh print statement.
+The string `"Please enter your first name: "` that follows the function `input`, is immediately displayed on the users screen when `input` is executed. After which `input` will patiently wait for the user to fill in any value and until they press **enter**. The provided value is now assigned a name. In the example above it is coincidentally assigned the name `name`. After which it is printed on the next line using the variable `name` within the print statement.
 
 The `input` function always gives you the user provided value as a string. But sometimes you want the user to provide a number, so you can perform a calculation. Then you'd have to use one of the conversions demonstrated above. For instance:
 

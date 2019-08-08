@@ -10,7 +10,7 @@ Implement a program that reports a users water usage back to them, by calculatin
 
 ## Specification
 
-* Create a new file called `water.py` and write a program that asks the user for how long they shower in minutes. Then print the amount of bottles of water that corresponds to that number of minutes. You can assume that one minute of showering takes 12 bottles of water (containing 0.5 Litres each).
+* Create a new file called `water.py` and write a program that asks the user for how long they shower in minutes. Then print the amount of bottles of water that corresponds to that number of minutes. You can assume that one minute of showering takes 12 bottles of water (containing 0.5 Liters each).
 
 * To keep things simple, assume the user always provides a positive integer as input for the amount of minutes. That means you don't have to implement any error handling for the case that a user inputs an invalid value. 
 
@@ -18,7 +18,7 @@ Implement a program that reports a users water usage back to them, by calculatin
 
 ## Hints
 
-* This program complies with the common clichés of a standard computer program: it contains an *input*, a *calculation*, and and *output*. Try to represent each of these components in your code!
+* This program complies with the common cliches of a standard computer program: it contains an *input*, a *calculation*, and and *output*. Try to represent each of these components in your code!
 
 * Utilize the `input`-function and `int()` to process the input of a user from a string into an integer, to be able to perform calculations with the user-provided values.
 

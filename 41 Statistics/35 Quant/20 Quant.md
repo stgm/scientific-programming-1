@@ -15,7 +15,7 @@ Write a program called `statistics_bonus.py` in which you predict the closing pr
    2. Fit the measurements with a second degree polynomial: $$f(x)=ax^2+bx+c$$. 
       Adjust the fitting function to one what we've used before in this module.
 
-As soon as you've found the function that correctly used the data points, you have a model with which you can extrapolate. Wat is your prediction of the closing prices of the AEX in the year 2000? Cross reference these with the actual value that was realized (637,60). And? How's that possible?
+As soon as you've found the function that correctly used the data points, you have a model with which you can extrapolate. What is your prediction of the closing prices of the AEX in the year 2000? Cross reference these with the actual value that was realized (637,60). And? How's that possible?
     
     
 	

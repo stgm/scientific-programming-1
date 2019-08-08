@@ -1,6 +1,6 @@
 # Population dynamics: predator-prey model#
 
-A classical example of a complex dynamical system is the so-called predator-prey model. The basis of the mathematical description of the populations are the famous [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka–Volterra_equations). The maths quickly become very complex and it's not always as easy to predict what the effects of a change of behavior are on the different populations in a system.
+A classical example of a complex dynamical system is the so-called predator-prey model. The basis of the mathematical description of the populations are the famous [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka–Volterra_equations). The math quickly become very complex and it's not always as easy to predict what the effects of a change of behavior are on the different populations in a system.
 
 In this module we'll create a simulation ourselves of a well-organized system: a forest of 100 by 100 meters inhabited by 25 rabbits and 2 foxes. By programming it ourselves, we can add new phenomena. Visualizing the system gives us direct feedback on our code and shows us the consequences of the new behavioral elements that we add. Goal of this module is to add complexity to the behavior of rabbits and foxes in our simulation and to ultimately find out whether the foxes or the rabbits will emerge victorious when released in our isolated neck of the woods.
 
@@ -120,12 +120,12 @@ Because our time steps are exactly 1 second we can then calculate the new positi
 
 The code above actually read velocity_x * dt, but since the time steps (dt) are 1 second we can leave out that multiplication. This implementation allows us to give each rabbit a unique direction at the start of a simulation. Apply the above changes to your program, give each of the rabbits their own direction and run the simulation for 20 seconds instead of 10.
 
-<b>Note:</b> to be able to use trigonometric functions in your code like this you first have to import the maths library from Python: `from maths import cos, sin`
+<b>Note:</b> to be able to use trigonometric functions in your code like this you first have to import the math library from Python: `from math import cos, sin`
 <br>
 
 #### Part (1b): the edge of the forest
 
-Our rabbits, cowards that they are, will never leave the forest. As soon as they accidentally set foot outside teh forest they turn around and make their way back where they came from into the forest. Adjust the function `move_rabbits()` in such a way that the rabbits will always remain inside the forest.
+Our rabbits, cowards that they are, will never leave the forest. As soon as they accidentally set foot outside the forest they turn around and make their way back where they came from into the forest. Adjust the function `move_rabbits()` in such a way that the rabbits will always remain inside the forest.
 
 Utilize the following strategy when the rabbit has moved outside of the forest after a movement:
 

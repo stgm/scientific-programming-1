@@ -6,7 +6,7 @@ In this part of the module we'll study in detail the result of the earlier menti
 
 ### [Example]: Determining the boiling point of alcohol during a practical
 
-During a practical groups of students were assigned the task to determine the boiling point of alcohol. Because of a lack of time each group only had time for 1 measurement. There were six thermometers in the room that could measure teh temperature to 1 degree Celsius accurate and four thermometers that could do measurements to 0.5 degrees accurate. The list with measurements done by the ten groups of students is as follows and the graph with values is shown at the bottom of this example.
+During a practical groups of students were assigned the task to determine the boiling point of alcohol. Because of a lack of time each group only had time for 1 measurement. There were six thermometers in the room that could measure the temperature to 1 degree Celsius accurate and four thermometers that could do measurements to 0.5 degrees accurate. The list with measurements done by the ten groups of students is as follows and the graph with values is shown at the bottom of this example.
 
 group number students (x)                   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
 measured boiling point in $$^\circ$$C (y)  | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
@@ -77,7 +77,7 @@ The example that we've walked through is the so-called 'fitting' of a simple mod
 
 ## Assignment 3: average length of women in Denmark
 
-Let's refocus on the case from before. So in Denmark there is a group researchers studying whether the length of women is dependant on the income of their parents. They've chosen 10 categories of income and although they've tried to find as many equal numbers of women from each category for their study, the number of women with parents within the extremes of the income categories (very poor and very rich) is limited. This is clear by the greater error on the estimation of the average length within those groups.
+Let's refocus on the case from before. So in Denmark there is a group researchers studying whether the length of women is dependent on the income of their parents. They've chosen 10 categories of income and although they've tried to find as many equal numbers of women from each category for their study, the number of women with parents within the extremes of the income categories (very poor and very rich) is limited. This is clear by the greater error on the estimation of the average length within those groups.
 
 Category (x)        |  1 (very poor)   |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 (very rich)
 Avg. length (y)      | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
@@ -85,7 +85,7 @@ Error ($$\Delta y$$)  |  4    |  4    |  2    |  2    |  2    |  2    |  2    | 
 
 Write a program `statistics_3.py` in which you find the average of the length of women in Denmark by fitting the data given above to the function $$f(x) = C$$. That means for this assignment you will assume there is no correlation between the income of the parents and the length of their daughters. Implement the steps you've practiced in the example about measuring the boiling point of alcohol.
 
-Make sure the program displays the data (with errors) on the screen and also gives the best values of the fit you have found. Just lik in the left hand plot in the example above. To plot the data in Python use the function `plt.errorbar(x, y, yerr=yerror)`. Research the internet about how to use this function.
+Make sure the program displays the data (with errors) on the screen and also gives the best values of the fit you have found. Just like in the left hand plot in the example above. To plot the data in Python use the function `plt.errorbar(x, y, yerr=yerror)`. Research the internet about how to use this function.
 
 `Print` the result, accurate with 1 decimal, in the following way:
 {: .language-python}

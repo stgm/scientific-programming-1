@@ -55,7 +55,7 @@ We expand the plot a little now: another function is added $$x^3$$, for which we
     plt.xlabel('the x-as is small')
     plt.ylabel('the y-as is large', fontsize = 25)
 
-    # add seperate floating text to the graph
+    # add separate floating text to the graph
     plt.text(1.00, 100., "my first plot", color = 'blue', fontsize = 20)
 
     # add floating text with LaTeX

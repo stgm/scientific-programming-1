@@ -133,7 +133,7 @@ Declare a function `simulate_monopoly_games(total_games)` that will simulate a l
 
 1. Start with 1 game and increase that to 2, 10 and eventually 10000 when you're sure that the program functions properly.
 
-2. For each game, keep track (in a list) of how many throws were necessary to collect al streets.
+2. For each game, keep track (in a list) of how many throws were necessary to collect all streets.
 
 3. Create a graph (histogram) of that list after all games have finished simulating.
 

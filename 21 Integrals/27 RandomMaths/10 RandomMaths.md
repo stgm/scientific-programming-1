@@ -1,6 +1,6 @@
 # Interesting fact on the sum of random numbers
 
-Write a function that determines teh average number of random numbers (uniformly distributed between 0 and 1) that need to be generated for the sum of those numbers to be greater than 1.00.
+Write a function that determines the average number of random numbers (uniformly distributed between 0 and 1) that need to be generated for the sum of those numbers to be greater than 1.00.
 
 Use the following strategy:
 

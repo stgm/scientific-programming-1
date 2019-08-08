@@ -1,6 +1,6 @@
 # Fractals - Mandelbrot set
 
-You probably already know those beautiful multi-coloured pictures in which patterns repeat themselves until they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex phenomena, however hard they are to find out about. In this assignment we delve a little deeper into the maths behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
+You probably already know those beautiful multi-colored pictures in which patterns repeat themselves until they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex phenomena, however hard they are to find out about. In this assignment we delve a little deeper into the math behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
@@ -10,9 +10,9 @@ The goal of this extra assignment is: write a program `fractal.py` that displays
 
 ### Mathematical intermezzo: complex numbers
 
-To get a better understanding of the maths behind a fractal, we must first introduce a new mathematical concept: *complex numbers*.
+To get a better understanding of the math behind a fractal, we must first introduce a new mathematical concept: *complex numbers*.
 
-Complex numbers maintain a special place in maths and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
+Complex numbers maintain a special place in math and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
 
    - definition: we define $$ i = \sqrt{-1}$$
    
@@ -28,7 +28,7 @@ A common way to imagine these numbers is the so called *complex field*, a 2-dime
 ![](ComplexeGetallen.png){: style="width:70%"}
 </p>
 
-Adding complex numbers is simply adding the real part and the complex part individually, but multiplying them requires some caution. You have to take into account that $$i^2 = -1$$. It's most apparent when performing exponentiations:
+Adding complex numbers is simply adding the real part and the complex part individually, but multiplying them requires some caution. You have to take into account that $$i^2 = -1$$. It's most apparent when performing exponentiation:
 
    * squaring: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
 
@@ -67,7 +67,7 @@ For each choice of a function $$f(z)$$ we can divide the points in the complex f
 
    - the sequence diverges: $$\rightarrow$$ $$z_0$$ **is not** member of the set
 
-By subsequently assigning a colour code to the speed with which a specific starting point in the complex field either diverges or converges, each point in the complex field is assigned a colour. Plotting these points create the famous fractals we know.
+By subsequently assigning a color code to the speed with which a specific starting point in the complex field either diverges or converges, each point in the complex field is assigned a color. Plotting these points create the famous fractals we know.
 
 
 **The Mandelbrot set:**
@@ -105,7 +105,7 @@ Create a program called `fractal.py` and determine for each point $$z_0$$ in the
     
 If the sequence converges you should draw the point in blue, else if it diverges you have to draw the point in white.
 
-Although you'll have to determine which definition of convergence for yourself in this assignment, the speed with which this happens will be ignored in this assignment. As a result the plot will only consist of two colours. Somewhat more boring than the official plot of course, but plenty challenging enough for this assignment.
+Although you'll have to determine which definition of convergence for yourself in this assignment, the speed with which this happens will be ignored in this assignment. As a result the plot will only consist of two colors. Somewhat more boring than the official plot of course, but plenty challenging enough for this assignment.
 
 **Specification for the scan (plot):**
 
@@ -116,7 +116,7 @@ The resolution of the graph needs to have the following dimensions:
     - imaginary axis: 600 points between -1.50 and 1.50 
 
 
-If you've finished the assignment early you can opt to add more colour to your plot. Take into account the speed of divergence and let that added bit of information influence the color of a point. Have fun!
+If you've finished the assignment early you can opt to add more color to your plot. Take into account the speed of divergence and let that added bit of information influence the color of a point. Have fun!
 
 ## Checkpy
 

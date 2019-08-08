@@ -28,7 +28,7 @@ Each step in the `for`-loop will be 10 larger than the previous. Take a minute t
 
 ## Types of loops
 
-Dependant on the type of application you can choose either type of loop that you've seen in de videos before. The `for` and `while` are practically interchangeable. This `for`-loop:
+Dependent on the type of application you can choose either type of loop that you've seen in the videos before. The `for` and `while` are practically interchangeable. This `for`-loop:
 
     for i in range(100):
         print("hi")

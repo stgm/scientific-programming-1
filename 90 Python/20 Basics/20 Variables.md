@@ -2,7 +2,7 @@
 
 A **value** is one of the core components of any program. In the examples above for example, you've seen sequences of characters and also numbers. Up until now we've only worked with **constant values** that are set whilst writing the actual program (for example the text `"Hello, world!"`). Though if we'd already know all values when implementing our programs, we would not need computers at all! So let's take full advantage of a computers strength: calculating.
 
-To be able to use results from one calculation in another calculation we'd have to temporarily store that value. As a solution Python offers you to assign names to values. These name-value pairs are called **variables**. By using teh `=` operator we can combine a name and a value, and consequently use that value elsewhere.
+To be able to use results from one calculation in another calculation we'd have to temporarily store that value. As a solution Python offers you to assign names to values. These name-value pairs are called **variables**. By using the `=` operator we can combine a name and a value, and consequently use that value elsewhere.
  
 
 ![embed](https://player.vimeo.com/video/287248523)

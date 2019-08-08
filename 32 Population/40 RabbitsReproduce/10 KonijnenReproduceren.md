@@ -69,7 +69,7 @@ Calculate the fraction after all of the simulations have ran their course and `p
 
 ### Conclusion
 
-In this assignment we have simulated population dynamics by using the computational strength of a computer. We have included some elementary aspects and studied how the development of rabbits is dependant on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
+In this assignment we have simulated population dynamics by using the computational strength of a computer. We have included some elementary aspects and studied how the development of rabbits is dependent on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
 
 
 

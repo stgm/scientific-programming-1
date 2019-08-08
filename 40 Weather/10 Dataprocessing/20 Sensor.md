@@ -12,8 +12,8 @@ At the top of the file is a short short description about the information contai
 
 Write a program **car_ride.py** that traverses the data file, processes said data and answers the following questions.
 
-## Travelled distance
+## Traveled distance
 
-Create a graph of the speed of the car (km/h) as a function of the time and use the data to estimate travelled distance in total.
+Create a graph of the speed of the car (km/h) as a function of the time and use the data to estimate traveled distance in total.
 
 Create a graph of the position of the car and color the route green (red) where the speed of the car was more (less) than 50 km/hour.

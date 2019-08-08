@@ -32,7 +32,7 @@ For starters take a look at the video to the side. Egge van der Poel is a Data S
 
 #### Day 4: working with graphs
 
-1. Save you data in a [list](/python/lists)
+1. Save your data in a [list](/python/lists)
 
 2. Learn more about using [modules](/python/modules) in Python
 
