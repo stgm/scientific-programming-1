@@ -1,6 +1,6 @@
 # Basic Elements
 
-A **program** is a sequence of instructions that specify how a manipulation should occur. Such a manipulation can be mathematical in nature, loke solving a set of equations, or finding the roots of a polynomial. But it can also be a symbolic manipulation, such as finding and replacing text in a document.
+A **program** is a sequence of instructions that specify how a manipulation should occur. Such a manipulation can be mathematical in nature, like solving a set of equations, or finding the roots of a polynomial. But it can also be a symbolic manipulation, such as finding and replacing text in a document.
 
 Though the specifics can differ, there is only a limited number of **instructions** present in each programming language:
 
@@ -14,7 +14,7 @@ calculating
 : Performing basic mathematical manipulations such as adding or multiplying.
 
 conditional execution
-: Verifying whether a condition is met en dependant on verification perform specific actions.
+: Verifying whether a condition is dependent on verification to perform specific actions.
 
 repetition
 : Repeating a single task or set of tasks multiple times, often times with variation between repetitions.

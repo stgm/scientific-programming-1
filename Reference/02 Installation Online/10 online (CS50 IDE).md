@@ -34,7 +34,7 @@ At the bottom of the screen you see the terminal, it's an environment in which y
 
     ls
 
-The `ls` command is an abbreviation of the word list. This command shows a list of all files and folders that can be seen from your "current" folder. By default the terminal starts in the folder `~/workspace`, and by executing hte command `ls` you should only see the folder `week1` that you've just created. Let's now change the "current folder" by executing the following command:
+The `ls` command is an abbreviation of the word list. This command shows a list of all files and folders that can be seen from your "current" folder. By default the terminal starts in the folder `~/workspace`, and by executing the command `ls` you should only see the folder `week1` that you've just created. Let's now change the "current folder" by executing the following command:
 
     cd week1
 
@@ -62,7 +62,7 @@ Good to know is that you can also move one folder back up with `cd`:
 
     cd ..
 
-Here `..` stands for the folder directly 'above' teh current one. Want to go back even further up? You can with `../..`. You can also tell `cd` not to move relatively to your current position, but instead move to an 'absolute' path in respect to your login folder:
+Here `..` stands for the folder directly 'above' the current one. Want to go back even further up? You can with `../..`. You can also tell `cd` not to move relatively to your current position, but instead move to an 'absolute' path in respect to your login folder:
 
     cd ~/workspace/week1
 

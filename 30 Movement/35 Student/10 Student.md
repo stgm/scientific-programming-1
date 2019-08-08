@@ -27,4 +27,4 @@ Save a video yourself? Use a tool such as [GifGrabber](http://www.gifgrabber.com
 
 ## Testing
 
-This program is completely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistant during hte practical.
+This program is completely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistant during the practical.

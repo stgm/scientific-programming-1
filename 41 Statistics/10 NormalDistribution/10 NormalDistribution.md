@@ -4,7 +4,7 @@ If ever there is a subject that connects students of different educations it is 
 
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
-**The case:** In Denmark there is a group of researchers that studies whether the length of women is correlated to the income of their parents. The categories of income vary from category-0 (very poor) to category-10 (very rich) and from each category a random number of women have been selected of whom the length is measured. THe data (the average measured length for each category of income) is represented in the graph to the side. This is where the trouble begins. A part of the researchers thinks the data suggests that there is a linear relationship (blue) whilst another group thinks there's no relationship whatsoever (red). The latter group says the observed 'light' dependance is just the result of accidental fluctuations in length of the women that were sampled.
+**The case:** In Denmark there is a group of researchers that studies whether the length of women is correlated to the income of their parents. The categories of income vary from category-0 (very poor) to category-10 (very rich) and from each category a random number of women have been selected of whom the length is measured. The data (the average measured length for each category of income) is represented in the graph to the side. This is where the trouble begins. A part of the researchers thinks the data suggests that there is a linear relationship (blue) whilst another group thinks there's no relationship whatsoever (red). The latter group says the observed 'light' dependence is just the result of accidental fluctuations in length of the women that were sampled.
 
 In this module, after first trying out some introductory exercises, we'll try to find out what conclusions can be drawn: is there, or isn't there a (causal) relationship?
 
@@ -24,7 +24,7 @@ $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{
 
 This distribution, also known as the Gaussian distribution, is characterized by only two parameters: the average ($$\mu$$) and the measure of spread ($$\sigma$$). About 68%(95%) of the values can be found within the area $$\mu \pm 1\sigma$$ ($$\mu \pm 2\sigma$$).
 
-The length of men (women) in the Netherlands, for example, is described by a normal distribution with an average $$\mu$$ = 184.0 (170.6) cm and spread $$\sigma$$ = 7.0 (6.5) cm. This means that 34% of the men is taller than 191 cm and that 2.5% of the women is shorter than 157.6 cm. THe (normalized) graphs of the two distributions can be seen in the graph to the side.
+The length of men (women) in the Netherlands, for example, is described by a normal distribution with an average $$\mu$$ = 184.0 (170.6) cm and spread $$\sigma$$ = 7.0 (6.5) cm. This means that 34% of the men is taller than 191 cm and that 2.5% of the women is shorter than 157.6 cm. The (normalized) graphs of the two distributions can be seen in the graph to the side.
 
 <br>
 

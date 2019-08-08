@@ -28,7 +28,7 @@ At the end of word 1-1 in Super Mario Brothers, Mario has to climb half a pyrami
 
 * If the user provides an invalid height, prompt the user for a new height. Keep asking the user for a height until they provide a valid input.
 
-* You cán however assume the user only provides whole numbers (integers). That means you don't have to take decimal numbers into consideration.
+* You can however assume the user only provides whole numbers (integers). That means you don't have to take decimal numbers into consideration.
 
 * After the height of the pyramid is validated, create through use of `print` and one or more loops the half pyramid. 
 

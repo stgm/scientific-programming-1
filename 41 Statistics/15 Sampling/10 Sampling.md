@@ -24,7 +24,7 @@ Determine the fraction for a specific value of $$N$$ by following these steps:
     Fraction of deviating samples for N =  10: x.xx percent
     Fraction of deviating samples for N = 100: x.xx percent
 
-Extra: try to help the user by neatly formatting hte numbers to be aligned underneath each other like in the example.
+Extra: try to help the user by neatly formatting It numbers to be aligned underneath each other like in the example.
 
 It is very insightful to view distributions of averages for varying choices in sample size. Use the histogram-method we've also implemented in assignment 1. Choose the appropriate bin-size yourself.
 

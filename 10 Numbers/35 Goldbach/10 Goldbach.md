@@ -15,13 +15,13 @@ Goldbach's conjecture is one of the oldest unsolved problems in mathematics. Gol
 
 *"Every even integer greater than 2 can be expressed as the sum of two primes."*
 
-A prime number can also be used twice (6=3+3). Although this conjecture does indeed seem te be correct for al numbers up to $$4\cdot10^{18}$$, there still is no analytical proof for this hypothesis. A computer is unfit to proof the conjecture (after all it cannot count till infinity), but you could disprove the conjecture by identifying a even number that cannot be expressed as the sum of two primes. We're going to lend our hand in this search.
+A prime number can also be used twice (6=3+3). Although this conjecture does indeed seem to be correct for all numbers up to $$4\cdot10^{18}$$, there still is no analytical proof for this hypothesis. A computer is unfit to proof the conjecture (after all it cannot count till infinity), but you could disprove the conjecture by identifying a even number that cannot be expressed as the sum of two primes. We're going to lend our hand in this search.
 
 ## Specification
 
 Use a program called **goldbach.py** to show that all even numbers up to and including 1000 can indeed be expressed as the sum of two primes. More concretely: show for each even number *explicitly* (on the screen) that it can be written as the sum of two primes, like in the example above.
 
-More important is of course if or when you find a number that *isn't* in compliance with Goldbach's conjecture. Make sure that your program clearly displays such a finding on teh screen. Bingo!
+More important is of course if or when you find a number that *isn't* in compliance with Goldbach's conjecture. Make sure that your program clearly displays such a finding on the screen. Bingo!
 
 ## Hints
 
@@ -44,7 +44,7 @@ More important is of course if or when you find a number that *isn't* in complia
 		    if x in primes:
 		        print(f"Yes, the number {x} is found in my list of primes.")
 
-  Clearly we don't hand you this hint without a reason. This assignment has a more 'elegant' solution in which this construction is uded. You can also solve it in a less elegant way (brute-force) of course.
+  Clearly we don't hand you this hint without a reason. This assignment has a more 'elegant' solution in which this construction is used. You can also solve it in a less elegant way (brute-force) of course.
 
 ## Testing
 

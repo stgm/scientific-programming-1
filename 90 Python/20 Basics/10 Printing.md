@@ -5,7 +5,7 @@ After writing a program you can then execute it (*running* it). The computer the
 Make a text file **exercise.py** (remember how?) and add the following lines to it:
 
     print("Hello, world!")
-    print("Hee, hell there.")
+    print("Hee, hello there.")
     print("Making quick progress.")
     print("Funny")
     print('Hey, does this still print?')
@@ -46,7 +46,7 @@ Next, add the following lines to your `exercise.py`:
     print(5 + 8 + 8 - 8)
     print("5 + 8 + 8 - 8")
 
-You can also perform basic maths. The *result* of the calculation is displayed on the screen. Except the last one: that shows the formula (*expression*) between parentheses. Just like earlier with the texts. So that is a string and not a formula that can be readily calculated.
+You can also perform basic math. The *result* of the calculation is displayed on the screen. Except the last one: that shows the formula (*expression*) between parentheses. Just like earlier with the texts. So that is a string and not a formula that can be readily calculated.
 
 > Do you get an error message if you run the program? Chances are that you've made a mistake copying the commands leaving Python confused what you meant in the first place. Take a close look to find where you've made that mistake. If you can't seem to find it, do ask for some assistance. Learning to understand error messages is an important part of this course. That's mainly why we want you to make a mistake every now and then!
 

@@ -46,7 +46,7 @@ Add these functions to you own program and make sure to call `montecarlo()` a nu
 
 * Create a graph of the function so you have a clear view of what area you are integrating.
 
-* Also create a graph with red an green points loke in the example above. Should you have made a mistake in your logic, you can immediately see it in the graph, instead of having to spend hours looking at your code to find the bug.
+* Also create a graph with red an green points like in the example above. Should you have made a mistake in your logic, you can immediately see it in the graph, instead of having to spend hours looking at your code to find the bug.
 
 * When encountered with 'negative integral areas' you can split the areas.
 

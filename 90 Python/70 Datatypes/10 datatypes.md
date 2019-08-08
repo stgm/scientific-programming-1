@@ -1,4 +1,4 @@
-# Datatypes
+# Data types
 
 Python kent verschillende datatypes om mee te werken. `string`s en `int`s heb je al voorbij zien komen. Zo zijn `string`s rijtjes van "letters" (of andere tekens) en `int`s zijn gehele getalen. Afhankelijk van het datatype waar je mee werkt, kun je verschillende operaties doen. Kijk maar naar de operatie `*`:
 

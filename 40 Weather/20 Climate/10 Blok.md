@@ -2,7 +2,7 @@
 
 ![](KaartNederlandKlein.png){:.inline}
 
-Let's do our part for the climate discussion and analyse the data provided by the ECA (European Climate Assessment) [available](http://eca.knmi.nl/dailydata/predefinedseries.php) in big data files. We'll limit ourselves to the data pertaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
+Let's do our part for the climate discussion and analyze the data provided by the ECA (European Climate Assessment) [available](http://eca.knmi.nl/dailydata/predefinedseries.php) in big data files. We'll limit ourselves to the data pertaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
 
 Files: 
 
@@ -25,7 +25,7 @@ but
 
      The highest temperature was 34.5 degrees Celsius and was measured at 13 may 1967.
 
-Tip: make a separate function that takes a number like `19670513` and converts it into a more readably expression like `13 may 1967`.
+Tip: make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`.
 
 ### Assignment 2: cold colder coldest
 

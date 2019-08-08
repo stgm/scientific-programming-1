@@ -1,6 +1,6 @@
 # Spiral
 
-Write a program that animates a spiraling dot using `matplotlib`. The dot spins with a specific angular velocity around and with each step in time not only changes angle, but also decreases its radius until it eventually arrives exactly in the centre:
+Write a program that animates a spiraling dot using `matplotlib`. The dot spins with a specific angular velocity around and with each step in time not only changes angle, but also decreases its radius until it eventually arrives exactly in the center:
 
 ![](AnimationInspiral.gif)
 
@@ -21,4 +21,4 @@ Details about the animation:
 
 ## Testing
 
-This program is completely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistant during hte practical.
+This program is completely about the visual aspect and cannot be tested by `checkpy`. You have to have it signed by an Assistant during the practical.
