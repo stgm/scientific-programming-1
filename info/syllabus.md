@@ -42,7 +42,7 @@ When coming to the lab for the first time, please find a teacher and introduce y
 
 ## Passing the course
 
-The course's final result will be "pass" or "fail", which means that no grades are assigned. To earn a "pass", you must meet the following requirements by 13 December:
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
 
 - you have worked through one case study per each of the four modules
 - you have submitted a fully working solution for each problem in those case studies
