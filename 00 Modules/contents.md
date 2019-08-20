@@ -1,8 +1,4 @@
-# Scientific Programming 1
-
-University of Amsterdam / Programming Lab / Version 4.0-beta
-
-Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems. For each module below, you may choose one particular case study.
+# Modules
 
 <div class="card-group m-md-3">
 <div class="card">
@@ -52,7 +48,3 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 </div>
 </div>
 
-
-**After this course**
-
-When you have finished one case study for each module, you may choose to do more case studies for this course, or take up [Scientific Programming 2](2), in which we will teach you all of the most important parts of Python, enabling you to read and contribute to other's projects, or start your own!
