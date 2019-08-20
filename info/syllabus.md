@@ -26,7 +26,7 @@ This really is a beginner's course. We will teach you the basics of Python progr
 - can make your programs simpler and easier to read by employing a few standard tactics
 - can trace and fix several common programming errors
 
-When you have finished one case study for each module, you might take up [Scientific Programming 2](2), in which we will teach you most of the remaining parts of Python, enabling you to read and contribute to other's projects, or start your own!
+When you have finished one case study for each module, you might take up Scientific Programming 2, in which we will teach you most of the remaining parts of Python, enabling you to read and contribute to other's projects, or start your own!
 
 ## Asking questions
 
@@ -47,14 +47,14 @@ The course's final result will be "pass" or "fail", which means that no grades a
 - you have worked through one case study per each of the four modules
 - you have submitted a fully working solution for each problem in those case studies
 
-Finally, you must pass the final exam. There are two opportunies for semester 1, which have been planned on:
+Finally, you must pass the final exam. There are two opportunities for semester 1, which have been planned on:
 
 - October
 - December
 
 ## Feedback
 
-Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback. It is up to you to get this feedback. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!). 
+Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!). 
 
 ## Books
 
@@ -129,5 +129,4 @@ University of Amsterdam and of the Computer Science
 BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
-[English]: http://student.uva.nl/en/az/content/plagiarism-and-fraud/plagiarism-and-fraud.html
-
+[English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
