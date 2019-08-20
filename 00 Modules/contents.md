@@ -1,6 +1,6 @@
 # Modules
 
-<div class="card-group m-md-3">
+<div class="card-group">
 <div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
