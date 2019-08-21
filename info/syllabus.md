@@ -1,6 +1,6 @@
 # Scientific Programming 1<br><small>Syllabus</small>
 
-University of Amsterdam / Programming Lab / Version 4.0-beta
+University of Amsterdam / Programming Lab / 50621SCP3Y / Version 4.0-beta
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems.
 
