@@ -6,10 +6,10 @@ Introduction: /algorithms
     Learn about algorithms: /algorithms/algorithms
     Implement Pyramid: /algorithms/pyramid
 "Day 3: A serious algorithm":
-    Learn to write good code: /numbers/style-guide
+    Learn to write good code: /algorithms/style-guide
     Implement Greedy: /algorithms/greedy
 "Day 4: Plotting graphs":
-    Learn about lists: /numbers/lists
+    Learn about lists: /algorithms/lists
     Learn about modules: /algorithms/modules
     Learn about plotting: /algorithms/plotting
     Implement Graph: /algorithms/graph
