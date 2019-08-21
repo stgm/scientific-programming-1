@@ -1,4 +1,4 @@
-# WhizKid
+# Number Whiz
 
 Let's start out conservatively and write a program that asks the user for two numbers and subsequently calculates the product of those numbers and displays the result on the screen. Like the following example:
 
@@ -12,7 +12,7 @@ Let's start out conservatively and write a program that asks the user for two nu
 
 ## Specification
 
-* Create a file called `whizkid.py` and implement a program that asks the user for two whole numbers, after which the product of those numbers is displayed on the screen via `print`.
+* Create a file called `whiz.py` and implement a program that asks the user for two whole numbers, after which the product of those numbers is displayed on the screen via `print`.
 
 ## Problem analysis
 
@@ -28,10 +28,10 @@ Let's start out conservatively and write a program that asks the user for two nu
 
 First test your program by hand: does it work correctly for all expected input? Start the program by typing the following command in the terminal:
 
-	python whizkid.py
+	python whiz.py
 
-Then try the examples at the top of the page. If everything seems to be in order, then it's time to make use of `checkpy`. Testing `whizkid` works the same as it did for `hello`, only this time provide `checkpy` with `whizkid` as argument instead. Like this:
+Then try the examples at the top of the page. If everything seems to be in order, then it's time to make use of `checkpy`. Testing `whiz` works the same as it did for `hello`, only this time provide `checkpy` with `whiz` as argument instead. Like this:
 
-	checkpy whizkid
+	checkpy whiz
 
 Any unhappy smileys left and you can't figure out what's wrong with your program? Ask for assistance!
