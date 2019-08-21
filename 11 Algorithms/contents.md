@@ -32,7 +32,7 @@ But first, check out the short movie below. Egge van der Poel is a data scientis
 
 3. Find out how to [plot](/algorithms/plotting) your data
 
-4. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/algorithms/graph)
+4. <span class="badge badge-primary">Assignment</span> Make data intelligible by [plotting graphs](/algorithms/plot)
 
 ##### Evaluation
 

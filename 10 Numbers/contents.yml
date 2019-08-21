@@ -13,6 +13,6 @@ Introduction: /numbers
 "Day 4: Plotting graphs":
     Learn about modules: /numbers/modules
     Learn about plotting: /numbers/plotting
-    Implement Graph: /numbers/graph
+    Implement Plot: /numbers/plot
 Optional:
     Co-primes: /numbers/co-primes

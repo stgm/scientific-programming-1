@@ -34,7 +34,7 @@ But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdat
 
 2. Find out how to [plot](/numbers/plotting)
 
-3. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/numbers/graph)
+3. <span class="badge badge-primary">Assignment</span> Make data intelligible by [plotting graphs](/numbers/plot)
 
 ##### Optional: Co-primes
 
