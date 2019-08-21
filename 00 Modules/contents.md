@@ -15,12 +15,12 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 <div class="card">
 <div class="card-body">
-<a href="/algorithms" class="card-text">Draw pyramids and calculate cash change using algorithms.</a>
+<a href="/algorithms" class="card-link">Draw pyramids and calculate cash change using algorithms.</a>
 </div>
 </div>
 <div class="card">
 <div class="card-body">
-<a href="/numbers" class="card-text">Dive into number theory.</a>
+<a href="/numbers" class="card-link">Dive into number theory.</a>
 </div>
 </div>
 </div>
