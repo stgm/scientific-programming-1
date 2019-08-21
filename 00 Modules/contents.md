@@ -4,7 +4,7 @@
 	<div class="row">
 
 		<div class="col">
-			<div class="card mb-3">
+			<div class="card text-white bg-secondary mb-3">
 				<div class="card-body">
 					<p class="card-text">
 						Note: before you start, you'll need <a href="/installing" class="card-link">Python on your computer!</a>
