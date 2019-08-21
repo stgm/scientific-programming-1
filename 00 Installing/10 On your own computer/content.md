@@ -1,7 +1,5 @@
 # Python on your own computer
 
-## For starters
-
 To be able to program on your own computer you need two different programs: the interpreter itself and a good editor:
 
 1. **Anaconda**, a version of Python that is easy to install. There are *a lot* of packages included, which contain functionalities for graphs, statistics and a host of other features.

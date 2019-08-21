@@ -1,5 +1,7 @@
 # Modules
 
+Before you start, you'll need [Python on your computer](/installing)!
+
 <div class="card-group">
 <div class="card">
 <div class="card-body">
