@@ -35,7 +35,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/21%20Integrals/logo.jpg" class="card-img-top" alt="...">
+				<img src="/course/21%20Integrals/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Integrals</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 2</h6>
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div class="card mb-3">
-				<img src="/course/22%20Text/logo.jpg" class="card-img-top" alt="...">
+				<img src="/course/22%20Text/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Text processing</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 2</h6>
