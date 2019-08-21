@@ -8,8 +8,6 @@ For starters take a look at the video to the side. Egge van der Poel is a Data S
 
 #### Day 1: Getting started
 
-1. [Install](/reference/installation) Python
-
 2. Subsequently practice extensively with the Python's [basic elements](/python/basics).
 
 3. <span class="badge badge-primary">Assignment</span> Check your [water usage](/algorithms/water)

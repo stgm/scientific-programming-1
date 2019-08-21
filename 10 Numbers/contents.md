@@ -10,8 +10,6 @@ But why programming? Check out the video to the side. [Mirjam Leunissen](http://
 
 ##### Day 1: getting started
 
-1. [Install](/reference/installation) Python
-
 2. Practice thoroughly with the [basic elements](/python/basics) of Python
 
 3. <span class="badge badge-primary">Assignment</span> Use the computer as a [whizkid](/numbers/whizkid)
