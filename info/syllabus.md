@@ -143,6 +143,7 @@ We have had lots of help from students as well as teaching assistants who tried 
 - Marianne de Heer Kloots (revisions and testing)
 - Maarten Inja (DNA assignment)
 - Simon Pauw (revisions)
+- Quinten Post (translations)
 - Marleen Rijksen (revisions)
 - Huub Rutjes (films)
 - Vera Schild (test automation)
