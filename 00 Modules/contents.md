@@ -39,34 +39,21 @@ Before you start, you'll need [Python on your computer](/installing)!
 			<div class="card mb-3">
 				<img src="/course/11%20Algorithms/logo.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Algorithms</h5>
-					<h6 class="card-subtitle mb-2 text-muted">Module 1</h6>
+					<h5 class="card-title">Integrals</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 2</h6>
 					<p class="card-text">
-						<a href="/algorithms" class="card-link">Draw pyramids and calculate cash change using algorithms.</a>
+						<a href="/integrals" class="card-link">Calculate definite integrals of complicated mathematical functions.</a>
 					</p>
 				</div>
 			</div>
 			<div class="card mb-3">
 				<img src="/course/10%20Numbers/logo.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Number theory</h5>
-					<h6 class="card-subtitle mb-2 text-muted">Module 1</h6>
+					<h5 class="card-title">Text processing</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 2</h6>
 					<p class="card-text">
-						<a href="/numbers" class="card-link">Dive into number theory using Python.</a>
+						<a href="/numbers" class="card-link">Analyze text sources using text processing.</a>
 					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="col">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title" style="margin-top:0">Module 2</h5>
-					<p class="card-text">Learn about using functions to organize program code.</p>
-				</div>
-				<div class="list-group list-group-flush">
-					<a href="/integrals" class="list-group-item">Calculate definite integrals of complicated mathematical functions.</a>
-					<a href="/text" class="list-group-item">Analyze text sources using text processing.</a>
 				</div>
 			</div>
 		</div>
