@@ -130,3 +130,28 @@ BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
+
+## Acknowledgements
+
+This course is edited by Martijn Stegeman (<mailto:martijn@stgm.nl>) and Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>) (opdrachten en ontwerp).
+
+This work is partially based on many great programming resources that have been published as Open Courseware under a [Creative Commons license](https://creativecommons.org). The resulting work itself is also published under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Feel free to re-use! If you would like to use the work commercially, please send an e-mail for arranging a license.
+
+We have had lots of help from students as well as teaching assistants who tried the course or added ideas of their own. We especially thank:
+
+- Jelle van Assema (assignments and checkpy)
+- Marianne de Heer Kloots (revisie en testen)
+- Maarten Inja (DNA assignment)
+- Simon Pauw (revisions)
+- Marleen Rijksen (revisions)
+- Huub Rutjes (films)
+- Vera Schild (test automation)
+- Luca Verhees (artwork "semester of code")
+
+We have used materials from the following sources:
+
+- 6.189 A Gentle Introduction to Programming Using Python by Sarina Canelake <http://ocw.mit.edu>
+- 6.00 Introduction to Computer Science and Programming, Fall 2008 by Eric Grimson en John Guttag <http://ocw.mit.edu>
+- CS50 Introduction to Computer Science I by David Malan <http://cs50.tv/>
+- 6.0001 Introduction to Computer Science and Programming in Python by Ana Bell, Eric Grimson and John Guttag <http://ocw.mit.edu>
+- Think Python by Allen B. Downey <http://greenteapress.com/wp/think-python/>
