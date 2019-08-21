@@ -12,19 +12,15 @@ Before you start, you'll need [Python on your computer](/installing)!
 <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
 <p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 </div>
-<div class="list-group list-group-flush">
-<a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
-<a href="/numbers" class="list-group-item">Dive into number theory.</a>
+</div>
+<div class="card">
+<div class="card-body">
+<a href="/algorithms" class="card-text">Draw pyramids and calculate cash change using algorithms.</a>
 </div>
 </div>
 <div class="card">
 <div class="card-body">
-<a href="/algorithms" class="list-group-item">Draw pyramids and calculate cash change using algorithms.</a>
-</div>
-</div>
-<div class="card">
-<div class="card-body">
-<a href="/numbers" class="list-group-item">Dive into number theory.</a>
+<a href="/numbers" class="card-text">Dive into number theory.</a>
 </div>
 </div>
 </div>
