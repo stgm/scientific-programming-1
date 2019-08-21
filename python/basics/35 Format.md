@@ -1,4 +1,4 @@
-# Format
+## Format
 
 We've already demonstrated how to print variables in a string. For example:
 

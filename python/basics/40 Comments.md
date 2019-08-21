@@ -1,4 +1,4 @@
-# Comments
+## Comments
 
 If a single file contains a sizable amount of Python-code, it is good practice to clearly denote *what is where* (for the reader of the code, not the user of the program). To that end you can add lines of commentary to your code. They look like this:
 

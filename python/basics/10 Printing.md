@@ -1,4 +1,4 @@
-# Printing
+## Printing
 
 After writing a program you can then execute it (*running* it). The computer then reads your code, line for line, and executes any instructions it encounters.
 

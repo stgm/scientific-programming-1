@@ -1,4 +1,4 @@
-# User input
+## User input
 
 Except for having your program printing to a user, you can also ask for input from a user. This way you can write **interactive programs** that can perform calculations based on user provided values. Python comes with a variety of different function to prompt for input. One of which is `input()`, which can be used as shown below:
 

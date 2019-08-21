@@ -1,4 +1,4 @@
-# Variables
+## Variables
 
 A **value** is one of the core components of any program. In the examples above for example, you've seen sequences of characters and also numbers. Up until now we've only worked with **constant values** that are set whilst writing the actual program (for example the text `"Hello, world!"`). Though if we'd already know all values when implementing our programs, we would not need computers at all! So let's take full advantage of a computers strength: calculating.
 
