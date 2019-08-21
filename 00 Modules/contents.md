@@ -9,6 +9,9 @@
 					<p class="card-text">
 						Note: before you start, you'll need <a href="/installing" class="card-link text-white">Python on your computer!</a>
 					</p>
+					<p class="card-text">
+						Then, choose either of the level 1 modules to start! <span class="fa fa-long-arrow-down ml-3"></span>
+					</p>
 				</div>
 			</div>
 			<div class="card mb-3">
