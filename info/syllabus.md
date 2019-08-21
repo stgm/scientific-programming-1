@@ -151,7 +151,7 @@ We have had lots of help from students as well as teaching assistants who tried 
 We have used materials from the following sources:
 
 - 6.189 A Gentle Introduction to Programming Using Python by Sarina Canelake <http://ocw.mit.edu>
-- 6.00 Introduction to Computer Science and Programming, Fall 2008 by Eric Grimson en John Guttag <http://ocw.mit.edu>
+- 6.00 Introduction to Computer Science and Programming, Fall 2008 by Eric Grimson and John Guttag <http://ocw.mit.edu>
 - CS50 Introduction to Computer Science I by David Malan <http://cs50.tv/>
 - 6.0001 Introduction to Computer Science and Programming in Python by Ana Bell, Eric Grimson and John Guttag <http://ocw.mit.edu>
 - Think Python by Allen B. Downey <http://greenteapress.com/wp/think-python/>
