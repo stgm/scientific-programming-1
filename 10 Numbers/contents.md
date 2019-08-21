@@ -1,43 +1,41 @@
-# Module 1: Numbers Theory
-
-<div class="pull-right" style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://player.vimeo.com/video/235229540)
-</div>
+# Number Theory (level 1)
 
 Verifying theoretical hypotheses by hand is often times a time consuming job and a computer lends itself quite well to this purpose. Mathematical intuition required!
 
-But why programming? Check out the video to the side. [Mirjam Leunissen](http://www.dutchdatadesign.nl) creates data visualizations for the [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/) among others. She shares her experiences with programming and creating visualizations.
+But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdatadesign.nl) creates data visualizations for the [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/) among others. She shares her experiences with programming and creating visualizations.
 
-##### Day 1: getting started
+![embed](https://player.vimeo.com/video/235229540)
 
-2. Practice thoroughly with the [basic elements](/python/basics) of Python
+##### Day 1: Getting started
 
-3. <span class="badge badge-primary">Assignment</span> Use the computer as a [whizkid](/numbers/whizkid)
+1. Practice thoroughly with the [basic elements](/numbers/basics) of Python
 
-##### Day 2: prime numbers
+2. <span class="badge badge-primary">Assignment</span> Program the computer to be a [number whiz](/numbers/whiz)
 
-1. Lear more about [algorithms](/python/algorithms)
+##### Day 2: Prime numbers
+
+1. Lear more about [algorithms](/numbers/algorithms)
 
 3. <span class="badge badge-primary">Assignment</span> Look for [prime numbers](/numbers/primes)
 
-##### Day 3: results from numbers theory
+##### Day 3: Number theory
 
-1. Store data in a [list](/python/lists)
+1. Store data in a [list](/numbers/lists)
 
 2. <span class="badge badge-primary">Assignment</span> Look for the [longest sequence non-primes](/numbers/sequence)
 
-3. Understand how to write ["good code"](/reference/styleguide) --- and from now on we expect you to implement these guidelines!
+3. Understand how to write ["good code"](/numbers/style-guide) --- and from now on we expect you to implement these guidelines!
 
 4. <span class="badge badge-primary">Assignment</span> Try to (dis)prove [Goldbach's](/numbers/goldbach) conjecture
 
-##### Day 4: graphs
+##### Day 4: Plotting graphs
 
-1. Learn how to use [modules](/python/modules) in Python
+1. Learn how to use [modules](/numbers/modules) in Python
 
-2. Find out how to [plot](/resources/plot)
+2. Find out how to [plot](/numbers/plotting)
 
-3. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/numbers/graphs)
+3. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/numbers/graph)
 
 ##### Evaluation
 
-You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+Have you submitted each problem from this module? Then you're done! Please fill out the [evaluation form](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"}. It's important for us to get feedback on the course's content.

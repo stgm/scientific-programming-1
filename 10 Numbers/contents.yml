@@ -1,5 +1,16 @@
-WhizKid: /numbers/whizkid
-Primes: /numbers/primes
-Sequence: /numbers/sequence
-Goldbach: /numbers/goldbach
-Graphs: /numbers/graphs
+Introduction: /numbers
+"Day 1: Getting started":
+    Learn about basic Python: /numbers/basics
+    Implement Number Whiz: /numbers/whiz
+"Day 2: Prime numbers":
+    Learn about algorithms: /numbers/algorithms
+    Implement Primes: /numbers/primes
+"Day 3: Number theory":
+    Learn about lists: /numbers/lists
+    Implement Sequence: /numbers/sequence
+    Learn to write good code: /numbers/style-guide
+    Implement Goldbach: /numbers/goldbach
+"Day 4: Plotting graphs":
+    Learn about modules: /numbers/modules
+    Learn about plotting: /numbers/plotting
+    Implement Graph: /numbers/graph
