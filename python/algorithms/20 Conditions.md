@@ -1,4 +1,4 @@
-# Conditional Instructions
+## Conditional Instructions
 
 In the preceding programs were scripts that were meant to be executed line for line from top to bottom. A sort of step by step guide. Programs get more interesting when we intend to write *exceptions*.
 

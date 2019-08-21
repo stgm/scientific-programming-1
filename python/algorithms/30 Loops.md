@@ -1,4 +1,4 @@
-# Loops
+## Loops
 
 Occasionally it is useful to determine whether a whole sequence of numbers meets a certain condition. Because repetition, such a "simple task", is exactly the strong suit of a computer, it has become a basic element in virtually all programming languages. We call this a **loop**.
 
