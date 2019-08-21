@@ -140,7 +140,7 @@ This work is partially based on many great programming resources that have been 
 We have had lots of help from students as well as teaching assistants who tried the course or added ideas of their own. We especially thank:
 
 - Jelle van Assema (assignments and checkpy)
-- Marianne de Heer Kloots (revisie en testen)
+- Marianne de Heer Kloots (revisions and testing)
 - Maarten Inja (DNA assignment)
 - Simon Pauw (revisions)
 - Marleen Rijksen (revisions)
