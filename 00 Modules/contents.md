@@ -57,28 +57,57 @@
 		</div>
 
 		<div class="col">
-			<div class="card">
+			<div class="card mb-3">
+				<img src="/course/30%20Movement/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title" style="margin-top:0">Module 3</h5>
-					<p class="card-text">Learn to simulate phenomena to understand them better.</p>
+					<h5 class="card-title">Movement</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
+					<p class="card-text">
+						<a href="/movement" class="card-link">Study the physics of movement.</a>
+					</p>
 				</div>
-				<div class="list-group list-group-flush">
-					<a href="/movement" class="list-group-item">Study the physics of movement.</a>
-					<a href="/monopoly" class="list-group-item">Calculate your advantage when playing Monopoly.</a>
-					<a href="/population" class="list-group-item">Understand prey and predator dynamics.</a>
+			</div>
+			<div class="card mb-3">
+				<img src="/course/31%20Monopoly/logo.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Monopoly</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
+					<p class="card-text">
+						<a href="/monopoly" class="card-link">Calculate your advantage when playing Monopoly.</a>
+					</p>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<img src="/course/32%20Population/logo.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Population dynamics</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
+					<p class="card-text">
+						<a href="/population" class="card-link">Understand prey and predator dynamics.</a>
+					</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="col">
-			<div class="card">
+			<div class="card mb-3">
+				<img src="/course/40%20Weather/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title" style="margin-top:0">Module 4</h5>
-					<p class="card-text">Learn to automate data analysis and statistical modelling.</p>
+					<h5 class="card-title">Weather</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 4</h6>
+					<p class="card-text">
+						<a href="/weather" class="card-link">Analyze weather extremes over the past century.</a>
+					</p>
 				</div>
-				<div class="list-group list-group-flush">
-					<a href="/weather" class="list-group-item">Analyze weather extremes over the past century.</a>
-					<a href="/statistics" class="list-group-item">Draw your own hard conclusions using statistics.</a>
+			</div>
+			<div class="card mb-3">
+				<img src="/course/41%20Statistics/logo.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Statistics</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 4</h6>
+					<p class="card-text">
+						<a href="/statistics" class="card-link">Draw your own hard conclusions using statistics.</a>
+					</p>
 				</div>
 			</div>
 		</div>
