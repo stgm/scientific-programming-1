@@ -5,7 +5,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 <div class="container">
   <div class="row">
 
-<div class="card">
+<div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
 <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
@@ -17,7 +17,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 </div>
 
-<div class="card">
+<div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 2</h5>
 <p class="card-text">Learn about using functions to organize program code.</p>
@@ -29,7 +29,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 </div>
 
-<div class="card">
+<div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 3</h5>
 <p class="card-text">Learn to simulate phenomena to understand them better.</p>
@@ -42,7 +42,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 </div>
 
-<div class="card">
+<div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 4</h5>
 <p class="card-text">Learn to automate data analysis and statistical modelling.</p>
