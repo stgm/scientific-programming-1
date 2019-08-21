@@ -2,10 +2,11 @@
 
 Before you start, you'll need [Python on your computer](/installing)!
 
-<div class="container">
+<div class="container m-0">
   <div class="row">
 
-<div class="card col">
+<div class="col">
+<div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
 <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
@@ -16,7 +17,9 @@ Before you start, you'll need [Python on your computer](/installing)!
 <a href="/numbers" class="list-group-item">Dive into number theory.</a>
 </div>
 </div>
+</div>
 
+<div class="col">
 <div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 2</h5>
@@ -28,7 +31,9 @@ Before you start, you'll need [Python on your computer](/installing)!
 <a href="/text" class="list-group-item">Analyze text sources using text processing.</a>
 </div>
 </div>
+</div>
 
+<div class="col">
 <div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 3</h5>
@@ -41,7 +46,9 @@ Before you start, you'll need [Python on your computer](/installing)!
 <a href="/population" class="list-group-item">Understand prey and predator dynamics.</a>
 </div>
 </div>
+</div>
 
+<div class="col">
 <div class="card col">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 4</h5>
@@ -51,6 +58,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 <div class="list-group list-group-flush">
 <a href="/weather" class="list-group-item">Analyze weather extremes over the past century.</a>
 <a href="/statistics" class="list-group-item">Draw your own hard conclusions using statistics.</a>
+</div>
 </div>
 </div>
 
