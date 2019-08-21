@@ -7,10 +7,10 @@
 			<div class="card text-white bg-secondary mb-3">
 				<div class="card-body">
 					<p class="card-text">
-						Note: before you start, you'll need <a href="/installing" class="card-link text-white" style="text-decoration:underline;">Python on your computer!</a>
+						Note: before you begin, you'll need <a href="/installing" class="card-link text-white" style="text-decoration:underline;">Python on your computer!</a>
 					</p>
 					<p class="card-text">
-						Then, choose either of the level 1 modules to start! <span class="fa fa-long-arrow-down ml-3"></span>
+						Then, choose either of the level 1 modules to get started! <span class="fa fa-long-arrow-down ml-3"></span>
 					</p>
 				</div>
 			</div>
