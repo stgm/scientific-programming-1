@@ -6,19 +6,19 @@ Before you start, you'll need [Python on your computer](/installing)!
 <div class="row">
 
 <div class="col">
-<div class="card">
+<div class="card mb-3">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
 <p class="card-text">Learn about the basic elements of algorithms in Python.</p>
 <p class="card-text"><small class="text-muted">Choose a case study:</small></p>
 </div>
 </div>
-<div class="card">
+<div class="card mb-3">
 <div class="card-body">
 <a href="/algorithms" class="card-link">Draw pyramids and calculate cash change using algorithms.</a>
 </div>
 </div>
-<div class="card">
+<div class="card mb-3">
 <div class="card-body">
 <a href="/numbers" class="card-link">Dive into number theory.</a>
 </div>
