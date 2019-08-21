@@ -8,31 +8,31 @@ For starters take a look at the video to the side. Egge van der Poel is a Data S
 
 #### Day 1: Getting started
 
-2. Subsequently practice extensively with the Python's [basic elements](/python/basics).
+2. Practice with the Python's [basic elements](/algorithms/basics).
 
 3. <span class="badge badge-primary">Assignment</span> Check your [water usage](/algorithms/water)
 
 #### Day 2: A first algorithm
 
-1. Learn more about [algorithms](/python/algorithms)
+1. Learn more about [algorithms](/algorithms/algorithms)
 
 2. <span class="badge badge-primary">Assignment</span> Build a small piece of a Mario [pyramid](/algorithms/pyramid)
 
 #### Day 3: A serious algorithm
 
-1. Understand how to write ["good code"](/reference/styleguide)
+1. Understand how to write ["good code"](/algorithms/style-guide)
 
 2. <span class="badge badge-primary">Assignment</span> Calculate change with a  [greedy](/algorithms/greedy) algorithm
 
 #### Day 4: Working with graphs
 
-1. Save your data in a [list](/python/lists)
+1. Save your data in a [list](/algorithms/lists)
 
-2. Learn more about using [modules](/python/modules) in Python
+2. Learn more about using [modules](/algorithms/modules) in Python
 
-3. Find out how to [plot](/resources/plot) your data
+3. Find out how to [plot](/algorithms/plotting) your data
 
-4. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/algorithms/graphs)
+4. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/algorithms/graph)
 
 #### Evaluation
 

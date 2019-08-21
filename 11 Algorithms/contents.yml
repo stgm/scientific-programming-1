@@ -1,16 +1,15 @@
 Introduction: /algorithms
 "Day 1: Getting started":
-    Basic elements of Python: /language/basics
-    Water: /algorithms/water
+    Basic elements of Python: /algorithms/basics
+    Implement Water: /algorithms/water
 "Day 2: A first algorithm":
-    Analyze word use: /language/words
-    Reformatting Text: /language/reformatting
-    Pyramid: /algorithms/pyramid
+    Learn about algorithms: /algorithms/algorithms
+    Implement Pyramid: /algorithms/pyramid
 "Day 3: A serious algorithm":
-    Learn about files: /language/files
-    Sentiment analysis: /language/sentiment
-    Tweet statistics: /language/tweets
-    Greedy: /algorithms/greedy
-"Day 4: Working with graphs":
-    Learn about lists:
-    Graphs: /algorithms/graphs
+    Learn to write good code: /numbers/style-guide
+    Implement Greedy: /algorithms/greedy
+"Day 4: Plotting graphs":
+    Learn about lists: /numbers/lists
+    Learn about modules: /algorithms/modules
+    Learn about plotting: /algorithms/plotting
+    Implement Graph: /algorithms/graph
