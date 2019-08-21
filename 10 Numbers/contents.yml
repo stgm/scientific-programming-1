@@ -14,4 +14,5 @@ Introduction: /numbers
     Learn about modules: /numbers/modules
     Learn about plotting: /numbers/plotting
     Implement Graph: /numbers/graph
-"Optional: Co-primes": /numbers/co-primes
+Optional:
+    Co-primes: /numbers/co-primes
