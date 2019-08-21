@@ -36,6 +36,11 @@ But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdat
 
 3. <span class="badge badge-primary">Assignment</span> Make data intelligible with [graphs](/numbers/graph)
 
+##### Optional: Co-primes
+
+We expect you to fully implement and submit the assignments above. But there's also an optional assignment, intended to be done by anyone who feels ready to do more! In this module, you'll test theorems from number theory about the frequency of [co-prime pairs](/numbers/co-primes).
+
+
 ##### Evaluation
 
 Have you submitted each problem from this module? Then you're done! Please fill out the [evaluation form](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"}. It's important for us to get feedback on the course's content.
