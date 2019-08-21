@@ -1,7 +1,5 @@
 # Modules
 
-Before you start, you'll need [Python on your computer](/installing)!
-
 <div class="container p-0" markdown="0">
 	<div class="row">
 
