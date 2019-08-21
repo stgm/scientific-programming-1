@@ -2,7 +2,7 @@
 
 Before you start, you'll need [Python on your computer](/installing)!
 
-<div class="card-group">
+<div class="card-columns">
 <div class="card">
 <div class="card-body">
 <h5 class="card-title" style="margin-top:0">Module 1</h5>
