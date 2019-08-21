@@ -6,10 +6,10 @@ Before you start, you'll need [Python on your computer](/installing)!
 	<div class="row">
 
 		<div class="col">
-			<div class="card bg-secondary mb-3">
+			<div class="card mb-3">
 				<div class="card-body">
 					<p class="card-text">
-						Before you start, you'll need <a href="/installing" class="card-link">Python on your computer!</a>
+						Note: before you start, you'll need <a href="/installing" class="card-link">Python on your computer!</a>
 					</p>
 				</div>
 			</div>
