@@ -1,40 +1,32 @@
-# Programming online
+# Using an online editor
 
-To be able to write your programs online we use an 'integrated development environment' that is hosted on the web, the CS50 IDE. To gain access to this environment you need to complete the following steps. Afterwards you can start programming immediately!
+There are a couple of online editors available that let you write and run Python code without any installation from your part. We recommend this if installing Python on your computer gives you trouble.
 
-## Creating a CS50 IDE
+## CS50 IDE
+
+The CS50 IDE is an "integrated development environment", meaning that it includes everything you need to write Python code. It is one of the best online editors we know. Complete the following steps to gain access:
 
 To gain access to the development environment you can do the following:
 
-1. Register for edX at [https://courses.edx.org/register](https://courses.edx.org/register). You do not need to enroll in a course.
+1. Register for a GitHub account at <https://github.com/join>. GitHub is an online service where developers from all over the world share (open source) software. Many scientists use it, too! In your case, you'll only use their login facility to get into the online development environment.
 
-2. Confirm your account via the link in an email they've sent you.
+2. Log on to <https://ide.cs50.io/>. It will redirect you to GitHub, asking permission to transfer your basic details to CS50. Don't worry though! CS50 is a Harvard course and they will not spam you. After logging in, it will create your online IDE.
 
-3. Login with your newly acquired account at [https://cs50.io/](https://cs50.io/).
-
-4. They may possible ask you to create a new workspace. Fill in the necessary information:
-
-    - Workspace name: ide50
-    - Description: CS50 IDE
-    - Template: Harvard's CS50 (*important*)
+> At the time of writing, the CS50 IDE only works in Chrome or Firefox browsers and not in Safari. So you may need to switch browsers if all you get is a blank screen!
 
 After creating the workspace you should see this in the screen of your browser:
 
 ![cs50](cs50.png)
 
-We call this an integrated development environment, because you can find everything you need to develop programs here: an oversight of your files, a text editor to write code, and a place to execute the programs you've created.
-
-Should you prefer to write your code on a darker screen than the default (like the hackers do ;-)), go to the dropdown menu **view** -> **night mode**. Feel free to snoop around in all the dropdown menus. It's fine if you don't yet know what all the options do or mean.
-
 ## Testing
 
-At the top left you see a folder icon with behind it the text **~/workspace**. Right click or ctrl+click it and subsequently select **New Folder**. Call this folder **week1**.
+At the top left you see a folder icon with behind it the text **~/**. Right click or ctrl+click it and subsequently select **New Folder**. Call this folder **module1**.
 
-At the bottom of the screen you see the terminal, it's an environment in which you can execute commands. Try and type the following command after the `$`:
+Toward the bottom of the screen you may find the **terminal**, where you can type commands. Try and type the following command after the `$`:
 
     ls
 
-The `ls` command is an abbreviation of the word list. This command shows a list of all files and folders that can be seen from your "current" folder. By default the terminal starts in the folder `~/workspace`, and by executing the command `ls` you should only see the folder `week1` that you've just created. Let's now change the "current folder" by executing the following command:
+The `ls` command is short for "list". This command shows a list of all files and folders that can be seen from your "current" folder. By default the terminal starts in the folder `~/workspace`, and by executing the command `ls` you should only see the folder `week1` that you've just created. Let's now change the "current folder" by executing the following command:
 
     cd week1
 
