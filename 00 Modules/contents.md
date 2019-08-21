@@ -58,7 +58,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/30%20Movement/logo.png" class="card-img-top" alt="...">
+				<img src="/course/30%20Movement/30%20Freefall/EarthHole.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Movement</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 			<div class="card mb-3">
-				<img src="/course/31%20Monopoly/logo.png" class="card-img-top" alt="...">
+				<img src="/course/31%20Monopoly/05%20Introduction/MonopolyBordInternationaal.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Monopoly</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="card mb-3">
-				<img src="/course/32%20Population/logo.png" class="card-img-top" alt="...">
+				<img src="/course/32%20Population/20%20Rabbits/konijnen.gif" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Population dynamics</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
@@ -91,7 +91,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/40%20Weather/logo.png" class="card-img-top" alt="...">
+				<img src="/course/40%20Weather/20%20Climate/KaartNederlandKlein.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Weather</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 4</h6>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="card mb-3">
-				<img src="/course/41%20Statistics/logo.png" class="card-img-top" alt="...">
+				<img src="/course/41%20Statistics/10%20NormalDistribution/ExampleLengte.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Statistics</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 4</h6>
