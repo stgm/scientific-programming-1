@@ -1,4 +1,4 @@
-# Algorithms
+# Algorithms (level 1)
 
 In this module we'll be exercising with a couple ordinary programs and with creating graphs. The assignments display an array of typical algorithms and scratch the surface of mathematical knowledge. Approachable for betas, alphas and gammas alike!
 
