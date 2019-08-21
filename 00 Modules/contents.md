@@ -13,7 +13,7 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 </div>
 <div class="card mb-3">
-<img src="/course/10%20Numbers/logo.jpg" class="card-img-top" alt="...">
+<img src="/course/11%20Algorithms/logo.jpg" class="card-img-top" alt="...">
 <div class="card-body">
 <p class="card-text">
 <a href="/algorithms" class="card-link">Draw pyramids and calculate cash change using algorithms.</a>
@@ -21,10 +21,10 @@ Before you start, you'll need [Python on your computer](/installing)!
 </div>
 </div>
 <div class="card mb-3">
-<img src="/course/11%20Algorithms/logo.jpg" class="card-img-top" alt="...">
+<img src="/course/10%20Numbers/logo.jpg" class="card-img-top" alt="...">
 <div class="card-body">
 <p class="card-text">
-<a href="/numbers" class="card-link">Dive into number theory.</a>
+<a href="/numbers" class="card-link">Dive into number theory using Python.</a>
 </p>
 </div>
 </div>
