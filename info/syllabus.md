@@ -1,4 +1,4 @@
-# Scientific Programming 1
+# Scientific Programming 1<br><small>Syllabus</small>
 
 University of Amsterdam / Programming Lab / Version 4.0-beta
 
