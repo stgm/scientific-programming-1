@@ -36,9 +36,7 @@ In this course you'll mostly work independently and ask for help online. We have
 
 Besides Stack Overflow, you can come to the programming lab at the following time. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
 
-- day, time, location
-
-When coming to the lab for the first time, please find a teacher and introduce yourself! That way it's easier to ask questions when needed.
+> The lab is open for you on Tuesdays 15:00--17:00. You can find us in room A1.22 at the Science Park 904 building. When coming to the lab for the first time, please find a teacher and introduce yourself! That way it's easier to ask questions when needed.
 
 ## Passing the course
 
@@ -49,8 +47,8 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 Finally, you must pass the final exam. There are two opportunities for semester 1, which have been planned on:
 
-- October
-- December
+- October TBA
+- December TBA
 
 ## Feedback
 
