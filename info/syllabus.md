@@ -36,7 +36,7 @@ In this course you'll mostly work independently and ask for help online. We have
 
 Besides Stack Overflow, you can come to the programming lab at the following time. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
 
-> The lab is open for you on **Tuesdays 15:00--17:00**. You can find us in room **A1.22** at the Science Park 904 building. When coming to the lab for the first time, please find a teacher and introduce yourself! That way it's easier to ask questions when needed.
+> The lab is open for you on **Tuesdays 15:00--17:00**. You can find us in room **A1.22** at the Science Park 904 building. When coming to the lab for the first time, please find your teacher and introduce yourself! That way it's easier to ask questions when needed.
 
 ## Passing the course
 
