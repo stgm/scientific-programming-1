@@ -12,7 +12,7 @@ One statistic we could calculate is the length of the text, using the built-in `
 But we can also define slightly more fine-grained statistics. In this assignment, you'll write four functions for text statistics that are not provided by Python.
 
 
-# 1. Letters
+## 1. Letters
 
 Write a function `number_of_letters_in(text)` that calculates how many letters are in a given string. Here's how one might use such a function:
 
@@ -21,18 +21,18 @@ Write a function `number_of_letters_in(text)` that calculates how many letters a
     >>> print(number_of_letters_in("ABCDE 9182 F"))
     6
 
-## Background
+### Background
 
 Let's define a *letter* to be any alphabetic character that occurs in a string. For our `source_text` above, this means that the number of letters is definitely less than the total length of the string, because it also contains spaces as well as periods. In other words, this new function is not the same as the `len()` function.
 
-## Getting started
+### Getting started
 
 Create a new file called `text_statistics.py`, which will contain all of the functions that you write in this assignment. From the text above, copy the definition of the variable `source_text` into your file, for testing purposes. Then, define a function with the name `number_of_letters_in` and a single argument called `text`.
 
     def number_of_letters_in(text):
         # TODO
 
-## Strategy
+### Strategy
 
 To do this, you'll need to build a loop that:
 
@@ -44,7 +44,7 @@ When done examining, the final count should be `return`ed.
 
 This is an instance of the *counter* strategy. In this case, you can't use the `str.count()` method, but you have to implement a counting loop yourself. Now, to decide if a character is a letter, have a look at Python's [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods). There are a couple of functions that start with "is" that might be useful here.
 
-## Testing
+### Testing
 
 To test this function, you may add a few lines of tests below the function definition. Then run your file using:
 
@@ -55,15 +55,15 @@ Only when you are convinced that your function works as expected, you should tes
 	checkpy text_statistics.py
 
 
-# 2. Words
+## 2. Words
 
 Write a function `number_of_words_in(text)` which takes a string containing text, and returns how many words are in that text.
 
-## Background
+### Background
 
 Texts are composed of words and sentences. To be able to analyze a text word-by-word or sentence-by-sentence, we might need to split things up. In this case, if we split up a text into words, we can calculate the number of words in the text.
 
-## Strategy
+### Strategy
 
 Your strategy might look like this:
 
@@ -73,25 +73,25 @@ Your strategy might look like this:
 
 So in summary, you take the result of one method, use the result to call another, then return. Notice that here, we do not use a loop, because Python functions are available that do most of the work for us.
 
-## Testing
+### Testing
 
 You can test your code using checkpy:
 
 	checkpy text_statistics.py
 
 
-# 3. Sentences
+## 3. Sentences
 
 Write a function `number_of_sentences_in(text)` which takes a string containing text, and returns how many properly formatted sentences are in that text.
 
     >>> print(number_of_sentences_in("She stopped. Turned around. Oops, a bear. Just like that."))
     4
 
-## Background
+### Background
 
 We define a "properly formatted sentence" as any sentence closed with a full stop (or "period").
 
-## Strategy
+### Strategy
 
 - You can use the same strategy as above, but use `split` in a different way. How should it be different?
 
@@ -102,25 +102,25 @@ We define a "properly formatted sentence" as any sentence closed with a full sto
 
   Most likely, you now see that the program counts 4 sentences, while you count only 3. There are 3 periods, so there are 3 well-formed sentences. How might we solve this problem?
 
-## Testing
+### Testing
 
 Test your code using checkpy again:
 
 	checkpy text_statistics.py
 
 
-# 4. Word length
+## 4. Word length
 
 Write a function called `average_word_length(text)` that calculates the average length of the words in the text.
 
     >>> print(average_word_length("This is a brief note"))
     3.2
 
-## Background
+### Background
 
 If, like earlier, you split a text into words using `str.split()`, you will receive a `list` of strings, each string being one word from the text. You can perform analysis on each word by looping over this list.
 
-## Strategy
+### Strategy
 
 - To start, create a variable that contains the result of splitting the text. You will use this variable as the source of further analysis.
 
@@ -128,7 +128,7 @@ If, like earlier, you split a text into words using `str.split()`, you will rece
 
 - When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
 
-## Testing
+### Testing
 
 Test your code using checkpy:
 
