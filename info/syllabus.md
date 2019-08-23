@@ -14,7 +14,7 @@ If you have practical matters that you would like to discuss, always send an e-m
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not stricly necessary.
+Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not strictly necessary.
 
 ## Goals
 
@@ -40,15 +40,23 @@ Besides Stack Overflow, you can come to the programming lab at the following tim
 
 ## Passing the course
 
-The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. You pass the course by:
 
-- you have worked through one case study per each of the four modules
-- you have submitted a fully working solution for each problem in those case studies
+1. submitting sufficient coursework
+2. passing the exam
 
-Finally, you must pass the final exam. There are two opportunities for semester 1, which have been planned on:
+### Coursework
+
+Sufficient coursework means submitting a working solution to each problem from at least four case studies of your own choosing, keeping in mind that you need to finish one case study per level.
+
+### Exam
+
+There are two opportunities to take the exam in semester 1, which have been planned on:
 
 - October TBA
 - December TBA
+
+The second exam can be seen as a "resit" to the first. However, it is not necessary to take the first exam to be allowed into the second.
 
 ## Feedback
 
