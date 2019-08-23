@@ -2,7 +2,7 @@
 
 We recommend installing Python on your computer, but in some cases this will lead to hard-to-solve problems. Here are your options:
 
-* [Installing on you own computer](/installing/on-your-own-computer) is quick and useful. You can run Python anytime, even on the train, and it's quicker, too! It's also great to have installed Python so you can use it even when you have finished the course.
+* [Installing on your own computer](/installing/on-your-own-computer) is quick and useful. You can run Python anytime, even on the train, and it's quicker, too! It's also great to have installed Python so you can use it even when you have finished the course.
 
 * [Using an online editor](/installing/using-an-online-editor) is probably easier. If you run into any trouble when installing your own computer, you can at least get started. So in case of emergency, use this route!
 
