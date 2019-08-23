@@ -1,19 +1,19 @@
 # The thousandth prime
 
-Implement a program that generates the $$n$$-th prime number, where `n` is a user provided value.
+Implement a program that generates the $$n$$-th prime number, where $$n$$ is a user provided value.
 
 	Which prime number are you looking for? 1000
 	7919
 
 ## Background
 
-As previously mentioned, a computer is a great tool for quickly executing a series of "dumb" actions. An example of what a computer does so much better than single person, is calculating prime numbers. The definition of a prime number is not too complicated. But determining how many divisors a number has could take an enormous amount of time. Python to the rescue!
+As previously mentioned, a computer is a great tool for quickly executing a series of "dumb", or simple, actions. An example of what a computer does a lot better (and quicker!) than humans, is calculating prime numbers. The definition of a prime number is not too complicated. But determining how many divisors a number has could take an enormous amount of time. Python to the rescue!
 
 ## Specification
 
-* Ask the user to provide the rank (how manyth) of the prime number that they want. This has to be a whole, positive number.
+* Ask the user to provide the rank (how many-th) of the prime number that they want. This has to be a whole, positive number.
 
-* If a user provides a value that is not valid, ask the user to try again. Keep prompting the user for a value until they do so. Since it is not known how often you'll have to repeat the question, a `while`-loop seems perfect!
+* If a user provides a value that is not valid, ask the user to try again. Keep prompting the user for a value until they do provide a valid number. Since it is not known how often you'll have to repeat the question, a `while`-loop seems perfect!
 
 * Once the rank of the prime is established, have your program calculate the correct prime and report it back to the user.
 
@@ -49,7 +49,7 @@ At the start, keep it simple. Use a `for`-loop and `%` (modulo) to determine how
 
 Let's take it a step further. We can reuse our code from before and for *each* number smaller than 100 determine whether it is a prime number or not.
 
-Create an extra `for`-loop to check eat number under 100 and determine for each of these "candidate primes" whether it is or isn't a prime number. For each number you'll have to determine the divisors individually, so you'll be needing two `for`-loops inside of one another (*nested loops*).
+Create an extra `for`-loop to check each number smaller than 100 and determine for each of these "candidate primes" whether it is or isn't a prime number. For each number you'll have to determine the divisors individually, so you'll be needing two `for`-loops inside of one another (*nested loops*).
 
 Implement aforementioned procedure and make sure it works correctly. Next we'll want to expand the procedure by `print`ing each found prime number. So after each conclusion of whether a number is a prime, we'll need a `print`-statement.
 
@@ -61,9 +61,9 @@ Now let's get back to the assignment: finding the n-th prime number. We'll assis
 
 * You cannot simply loop with a `for`-loop til `n`. Since we ant the `n`-th prime number; we don't want to know if `n` is a prime number (see the difference with step 2?). So you'll have to keep count *how many* prime numbers you've already found. Use a variable for this.
 
-* Start out small. Make sure your program worst for the first 10 prime numbers before you start looking at the 10 thousand numbers. Ten is just large enough to test most of the programs functions and small enough that it should be easy to fix mistakes.
+* Start out small. Make sure your program works for the first 10 prime numbers before you start looking at 10 thousand numbers. Ten is just large enough to test most of the programs functions and small enough that it should be easy to fix mistakes.
 
-* Errors? Print for every candidate-prime some information, so you know what calculation your program is at and so you can see if your intended strategy is working correctly.
+* Errors? Print for every candidate-prime some information, so you know what calculation your program is at, than see if your intended strategy is working correctly.
 
 > Maybe it is weird or annoying to write a program, after which you find out that it doesn't work correctly. That is a programmers fate: it's just incredibly difficult to precisely formulate an algorithm and instantly convert it into functioning code. Sometimes you've forgotten an exception or edge case, but just as easily you've made a typo somewhere. Keep in mind even the best programmers have to deal with this!
 
@@ -81,7 +81,7 @@ We started out as simple as possible, to get to a *correct* program as soon as p
 
 * Except for 2, *even* numbers are never a prime number (this should only be a small adjustment to your code).
 
-* If you find a divisor, there is no reason to look for any other divisors, it is already certain then number is a prime.
+* If you find a divisor (that is not 1 or the number itself), there is no reason to look for any other divisors, it is already certain that number is not a prime.
 
 * If you want to determine whether 137 is a prime, which candidate-divisors would you inspect before you're sure it's a prime number? Check this yourself with pen and paper. Dividing by 2 and all uneven numbers up until the number is a bit too much, wouldn't you say? A mathematician for example would only divide by 2, 3, 5, 7, 11. Think about why (this should result in thorough adjustments of your code).
 

@@ -26,7 +26,7 @@ The installation can take a while.
 
 ### Step 2: Visual Studio Code
 
-This package can be downloaded at their [website](https://www.anaconda.com/download/). Once again you have to execute the downloaded file. This time though you do not have to alter any settings during the installation process. Do you have a Mac? Just move the file to your applications folder. From there you can simply run it.
+This package can be downloaded at their [website](https://code.visualstudio.com/download). Once again you have to execute the downloaded file. This time though you do not have to alter any settings during the installation process. Do you have a Mac? Just move the file to your applications folder. From there you can simply run it.
 
 ## Testing
 

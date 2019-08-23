@@ -1,6 +1,6 @@
 ## Loops
 
-Occasionally it is useful to determine whether a whole sequence of numbers meets a certain condition. Because repetition, such a "simple task", is exactly the strong suit of a computer, it has become a basic element in virtually all programming languages. We call this a **loop**.
+Occasionally it is useful to determine whether a whole sequence of numbers meets a certain condition. In that case, we would like to repeat a piece of code for all numbers in that sequence. Repetition, such a "simple task", is exactly the strong suit of a computer and has become a basic element in virtually all programming languages. We call this a **loop**.
 
 ## Repetition
 
@@ -40,4 +40,4 @@ does the same as the following `while`-loop:
         print("hi")
         i = i + 1
 
-Obviously the `for`-loop is somewhat more compact en more easily readable. Which is why that loop is used most often, but cases such as asking for user input are often times best implemented with a `while`-loop. As a general rule for which loop to choose; a `for`-loop is used if you know or can calculate exactly how often the loop should repeat, and a `while`-loop is used when the amount of repetitions is uncertain.
+Obviously, the `for`-loop is somewhat more compact and more readable. Therefore, this type of loop is used most often. Cases such as asking for user input are often times best implemented with a `while`-loop. As a general rule for which loop to choose; a `for`-loop is used if you know, or can calculate, exactly how often the loop should repeat. A `while`-loop is used when the amount of repetitions is uncertain.
