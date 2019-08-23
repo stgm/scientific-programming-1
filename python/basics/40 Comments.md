@@ -10,7 +10,7 @@ or
     # output
     print(x)
 
-With a hashtag (`#`) you tell Python that it does not have to execute that line of code, but it is instead a comment. It is common practice to write a comment *above* the block of code it refers to.
+With a hashtag (`#`) you tell Python that it does not have to execute that line of code, but it is instead a comment. It is common practice to write a comment *above* the block of code it refers to.  By adding comments to your code, the code is easier to understand for you and possibly other people that use your code. 
 
 Aside from a comment about small blocks of code throughout your program, it is also useful to describe the use of a program at the top of the file. For **exercise.py** the following **header comment** would suffice:
 

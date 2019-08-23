@@ -1,8 +1,8 @@
 # Number Theory (level 1)
 
-Verifying theoretical hypotheses by hand is often times a time consuming job and a computer lends itself quite well to this purpose. Mathematical intuition required!
+Verifying theoretical hypotheses by hand often is a very time consuming job and a computer lends itself quite well to this purpose. Mathematical intuition required!
 
-But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdatadesign.nl) creates data visualizations for the [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/) among others. She shares her experiences with programming and creating visualizations.
+But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchdatadesign.nl) creates data visualizations for the [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/) among others. She shares her experiences with programming and creating visualizations.
 
 ![embed](https://player.vimeo.com/video/235229540)
 
@@ -14,7 +14,7 @@ But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdat
 
 ##### Day 2: Prime numbers
 
-1. Lear more about [algorithms](/numbers/algorithms)
+1. Learn more about [algorithms](/numbers/algorithms)
 
 3. <span class="badge badge-primary">Assignment</span> Look for [prime numbers](/numbers/primes)
 
@@ -22,7 +22,7 @@ But why programming? Check out the video. [Mirjam Leunissen](http://www.dutchdat
 
 1. Store data in a [list](/numbers/lists)
 
-2. <span class="badge badge-primary">Assignment</span> Look for the [longest sequence non-primes](/numbers/sequence)
+2. <span class="badge badge-primary">Assignment</span> Look for the [longest sequence of non-primes](/numbers/sequence)
 
 3. Understand how to write ["good code"](/numbers/style-guide) --- and from now on we expect you to implement these guidelines!
 

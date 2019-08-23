@@ -1,34 +1,29 @@
-# Stijlgids
+# Style Guide
 
-Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Bij deze cursus is het belangrijk om niet alleen te kijken naar de functionaliteit van de code ("hoe maak ik dit") maar ook naar de kwaliteit ("hoe goed is dit leesbaar"). Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van commentaar bij stukjes code. Maar er zijn meer aspecten, die je hieronder kunt vinden.
+Programming code is preferably easy to read and understand. Note only for yourself, but also for collaborators. In this course it is important to not only take the functionality of the code into account ("how do I write code to do something") but also the quality of the code ("is my code readable"). Earlier, we already mentioned some guidelines on how to comment code. Below you can find more aspects on how to comment your code properly.
 
-## Terminologie
+## Terminology
 
-Om te beginnen een paar dingen over terminologie:
+To start, some terminology:
 
-- We hebben het vaak over "programma's". Een *programma* is een op zichzelf staan geheel, een stuk software dat een taak kan uitvoeren. Denk aan een rekenmachine op je telefoon. Of Microsoft Word. Python zelf is ook een programma. En jij schrijft in deze cursus dus een heleboel verschillende programma's.
+- We often talk about "programs". A *program* is an entity, a piece of software designed to execute a task or an action. Think about a calculator on your phone, or Microsoft Word. Python itself is also a program. In this course, you write a variety of programs yourself. 
+- We also often talk about "code". A piece of *code* is a fragment, often a part of a program. The word code is not countable (i.e. you cannot talk about "one code" or "two codes"). You can say "my code doesn't work", in that case it is evident that you talk about the code you just have been working on.
+- A program consists of "lines" of code.
 
-- We hebben het ook vaak over "code". Een stuk *code* is een fragment, vaak onderdeel van een programma. Het woord code is niet telbaar, dat wil zeggen dat je niet kunt spreken van "een code" of "twee codes". Je kunt wel zeggen "mijn code werkt niet", dan gaat het kennelijk over het stuk code dat je zojuist geschreven hebt.
+## Choice of Language
 
-- Een programma bestaat uit "regels" code.
+In this course, we work in English. Make sure you work in one language only: variable names and comments should both be in English. 
 
-## Taalkeuze
+## Comments
 
-Hieronder zul je zien dat de voorbeeldcode en het commentaar doorgaans in het Engels gesteld zijn. In de cursus werken we vaak in het Nederlands. Het is hoe dan ook belangrijk om de taalkeuze goed af te stemmen: variabelenamen en commentaar beide in het Nederlands óf beide in het Engels.
+It is just as easy to write a lot of comments in your code as writing too little comments. To determine where comments are really needed, we should put ourselves in the reader of the code. This could be someone else, someone that uses your code to write a nice program. But, it could also be yourself, a few months later, desparately trying to decipher your own code. What information does this reader need?
 
-## Commentaar
+- Summaries of blocks of code. Often you have divided your code in functional blocks. Sometimes only a few lines of code. It is ususally not difficult to summarize and describe the functionality of that piece of code. 
+- Warnings for potential problems. Maybe you came up with a temporal solution to a problem, of which you know it will not work for some cases (but for now its fine). In that case, it is handy to document your doubts with in a comment.
+- Explanation of complex algorithms. Sometimes you write very complex code. In that case you can give an explanation of the algorithm or provide a link for more information.
+- Source references. To avoid plagiarism, it is of course important to mention all sources used when fully or partially using other people's code. Even if you change this person's code it is important to still refer to the source.
 
-Het is net zo makkelijk om te veel commentaar in je code te schrijven als te weinig. Om te bepalen waar commentaar nou echt nodig is, moeten we ons een beetje verplaatsen in de lezer van de code. Dat kan iemand anders zijn, iemand die jouw code gebruikt om een gaaf programma te schrijven. Maar je kunt het ook zelf zijn, een paar maanden later, wanhopig proberend om nog een beetje kaas te maken van hoe het ook alweer in elkaar zat. Die lezer, wat heeft die nodig?
-
-- Samenvattingen van stukjes code. Meestal heb je je programma's of functies opgedeeld in functionele blokjes. Misschien zijn het maar een paar regels code. Het is vaak niet zo moeilijk om van zo'n blokje code samen te vatten wat de bedoeling is.
-
-- Waarschuwingen voor potentiële problemen. Misschien heb je voor een bepaald stuk code een tijdelijke oplossing bedacht, waarvan je weet dat die niet in alle gevallen gaat werken (maar voor nu is het wel goed zo). Dan is het handig dat te documenteren door middel van een comment.
-
-- Uitleg van erg complexe algoritmen. Soms is het gewoonweg niet anders dan dat je een behoorlijk complex systeem aan het schrijven bent. In dat geval kun je uitleg geven, of zelfs maar een link naar meer informatie.
-
-- Bronvermelding. Om niet van plagiaat beschuldigd te worden is het natuurlijk belangrijk altijd een bron te vermelden als je een stuk code geheel of gedeeltelijk overneemt van iemand anders. Zelfs als je het nog flink verbouwt hoort dat erbij.
-
-### Voorbeeld 1
+### Example 1
 
 Wanneer hoeft het nou bijvoorbeeld niet? Als je variabelenamen erg duidelijk zijn, dan hoef je misschien geen commentaar te schrijven. Maar soms kun je toch nog wat toevoegen:
 
@@ -124,13 +119,13 @@ Zoals hierboven beschreven bij "commentaar" kun je je programma vaak opdelen in 
     number = input("Please enter a number: ")
     while number < 0:
         number = input("Please enter a *positive* number: ")
-
+    
     # calculations: uses a complex loop to handle special cases
     while(number > 0):
         number -= 1
     if number == 0:
         number += 1
-
+    
     # output: might not print zero (e.g., if user put in a float)
     print(user_input)
 
