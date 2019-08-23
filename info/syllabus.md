@@ -47,14 +47,21 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 ### Coursework
 
-Sufficient coursework means submitting a working solution to each problem from at least four case studies of your own choosing, keeping in mind that you need to finish one case study per level.
+Sufficient coursework means submitting a working solution to each problem from at least four case studies of your own choosing, keeping in mind that you need to finish one case study per level. Deadlines for each module are:
+
+- Module 1: Wednesday, 11 September
+- Module 2: Tuesday, 24 September
+- Module 3: Monday, 7 October
+- Module 4: Friday, 18 October
+
+Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we'll consider your proposal.
 
 ### Exam
 
-There are two opportunities to take the exam in semester 1, which have been planned on:
+There are two opportunities to take the exam in semester 1, which according to the [official schedule](https://datanose.nl/#course[81337]) have been planned on:
 
-- October TBA
-- December TBA
+- Tuesday, 22 October
+- Tuesday, 17 December
 
 The second exam can be seen as a "resit" to the first. However, it is not necessary to take the first exam to be allowed into the second.
 
