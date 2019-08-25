@@ -56,7 +56,7 @@ Sufficient coursework means submitting a working solution to each problem from a
 
 Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we'll consider your proposal.
 
-You may not re-submit (variations of) solutions that you wrote for another course's problem. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
+You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
 
 ### Exam
 
