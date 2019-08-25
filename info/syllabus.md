@@ -14,7 +14,13 @@ If you have practical matters that you would like to discuss, always send an e-m
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not strictly necessary.
+Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module.
+
+## Prerequisites
+
+This course assumes **no** prior programming experience. If you have already done a course in Python, or if you have extensive experience in another programming language, this course might not be your best option---but we're happy to refer you to other courses if you'd like!
+
+Other than that, some case studies assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
 ## Goals
 
