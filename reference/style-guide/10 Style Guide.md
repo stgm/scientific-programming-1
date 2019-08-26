@@ -129,11 +129,11 @@ As described in the "comments" section, you can divide your program in logical c
     # output: might not print zero (e.g., if user put in a float)
     print(user_input)
 
-The three components are respectively: the user's input, the calculation and the output. These components often occur in programs. Also pay attention to the instructions in the comments: first an explanation of the algorithm, and then a warning that that part of the code might not always work (and more important: when this happens!). 
+The three components are respectively: the user's input, the calculation and the output. You will encounter these components very often in programs. Also, pay attention to the instructions in the comments: first an explanation of the algorithm, and then a warning that that part of the code might not always work (and more important: when this happens!). 
 
 ### Spaces Around Operators
 
-Operators such as `+`, `==`, `%` and `**` are used very often in formulas and equations. Use spaces around operators, in order to keep formulas readable:
+Operators such as `+`, `==`, `%` and `**` are often used in formulas and equations. Use spaces around operators, in order to keep formulas readable:
 
     i = i + 1
     submitted += 1
