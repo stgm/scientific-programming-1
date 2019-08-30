@@ -16,7 +16,7 @@ If you have practical matters that you would like to discuss, always send an e-m
 
 0. Read more of the Syllabus, below
 1. Create a [Stack Overflow](https://stackoverflow.com/c/uva-prog-lab) account for asking questions
-2. [Install] Python
+2. [Install](/installing) Python
 3. Go to the [modules page](/modules) and choose a level 1 module to get programming!
 
 ## Prerequisites
