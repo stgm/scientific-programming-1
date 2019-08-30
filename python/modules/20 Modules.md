@@ -1,53 +1,54 @@
-# Functies uit modules
+# Functions from Modules
 
-Je hebt in de vorige opgaven al diverse ingebouwde opdrachten gezien die horen bij Python: `raw_input` en `print` zijn twee voorbeelden. Er zijn nog heel veel andere *functies* bijgeleverd, maar die zijn niet standaard beschikbaar.
+In previous exercises you've already worked with several built-in Python commands (or, *functions*): `raw_input` and `print` are two examples. The Python interpreter has several functions built into it that are always available. There are many more functions which are not available by default.
 
-Voor het uitrekenen van de sinus van een getal is de functie `sin` beschikbaar. Maar als je nu meteen in Python `sin(1.0)` opvraagt, dan verschijnt er een foutmelding:
+To calculate the sine of a number the function `sin` is available. But if you try to calculate this in Python with `sin(1,0)`, an error will appear:
 
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     NameError: name 'sin' is not defined
 
-Het gaat om de laatste regel van die foutmelding. Deze is in zo normaal mogelijk Engels geformuleerd en redelijk te begrijpen: Python kent de naam `sin` niet en kan er dus niks mee!
+Note the final line of this error message. This is formulated in understandable English: Python does not know the name `sin` and therefore cannot execute the function!
 
-Om gebruik te maken van de `sin`-functie moet je zorgen dat de `math`-bibliotheek en alle functies daarin beschikbaar komen in jouw programma:
+To be able to use the `sin`-functionality you have to make sure the `math`-library and all the functions within this library are available in your program:
 
-    import math         # importeer de wiskunde-bibliotheek
-
+    import math         # import the math library
+    
     x = 0.5
     print(math.sin(x))
 
-Als je de functie `sin()` wilt gebruiken moet je aangeven in welke bibliotheek Python die functie moet vinden. Er zouden bijvoorbeeld alternatieve bibliotheken kunnen zijn waarin ook functies zoals `sin` staan. Wij moeten dus expliciet kiezen voor de `math`-bibliotheek.
+If you want to use the `sin()` function you should indicate in which library Python can find this function. There could also be other libraries that contain a `sin` function. We should thus explicitly choose for the `math` library.
 
-## Documentatie
+## Documentation
 
-- De functies die beschikbaar zijn in de math library kan je vinden in de documentatie:
+- The functions that are available within the math library can be found in the documentation:
 
   <https://docs.python.org/3/library/math.html>
 
-- En zo zijn er nog meer libraries die horen bij standaard-Python:
+- And there are many more libraries available for standard-Python:
 
   <https://docs.python.org/3/library/>
 
-- Voor elk vakgebied of toepassing is wel een aparte library te vinden. Zodra je zelf in je studie aan grotere programma's gaat werken, zal het misschien ook handig zijn om je eigen standaardcode in een library onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook makkelijk delen met andere mensen.
+- For many areas of expertise and applications libraries can be found. If you work on larger programs in the future, it might even be handy to write and store your own standard code in a library. This benefits the readability and structure of your code and it is then easy to share your code with others.
 
-## Numpy en arange
+## Numpy and arange
 
-Een voorbeeld van een uitgebreidere wiskundebibliotheek is de `numpy`-library. Een overzicht, documentatie en voorbeelden kan je vinden op <http://www.numpy.org>. We noemen meteen een handige functie die we in deze cursus een paar keer zullen gebruiken: `arange`.
+An example of more extensive math library is the `numpy`-library. An overview, documentation and some examples van be found at <http://www.numpy.org>. A handy function that we'll use several times in this course is the `arange` function. 
 
-Van de `for`-loops ken je nog de opdracht `range`. Dit blijkt ook een functie te zijn, namelijk ééntje die reeksen opeenvolgende nummers genereert. Zo zijn deze twee stukken code equivalent:
+For `for` loops you used the `range` command. This is also a function, namely one that generates a sequence of serial numbers. These two blocks of code are equivalent:
 
     # versie 1
     for i in range(1,10):
         print(i)
-
+    
     # versie 2
     for i in [1,2,3,4,5,6,7,8,9]:
         print(i)
 
-Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassingen willen we vaak veel kleinere stapjes nemen. Denk aan het berekenen van een integraal op kleine intervallen. Met behulp van `numpy.arange()` kan dat net zo makkelijk als met gehele getallen:
+The `range` function only works with integers. In math applications we often would like to use smaller steps. Think about calculating an integral, where we use small intervals to calculate, for example, an area. By using `numpy.arange()` we can easily do this:
 
     import numpy
-
+    
     for x in numpy.arange(2.0, 9.0, 0.1):
         print(x)
+

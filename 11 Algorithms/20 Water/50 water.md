@@ -1,10 +1,10 @@
 # Water
 
-Implement a program that reports a users water usage back to them, by calculating the how many bottles of drinking water is consumed by the number of minutes they shower.
+Implement a program that reports a user's water usage back to them by calculating the how many bottles of drinking water are consumed by the number of minutes they shower.
 
 	How many minutes do you shower? 1
 	12
-
+	
 	How many minutes do you shower? 10
 	120
 
