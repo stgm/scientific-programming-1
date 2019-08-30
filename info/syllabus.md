@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 50621SCP3Y / Version 4.0-beta
 
-Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems.
+Welcome to this programming course! In the weeks ahead, you'll use the Python programming language while learning to solve scientific problems from several fields of science. This course is intended for students who have no experience in programming at all. It comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex computational problems.
 
 ## Staff
 
@@ -14,7 +14,13 @@ If you have practical matters that you would like to discuss, always send an e-m
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not stricly necessary.
+Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module.
+
+## Prerequisites
+
+This course assumes **no** prior programming experience. If you have already done a course in Python, or if you have extensive experience in another programming language, this course might not be your best option---but we're happy to refer you to other courses if you'd like!
+
+Other than that, some case studies assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
 ## Goals
 
@@ -36,21 +42,36 @@ In this course you'll mostly work independently and ask for help online. We have
 
 Besides Stack Overflow, you can come to the programming lab at the following time. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
 
-- day, time, location
-
-When coming to the lab for the first time, please find a teacher and introduce yourself! That way it's easier to ask questions when needed.
+> The lab is open for you on **Tuesdays 15:00--17:00**. You can find us in room **A1.22** at the Science Park 904 building. When coming to the lab for the first time, please find your teacher and introduce yourself! That way it's easier to ask questions when needed.
 
 ## Passing the course
 
-The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. You pass the course by:
 
-- you have worked through one case study per each of the four modules
-- you have submitted a fully working solution for each problem in those case studies
+1. submitting sufficient coursework
+2. passing the exam
 
-Finally, you must pass the final exam. There are two opportunities for semester 1, which have been planned on:
+### Coursework
 
-- October
-- December
+Sufficient coursework means submitting a working solution to each problem from at least four case studies of your own choosing, keeping in mind that you need to finish one case study per level. Deadlines for each module are:
+
+- Module 1: Wednesday, 11 September
+- Module 2: Tuesday, 24 September
+- Module 3: Monday, 7 October
+- Module 4: Friday, 18 October
+
+Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we'll consider your proposal.
+
+You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
+
+### Exam
+
+There are two opportunities to take the exam in semester 1, which according to the [official schedule](https://datanose.nl/#course[81337]) have been planned on:
+
+- Tuesday, 22 October
+- Tuesday, 17 December
+
+The second exam can be seen as a "resit" to the first. However, it is not necessary to take the first exam to be allowed into the second.
 
 ## Feedback
 

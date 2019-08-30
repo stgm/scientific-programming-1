@@ -1,4 +1,4 @@
-# Module 3: simulating - movement 
+# Movement (level 3)
 
 In this module we'll study how to describe movement of falling objects and visualize that movement to the screen by way of animation.
 
