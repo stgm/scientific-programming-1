@@ -51,7 +51,7 @@
 					<h5 class="card-title">Text processing</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 2</h6>
 					<p class="card-text">
-						<a href="/numbers" class="card-link">Analyze text sources using text processing.</a>
+						<a href="/text" class="card-link">Analyze text sources using text processing.</a>
 					</p>
 				</div>
 			</div>
