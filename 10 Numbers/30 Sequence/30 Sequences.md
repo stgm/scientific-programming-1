@@ -3,12 +3,12 @@
 Write a program that finds the *longest continuous sequence of non-primes* under 10.000 and displays a short summary of the results.
 
 	# python sequence.py
-	The longest sequence non-primes under 100 starts at ... and ends at ...
+	The longest sequence non-primes under 10.000 starts at ... and ends at ...
 	The sequence is ... long.
 
 Carefully read what is required. Under the number 100 the answer should be as follows:
 
-	The longest sequence non-primes under 10.000 starts at 90 and ends at 96
+	The longest sequence non-primes under 100 starts at 90 and ends at 96
 	The sequence is 7 long.
 
 The assignment is about finding the longest sequence under the number 10.000.

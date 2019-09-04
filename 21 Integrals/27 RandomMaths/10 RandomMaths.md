@@ -10,7 +10,7 @@ Use the following strategy:
   * Repeat this a large number of times (N = million)
 
   * Determine the average number of required numbers and display that count
-  
+
 ### Specification
 
 * Create a new file called `randommaths.py`.
@@ -19,13 +19,13 @@ Use the following strategy:
 
 * The output on the screen (4 decimals precise) should look like this:
 
+     ```
      The average amount of numbers generated (based on 1 million trials) is: x.xxxx
-
-		
+     ```
 ### Testing
 
 	checkpy randommaths.py
-	
+
 
 
 #### source: `@fermatslibrary`
