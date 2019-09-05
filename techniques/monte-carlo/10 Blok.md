@@ -9,7 +9,7 @@ It is possible to approximate an integral by using random numbers.
 
     Define an area (often times a rectangle) that surrounds the integral area. So you have to choose a $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ and $$y_{max}$$ such that:
 
-      - $$x_{min} \leq a$$ and $$x_{max} \geq b$$
+      - $$x_{min} \leq a$$ and $$x_{max} \geq b​$$
 
       - for $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
@@ -17,7 +17,7 @@ It is possible to approximate an integral by using random numbers.
 
 2.  Generate random points within the rectangle
 
-    Generate a large number of random numbers $$(x_i, y_i)$$ in the rectangle that surrounds the integral area and verify for each point whether is lies 'within' the integral area ('good') or not ('wrong'). Keep track of the fraction of points within the integral area: $$f_{good}$$.
+    Generate a large number of random numbers $$(x_i, y_i)$$ in the rectangle that surrounds the integral area and verify for each point whether it lies 'within' the integral area ('good') or not ('wrong'). Keep track of the fraction of points within the integral area: $$f_{good}​$$.
 
 3.  Determine the integral
 
@@ -30,6 +30,6 @@ It is possible to approximate an integral by using random numbers.
 
 ## Example
 
-It is known that the function $$sin(x)$$ is enclosed on the domain $$0 < x < \pi$$ between 0 and 1. So we defined a box around the integral area and generated 2000 random points. Of which 63.15% (1263/2000) appeared to be within the integral area. The approximation that we've made of the integral using these 2000 is subsequently: 0.6315$$\pi \approx 1.984$$. The moment this works correctly, we can effortlessly generate 1 million points instead of 2000.
+It is known that the function $$sin(x)$$ is enclosed on the domain $$0 < x < \pi$$ between 0 and 1. So we defined a box around the integral area and generated 2000 random points. Of which 63.15% (1263/2000) appeared to be within the integral area. The approximation that we've made of the integral using these 2000 is subsequently: 0.6315$$\pi \approx 1.984​$$. When this method is implemented correctly, we can effortlessly generate 1 million points instead of 2000.
 
 ![](MonteCarloExample.png)

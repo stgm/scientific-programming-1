@@ -23,7 +23,7 @@ Write a program that calculates the roots of the polynomial $$f(x)=x^2+2x-10$$.
 
 ## Hints
 
-* Calculate the roots with use of the $$abc$$-formula.
+* Calculate the roots with use of the *quadratic*-formula.
 
 * To make sure you can print the result clearly, call the function like we do in our example, and store the result:
 

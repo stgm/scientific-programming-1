@@ -32,11 +32,11 @@ Example: ten random numbers between 0 and 3
 Write by way of practice, a function called `random_range()` that generates a number between *a* and *b* where you can choose the values a and b yourself. It has to in the following way:
 
     import random
-
+    
     def random_range(a,b):
         random_number = <your code>
         return random_number
-
+    
     minimum = 2
     maximum = 5
     for i in range(10):

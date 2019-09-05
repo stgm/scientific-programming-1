@@ -4,7 +4,7 @@ A *function* is a piece of code that is assigned a name, so you can reuse it mul
 
 You can also define functions yourself. If, for example, you've written a piece of code to plot your data, you wouldn't want to copy all that code each time you acquire new data.
 
-Functions are an important aspect of learning how to code. The start of a functions is denoted by the word `def`, which is followed by the function name (which you can choose for yourself), and subsequently the parentheses `()` which may or may not contain any parameters. Closed finally by a colon `:`. Check out the example:
+Functions are an important aspect of learning how to code. The start of a function is denoted by the word `def`, which is followed by the function name (which you can choose for yourself), and subsequently the parentheses `()` which may or may not contain any parameters. Closed finally by a colon `:`. Check out the example:
 
     def print_greeting():
         print("Hello")
@@ -21,6 +21,6 @@ This is a function that `print`s the string `Hello` to the terminal. If you add 
 
 ## Style and design
 
-Using functions improves readability of your code. With a well-chosen name for each function you can easily gain an overview of that the code is meant to do as a whole. It allows you to first quickly read all function names of a program before having to try and comprehend the functional code.
+Using functions improves readability of your code. With a well-chosen name for each function you can easily gain an overview of what the code is meant to do as a whole. It allows you to first quickly read all function names of a program before having to try and comprehend the functional code.
 
 Functions can also be expedient when you repeatedly have to use a more or less identical piece of code. Often times when you catch yourself copy pasting parts of your own code, you can better spend some time to find a way to efficiently reuse the code your copying by defining a function!

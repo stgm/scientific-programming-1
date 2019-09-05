@@ -16,13 +16,13 @@ Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promot
 
 #### Day 2: Riemann
 
-1. Learn more about the [Riemann sum](/resources/riemannsum)
+1. Learn more about the [Riemann sum](/techniques/riemann-sum)
 
 1. <span class="badge badge-primary">Assignment</span> Harness the power of a computer to determine the [Riemann sum](/integrals/riemann).
 
 #### Day 3: random
 
-1. Learn more about the use of [random numbers](/resources/random).
+1. Learn more about the use of [random numbers](/python/random).
 
 2. <span class="badge badge-primary">Assignment</span> [Random fact](/integrals/randommaths).
 
@@ -32,7 +32,7 @@ Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promot
 
 #### Day 4: Monte Carlo
 
-1. Learn more about the [Monte-Carlo method](/resources/monte-carlo)
+1. Learn more about the [Monte-Carlo method](/techniques/monte-carlo)
 
 2. <span class="badge badge-primary">Assignment:</span> Use random values to calculate integrals with the [Monte Carlo](/integrals/monte-carlo) method
 
