@@ -16,3 +16,5 @@ Introduction: /numbers
     Implement Plot: /numbers/plot
 Optional:
     Co-primes: /numbers/co-primes
+Submit:
+    Submit module: /numbers/submit
