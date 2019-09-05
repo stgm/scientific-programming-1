@@ -10,7 +10,7 @@ Simon Pauw (teacher)
 Marleen Rijksen (teacher)  
 Martijn Stegeman (editor)
 
-If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
+If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
 
 ## Getting started
 
