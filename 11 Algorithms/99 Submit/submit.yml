@@ -5,8 +5,6 @@ files:
         - pyramid.py
         - greedy.py
         - plot.py
-    extra:
-        - coprime.py
 check:
     tool: checkpy
     repo: uva-sp/sp1
