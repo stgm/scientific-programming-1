@@ -40,4 +40,4 @@ When you're ready to submit, head to [the submit page for this module](/algorith
 
 ##### Evaluation
 
-Have you submitted each problem from this module? Then you're done! Please fill out the [evaluation form](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"}. It's important for us to get feedback on the course's content.
+Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!

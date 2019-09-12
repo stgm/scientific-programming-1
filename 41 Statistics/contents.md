@@ -29,4 +29,4 @@ For starters have a look at the video to the side. [Daniël Lakens](https://www.
 
 #### Evaluation
 
-You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/XP9ccEjH8A3V7q4O2){:target="_blank"} in.
+Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!
