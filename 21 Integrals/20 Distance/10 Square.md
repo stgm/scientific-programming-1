@@ -14,7 +14,7 @@ This is a classic example of an clear and apparently simple problem, which is di
 
 * The name of the program should be `distance.py`.
 
-* Declare a function `square($$N$$)` that takes as a parameter the number ($$N$$) and the `return`s the average distance between two points in such a square.
+* Declare a function `square(N)` that takes as a parameter the number ($$N$$) and the `return`s the average distance between two points in such a square.
 
 
 ## Problem analysis

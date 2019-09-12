@@ -1,12 +1,12 @@
 # Monopoly (level 3)
 
-After s short introduction with animating in Python, we'll spend the first 3 days of this module on simulating the game of Monopoly. It is impossible to do so analytically, because the use of dice adds a complicated element of chance to the game. Game theory in practice.
+After a short introduction with animating in Python, we'll spend the first 3 days of this module on simulating the game of Monopoly. It is impossible to do so analytically, because the use of dice adds a complicated element of chance to the game. Game theory in practice.
 
 During day 4 we'll get acquainted with simulating a physical phenomenon: free fall (with and without friction).
 
 #### Day 1: Animations and the start of Monopoly
 
-1. Learn how to make [animations](/resources/animations) in Python
+1. Learn how to make [animations](/python/animations) in Python
 
 2. <span class="badge badge-primary">Assignment</span> The [spiraling dot](/movement/dot)
 

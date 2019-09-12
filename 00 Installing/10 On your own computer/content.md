@@ -46,7 +46,7 @@ To help you verify whether a program functions in compliance wit the specificati
 
 This can take a while and you will see some text move over your screen. Afterwards `checkpy` is installed. In addition `checkpy` we also need the tests that correspond to the assignments that you'll have to make. These tests can be downloaded by executing the following command in the terminal:
 
-	checkpy -d uva/progns
+	checkpy -d uva-sp/sp1
 
 To test that your installation of `checkpy` was successful, you can test `hello.py`. If you haven't written that program yet, check out the introductory video above. Then execute the following command:
 

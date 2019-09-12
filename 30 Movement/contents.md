@@ -6,19 +6,19 @@ In this module we'll study how to describe movement of falling objects and visua
 
 1. <span class="badge badge-primary">Assignment</span> Study the movement of a falling [apple](/movement/apple)
 
-2. Read back up on the use of [multiple graphs](/resources/plot)
+2. Read back up on the use of [multiple graphs](/python/plotting)
 
 3. <span class="badge badge-primary">Assignment</span> Study the movement of a [base jumper](/movement/basejump)
 
 #### Day 2: The ultimate free fall
 
-1. Learn more about [debugging](/python/debugging) simulations
+1. Learn more about [debugging](/reference/debugging) simulations
 
 2. <span class="badge badge-primary">Assignment</span> What happens if you [fall through the earth](/movement/freefall)?
 
 #### Day 3: Animations in Python
 
-1. Learn how to make [animations](/resources/animations) in Python
+1. Learn how to make [animations](/python/animations) in Python
 
 2. <span class="badge badge-primary">Assignment</span> The [spiraling dot](/movement/dot)
 

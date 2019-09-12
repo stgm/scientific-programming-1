@@ -189,7 +189,7 @@ You have seen the `upper()` method for strings, which changes each letter of a s
         if letter in "aeiouy":
             transformed += "."
         else:
-            transformed = letter
+            transformed += letter
 
 This loop will change each vowel in the text into a period. Let's see what would happen if `word` is `"Hello, world!"`:
 

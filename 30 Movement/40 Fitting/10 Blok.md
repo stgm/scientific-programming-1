@@ -10,7 +10,7 @@ For each point we determine *how many standard deviations the point is away from
 
 $$\chi^2 = \sum_{i~ {\rm (datapoints)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
 
-Here $$\vec{\alpha}$$ is the vector with parameter that are used in your model. For each choice of parameters in your model the distance of each measurement to the model changes and gives a new $$\chi^2$$. To be complete: the $$\chi^2$$ is just a number.
+Here $$\vec{\alpha}$$ is the vector with parameters that are used in your model. For each choice of parameters in your model the distance of each measurement to the model changes and gives a new $$\chi^2$$. To be complete: the $$\chi^2$$ is just a number.
 
 ## The best value of your model and uncertainty
 
@@ -36,7 +36,7 @@ $$\sigma$$ (bad at y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 ![](FitExampleCombined.png)
 
-The data is represented on the left hand plot below. We assume that is performance is constant and thus assume that the model that describes this data best is a constant. That means our model only has 1 parameter: $$f(x)=c$$. The questions is: *which value of $$c$$ describes the data best and which uncertainty should be attributed to that prediction?*.
+The data is represented on the left hand plot. We assume that Wesley's performance is constant and thus assume that the model that describes this data best is a constant. That means our model only has 1 parameter: $$f(x)=c$$. The questions is: *which value of $$c$$ describes the data best and which uncertainty should be attributed to that prediction?*.
 
 ## Calculating $$\chi^2$$
 
