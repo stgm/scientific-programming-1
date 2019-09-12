@@ -10,17 +10,20 @@ Simon Pauw (teacher)
 Marleen Rijksen (teacher)  
 Martijn Stegeman (editor)
 
-If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
+If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
 
-## What to do
+## Getting started
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module.
+0. Read more of the Syllabus, below
+1. Create a [Stack Overflow](https://stackoverflow.com/c/uva-prog-lab) account for asking questions
+2. [Install](/installing) Python
+3. Go to the [modules page](/modules) and choose a level 1 module to get programming!
 
 ## Prerequisites
 
 This course assumes **no** prior programming experience. If you have already done a course in Python, or if you have extensive experience in another programming language, this course might not be your best option---but we're happy to refer you to other courses if you'd like!
 
-Other than that, some case studies assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
+Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
 ## Goals
 
@@ -32,7 +35,7 @@ This really is a beginner's course. We will teach you the basics of Python progr
 - can make your programs simpler and easier to read by employing a few standard tactics
 - can trace and fix several common programming errors
 
-When you have finished one case study for each module, you might take up Scientific Programming 2, in which we will teach you most of the remaining parts of Python, enabling you to read and contribute to other's projects, or start your own!
+When you have finished one modules for each level, you might take up Scientific Programming 2, in which we will teach you most of the remaining parts of Python, enabling you to read and contribute to other's projects, or start your own!
 
 ## Asking questions
 
@@ -53,12 +56,12 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 ### Coursework
 
-Sufficient coursework means submitting a working solution to each problem from at least four case studies of your own choosing, keeping in mind that you need to finish one case study per level. Deadlines for each module are:
+Sufficient coursework means submitting a working solution to each problem from at least four modules of your own choosing, keeping in mind that you need to finish one module per level. Deadlines for each level are:
 
-- Module 1: Wednesday, 11 September
-- Module 2: Tuesday, 24 September
-- Module 3: Monday, 7 October
-- Module 4: Friday, 18 October
+- Level 1: Wednesday, 11 September
+- Level 2: Tuesday, 24 September
+- Level 3: Monday, 7 October
+- Level 4: Friday, 18 October
 
 Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we'll consider your proposal.
 

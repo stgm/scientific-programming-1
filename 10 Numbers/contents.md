@@ -40,6 +40,9 @@ But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchda
 
 We expect you to fully implement and submit the assignments above. But there's also an optional assignment, intended to be done by anyone who feels ready to do more! In this module, you'll test theorems from number theory about the frequency of [co-prime pairs](/numbers/co-primes).
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/numbers/submit).
 
 ##### Evaluation
 

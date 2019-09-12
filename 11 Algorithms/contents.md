@@ -34,6 +34,10 @@ But first, check out the short movie below. Egge van der Poel is a data scientis
 
 4. <span class="badge badge-primary">Assignment</span> Make data intelligible by [plotting graphs](/algorithms/plot)
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/algorithms/submit).
+
 ##### Evaluation
 
 Have you submitted each problem from this module? Then you're done! Please fill out the [evaluation form](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"}. It's important for us to get feedback on the course's content.

@@ -2,14 +2,14 @@
 
 Implement a program that prints half a pyramid of a height that is provided by the user.
 
-	How high should the pyramid be? 5
+	What height should the pyramid be? 5
 	        # #
 	      # # #
 	    # # # #
 	  # # # # #
 	# # # # # #
 
-	How high should the pyramid be? 3
+	What height should the pyramid be? 3
 	    # #
 	  # # #
 	# # # #
