@@ -51,9 +51,6 @@ You may also add a newline to an existing string:
 Notice that this looks quite a bit like the transform strategy!
 
 
-## Testing
-
-	checkpy reformat.py
 
 
 [^1]: <https://www.heroku.com/art/python>

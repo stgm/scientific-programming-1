@@ -49,9 +49,7 @@ Tip: split up your code into functions (with meaningful names) as much as possib
 
 ## Testing
 
-Don't forget to check your code using:
-
-	checkpy list_words.py
+These are potential test cases:
 
 - empty input
 - 1-word input
