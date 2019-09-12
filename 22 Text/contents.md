@@ -2,6 +2,10 @@
 
 One interesting application of Python is to use it for analyzing texts written by humans. Written texts are subject to various implicit and explicit rules, such as spelling and grammar. Python can be used to make sense of texts at various levels. For example, we may calculate simple statistics about the length of a document or its parts. Or we may dig a little deeper by analyzing word use, or finding misspelled words or grammar problems. And using big data techniques, we might make an educated guess about the meaning of a piece of writing, or even the attitude that a text represents.
 
+
+(Note: this case study does not have checkpy checks. However, it's quite easy to see if your code works!)
+
+
 ![embed](https://player.vimeo.com/video/233508920)
 
 ##### Day 1: Text statistics
