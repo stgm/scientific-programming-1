@@ -48,7 +48,7 @@
 			<div class="card mb-3">
 				<img src="/course/22%20Text/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Text processing</h5>
+					<h5 class="card-title">Text processing <span class="badge badge-primary"></h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 2</h6>
 					<p class="card-text">
 						<a href="/text" class="card-link">Analyze text sources using text processing.</a>
@@ -81,7 +81,7 @@
 			<div class="card mb-3">
 				<img src="/course/32%20Population/20%20Rabbits/konijnen.gif" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Population dynamics</h5>
+					<h5 class="card-title">Population dynamics <span class="badge badge-primary"></h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 3</h6>
 					<p class="card-text">
 						<a href="/population" class="card-link">Understand prey and predator dynamics.</a>
@@ -104,7 +104,7 @@
 			<div class="card mb-3">
 				<img src="/course/41%20Statistics/10%20NormalDistribution/ExampleLengte.png" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Statistics</h5>
+					<h5 class="card-title">Statistics <span class="badge badge-primary"></h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 4</h6>
 					<p class="card-text">
 						<a href="/statistics" class="card-link">Draw your own hard conclusions using statistics.</a>

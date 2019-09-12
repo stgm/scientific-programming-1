@@ -19,7 +19,7 @@ Write a program that calculates the roots of the polynomial $$f(x)=x^2+2x-10$$.
     * an empty list `[]` when there are no roots
     * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the polynomial
 
-* In any case you should plot the function and display the roots clearly in the graph that you calculated.
+* In any case you should plot the function and clearly display the roots in the graph that you calculated.
 
 ## Hints
 
@@ -35,8 +35,8 @@ Write a program that calculates the roots of the polynomial $$f(x)=x^2+2x-10$$.
 
 ## Testing
 
-If you use `checkpy`, note that it does not check if you program has the correct output. Instead it checks if the function `roots()` `return`s the correct result.
+If you use `checkpy`, note that it does not check if you program has the correct output. It does check if the function `roots()` returns the correct result.
 
     checkpy roots.py
 
-(Does it not work? Update once again with the command `checkpy -u`.)
+(If it doesn't work, try updating your checks using the command `checkpy -u`.)
