@@ -1,8 +1,8 @@
-# Population dynamics: predator-prey model#
+# Population dynamics: predator-prey model
 
 A classical example of a complex dynamical system is the so-called predator-prey model. The basis of the mathematical description of the populations are the famous [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka–Volterra_equations). The math quickly become very complex and it's not always as easy to predict what the effects of a change of behavior are on the different populations in a system.
 
-In this module we'll create a simulation ourselves of a well-organized system: a forest of 100 by 100 meters inhabited by 25 rabbits and 2 foxes. By programming it ourselves, we can add new phenomena. Visualizing the system gives us direct feedback on our code and shows us the consequences of the new behavioral elements that we add. Goal of this module is to add complexity to the behavior of rabbits and foxes in our simulation and to ultimately find out whether the foxes or the rabbits will emerge victorious when released in our isolated neck of the woods.
+In this module we'll create a simulation ourselves of a well-organized system: a forest of 100 by 100 meters inhabited by 25 rabbits and 2 foxes. By programming it ourselves, we can add new phenomena. Visualizing the system gives us direct feedback on our code and shows us the consequences of the new behavioral elements that we add. The goal of this module is to add complexity to the behavior of rabbits and foxes in our simulation and to ultimately find out whether the foxes or the rabbits will emerge victorious when released in our isolated neck of the woods.
 
 ## Start: two moving rabbits on your screen ##
 

@@ -24,7 +24,7 @@ In the video below, meet [Iko Koevoets](http://www.uva.nl/over-de-uva/organisati
 
 1. <span class="badge badge-primary">Assignment</span> Add (vegetarian) [foxes](/population/foxes) to the simulation
 
-2. <span class="badge badge-primary">Assignment</span> The foxes develop a penchant for meat. Touch luck for the [rabbits]](/population/foxeseatrabbits)
+2. <span class="badge badge-primary">Assignment</span> The foxes develop a penchant for meat. Touch luck for the [rabbits](/population/foxeseatrabbits)
 
 #### Day 4: The rabbits reproduce - who wins?
 
