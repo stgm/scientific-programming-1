@@ -14,4 +14,4 @@ In this module we'll learn how to extract information out of big data sets.
 
 #### Evaluation
 
-You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.
+Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!

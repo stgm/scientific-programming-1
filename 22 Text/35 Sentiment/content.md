@@ -60,6 +60,3 @@ Add the following code to test your functions. It adds *interpretation* to your 
     else:
         print("The text is not opinionated or just messy.")
 
-After doing this, also check your program:
-
-    checkpy sentiment.py

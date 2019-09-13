@@ -50,10 +50,6 @@ To test this function, you may add a few lines of tests below the function defin
 
     python text_statistics.py
 
-Only when you are convinced that your function works as expected, you should test your code using `checkpy`:
-
-	checkpy text_statistics.py
-
 
 ## 2. Words
 
@@ -72,12 +68,6 @@ Your strategy might look like this:
 3. `return` the length from step 2
 
 So in summary, you take the result of one method, use the result to call another, then return. Notice that here, we do not use a loop, because Python functions are available that do most of the work for us.
-
-### Testing
-
-You can test your code using checkpy:
-
-	checkpy text_statistics.py
 
 
 ## 3. Sentences
@@ -102,11 +92,6 @@ We define a "properly formatted sentence" as any sentence closed with a full sto
 
   Most likely, you now see that the program counts 4 sentences, while you count only 3. There are 3 periods, so there are 3 well-formed sentences. How might we solve this problem?
 
-### Testing
-
-Test your code using checkpy again:
-
-	checkpy text_statistics.py
 
 
 ## 4. Word length
@@ -128,8 +113,3 @@ If, like earlier, you split a text into words using `str.split()`, you will rece
 
 - When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
 
-### Testing
-
-Test your code using checkpy:
-
-	checkpy text_statistics.py

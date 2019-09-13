@@ -1,12 +1,13 @@
 # Numerical integration (level 2)
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://player.vimeo.com/video/235030111)
 </div>
 
 In this module we'll get to work with *functions* and *random numbers*. With these Python components we can implement methdos that can determine the integral of just about any function! You don't need to have done any calculus to partake in this module, but some intuition with mathematical functions is quite relevant. 
 
-Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promoting ath the [Nikhef](http://www.nikhef.nl/) and tell you about their experiences with programming and coding simulations for their research.
+In the video below, meet Lydia Brenner and Jelle Aalbers from [Nikhef](http://www.nikhef.nl/) who tell you about their experiences with programming simulations for their research.
+
+![embed](https://player.vimeo.com/video/235030111)
 
 #### Day 1: roots
 
@@ -40,6 +41,6 @@ Start out with the video to the side. Lydia Brenner and Jelle Aalbers are promot
 
 ### Evaluation
 
-You're now done with this module! Please fill in this [evaluation](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!
 
 
