@@ -1,21 +1,21 @@
 # Free fall during a base jump
 
-Write a program in which the fall is calculated of a base jumper, jumping from the top of Burj Khalifa in Dubai (828 m). Assume this base jumper weighs 72 kilograms.
+Write a program in which the fall of a basjumper is calculated. The basejumper is jumping from the top of Burj Khalifa in Dubai (828 m). Assume this base jumper weighs 72 kilograms.
 
 
 ## Background
 
-In the previous assignment the air friction was neglected, which made it possible to verify the answer using just height school level physics. Now we're going to add back that layer of realism: air friction.
+In the previous assignment the air friction was neglected, which made it possible to verify the answer using relatively simple physics equations. Now we're going to add back a layer of realism: air friction.
 
 The aerodynamics that a falling object is subject to is proportionate to the square of its speed:
 
-$$F = \xi v^2$$, met $$ \xi = 0.24$$
+$$F = \xi v^2$$, where $$ \xi = 0.24$$
 
-Although air resistance is dependent on the surface and mass of the object and the density of the air, we'll only be examining the effect of speed in this assignment. The friction means that there exists a speed in which gravity and air friction keep each other in balance. The maximum speed a parachutist can achieve is about 196 km/h and is called [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity). 
+Although air resistance is dependent on the surface and mass of the object and the density of the air, we'll only be examining the effect of speed in this assignment. Because of the friction, there exists a speed in which gravity and air friction keep each other in balance. The maximum speed a parachutist can achieve is about 196 km/h and is called [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity). 
 
 ![](Freefall.png)
 
-As always there are people trying to find the [limits](https://en.wikipedia.org/wiki/Speed_skydiving). Because he started his jump in an area where air pressure was incredibly low, Felix Baumgartner reached a record speed of 1357.64 km/hour, that will be difficult to overcome.
+As always there are people trying to find the [limits](https://en.wikipedia.org/wiki/Speed_skydiving). Because he started his jump in an area where air pressure was incredibly low, Felix Baumgartner reached a record speed of 1357.64 km/hour, that will be very difficult to overcome.
 
 
 ## Specification
@@ -26,7 +26,7 @@ Create a file `basejump.py` and declare a function `basejump()` in it. Follow th
 
 You should have the following graphs **checked** by an Assistant:
 
-1. Plot a graph of the speed as function of the time.
+1. Plot a graph of the speed as function of time.
 
     Test your program by pretending the tower is 2000 meters high and see if you indeed find the terminal velocity of 196 km/h.
 

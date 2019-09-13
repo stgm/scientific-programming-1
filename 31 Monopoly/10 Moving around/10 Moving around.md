@@ -4,7 +4,7 @@ Create a program that simulates a great number of games of a simplified version 
 
     Monopoly simulator: 1 player, Trump mode
     We simulated 10000 games
-    It took an average of XXX throws before the player to collect all streets
+    It took an average of XXX throws for the player to collect all streets
 
 
 ## Background
@@ -109,7 +109,7 @@ If a field is not for sale or the street is already in your possession then we t
     After throw 1: position  3 (street)
                player 1 has 1 property in their possession. There are still 27 fields for sale.
 
-Since you know how many streets there are for sale in total, you also know when all available properties are in possession of the player. Stop throwing dice when that happens and instead `print` to the screen how many turns it took:
+Since you know how many streets there are for sale in total, you also know when all available properties are in possession of the player. Stop throwing dice when that happens and instead `print` to the screen how many turns it took.
 
 ## Report the result
 

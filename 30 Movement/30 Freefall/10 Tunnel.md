@@ -1,16 +1,16 @@
 # Assignment: the ultimate free fall
 
-The apple from the previous assignment reached the surface after a little over 4 seconds. Imagine that exactly where the apple dropped, a tunnel was dug straight through the planet.
+The apple from the previous assignment reached the surface after a little over 4 seconds. Imagine that exactly at the location where the apple was dropped, a tunnel was dug straight through the planet.
 
-Write a function called `tunnel()` in a file called **tunnel.py** that describes the movement of the apple through earth. The apple moves along the $$x$$-axis with an $$x=0$$ in the center of the earth, it starts with a speed of $$0$$ at height $$0$$ meters above the surface of the earth. What exactly happens?
+Write a function called `tunnel()` in a file called **tunnel.py** that describes the movement of the apple through earth. The apple moves along the $$x$$-axis, where $$x=0$$ in the center of the earth. The apple starts with a speed of $$0$$ at a height of $$0$$ meters above the surface of the earth. What exactly happens?
  
 ![](EarthHole.png)
 
 ## Output
 
-1. Create a graph of the speed of the apple as function of the time.
+1. Create a graph of the speed of the apple as function of time.
 
-2. Create a graph of the position as function of the time.
+2. Create a graph of the position as function of time.
 
 3. Calculate the maximum speed that the apple reaches (km/h) and `print` it.
 
@@ -26,11 +26,11 @@ Write a function called `tunnel()` in a file called **tunnel.py** that describes
 
 ## Physical (h)in(d)sight
 
-Even though this seems like a difficult problem, it was still possible to solve it with pen and paper. The effective force that are applied to a particle grows linearly as a function of distance to the center of the earth. If a particle from the center of earth ($$x=0$$) moves outward (position $$x=r$$) the following applies:
+Even though this seems like a difficult problem, it was still possible to solve it with pen and paper. The effective force that is applied to a particle grows linearly as a function of distance to the center of the earth. If a particle from the center of earth ($$x=0$$) moves outward (position $$x=r$$) the following applies:
 
   * The effective gravitational constant grows like $$r^3$$, because the effective mass of the globe that pulls the object grows with $$r^3$$. Ergo: $$F\propto r^3$$.
 
-  * The force itself diminishes with $$1/r^2$$ because the force decreases simply inversely proportional to the square of the distance. Ergo $$F\propto r^{-2}$$.
+  * The force itself diminishes with $$1/r^2$$ because the force decreases inversely proportional to the square of the distance. Ergo $$F\propto r^{-2}$$.
   
 Eventually the force on a particle that continually moves away from the center will decrease linearly with distance. That is exactly the same scenario as with a classical spring for which we do know the equation of motion: [Hooke's law](https://en.wikipedia.org/wiki/Hooke%27s_law).
 

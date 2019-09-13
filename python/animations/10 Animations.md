@@ -1,6 +1,6 @@
 # Animations
 
-Although a graph is a very useful tool to visualize a simulation, sometimes it's more insightful to make an animation. Python offers the possibility to redraw a figure again and again. That gives a multitude of possibilities to create movement. We will demonstrate a small example, in which we move a line (and point) along $$f(x)=sin(x)$$ over the screen. We build up the function in 3 steps, where in each step we add 1 element. With the help of these functionality you can create an array of animations.
+Although a graph is a very useful tool to visualize a simulation, sometimes it's more insightful to make an animation. Python offers the possibility to redraw a figure again and again. That gives a multitude of possibilities to create movement. We will demonstrate a small example, in which we move a line (and point) along $$f(x)=sin(x)$$ over the screen. We build up the function in 3 steps, where in each step we add 1 element. With the help of this functionality you can create an array of animations.
 
 ## A moving dot
 
@@ -29,12 +29,12 @@ When you draw a point (one $$x$$-value and one $$y$$-value) of which the $$x$$ a
 
 ![](AnimationExampleSin1.gif)
 
-> As you can see, we call the function `pause()` in our code. We do so to give pyplot the opportunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
+> As you can see, we call the function `pause()` in our code. We do this to give pyplot the opportunity to draw a new figure on the screen. This only happens during the pauses we give to pyplot.
 
 
 ## A moving line
 
-Creating a graph by using lists: a list of $$x$$-values and a list of $$y$$-values. If you repeatedly expand those lists you gain the following effect: the function $$f(x) = sin(x)$$ represented by a red line:
+Creating a graph by using lists: a list of $$x$$-values and a list of $$y$$-values. If you repeatedly expand those lists you get the following effect: the function $$f(x) = sin(x)$$ represented by a red line:
 
     import math
     import numpy as np
