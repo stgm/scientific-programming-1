@@ -6,7 +6,7 @@ Write a program that reads in a selection of texts, calculates each text's senti
 
 ## Background
 
-We have provided a text file with a selection of tweets from a famously grumpy US president. Can our analysis confirm that he's most often tweeting about what he doesn't like? Let's see.
+We have provided a [text file](trump.txt) with a selection of tweets from a famously grumpy US president. Can our analysis confirm that he's most often tweeting about what he doesn't like? Let's see.
 
 ## Strategy
 
