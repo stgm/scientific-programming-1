@@ -1,6 +1,6 @@
 ## Assignment 2: how representative is the sample
 
-In the real world we unfortunately can't always know everything. We cannot precisely determine the lengths of each women in the Netherlands, just like Maurice de Hond doesn't know of each Dutchman what political party they will vote for. By use of samples however, we can gain an insight on the entire population: we determine the lengths of a group of women, or the political preferences of a group of Dutch citizens and create an estimate of the characteristics of the entire population.
+In the real world we unfortunately can't always know everything. We cannot precisely determine the length of each women in the Netherlands, just like Maurice de Hond doesn't know for each Dutchman what political party they will vote for. By use of samples however, we can gain an insight on the entire population: we determine the lengths of a group of women, or the political preferences of a group of Dutch citizens and create an estimate of the characteristics of the entire population.
 
 In this assignment we'll study how much more precise of an estimation we get of the 'real' average when we increase the number of people in a sample, by using the computer to generate fake samples. So we'll select random values from the original 'real' distribution. By calculating the average length for each of these samples we can determine how often such a sample approximates the actual value and how this percentage depends on the number of subject in a sample.
 

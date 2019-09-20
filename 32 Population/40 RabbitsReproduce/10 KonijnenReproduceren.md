@@ -1,7 +1,7 @@
 
 ## Assignment 4: Reproducing rabbits and overpopulation
 
-We have studied is the previous assignment at what rate the number of rabbits decreases when two foxes are prowling the forest. The rabbits have lost in advance and eventually will all be eaten. But out in the real life that goes a bit differently. In nature, the number of rabbits will also increase, through reproduction. In this assignment we'll have a look at the effect of reproduction on the population of rabbits in our simulation. Aside from the possible increase in the number of rabbits, and surely the way this often goes, we'll be introducing the fact that there is only a limited amount of food available to our rabbit population. Both of these aspects will be added to our simulation. 
+We have studied in the previous assignment at what rate the number of rabbits decreases when two foxes are prowling the forest. The rabbits have lost in advance and eventually will all be eaten. But in the real life this process is slightly different. In nature, the number of rabbits will also increase, through reproduction. In this assignment we'll have a look at the effect of reproduction on the population of rabbits in our simulation. Aside from the possible increase in the number of rabbits, and surely the way this often goes, we'll be introducing the fact that there is only a limited amount of food available to our rabbit population. Both of these aspects will be added to our simulation. 
 
 The system is rather unstable and you'll find that after about 1000 seconds the rabbits win (rabbits approach their maximum numbers). The question we'll be answering this assignment is the following one: 'How often do the rabbits win and how often do the foxes win?'. At the end of this assignment your screen should show the following:
 
@@ -9,7 +9,7 @@ The system is rather unstable and you'll find that after about 1000 seconds the 
      A simulated world with: N_rabbits=25 (v=1), N_fox=2 (v=2), N_simulations = 500:
      In XX.X percent of the cases the rabbits win
 
-We'll answer this question incrementally. Add two functions, `reproducing_rabbits()` and `overpopulation()`, that describe these phenomena and call them from within `predator_prey()`. While were implementing these functions, we'll do so for only a single simulation. That makes it useful to turn on the first steps from the simulation, the visualizations, back on.
+We'll answer this question incrementally. Add two functions, `reproducing_rabbits()` and `overpopulation()`, that describe these phenomena and call them from within `predator_prey()`. 
 
 <b>Note:</b> We're going to make an adjustment to existing code. To preserve a correctly working copy for the previous assignment written in `predator_prey_3.py`, we'll continue programming in a new file. Create a file called `predator_prey_4.py`, copy all code written so far into it and continue working with the new file.
 
@@ -69,7 +69,7 @@ Calculate the fraction after all of the simulations have ran their course and `p
 
 ### Conclusion
 
-In this assignment we have simulated population dynamics by using the computational strength of a computer. We have included some elementary aspects and studied how the development of rabbits is dependent on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether is be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
+In this assignment we have simulated population dynamics by using the computational strength of a computer. We have included some elementary aspects and studied how the development of rabbits is dependent on the free parameters of our system. The 'real' simulations that scientists do, work in much the same way. Whether it be population dynamics, traffic flow under new circumstances or the movements of people during an emergency situation in a stadium. Our simulation can easily be expanded if you feel like doing so. What are the first elements you'd add? Foxes moving slower, the longer they haven't had any food, reproducing foxes, foxes that can smell rabbits when they're near, rabbits that can hide in specific parts of the forest etc etc. The possibilities are endless. Our time to implement them unfortunately isn't.
 
 
 

@@ -45,7 +45,7 @@ To calculate the time at which half of the rabbits were eaten, we'll edit two pa
 
    1. Let the simulation run for 1000 (simulated) seconds and keep track of the number of rabbits in a list for each time step within the `predator_prey()` function. Then `return` that list at the end of the function.
    
-   2. Declare a new function `average_half_life()` that runs the `predator_prey()` function once. Because `predator_prey()` now returns the list containing the numbers of rabbits a each time step you can use it to calculate what the first moment is that only half the original amount of rabbits is left in the forest.
+   2. Declare a new function `average_half_life()` that runs the `predator_prey()` function once. Because `predator_prey()` now returns the list containing the numbers of rabbits in each time step you can use it to calculate what the first moment is that only half the original amount of rabbits is left in the forest.
    
 
 The time that foxes require to achieve that will be different for each separate simulation. Below you can see a couple of graphs of the number of rabbits as a function of the time for two simulations. Before we calculate the average time after which 50% of the rabbits has disappeared for 1000 unique simulations, it is important to know that the values that you find are correct. First try to reproduce these graphs to see whether you do indeed collect the correct data from you simulation.

@@ -23,7 +23,7 @@ During day 4 we'll get acquainted with simulating a physical phenomenon: free fa
 1. <span class="badge badge-primary">Assignment</span> Effect of a finite amount of [starting money](/monopoly/startingmoney) on the game
 
 
-#### Day 4: Monopoly - $$2^nd$$ player and finding an equilibrium
+#### Day 4: Monopoly - $$2^{nd}$$ player and finding an equilibrium
 
 1. <span class="badge badge-primary">Assignment</span> Add a second player and restore the [equilibrium](/monopoly/two-players)
 

@@ -1,12 +1,12 @@
 # Weather (level 4)
 
-In this module we'll learn how to extract information out of big data sets.
+In this module you'll learn how to extract information out of big data sets.
 
 #### Day 1: Reading and processing a data set 
 
 1. Learn to analyse and process a [data set](/python/files) 
 
-2. <span class="badge badge-primary">Assignment</span> Process sensor data of the [car ride](/weather/dataprocessing) of a scientist on their way to the UvA
+2. <span class="badge badge-primary">Assignment</span> Process sensor data of the [car ride](/weather/dataprocessing) of a scientist on its way to the UvA
 
 #### Day 2: Contribute to the climate debate 
 
