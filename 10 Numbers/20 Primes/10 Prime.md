@@ -77,7 +77,7 @@ Then you're all set to test:
 
 ## Step 5: small optimizations
 
-We started out as simple as possible, to get to a *correct* program as soon as possible (checked by `checkpy`). But through some mathematical insight we could do some small optimizations, increasing the speed op the program.
+We started out as simple as possible, to get to a *correct* program as soon as possible (checked by `checkpy`). But through some mathematical insight we could do some small optimizations, increasing the speed of the program.
 
 * Except for 2, *even* numbers are never a prime number (this should only be a small adjustment to your code).
 

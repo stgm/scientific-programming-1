@@ -6,10 +6,10 @@ Let's do our part for the climate discussion and analyze the data provided by th
 
 Files: 
 
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMax.txt>
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt>
+- <http://www.nikhef.nl/~ivov/Python/KlimaatData/OLD/DeBiltTempMaxOLD.txt>
+- <http://www.nikhef.nl/~ivov/Python/KlimaatData/OLD/DeBiltTempMinOLD.txt>
 
-Download the files, open them and read the headers (at the top of the file) how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
+Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
 > Note! The data files also contain all sorts of clarification. You're supposed to leave that in the file. Your Python program should be implemented in such a way that it skips those lines when it processes the file.
 

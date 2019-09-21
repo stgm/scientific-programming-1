@@ -8,7 +8,7 @@ An often encountered application of computer programs is reading, processing and
 
 Just like with numbers that can be expressed in the decimal, hexadecimal or binary format, data too can be represented in various formats within databases. Here we'll take a look at some data that is stored in the so-called CSV format (comma separated values): 'flat text', where each line has variables that are separated by a single comma. This happens to be the format you receive when you download your bank transactions or when you save an Excel file.
 
-We'll learn how to read and process data by hand of an example: the statistics of the footballer Marco van Basten. Someone has been keeping track how many matches he's played and how many goals he's scored in a [text file](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt). This is the text of the file:
+We'll learn how to read and process data with an example case: the statistics of the footballer Marco van Basten. Someone has been keeping track how many matches he played and how many goals he scored in a [text file](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt). This is the text of the file:
 
     198182, Ajax, 1, 1
     198283, Ajax, 20, 9
@@ -34,88 +34,87 @@ In the following sections we'll answer some questions using the data from the da
 
 ## Step 1: opening the file, reading the lines
 
-Because traversing files in computer language is a standard procedure, there are a number of easy to use commands available. The `open()` command, for example, is used to gain access to a file so it can be read or written new data to. The following fragment of code opens a file and uses a `for`-loop to read lines one by one. The information in a line is saved in a variable `line`. This short program performs no further analysis, instead it simply `print`s `line` to the screen.
+Because traversing files in computer language is a standard procedure, there are a number of easy to use commands available. The `open()` command, for example, is used to gain access to a file so it can be read or written new data to. The following fragment of code opens a file and uses a `for`-loop to read lines one by one. The information in a line is saved in a variable called `line`. This short program performs no further analysis, instead it simply `print`s `line` to the screen.
 
     input_file = open('VanBasten.txt', 'r')
     for line in input_file:
         print(line)
     input_file.close()
 
-> Tip: klik in Canopy met de rechtermuisknop op de *opdrachtregel* van Python, en kies "Keep directory synced to editor". Dan kan Python het bestand `VanBasten.txt` altijd vinden.
-
-De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programma uitvoert zal je zien dat bijvoorbeeld de regel van 1988 zo op het scherm verschijnt:
+The `'r'` argument in the `open()` function means 'read'. When you run this program you'll see that the line of 1988 shows up on your screen as follows:
 
     198889, AC Milan, 33, 19
 
-## Stap 2: splitsen van de regel en in een lijst opslaan
+## Step 2: splitting of a line and save it in a list
 
-Elke regel bestaat uit verschillende elementen die Toegang tot de verschillende parameters in de regel krijg je door de regel in stukken te 'knippen'. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
+Every line consists out of different elements, or, columns. You can retrieve these elements by splitting them. You do this with the command `split()`. The parameter in this command determines where to split. We want to split at every comma (`,`), so we excute the following command: `line.split(',')`. By doing so, we get a list with the elements from that line. Subsequently, we can analyze these elements (plotting, statistics etc.).
 
     input_file = open('VanBasten.txt', 'r')
     for line in input_file:
         print(line)
-        data_opgeknipt = line.split(',')
-        print(data_opgeknipt)
+        splitted_data = line.split(',')
+        print(splitted_data)
     input_file.close()
 
-De regel met 1988 is nu in stukken geknipt en in een lijst gezet:
+The line with 1988 is now splitted and turned into a list: 
 
     ['198889', ' AC Milan', ' 33', ' 19\t\n']
 
-De karakters `"\t"` (tab) en `"\n"` (return aan eind van de regel) zijn ook zichtbaar, hoewel we daar niet zoveel aan hebben.
+The characters `"\t"` (tab) and `"\n"` (newline) are also visible, we don't really need to use those though.
 
-## Stap 3: opslaan van de informatie in variabelen
 
-In deze opgave zijn we alleen geinteresseerd in het seizoen en het aantal doelpunten. Zoals je ziet is die informatie opgeslagen in respectievelijk element 0 en 2 van de lijst.
+## Stap 3: save the information in variables
 
-Die informatie kunnen we nu dus opslaan in een variabele:
+In this exercise we are only interested in the season and the number of goals of that season. As you can see, this information is stored in element 0 and 2 of the list.
 
-    seizoen = data_opgeknipt[0]
-    doelpunten = data_opgeknipt[2]
+We can save this information in a variable:
 
-### Probleem 1: uitpakken van variabelen
+    season = splitted_data[0]
+    goals = splitted_data[2]
 
-Zoals je ziet hebben de makers van de file het seizoen 1988-1889 in 1 getal
-weergegeven: 198889. Slim van ze, maar wij zijn alleen geinteresseerd in het
-jaar dat het seizoen is gestart.
+### Problem 1: unpacking the variables
 
-Het handige voor ons is dat alle data nog als `string` in de lijst staat. Hoewel `198889` gezien kan worden als getal, behandelen we het nu als stuk tekst. Het eerste jaartal (1988) is verpakt in de eerste 4 karakters van die string. Om alleen die op te vragen kan je dus van element 0 in de lijst alleen de eerste 4 karakters selecteren.
+As yoy might have observed, the creators of the file name the season 1988-1889 as one number: 198889. Smart of them, but we are only interested in the year of the start of the season (1988). 
 
-    seizoen = data_opgeknipt[0][0:4]
-    doelpunten = data_opgeknipt[2]
+Note that the data is still stored in the list as a `string`. Although `198889` can be cosidered to be a number, we treat it as a piece of text. The year we are looking for is stored in the first 4 characters of that string. To only save this part of the string, we need the first 4 characters.
 
-### Probleem 2: getallen versus tekst
+    season = splitted_data[0][0:4]
+    goals = splitted_data[2]
 
-Vanaf nu is het handig om de gegevens juist als getal te zien, zodat we ermee kunnen rekenen. Om te zorgen dat het jaartal en het aantal doelpunten een getal worden moet je ze expliciet omzetten.
+### Problem 2: numbers versus text
 
-    seizoen = int(data_opgeknipt[0][0:4])
-    doelpunten = int(data_opgeknipt[2])
+From now on it is easier to treat the data as a number, because only then we can calculate stuff with it. To ensure the data becomes numerical, we have to explicitly convert it.
 
-Je hebt nu dus de informatie tot je beschikking in een variabele. Vervolgens kun je met alle Python die je eerder hebt geleerd, de analyse uitvoeren.
+    season = int(splitted_data[0][0:4])
+    goals = int(splitted_data[2])
 
-## Stap 4: het analyseren van de data
+You now have all the information available in a variable. Now you can use everything you learned about Python to perform an analaysis.
 
-We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten maakte.
+
+## Step 4: analyzing the data
+
+We wanted to calculate the total number of goals van Basten has made for his club. In addition, we would like to now in which seasons he made more than 20 goals.
+
 
     input_file = open('VanBasten.txt', 'r')
-    totaal_doelpunten = 0
+    total_goals = 0
 
     for line in input_file:
-        data_opgeknipt = line.split(',')
+        splitted_data = line.split(',')
 
-        seizoen = int(data_opgeknipt[0][0:4])
-        doelpunten = int(data_opgeknipt[2])
+        season = int(splitted_data[0][0:4])
+        goals = int(splitted_data[2])
 
-        totaal_doelpunten = totaal_doelpunten + doelpunten   
+        total_goals = total_goals + goals   
 
-        if(doelpunten > 20):
-            print("In {} scoorde Van Basten > 20 doelpunten, nl {}".format(seizoen, doelpunten))
+        if(goals > 20):
+            print("In {} Van Basten scored > 20 goals, nl {}".format(season, goals))
 
-    print("TOTAAL: In totaal scoorde Van Basten {} clubdoelpunten".format(totaal_doelpunten))
+    print("TOTAAL: In total Van Basten scored {} clubgoals".format(total_goals))
     input_file.close()
 
-Gebruik altijd `close()` om het bestand netjes te sluiten na gebruik.
+Always use `close()` to close the file you worked with after use. 
 
-## Oefening
+## Exercise
 
-Download de file met de doelpunten statistiek van Van Basten en probeer de bovenstaande resultaten te reproduceren.
+Download the file with the goals statistics of van Basten and try to reproduce the results above. 

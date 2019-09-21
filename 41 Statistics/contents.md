@@ -2,7 +2,7 @@
 
 This module is a BETA version!
 
-In this module we'll get to work on statistics. It's obvious ath the computer can be put to great use to extract all sorts of interesting information out of data. But could we also test hypotheses: do we, or don't we observe a correlation in our data?
+In this module we'll get to work on statistics. It's obvious that  the computer can be put to great use to extract all sorts of interesting information out of data. But could we also test hypotheses: do we, or don't we observe a correlation in our data?
 
 In the video below, [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) is associate professor at the TU/e and tells about the combination of statistics and programming. 
 
@@ -12,7 +12,7 @@ In the video below, [Daniël Lakens](https://www.tue.nl/en/university/department
 
 1. <span class="badge badge-primary">Assignment</span> Study the [length](/statistics/normaldistribution) of Danish women
 
-2. <span class="badge badge-primary">Assignment</span> Characteristics of [samples](/statistics/samples)
+2. <span class="badge badge-primary">Assignment</span> Characteristics of [samples](/statistics/sampling)
 
 #### Day 2: Fitting a model to data (yourself)
 

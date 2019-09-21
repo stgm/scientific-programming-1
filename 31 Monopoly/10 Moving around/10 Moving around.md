@@ -37,7 +37,7 @@ Each turn of the game starts with throwing two dice. That means two random numbe
       result = throw_two_dice()
       print(f"Total value of throwing two dice: {result}.")
 
-**Declare** a function called `practice_with_dice()` to test your dice throws. Let it simulate a thousand throws and for each throw let it use two dice. `Print` for each throw the total value of the dice to the terminal and clearly display to the user when a 'double' has been thrown (the number of the dice is identical). Keep track of the number of 'doubles' and `print` that number to the screen at the end of the function.
+**Declare** a function called `practice_with_dice()` to test your dice throws. Let it simulate a thousand throws and for each throw let it use two dice. `Print` for each throw the total value of the dice to the terminal and clearly display to the user when a 'double' has been thrown (the numbers on the two dices are identical). Keep track of the number of 'doubles' and `print` that number to the screen at the end of the function.
 
 {: .language-python}
     throw 1: total value of 2 dice =  5
