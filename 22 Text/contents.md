@@ -32,7 +32,7 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ##### Submitting
 
-When you're ready to submit, head to [the submit page for this module](/numbers/submit).
+When you're ready to submit, head to [the submit page for this module](/text/submit).
 
 ##### When you've finished
 
