@@ -30,6 +30,10 @@ One interesting application of Python is to use it for analyzing texts written b
 
 - <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/text/tweets).
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/numbers/submit).
+
 ##### When you've finished
 
 You might take a look at these resources for further study:
