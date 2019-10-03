@@ -1,13 +1,13 @@
 
 ## Assignment 5: Testing hypotheses
 
-A part of the researchers think the data suggests that there is a linear relationship within the data, as opposed to another part of the researchers who think there is no dependence and that observed light dependencies are just a coincidence caused by the specific samples that were collected. We'll conclude this module by supplying quantitative data to this ongoing discussion.
+Part of the researchers think the data suggests there is a linear relationship within the data. Another part of the researchers think there is no dependence and that the observed (small) dependencies are just a coincidence caused by the specific samples that were collected. We'll conclude this module by supplying quantitative data to this ongoing discussion.
 
-The question really is: "how rare is the case that, given that there is <b>no</b> actual relationship, a series of samples (of this size in each category) produces a value for the slope that is of equal value as it is in the data or even larger?". This fractions is often encountered in literature and is also known as the <font color = 'red'> p-value </font>.
+The question really is: "How rare is the case that, given that there is <b>no</b> actual relationship, a series of samples (of this size in each category) produces a slope that is of equal value or even larger than found in the data?". The probability at which this occurs is often encountered in literature and is also known as the <font color = 'red'> p-value </font>.
 
 #### Assignment 5: Simulate random data-sets and calculate the p-value
 
-Write a program `statistics_5.py` that answers the aforementioned question by examining how rare it is that the observed slope is present within the data, when in actuality there is no dependence at all.
+Write a program `statistics_5.py` that answers the question above by examining how rare it is that the observed slope is present within the data, when in real life there is no dependence at all.
 
 To answer this question, apply the following strategy:
 
@@ -19,9 +19,9 @@ To answer this question, apply the following strategy:
 	
       * Assign the same error as in the original data to the uncertainty of the random chosen average length in each category. For example, 2 cm in income category 5.
 	   
-   2. Fit a function of the form f(x) = ax+b and determine the slope (a).
+   2. Fit a function of the form f(x) = ax+b and determine the slope (a) for the data-set created in 1.
 
-   3. Repeat the above mentioned a large number of times (10000 times for example) and remember for each of the data-sets what the slope was. Keep track of what fraction of the simulated data sets (coincidentally) had a slope equal (or greater than) that of the original data set (see assignment 4).
+   3. Repeat the above steps a large number of times (10000 times for example) and remember for each of the data sets what the slope was. Keep track of what fraction of the simulated data sets (coincidentally) had a slope equal (or greater than) that of the original data set (see assignment 4).
 
    4. Create a graph (histogram, see below) of all slopes and clearly display the values you've found in the data and the corresponding p-value.
 	  
@@ -33,8 +33,8 @@ To answer this question, apply the following strategy:
          The p-value for the alternative hypothesis: x.xx percent
 
 
-In general we follow the rule that when the p-value is smaller than 5% we speak of a 'coincidence'. If the p-value is larger than 5% then we conclude that the observed trend is not described by the flat hypothesis and that we've found evidence for a relation.
+In general we follow the rule that if the p-value is smaller than 5% we speak of a 'coincidence'. If the p-value is larger than 5% then we conclude that the observed trend is not described by the flat hypothesis and that we've found evidence for a relation.
 
-*Note:* A relationship that you've found does not have to mean it is a causal relationship. Imagine that a relation is found (and always keep in mind that the observed effect can still be coincidental), what could the underlying cause possibly be? Richer people: eat healthier, live in houses in neighborhoods with better air quality, or the reverse that in our society the length might cause a higher income? Etc etc. Dig dig dig until you've dug to the core and find something new that no one has ever seen. That is science!
+*Note:* If you find a relationship it doesn't immeditaly mean you have found a causal relationship. Imagine that a relation is found (and always keep in mind that the observed effect can still be coincidental), what could the underlying cause possibly be? Richer people: eat healthier, live in houses in neighborhoods with better air quality, or the reverse that in our society the length might cause a higher income? Dig dig dig until you've dug to the core and find something new that no one has ever seen. That is science!
 
 

@@ -1,6 +1,6 @@
 ## Assignment: betas as bankers in the City (Quants)
 
-At a lot of banks and insurance companies you'll find mathematicians and physicists in employment: in the so-called risk-analysis departments, but also as quantitative analysts: quants. Let's try that for ourselves by trying to predict the closing prices of the AEX in the year 200 by using the years that came before: 1991-1999.
+At a lot of banks and insurance companies you'll find mathematicians and physicists in employment: in the so-called risk-analysis departments, but also as quantitative analysts: quants. Let's try that for ourselves by trying to predict the closing prices of the AEX in the year 2000 by using the years that came before: 1991-1999.
 
 The closing prices of the AEX can be found at [AEX wiki](https://en.wikipedia.org/wiki/AEX_index):
 
