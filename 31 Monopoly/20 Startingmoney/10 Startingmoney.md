@@ -30,5 +30,3 @@ Use the difference between the average number of throws with 1000 euro or 2000 e
 
    2. You can test your code by providing the player with a huge amount of starting money. With a million euros you effectively create the same situation as you did for Donald Trump mode in assignment 1.
 
-<br>
-	

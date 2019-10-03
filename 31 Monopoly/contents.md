@@ -1,4 +1,7 @@
-# Monopoly (level 3)
+# Monopoly (level 3) #
+
+
+**Checkpy for this module will be added Monday 30 September.**
 
 After a short introduction with animating in Python, we'll spend the first 3 days of this module on simulating the game of Monopoly. It is impossible to do so analytically, because the use of dice adds a complicated element of chance to the game. Game theory in practice.
 

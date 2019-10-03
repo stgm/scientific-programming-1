@@ -149,9 +149,9 @@ Tip: when you simulate a large number of games it is useful if the program repor
 
 Finally make sure the function `simulate_monopoly_games(total_games)` `return`s the average number of throws that were required to collect all streets.
 
-## Testing
+<!--## Testing
 
 Update `checkpy` and test Monopoly:
 
     checkpy -u
-    checkpy monopoly
+    checkpy monopoly -->
