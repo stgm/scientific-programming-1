@@ -28,6 +28,10 @@ In this module we'll study how to describe movement of falling objects and visua
 
 1. <span class="badge badge-primary">Assignment</span> Find patters in your data by [Fitting](/movement/fitting)
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/text/movement).
+
 #### Evaluation
 
 Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!

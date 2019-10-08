@@ -30,6 +30,11 @@ In the video below, meet [Iko Koevoets](http://www.uva.nl/over-de-uva/organisati
 
 1. <span class="badge badge-primary">Assignment</span> Let the rabbits reproduce and find out who [wins](/population/rabbitsreproduce), rabbits or foxes
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/text/population).
+
+
 #### Evaluation
 
 Have you submitted each problem from this module? Then you're done! Let us know by e-mail if you have any remarks on the quality of this module. It's important for us to get feedback on the course's content, and we actually use it to improve!

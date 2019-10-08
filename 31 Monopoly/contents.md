@@ -30,6 +30,11 @@ During day 4 we'll get acquainted with simulating a physical phenomenon: free fa
 
 1. <span class="badge badge-primary">Assignment</span> Add a second player and restore the [equilibrium](/monopoly/two-players)
 
+##### Submitting
+
+When you're ready to submit, head to [the submit page for this module](/text/monopoly).
+
+
 
 #### Evaluation
 
