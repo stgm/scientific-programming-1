@@ -30,7 +30,7 @@ In this module we'll study how to describe movement of falling objects and visua
 
 ##### Submitting
 
-When you're ready to submit, head to [the submit page for this module](/text/movement).
+When you're ready to submit, head to [the submit page for this module](/movement/submit).
 
 #### Evaluation
 

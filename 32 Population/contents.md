@@ -32,7 +32,7 @@ In the video below, meet [Iko Koevoets](http://www.uva.nl/over-de-uva/organisati
 
 ##### Submitting
 
-When you're ready to submit, head to [the submit page for this module](/text/population).
+When you're ready to submit, head to [the submit page for this module](/population/submit).
 
 
 #### Evaluation

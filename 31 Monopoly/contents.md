@@ -32,7 +32,7 @@ During day 4 we'll get acquainted with simulating a physical phenomenon: free fa
 
 ##### Submitting
 
-When you're ready to submit, head to [the submit page for this module](/text/monopoly).
+When you're ready to submit, head to [the submit page for this module](/monopoly/submit).
 
 
 
