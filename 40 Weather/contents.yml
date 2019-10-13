@@ -1,2 +1,3 @@
-Dataprocessing: /weather/dataprocessing
-Climate Debate: /weather/climate
+Overview: /weather
+Data Processing: /weather/dataprocessing
+Climate: /weather/climate

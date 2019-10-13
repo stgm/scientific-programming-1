@@ -4,7 +4,7 @@ A mobile phone contains many delicate sensors that collect information about the
 
 ![](KaartAmsterdamKlein.png)
 
-The sensor data is available in the file `CarRideData.csv` and can be downloaded via the following link:
+The sensor data is available in the file `AutoRitData.csv` and can be downloaded via the following link:
 
 <http://www.nikhef.nl/~ivov/Python/SensorData/AutoRitData.csv>
 
