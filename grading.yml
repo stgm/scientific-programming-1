@@ -2,6 +2,6 @@ grades:
     exam:
         type: pass
         subgrades:
-            checked: boolean
+            passed: boolean
         calculation: passed
         hide_subgrades: true
