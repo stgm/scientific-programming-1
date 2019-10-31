@@ -58,10 +58,15 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 Sufficient coursework means submitting a working solution to each problem from at least four modules of your own choosing, keeping in mind that you need to finish one module per level. Deadlines for each level are:
 
-- Level 1: Wednesday, 11 September
+<!-- - Level 1: Wednesday, 11 September
 - Level 2: Tuesday, 24 September
 - Level 3: Monday, 7 October
-- Level 4: Friday, 18 October
+- Level 4: Friday, 18 October -->
+
+* Level 1: Wednesday, November 6
+* Level 2: Tuesday, September 19
+* Level 3: Monday, December 2
+* Level 4: Friday, December 13
 
 Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we'll consider your proposal.
 
@@ -78,7 +83,7 @@ The second exam can be seen as a "resit" to the first. However, it is not necess
 
 ## Feedback
 
-Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!). 
+Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!).
 
 ## Books
 
