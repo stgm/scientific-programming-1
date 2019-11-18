@@ -7,6 +7,8 @@ In this course you'll get to know Python, a programming language that is often u
 - Simulations
 - Small data processing
 
+Note that the course is online at <https://sp1.mprog.nl/>. This repository hosts the source materials, mostly written in Markdown.
+
 The course was created by Martijn Stegeman (<mailto:martijn@stgm.nl>) and Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>). We have had a lot of help from students over the years, who took the course, but also teachers and teaching assistants who contributed their own ideas and corrections. In particular, we would like to thank:
 
 - Jelle van Assema (assignments and checkpy tools)  
@@ -27,7 +29,7 @@ Some materials in this course have been adopted from other sources that we publi
 - 6.0001 Introduction to Computer Science and Programming in Python by Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
 - Think Python by Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
-The course materials are copyrighted by Martijn Stegeman and Ivo van Vulpen. The full course materials are published for re-use under a Create Commons license and may be used, remixed and adopted in many kinds of ways. If you'd like to adopt materials for commercial purposed, you may contact the authors, however, do understand that many remixed materials from other sources may not be available for you to use in this way.
+The course materials are copyrighted by Martijn Stegeman and Ivo van Vulpen. The full course materials are published under a Create Commons license and may be used, remixed and adopted in many kinds of ways. If you'd like to adopt materials for commercial purposed, you may contact the authors, however, do understand that many remixed materials from other sources may not be available for you to use in this way.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
