@@ -1,29 +1,34 @@
 # Introduction to Scientific Programming part 1
 
-Deze cursusmaterialen leren je Python kennen, een programmeertaal die inmiddels veel gebruikt wordt in de wetenschap. Er zijn vier modules:
+In this course you'll get to know Python, a programming language that is often used to do science. There are four levels in the course:
 
-- De basiselementen van Python
-- Functies en algoritmen
-- Simuleren
-- Dataverwerking
+- Basic elements of programs
+- Functions and algorithms
+- Simulations
+- Small data processing
 
-Deze cursus is gemaakt door Martijn Stegeman (<mailto:martijn@stgm.nl>) en Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>) (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
+The course was created by Martijn Stegeman (<mailto:martijn@stgm.nl>) and Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>). We have had a lot of help from students over the years, who took the course, but also teachers and teaching assistants who contributed their own ideas and corrections. In particular, we would like to thank:
 
-- Jelle van Assema (opdrachten en checkpy)  
-- Marianne de Heer Kloots (revisie en testen)  
-- Maarten Inja (DNA-opdracht)  
+- Jelle van Assema (assignments and checkpy tools)  
+- Marianne de Heer Kloots (revisions and testing)  
+- Maarten Inja (assignment)  
 - Huub Rutjes (films)
-- Luca Verhees (artwork semester of code)
+- Luca Verhees (semester of code artwork)
+- Vera Schild (tests and checkpy contributions)
+- Quinten van der Post (translation into English)
+- Marleen Rijksen (revisions and testing)
+- Simon Pauw (teaching and testing)
 
-Materiaal in deze cursus is gedeeltelijk ontleend aan de volgende creative commons-bronnen:
+Some materials in this course have been adopted from other sources that we published under a free culture Creative Commons license:
 
-- 6.189 A Gentle Introduction to Programming Using Python van Sarina Canelake <http://ocw.mit.edu>
-- 6.00 Introduction to Computer Science and Programming, Fall 2008 van Eric Grimson en John Guttag <http://ocw.mit.edu>
-- CS50 Introduction to Computer Science I van David Malan <http://cs50.tv/>
-- 6.0001 Introduction to Computer Science and Programming in Python van Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
-- Think Python van Allen B. Downey <http://greenteapress.com/wp/think-python/>
+- 6.189 A Gentle Introduction to Programming Using Python by Sarina Canelake <http://ocw.mit.edu>
+- 6.00 Introduction to Computer Science and Programming, Fall 2008 by Eric Grimson and John Guttag <http://ocw.mit.edu>
+- CS50 Introduction to Computer Science I by David Malan <http://cs50.tv/>
+- 6.0001 Introduction to Computer Science and Programming in Python by Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
+- Think Python by Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
-Voor alle materialen op deze website berust het auteursrecht bij Martijn Stegeman en Ivo van Vulpen. De cursus is in huidige vorm gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden.
+The course materials are copyrighted by Martijn Stegeman and Ivo van Vulpen. The full course materials are published for re-use under a Create Commons license and may be used, remixed and adopted in many kinds of ways. If you'd like to adopt materials for commercial purposed, you may contact the authors, however, do understand that many remixed materials from other sources may not be available for you to use in this way.
 
-Copyright 2017 Martijn Stegeman en Ivo van Vulpen.  
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Dit werk valt onder een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationaal-licentie</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+All materials copyright 2019 Martijn Stegeman and Ivo van Vulpen. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
